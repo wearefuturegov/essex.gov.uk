@@ -1,0 +1,73 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Example - Branching
+{% endblock %}
+
+{% block content %}
+<main id="content" role="main">
+
+  {% include "includes/breadcrumb_examples.html" %}
+
+  <div class="grid-row">
+    <div class="column-full">
+
+      <form action="/savingsValue" method="get" class="form">
+
+        <h1 class="heading-xlarge">
+          {{ title }}
+        </h1>
+
+        <p>
+          {{ details_1 }}
+        </p>
+        <ul class="list list-bullet">
+          <li>
+            {{ details_2 }}
+          </li>
+          <li>
+            {{ details_3 }}
+          </li>
+          <li>
+            {{ details_4 }}
+          </li>
+        </ul>
+        <p>
+          {{ details_5 }}
+        </p>
+
+        <h2 class="heading-medium">
+          {{ question_1 }}
+        </h2>
+
+        <div class="form-group">
+          <fieldset>
+
+            <div class="multiple-choice">
+              <input id="savings-value" type="radio" name="savingsValue" value="over" {{ checked("option", "over") }}required>
+              <label for="savings-value">{{ option_1 }}</label>
+            </div>
+
+            <div class="multiple-choice">
+              <input id="savings-value" type="radio" name="savingsValue" value="between" {{ checked("option", "between") }} required>
+              <label for="savings-value">{{ option_2 }}</label>
+            </div>
+
+            <div class="multiple-choice">
+              <input id="savings-value" type="radio" name="savingsValue" value="under" {{ checked("option", "under") }} required>
+              <label for="savings-value">{{ option_3 }}</label>
+            </div>
+
+          </fieldset>
+        </div>
+
+        <div class="form-group">
+          <input type="submit" class="button" value="Continue">
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+</main>
+{% endblock %}
