@@ -8,10 +8,20 @@ router.get('/', function (req, res) {
 
 // Route new page, with title copy
 
+router.get('/paying-for-care', function (req, res) {
+  res.render('paying-for-care',
+    {
+      'heading_x_large': "Paying for care and support",
+      'heading_medium': "Paying for care and support",
+      'details': "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    }
+  )
+})
+
 router.get('/accomodation-type', function (req, res) {
   res.render('accomodation-type',
     {
-      'title': "Find out what you might need to pay",
+      'heading_large': "Find out what you might need to pay",
       'question_1': "Do you live in a house/flat or are you in, or about to go in, residential care?",
       'details_1': "If your Social Worker agrees that you need support from us, you may need to pay something towards the cost. This is calculated based on your ability to pay",
       'details_2': "Use this calculator to work out what your contribution may be. This is not an official document it's a rough guide only. Your informatoin will not be stored.",
@@ -35,7 +45,7 @@ router.get('/accomodationType', function (req, res) {
 router.get('/savings', function (req, res) {
   res.render('savings',
     {
-      'title': "Savings and investment",
+      'heading_large': "Savings and investment",
       'question_1': "What is the total value of your savings and investments",
       'details_1': "Following savings and nd investments will be considered when we calculate your contribution.",
       'details_2': "Stock and shares",
@@ -65,7 +75,7 @@ router.get('/savingsValue', function (req, res) {
 router.get('/self-funded', function (req, res) {
   res.render('self-funded',
     {
-      'title': "Self funded care",
+      'heading_large': "Self funded care",
       'details_1': "You have more than £23,250. This means that you will be assessed as being able to meet the full cost of your care."
     }
   )
