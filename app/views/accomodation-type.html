@@ -15,21 +15,21 @@
       <form action="/accomodationType" method="get" class="form">
 
         <h1 class="heading-large">
-          {{ heading_large }}
+          Find out what you might need to pay
         </h1>
 
         <p>
-          {{ details_1 }}
+          If your Social Worker agrees that you need support from us, you may need to pay something towards the cost. This is calculated based on your ability to pay
         </p>
         <p>
-          {{ details_2 }}
+          Use this calculator to work out what your contribution may be. This is not an official document it's a rough guide only. Your informatoin will not be stored.
         </p>
         <p>
-          {{ details_3 }}
+          Please note: Your actual contribiution can only be calculated after a Financial Assessement has taken place and will be arranged by your social worker.
         </p>
 
         <h2 class="heading-medium">
-          {{ question_1 }}
+          Do you live in a house/flat or are you in, or about to go in, residential care?
         </h2>
 
         <div class="form-group">
@@ -37,12 +37,12 @@
 
             <div class="multiple-choice">
               <input id="accomodation-type" type="radio" name="accomodationType" value="flat-house" {{ checked("option", "flat-house") }}required>
-              <label for="accomodation-type">{{ option_1 }}</label>
+              <label for="accomodation-type">Flat/house</label>
             </div>
 
             <div class="multiple-choice">
               <input id="accomodation-type" type="radio" name="accomodationType" value="residential" {{ checked("option", "residential") }} required>
-              <label for="accomodation-type">{{ option_2 }}</label>
+              <label for="accomodation-type">Residential care</label>
             </div>
 
           </fieldset>

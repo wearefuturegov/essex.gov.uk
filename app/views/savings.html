@@ -15,29 +15,29 @@
       <form action="/savingsValue" method="get" class="form">
 
         <h1 class="heading-large">
-          {{ heading_large }}
+          Savings and investment
         </h1>
 
         <p>
-          {{ details_1 }}
+          Following savings and nd investments will be considered when we calculate your contribution.
         </p>
         <ul class="list list-bullet">
           <li>
-            {{ details_2 }}
+            Stock and shares
           </li>
           <li>
-            {{ details_3 }}
+            Savings and investments
           </li>
           <li>
-            {{ details_4 }}
+            The value of any additional properties your own (or your share of it if jointly owned)
           </li>
         </ul>
         <p>
-          {{ details_5 }}
+          The home that you live in is not included in the Financial Assessement
         </p>
 
         <h2 class="heading-medium">
-          {{ question_1 }}
+          What is the total value of your savings and investments
         </h2>
 
         <div class="form-group">
@@ -45,17 +45,17 @@
 
             <div class="multiple-choice">
               <input id="savings-value" type="radio" name="savingsValue" value="over" {{ checked("option", "over") }}required>
-              <label for="savings-value">{{ option_1 }}</label>
+              <label for="savings-value">Over £23,250</label>
             </div>
 
             <div class="multiple-choice">
               <input id="savings-value" type="radio" name="savingsValue" value="between" {{ checked("option", "between") }} required>
-              <label for="savings-value">{{ option_2 }}</label>
+              <label for="savings-value">between £14,250 and £23,250</label>
             </div>
 
             <div class="multiple-choice">
               <input id="savings-value" type="radio" name="savingsValue" value="under" {{ checked("option", "under") }} required>
-              <label for="savings-value">{{ option_3 }}</label>
+              <label for="savings-value">less than £14,250</label>
             </div>
 
           </fieldset>
