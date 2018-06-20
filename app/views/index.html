@@ -1,0 +1,136 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Title goes here
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+  {% block search %}
+    {% include "includes/search.html" %}
+  {% endblock %}
+
+  <h1 class="heading-xlarge">Welcome to Essex County Council</h1>
+
+  <div class="grid-row">
+    <div class="column-third">
+      <h3 class="heading-small">Childrens & Families</h3>
+      <ul class="list list-bullet">
+        <li><a href="/">Adoption & Fostering</a></li>
+        <li><a href="/">Children in care</a></li>
+        <li><a href="/">Report a child at risk</a></li>
+      </ul>
+    </div>
+
+    <div class="column-third">
+      <h3 class="heading-small">Adult Social Care & Health</h3>
+      <ul class="list list-bullet">
+        <li><a href="/">Report a concern about an adult</a></li>
+        <li><a href="/">Looking after someone</a></li>
+        <li><a href="/checker">Paying for care</a></li>
+      </ul>
+    </div>
+
+    <div class="column-third">
+      <h3 class="heading-small">Education</h3>
+      <ul class="list list-bullet">
+        <li><a href="/">School admissions</a></li>
+        <li><a href="/">Term dates</a></li>
+        <li><a href="/">Apprenticeships</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="grid-row">
+    <div class="column-third">
+      <h3 class="heading-small">Roads & Transport</h3>
+      <ul class="list list-bullet">
+        <li><a href="/">Report a pothole</a></li>
+        <li><a href="/">Report a broken street light</a></li>
+        <li><a href="/">Apply for a blue badge or a bus pass</a></li>
+      </ul>
+    </div>
+
+    <div class="column-third">
+      <h3 class="heading-small">Your Council</h3>
+      <ul class="list list-bullet">
+        <li><a href="/">Senior officers</a></li>
+        <li><a href="/">Cabinet members</a></li>
+        <li><a href="/">Calculating council tax</a></li>
+      </ul>
+    </div>
+
+    <div class="column-third">
+      <h3 class="heading-small">Births, Ceremonies & Deaths</h3>
+      <ul class="list list-bullet">
+        <li><a href="/">Register a death</a></li>
+        <li><a href="/">Register a birth</a></li>
+        <li><a href="/">Marriage & Civil Partnership</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div class="grid-row">
+    <div class="column-third">
+      <h3 class="heading-small">Environment</h3>
+      <ul class="list list-bullet">
+        <li><a href="/">Recycling & waste</a></li>
+        <li><a href="/">Food</a></li>
+      </ul>
+    </div>
+
+    <div class="column-third">
+      <h3 class="heading-small">Libraries & Archives</h3>
+      <ul class="list list-bullet">
+        <li><a href="/">Library locations & opening times</a></li>
+        <li><a href="/">E-books & audio</a></li>
+        <li><a href="/">Renew or return an item</a></li>
+      </ul>
+    </div>
+
+    <div class="column-third">
+      <h3 class="heading-small">Arts & Heritage</h3>
+      <ul class="list list-bullet">
+        <li><a href="/">Visit Essex</a></li>
+        <li><a href="/">Country parks</a></li>
+        <li><a href="/">Cultural development</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="grid-row">
+    <div class="column-third">
+      <h3 class="heading-small">Business</h3>
+      <ul class="list list-bullet">
+        <li><a href="/">Doing business with council</a></li>
+        <li><a href="/">Licensing</a></li>
+        <li><a href="/">Trading standards</a></li>
+      </ul>
+    </div>
+
+    <div class="column-third">
+      <h3 class="heading-small">Jobs</h3>
+      <ul class="list list-bullet">
+        <li><a href="/">Apprenticeships</a></li>
+        <li><a href="/">Jobs at the council</a></li>
+      </ul>
+    </div>
+
+    <div class="column-third">
+      <h3 class="heading-small">Planning & Development</h3>
+      <ul class="list list-bullet">
+        <li><a href="/">View planning applications</a></li>
+        <li><a href="/">Developer information</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  </div>
+
+
+
+{% endblock %}

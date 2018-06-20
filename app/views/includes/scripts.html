@@ -1,0 +1,23 @@
+<!-- Javascript -->
+<!--[if lte IE 8]><script src="/public/javascripts/bind.js"></script><![endif]-->
+<script src="/public/javascripts/details.polyfill.js"></script>
+<script src="/public/javascripts/jquery-1.11.3.js"></script>
+<script src="/public/javascripts/govuk/shim-links-with-button-role.js"></script>
+<script src="/public/javascripts/govuk/show-hide-content.js"></script>
+<script src="/public/javascripts/application.js"></script>
+
+{% if useAutoStoreData %}
+  <script src="/public/javascripts/auto-store-data.js"></script>
+{% endif %}
+
+<!-- Hotjar Tracking Code for https://www.essex.gov.uk/Pages/Default.aspx -->
+<script>
+   (function(h,o,t,j,a,r){
+       h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+       h._hjSettings={hjid:719326,hjsv:6};
+       a=o.getElementsByTagName('head')[0];
+       r=o.createElement('script');r.async=1;
+       r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+       a.appendChild(r);
+   })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>

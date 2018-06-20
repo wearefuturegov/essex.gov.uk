@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Question page
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <a class="link-back" href="/docs/tutorials-and-examples">Back</a>
+
+      <form class="form">
+
+        <fieldset class="form-group">
+          <legend>
+            <h1 class="heading-large">
+              What is your date of birth?
+            </h1>
+            <p class="body-text">
+              For example, 31 3 1980
+            </p>
+          </legend>
+
+          <div class="form-date">
+
+            <div class="form-group form-group-day">
+              <label for="name">Name</label>
+              <input class="form-control" id="name" name="name" type="number" pattern="[0-9]*" min="0" max="31">
+            </div>
+          </div>
+        </fieldset>
+
+        <div class="form-group">
+          <input class="button" type="submit" value="Continue">
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}

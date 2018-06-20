@@ -1,0 +1,6 @@
+.search {
+  background-color: $black;
+  &:hover {
+    background-color: lighten($black, $amount);
+  }
+}
