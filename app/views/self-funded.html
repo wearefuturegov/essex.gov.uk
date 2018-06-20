@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Example - Branching
+{% endblock %}
+
+{% block content %}
+<main id="content" role="main">
+
+  {% include "includes/breadcrumb_examples.html" %}
+
+  <div class="grid-row">
+    <div class="column-full">
+
+      <form action="/" method="get" class="form">
+
+        <h1 class="heading-xlarge">
+          {{ title }}
+        </h1>
+
+        <p>
+          {{ details_1 }}
+        </p>
+
+        <div class="form-group">
+          <a href="/" class="button">Finish</a>
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+</main>
+{% endblock %}
