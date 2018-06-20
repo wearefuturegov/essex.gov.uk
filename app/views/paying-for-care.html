@@ -1,0 +1,63 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Title goes here
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+  {% include "includes/breadcrumb_examples.html" %}
+  
+  <h1 class="heading-xlarge">{{ heading_x_large }}</h1>
+
+  <h1 class="heading-medium">{{ heading_medium }}</h1>
+  <p>
+    {{ details }}
+  </p>
+
+  <div class="grid-row">
+    <div class="column-quarter">
+      <h3 class="heading-small">Financial Checker</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </p>
+      <ul class="list">
+        <li><a href="accomodation-type">Related link</a></li>
+    </div>
+
+    <div class="column-quarter">
+      <h3 class="heading-small">Financial Assessement</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </p>
+      <ul class="list">
+        <li><a href="#">Related link</a></li>
+    </div>
+
+    <div class="column-quarter">
+      <h3 class="heading-small">How to pay</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </p>
+      <ul class="list">
+        <li><a href="#">Related link</a></li>
+    </div>
+
+    <div class="column-quarter">
+      <h3 class="heading-small">Change of circumstances</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </p>
+      <ul class="list">
+        <li><a href="#">Related link</a></li>
+    </div>
+
+  </div>
+
+</main>
+
+
+
+{% endblock %}
