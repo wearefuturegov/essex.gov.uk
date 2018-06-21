@@ -1,19 +1,20 @@
 {% extends "layout.html" %}
-
 {% block page_title %}
-  Title goes here
+  Essex County Council
 {% endblock %}
-
 {% block content %}
-
+<header class="homepage-top">
+  <div class="homepage-top-inner">
+    <h1 class="heading-xlarge heading-home">Essex County Council</h1>
+    <p class="heading-home">
+      Essex County Council prototype
+    </p>
+    {% block search %}
+      {% include "includes/search.html" %}
+    {% endblock %}
+  </div>
+</header>
 <main id="content" role="main">
-
-  {% block search %}
-    {% include "includes/search.html" %}
-  {% endblock %}
-
-  <h1 class="heading-xlarge">Welcome to Essex County Council</h1>
-
   <div class="grid-row">
     <div class="column-third">
       <h3 class="heading-small">Childrens & Families</h3>

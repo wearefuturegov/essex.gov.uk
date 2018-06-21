@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+{% block page_title %}
+  What is the total value of your savings and investments?
+{% endblock %}
+{% block content %}
+<div id="global-header-bar"></div>
+<main id="content" role="main">
+  <a href="where-do-you-live" class="link-back">Back</a>
+  <div class="grid-row">
+    <div class="column-two-thirds">
+      <form action="/savingsValue" method="get" class="form">
+        <h1 class="heading-large">
+          What is the total value of your savings and investments?
+        </h1>
+        <div class="form-group">
+          <fieldset>
+            <div class="multiple-choice">
+              <input id="savings-value" type="radio" name="savingsValue" value="over" {{ checked("option", "over") }}required>
+              <label for="savings-value">Over £23,250</label>
+            </div>
+            <div class="multiple-choice">
+              <input id="savings-value" type="radio" name="savingsValue" value="between" {{ checked("option", "between") }} required>
+              <label for="savings-value">between £14,250 and £23,250</label>
+            </div>
+            <div class="multiple-choice">
+              <input id="savings-value" type="radio" name="savingsValue" value="under" {{ checked("option", "under") }} required>
+              <label for="savings-value">less than £14,250</label>
+            </div>
+          </fieldset>
+        </div>
+        <p>
+          Following savings and nd investments will be considered when we calculate your contribution.
+        </p>
+        <ul class="list list-bullet">
+          <li>
+            Stock and shares
+          </li>
+          <li>
+            Savings and investments
+          </li>
+          <li>
+            The value of any additional properties your own (or your share of it if jointly owned)
+          </li>
+        </ul>
+        <p>
+          The home that you live in is not included in the Financial Assessement
+        </p>
+        <div class="form-group">
+          <input type="submit" class="button" value="Continue">
+        </div>
+      </form>
+    </div>
+  </div>
+</main>
+{% endblock %}
