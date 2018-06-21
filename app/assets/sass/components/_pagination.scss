@@ -1,0 +1,49 @@
+.pagination {
+  margin-top: $baseline*2;
+  margin-bottom: $baseline*2;
+  a {
+    padding: $baseline;
+    display: block;
+    text-decoration: none;
+    &:hover {
+      background: $gray;
+    }
+  }
+  ul {
+    li.prev {
+      float: left;
+      width: 50%;
+      a {
+        span.pagination-item {
+          text-align: left;
+          & + span {
+            text-align: left;
+          }
+        }
+      }
+    }
+    li.next {
+      float: right;
+      width: 50%;
+      a {
+        span.pagination-item {
+          text-align: right;
+        }
+      }
+    }
+  }
+  ul {
+    list-style: none;
+  }
+  span.pagination-item {
+    text-align: right;
+    font-size: 27px;
+    line-height: 1.25em;
+    display: block;
+    & + span {
+      text-align: right;
+      display: block;
+      text-decoration: underline;
+    }
+  }
+}
