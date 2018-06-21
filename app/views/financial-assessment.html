@@ -1,0 +1,65 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Example - Branching
+{% endblock %}
+
+{% block content %}
+<main id="content" role="main">
+  {% include "includes/breadcrumb_examples.html" %}
+
+  <div class="grid-row">
+    <div class="column-full">
+        <h1 class="heading-xlarge">
+          Financial assessment
+        </h1>
+        <p>
+          A financial assessment tells us how much you can afford to pay towards your care and support.
+        </p>
+        <p>
+          It takes around 1.5 hours to complete.</p>
+        <p>
+          <a class="button button-start" href="#" role="button">Start now</a>
+        </p>
+        <h1 class="heading-medium">
+          What you’ll need
+        </h1>
+        <p>
+          You’ll need the following information at hand for your assessment:
+        </p>
+        <ul class="list list-bullet">
+          <li>
+            An item
+          </li>
+          <li>
+            An item
+          </li>
+          <li>
+            An item
+          </li>
+        </ul>
+        <h1 class="heading-medium">
+          Information about financial assessment
+        </h1>
+        <ul class="list list-bullet">
+          <li>
+            <a href="what-financial-assessment">What is a financial assessment?</a>
+          </li>
+          <li>
+            <a href="what-financial-assessment">How do I get a financial assessment?</a>
+          </li>
+          <li>
+            <a href="what-financial-assessment">What is a personal budget?</a>
+          </li>
+          <li>
+            <a href="what-financial-assessment">How is a personal budget used?</a>
+          </li>
+          <li>
+            <a href="what-financial-assessment">What happens after your financial assessment?</a>
+          </li>
+        </ul>
+    </div>
+
+  </div>
+</main>
+{% endblock %}
