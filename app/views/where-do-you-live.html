@@ -1,67 +1,32 @@
 {% extends "layout.html" %}
-
 {% block page_title %}
-  Example - Branching
+  Find out what you might need to pay
 {% endblock %}
-
 {% block content %}
+<div id="global-header-bar"></div>
 <main id="content" role="main">
-
-  {% include "includes/breadcrumb_examples.html" %}
-
   <div class="grid-row">
     <div class="column-two-thirds">
-
       <form action="/accomodationType" method="get" class="form">
-
-        <h1 class="heading-xlarge">
-          Find out what you might need to pay
-        </h1>
-
-        <p>
-          If your Social Worker agrees that you need support from us, you may need to pay something towards the cost. This is calculated based on your ability to pay.
-        </p>
-        <p>
-          Use this calculator to work out what your contribution might be.
-        </p>
-        <p>
-          Please note: This is a rough guide only.
-        </p>
-        <ul>
-          <li>
-            This calculator won’t store or send on any information that you provide.
-          </li>
-          <li>
-            Your actual contribution can only be calculated after a Financial Assessment.
-          </li>
-        </ul>
-
-        <h2 class="heading-medium">
+        <h1 class="heading-large">
           Where do you live?
-        </h2>
-
+        </h1>
         <div class="form-group">
           <fieldset>
-
             <div class="multiple-choice">
               <input id="accomodation-type" type="radio" name="accomodationType" value="flat-house" {{ checked("option", "flat-house") }}required>
               <label for="accomodation-type">Flat/house</label>
             </div>
-
             <div class="multiple-choice">
               <input id="accomodation-type" type="radio" name="accomodationType" value="residential" {{ checked("option", "residential") }} required>
               <label for="accomodation-type">Residential care (currently in, or about to go in)</label>
             </div>
-
           </fieldset>
         </div>
-
         <div class="form-group">
           <input type="submit" class="button" value="Continue">
         </div>
-
       </form>
-
     </div>
   </div>
 </main>

@@ -2,7 +2,7 @@
   margin-top: $baseline*2;
   margin-bottom: $baseline*2;
   a {
-    padding: $baseline;
+    padding: $baseline*0.5;
     display: block;
     text-decoration: none;
     &:hover {

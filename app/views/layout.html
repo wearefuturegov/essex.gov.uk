@@ -1,15 +1,11 @@
 {% extends "govuk_template_unbranded.html" %}
-
 {% block head %}
   {% include "includes/head.html" %}
 {% endblock %}
-
 {% block cookie_message %}
   <p>{{cookieText | safe }}</p>
 {% endblock %}
-
 {% block proposition_header %}
-
   <div class="header-proposition">
     <div class="content">
       <a href="#proposition-links" class="js-header-toggle menu">Menu</a>
@@ -20,22 +16,13 @@
             {% if serviceName %} {{ serviceName }} {% endif %}
           {% endblock %}
         </a>
-        <!--
-        <ul id="proposition-links">
-          <li><a href="url-to-page-1" class="active">Navigation item #1</a></li>
-          <li><a href="url-to-page-2">Navigation item #2</a></li>
-        </ul>
-        -->
       </nav>
     </div>
   </div>
-
 {% endblock %}
-
 {% block header_class %}
   with-proposition
 {% endblock %}
-
 {% block footer_support_links %}
   {% if useAutoStoreData %}
     <ul>
@@ -45,11 +32,9 @@
     </ul>
   {% endif %}
 {% endblock %}
-
 {% block body_end %}
   {% block scripts %}
     {% include "includes/scripts.html" %}
     {% block page_scripts %}{% endblock %}
   {% endblock %}
-  <!-- GOV.UK Prototype kit {{releaseVersion}} -->
 {% endblock %}

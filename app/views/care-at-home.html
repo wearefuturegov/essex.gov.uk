@@ -1,15 +1,17 @@
 {% extends "layout.html" %}
-
 {% block page_title %}
-  Example - Branching
+  Care at home
 {% endblock %}
-
 {% block content %}
+<div id="global-header-bar"></div>
 <main id="content" role="main">
   {% include "includes/breadcrumb_examples.html" %}
-
+    <li>
+      <a href="paying-for-care">Paying for care</a>
+    </li>
+  </ol>
+</div>
   <div class="grid-row">
-
     <div class="column-two-thirds">
       <h1 class="heading-xlarge">
         Care at home
@@ -31,9 +33,65 @@
       <p>
         We charge the following rates for care and support services at home, sometimes called non-residential or domiciliary care.
       </p>
-      <table class="ecc-rteTable-default" cellspacing="0"><tbody><tr class="ecc-rteTableHeaderRow-default" style="text-align:left;"><th class="ecc-rteTableHeaderLastCol-default" rowspan="1" colspan="4"><h2 class="ecc-rteElement-H2">2018/19 charges<br></h2></th></tr><tr class="ecc-rteTableOddRow-default"><td class="ecc-rteTableEvenCol-default" rowspan="1" colspan="1"><strong>Type of service </strong></td><td class="ecc-rteTableOddCol-default" rowspan="1" colspan="1"><strong>Frequency</strong><br></td><td class="ecc-rteTableEvenCol-default" rowspan="1" colspan="1">
-            <strong></strong></td><td class="ecc-rteTableLastCol-default" rowspan="1" colspan="1">
-            <strong>Cost</strong></td></tr><tr class="ecc-rteTableEvenRow-default"><td class="ecc-rteTableEvenCol-default">Home Support Services (normal hours) one-to-one<br></td><td class="ecc-rteTableOddCol-default" style="text-align:center;">Hourly</td><td class="ecc-rteTableEvenCol-default" style="text-align:center;"></td><td class="ecc-rteTableLastCol-default" colspan="1" style="text-align:center;">£17.04</td></tr><tr class="ecc-rteTableOddRow-default"><td class="ecc-rteTableEvenCol-default">Day Care</td><td class="ecc-rteTableOddCol-default" style="text-align:center;">Per session</td><td class="ecc-rteTableEvenCol-default" style="text-align:center;"></td><td class="ecc-rteTableLastCol-default" colspan="1" style="text-align:center;">£10.73<br></td></tr><tr class="ecc-rteTableEvenRow-default"><td class="ecc-rteTableEvenCol-default">Day Care with transport<br></td><td class="ecc-rteTableOddCol-default" style="text-align:center;">Per session</td><td class="ecc-rteTableEvenCol-default" style="text-align:center;"></td><td class="ecc-rteTableLastCol-default" colspan="1" style="text-align:center;">£12.20</td></tr><tr class="ecc-rteTableOddRow-default"><td class="ecc-rteTableEvenCol-default">Community Support Services group session</td><td class="ecc-rteTableOddCol-default" style="text-align:center;">Per session</td><td class="ecc-rteTableEvenCol-default" style="text-align:center;"></td><td class="ecc-rteTableLastCol-default" colspan="1" style="text-align:center;">£10.73</td></tr><tr class="ecc-rteTableEvenRow-default"><td class="ecc-rteTableEvenCol-default" rowspan="1" colspan="1" style="text-align:left;">Community Support&nbsp;Services group session with transport &nbsp; </td><td class="ecc-rteTableOddCol-default" style="text-align:center;">Per session</td><td class="ecc-rteTableEvenCol-default" style="text-align:center;"></td><td class="ecc-rteTableLastCol-default" colspan="1" style="text-align:center;">£12.20</td></tr><tr class="ecc-rteTableOddRow-default"><td class="ecc-rteTableEvenCol-default" rowspan="1" colspan="1">Night waking </td><td class="ecc-rteTableOddCol-default" rowspan="1" style="text-align:center;">Hourly</td><td class="ecc-rteTableEvenCol-default" rowspan="1" style="text-align:center;"></td><td class="ecc-rteTableLastCol-default" rowspan="1" colspan="1" style="text-align:center;">£16.28</td></tr><tr class="ecc-rteTableEvenRow-default"><td class="ecc-rteTableEvenCol-default" rowspan="1" colspan="1">Night sleeping<br></td><td class="ecc-rteTableOddCol-default" rowspan="1" style="text-align:center;">Hourly</td><td class="ecc-rteTableEvenCol-default" rowspan="1" style="text-align:center;"></td><td class="ecc-rteTableLastCol-default" rowspan="1" colspan="1" style="text-align:center;">£12.84</td></tr><tr class="ecc-rteTableOddRow-default"><td class="ecc-rteTableEvenCol-default" rowspan="1" colspan="1">24-hour care&nbsp;<br></td><td class="ecc-rteTableOddCol-default" rowspan="1" style="text-align:center;">Hourly</td><td class="ecc-rteTableEvenCol-default" rowspan="1" style="text-align:center;"></td><td class="ecc-rteTableLastCol-default" rowspan="1" colspan="1" style="text-align:center;">£12.32</td></tr><tr class="ecc-rteTableEvenRow-default"><td class="ecc-rteTableEvenCol-default" rowspan="1" colspan="1">Maximum weekly charge</td><td class="ecc-rteTableOddCol-default" style="text-align:center;">Per week</td><td class="ecc-rteTableEvenCol-default" style="text-align:center;"></td><td class="ecc-rteTableLastCol-default" colspan="1" style="text-align:center;">£1,386.00</td></tr></tbody></table>
+      <table>
+          <thead>
+            <tr>
+              <th>2018/19 charges</th>
+              <th></th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Type of service</td>
+              <td>Frequency</td>
+              <td>Cost</td>
+            </tr>
+            <tr>
+              <td>Home Support Services (normal hours) one-to-one</td>
+              <td>Hourly</td>
+              <td>£17.04</td>
+            </tr>
+            <tr>
+              <td>Day Care</td>
+              <td>Per session</td>
+              <td>£10.73</td>
+            </tr>
+            <tr>
+              <td>Day Care with transport</td>
+              <td>Per session</td>
+              <td>£12.20</td>
+            </tr>
+            <tr>
+              <td>Community Support Services group session</td>
+              <td>Per session</td>
+              <td>£10.73</td>
+            </tr>
+            <tr>
+              <td>Community Support Services group session with transport</td>
+              <td>Per session</td>
+              <td>£12.20</td>
+            </tr><tr>
+              <td>Night waking </td>
+              <td>Hourly</td>
+              <td>£16.28</td>
+            </tr><tr>
+              <td>Night sleeping</td>
+              <td>Hourly</td>
+              <td>£12.84</td>
+            </tr>
+            <tr>
+              <td>24-hour care</td>
+              <td>Hourly</td>
+              <td>£12.32</td>
+            </tr>
+            <tr>
+              <td>Maximum weekly charge</td>
+              <td>Per week</td>
+              <td>£1,386.00</td>
+            </tr>
+          </tbody>
+        </table>
       <p>
         Your charges will start from the first day of your care.
       </p>

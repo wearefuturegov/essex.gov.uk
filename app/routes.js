@@ -13,23 +13,23 @@ router.get('/', function (req, res) {
 router.get('/accomodationType', function (req, res) {
   var option = req.query.accomodationType
   if (option === 'flat-house') {
-    res.redirect('savings')
+    res.redirect('savings-and-investment')
   }
   else {
-    res.render('back')
+    res.render('where-do-you-live')
   }
 })
 
 router.get('/savingsValue', function (req, res) {
   var option = req.query.savingsValue
   if (option === 'over') {
-    res.redirect('self-funded')
+    res.redirect('self-funded-care')
   }
   // if (option === 'between') {
   //   res.redirect('back')
   // }
   else {
-    res.render('back')
+    res.render('savings-and-investment')
   }
 })
 

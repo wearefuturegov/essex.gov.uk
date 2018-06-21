@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+{% block page_title %}
+  Find out what you might need to pay
+{% endblock %}
+{% block content %}
+<div id="global-header-bar"></div>
+<main id="content" role="main">
+  {% include "includes/breadcrumb_examples.html" %}
+    <li>
+      <a href="paying-for-care">Paying for care</a>
+    </li>
+  </ol>
+</div>
+  <div class="grid-row">
+    <div class="column-two-thirds">
+      <h1 class="heading-xlarge">
+        Find out what you might need to pay
+      </h1>
+      <p>
+        Use this calculator to work out what your contribution might be.
+      </p>
+      <p>
+        <a class="button button-start" href="where-do-you-live" role="button">Start now</a>
+      </p>
+    </div>
+    <div class="column-two-thirds">
+      <p>
+        If your Social Worker agrees that you need support from us, you may need to pay something towards the cost. This is calculated based on your ability to pay.
+      </p>
+      <p>
+        Please note: This is a rough guide only.
+      </p>
+      <ul>
+        <li>
+          This calculator won’t store or send on any information that you provide.
+        </li>
+        <li>
+          Your actual contribution can only be calculated after a Financial Assessment.
+        </li>
+      </ul>
+    </div>
+  </div>
+</main>
+{% endblock %}
