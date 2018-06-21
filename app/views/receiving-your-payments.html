@@ -1,0 +1,74 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Example - Branching
+{% endblock %}
+
+{% block content %}
+<main id="content" role="main">
+  {% include "includes/breadcrumb_examples.html" %}
+
+  <div class="grid-row">
+
+    <div class="column-two-thirds">
+      <h1 class="heading-xlarge">
+        Receiving your direct payments
+      </h1>
+      <p>
+        There are 3 ways you can get the direct payments paid to you. You can choose from:
+      </p>
+      <h2 class="heading-medium">
+        Pre-paid card
+      </h2>
+      <p>
+        The card is like a debit card which you can use to pay for your care and support. You will receive the money as monthly payments.
+      </p>
+      <p>
+        Find out more information on <a href="https://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/budgets-payments/Documents/direct-payment-prepaid-card-leaflet.pdf">using pre-paid cards (PDF, 161 KB)</a> for your direct payments.
+      </p>
+      <h2 class="heading-medium">
+        Bank account
+      </h2>
+      <p>
+        You must open a dedicated bank account for the direct payments and manage the money yourself. You will receive the money as monthly payments.
+      </p>
+      <h2 class="heading-medium">
+        Payroll support
+      </h2>
+      <p>
+        A company (contracted by us) will manage your direct payments for you.
+      </p>
+      <p>
+        Find out about <a href="https://wearepurple.org.uk/direct-payment-support/">Purple</a>, the company we currently use.
+      </p>
+      <p>
+        Your social worker will go through these options with you when you agree your care and support plan.
+      </p>
+      <nav class="pagination">
+        <ul>
+          <li class="prev">
+            <a href="how-to-pay">
+              <span class="pagination-item">
+                <svg class="gem-c-pagination__link-icon" xmlns="http://www.w3.org/2000/svg" height="13" width="17" viewBox="0 0 17 13">
+                  <path fill="currentColor" d="m6.5938-0.0078125-6.7266 6.7266 6.7441 6.4062 1.377-1.449-4.1856-3.9768h12.896v-2h-12.984l4.2931-4.293-1.414-1.414z"></path>
+                </svg>
+                Previous
+              </span>
+              <span>How to pay</span>
+            </a>
+          </li>
+          <li class="next">
+            <a href="direct-payments">
+              <span class="pagination-item">Next
+                <svg class="gem-c-pagination__link-icon" xmlns="http://www.w3.org/2000/svg" height="13" width="17" viewBox="0 0 17 13">
+                  <path fill="currentColor" d="m10.107-0.0078125-1.4136 1.414 4.2926 4.293h-12.986v2h12.896l-4.1855 3.9766 1.377 1.4492 6.7441-6.4062-6.7246-6.7266z"></path>
+                </svg>
+              </span>
+              <span>Direct payments</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+  </div>
+</main>
+{% endblock %}
