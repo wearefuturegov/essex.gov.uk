@@ -1,7 +1,18 @@
 section.section.search-bar {
   margin-top: $baseline;
   margin-bottom: $baseline*2;
+  position: relative;
   input {
     border: none;
+  }
+  label.search-label {
+    color: #6f777b;
+    position: absolute;
+    left: $gutter*0.5;
+    top: $baseline*0.25;
+  }
+  &[type="search"]:focus {
+    z-index: 2;
+    background: red;
   }
 }
