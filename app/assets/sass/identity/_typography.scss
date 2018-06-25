@@ -12,3 +12,14 @@ p.heading-home {
 strong {
   font-weight: 600;
 }
+
+.small {
+  font-size: 16px;
+  line-height: 1.25em;
+}
+
+.meta {
+  margin-top: $baseline*2;
+  margin-bottom: $baseline;
+  color: $grey-1;
+}
