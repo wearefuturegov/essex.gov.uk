@@ -5,4 +5,7 @@
     border-left: 1px solid $grey-1;
     border-right: 1px solid $grey-1;
   }
+  .column-half:nth-child(2) {
+    border-left: 1px solid $grey-1;
+  }
 }
