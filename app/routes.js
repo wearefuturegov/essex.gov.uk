@@ -25,9 +25,9 @@ router.get('/savingsValue', function (req, res) {
   if (option === 'over') {
     res.redirect('self-funded-care')
   }
-  if (option === 'between') {
-    res.redirect('private-pension')
-  }
+  // if (option === 'between') {
+  //   res.redirect('private-pension')
+  // }
   else {
     res.render('savings-and-investment')
   }
