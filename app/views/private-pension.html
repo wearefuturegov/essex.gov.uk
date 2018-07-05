@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+{% block page_title %}
+  Calculate your weekly income
+{% endblock %}
+{% block content %}
+<div id="global-header-bar"></div>
+<main id="content" role="main">
+  <a href="where-do-you-live" class="link-back">Back</a>
+  <div class="grid-row">
+    <div class="column-two-thirds">
+      <form action="/savingsValue" method="get" class="form">
+        <h1 class="heading-large">
+          Do you have a private pension?
+        </h1>
+        <div class="form-group">
+          <fieldset>
+            <div class="multiple-choice">
+              <input id="savings-value" type="radio" name="savingsValue" value="over" {{ checked("option", "over") }}required>
+              <label for="savings-value">Yes</label>
+            </div>
+            <div class="multiple-choice">
+              <input id="savings-value" type="radio" name="savingsValue" value="between" {{ checked("option", "between") }} required>
+              <label for="savings-value">No</label>
+            </div>
+          </fieldset>
+        </div>
+        <div class="form-group">
+          <input type="submit" class="button" value="Continue">
+        </div>
+      </form>
+    </div>
+  </div>
+</main>
+{% endblock %}

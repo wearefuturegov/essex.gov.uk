@@ -4,127 +4,92 @@
 {% endblock %}
 {% block content %}
 <header class="homepage-top">
-  <div class="homepage-top-inner">
-    <h1 class="heading-xlarge heading-home">Essex County Council</h1>
-    <p class="heading-home">
-      Essex County Council prototype
-    </p>
-    {% block search %}
-      {% include "includes/search.html" %}
-    {% endblock %}
+  <div id="content">
+    <div class="grid-row">
+      <div class="column-two-thirds">
+        <div class="homepage-top-inner">
+          <h1 class="heading-xlarge heading-home">Essex County Council</h1>
+          <p class="heading-home">
+            Essex County Council prototype
+          </p>
+          {% block search %}
+            {% include "includes/search.html" %}
+          {% endblock %}
+        </div>
+      </div>
+      <div class="column-quarter">
+        <img src="public/images/logo.svg" class="logo">
+      </div>
+    </div>
   </div>
 </header>
 <main id="content" role="main">
   <div class="grid-row">
     <div class="column-third">
-      <h3 class="heading-small">Childrens and Families</h3>
-      <ul class="list list-bullet">
-        <li><a href="/">Adoption and Fostering</a></li>
-        <li><a href="/">Children in care</a></li>
-        <li><a href="/">Report a child at risk</a></li>
-      </ul>
+      <h3 class="heading-small"><a href="#">Childrens and Families</a></h3>
+        <p>Includes adoption and fostering, children in care and report a child at risk.</p>
     </div>
 
     <div class="column-third">
-      <h3 class="heading-small">Adult Social Care and Health</h3>
-      <ul class="list list-bullet">
-        <li><a href="/">Report a concern about an adult</a></li>
-        <li><a href="/">Looking after someone</a></li>
-        <li><a href="/paying-for-care">Paying for care</a></li>
-      </ul>
+      <h3 class="heading-small"><a href="adult-social-care">Adult Social Care and Health</a></h3>
+      <p>Includes reporting a concern about an adult, looking after someone and paying for care</p>
     </div>
 
     <div class="column-third">
-      <h3 class="heading-small">Education</h3>
-      <ul class="list list-bullet">
-        <li><a href="/">School admissions</a></li>
-        <li><a href="/">Term dates</a></li>
-        <li><a href="/">Apprenticeships</a></li>
-      </ul>
+      <h3 class="heading-small"><a href="#">Education</a></h3>
+      <p>Includes school admissions, term dates and apprenticeships</p>
     </div>
   </div>
 
   <div class="grid-row">
     <div class="column-third">
-      <h3 class="heading-small">Roads, Streets and Transport</h3>
-      <ul class="list list-bullet">
-        <li><a href="/">Report a pothole</a></li>
-        <li><a href="/">Report a broken street light</a></li>
-        <li><a href="/">Apply for a blue badge or a bus pass</a></li>
-      </ul>
+      <h3 class="heading-small"><a href="#">Roads, Streets and Transport</a></h3>
+      <p>Includes report a pothole, report a broken street light and apply for a blue badge or a bus pass</p>
     </div>
 
     <div class="column-third">
-      <h3 class="heading-small">Your Council</h3>
-      <ul class="list list-bullet">
-        <li><a href="/">Senior officers</a></li>
-        <li><a href="/">Cabinet members</a></li>
-        <li><a href="/">Calculating council tax</a></li>
-      </ul>
+      <h3 class="heading-small"><a href="#">Your Council</a></h3>
+      <p>Includes senior officers, cabinet members and calculating council tax</p>
     </div>
 
     <div class="column-third">
-      <h3 class="heading-small">Births, Ceremonies and Deaths</h3>
-      <ul class="list list-bullet">
-        <li><a href="/">Register a death</a></li>
-        <li><a href="/">Register a birth</a></li>
-        <li><a href="/">Marriage and Civil Partnership</a></li>
-      </ul>
+      <h3 class="heading-small"><a href="#">Births, Ceremonies and Deaths</a></h3>
+      <p>Includes register a death, register a birth and marriage and civil partnership</p>
     </div>
   </div>
 
 
   <div class="grid-row">
     <div class="column-third">
-      <h3 class="heading-small">Environment</h3>
-      <ul class="list list-bullet">
-        <li><a href="/">Recycling and waste</a></li>
-        <li><a href="/">Food</a></li>
-      </ul>
+      <h3 class="heading-small"><a href="#">Environment</a></h3>
+      <p>Include recycling and waste and food</p>
     </div>
 
     <div class="column-third">
-      <h3 class="heading-small">Libraries and Archives</h3>
-      <ul class="list list-bullet">
-        <li><a href="/">Library locations and opening times</a></li>
-        <li><a href="/">E-books and audio</a></li>
-        <li><a href="/">Renew or return an item</a></li>
-      </ul>
+      <h3 class="heading-small"><a href="#">Libraries and Archives</a></h3>
+      <p>Includes library locations and opening times, e-books and audio, renew or return an item</p>
     </div>
 
     <div class="column-third">
-      <h3 class="heading-small">Leisure and Culture</h3>
-      <ul class="list list-bullet">
-        <li><a href="/">Visit Essex</a></li>
-        <li><a href="/">Country parks</a></li>
-        <li><a href="/">Cultural development</a></li>
-      </ul>
+      <h3 class="heading-small"><a href="#">Leisure and Culture</a></h3>
+      <p>Includes visit Essex, country parks and cultural development</p>
     </div>
   </div>
 
   <div class="grid-row">
     <div class="column-third">
-      <h3 class="heading-small">Business</h3>
-      <ul class="list list-bullet">
-        <li><a href="/">Doing business with council</a></li>
-        <li><a href="/">Licensing</a></li>
-        <li><a href="/">Trading standards</a></li>
-      </ul>
+      <h3 class="heading-small"><a href="#">Business</a></h3>
+      <p>Includes doing business with council, licensing and trading standards</p>
     </div>
 
     <div class="column-third">
-      <h3 class="heading-small">Jobs</h3>
-      <ul class="list list-bullet">
-        <li><a href="/">Apprenticeships</a></li>
-        <li><a href="/">Jobs at the council</a></li>
-      </ul>
+      <h3 class="heading-small"><a href="#">Jobs</a></h3>
+      <p>Includes apprenticeships and jobs at the council</p>
     </div>
 
     <div class="column-third">
-      <h3 class="heading-small">Planning and Development</h3>
-      <ul class="list list-bullet">
-        <li><a href="/">View planning applications</a></li>
-        <li><a href="/">Developer information</a></li>
+      <h3 class="heading-small"><a href="#">Planning and Development</a></h3>
+      <p>Includes view planning applications and developer information</a></li>
       </ul>
     </div>
   </div>
