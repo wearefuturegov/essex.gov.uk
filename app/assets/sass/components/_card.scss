@@ -1,20 +1,28 @@
 .grid-row.border {
+  margin-top: $baseline;
   border-bottom-width: 2px;
   .column-one-third {
     border: 1px solid $grey-1;
-    margin: 0 1%;
-    width: 31.33333%;
+    margin: 0 0.5%;
+    width: 32.33333%;
     min-height: $baseline*8;
   }
   .column-half {
     border: 1px solid $grey-1;
-    margin: 0 1%;
-    width: 48%;
+    margin: 0 0.5%;
+    width: 49%;
     min-height: $baseline*6;
+  }
+  .column-one-quarter {
+    border: 1px solid $grey-1;
+    margin: 0 0.5%;
+    width: 24%;
+    min-height: $baseline*10;
   }
   @include media(mobile) {
     .column-one-third,
-    .column-half {
+    .column-half,
+    .column-one-quarter {
       border: none;
       margin-left: 0;
       margin-right: 0;
@@ -24,3 +32,8 @@
     }
   }
 }
+
+// .grid-row.border-b {
+//   border: 1px solid $grey-1;
+//   border-bottom-width: 2px;
+// }
