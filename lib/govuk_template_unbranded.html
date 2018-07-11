@@ -68,6 +68,13 @@
     {% block content %}{% endblock %}
 
     <footer class="group js-footer" id="footer" role="contentinfo">
+      <div class="footer-wrapper">
+        <div class="footer-meta">
+          <div class="footer-meta-inner">
+            {% block footer_support_links %}{% endblock %}
+          </div>
+        </div>
+      </div>
     </footer>
 
     <!--end footer-->
