@@ -13,4 +13,8 @@ section.section.search-bar {
     z-index: 2;
     background: red;
   }
+  .form-control {
+    padding: $baseline*0.25 $baseline*0.5;
+    line-height: $baseline;
+  }
 }

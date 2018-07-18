@@ -1,5 +1,8 @@
 .search {
+  font-size: 19px;
+  line-height: $baseline;
   background-color: $black;
+  padding: $baseline*0.25 $baseline*0.5;
   &:hover {
     background-color: lighten($black, $amount);
   }
