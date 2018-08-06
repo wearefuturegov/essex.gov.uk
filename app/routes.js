@@ -8,6 +8,10 @@ router.get('/', function (req, res) {
 
 // Route new page, with title copy
 
+
+
+// FINANCIAL CHECKER FORM
+
 // accomodation
 
 router.get('/accomodationType', function (req, res) {
@@ -37,3 +41,46 @@ router.get('/savingsValue', function (req, res) {
 
 
 module.exports = router
+
+
+
+// FINANCIAL ASSESSMENT FORM
+
+// needs assessment confirmation
+
+router.get('/careneedsAssessed', function (req, res) {
+  var option = req.query.careneedsAssessed
+  if (option === 'yes') {
+    res.redirect('declare-finances')
+  }
+  else {
+    res.render('needs-assessment')
+  }
+})
+
+// declaration of finances
+
+router.get('/declareFinances', function (req, res) {
+  var option = req.query.declareFinances
+  if (option === 'yes') {
+    res.redirect('bank-accounts-savings')
+  }
+  // if (option === 'between') {
+  //   res.redirect('private-pension')
+  // }
+  else {
+    res.render('end-financial-assessment')
+  }
+})
+
+// confirm bank accounts, savings and investments
+
+router.get('/bankAccounts', function (req, res) {
+  var option = req.query.bankAccounts
+  if (option === 'yes') {
+    res.redirect('bank-accounts-savings')
+  }
+  else {
+    res.render('bank-accounts-savings')
+  }
+})
