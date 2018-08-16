@@ -28,6 +28,18 @@ $path: "/public/images/";
   }
 }
 
+
+// Call to action box
+
+.call-to-action {
+  margin: 2em 0;
+  background-color: #dee0e2;
+  padding: 2em;
+  p {
+    margin: 0;
+  }
+}
+
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
 
 @import "base/import";
