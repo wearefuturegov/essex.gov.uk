@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block page_title %}
+  Private pensions
+{% endblock %}
+{% block content %}
+<div id="global-header-bar"></div>
+<main id="content" role="main">
+  <a href="age" class="link-back">Back</a>
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <form action="/privatePension" method="get" class="form">
+
+      <div class="form-group">
+        <fieldset>
+          <legend>
+            <h1 class="heading-large">Do you receive a private pension?</h1>
+          </legend>
+          <div class="multiple-choice" data-target="private-pension-amount">
+            <input id="get-private-pension" type="radio" name="privatePension" value="yes" {{ checked("option", "yes") }}required>
+            <label for="get-private-pension">Yes</label>
+          </div>
+          <div class="multiple-choice">
+            <input id="get-private-pension" type="radio" name="privatePension" value="no" {{ checked("option", "no") }}required>
+            <label for="get-private-pension">No</label>
+          </div>
+          <div class="panel panel-border-narrow js-hidden" id="private-pension-amount">
+            <label class="form-label" for="amount-private-pension">Weekly income from private pension</label>
+            <input class="form-control" name="privatePension" type="text" placeholder="£" id="amount-private-pension">
+          </div>
+        </fieldset>
+      </div>
+      <div class="form-group">
+        <input type="submit" class="button" value="Continue">
+      </div>
+    </form>
+
+    </div>
+  </div>
+</main>
+{% endblock %}
