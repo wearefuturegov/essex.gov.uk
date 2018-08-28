@@ -66,7 +66,7 @@ router.get('/pensions', function (req, res) {
 // other income
 
 router.get('/otherIncome', function (req, res) {
-    res.redirect('financial-checker/other-income')
+    res.redirect('financial-checker/part-funded-care')
 })
 
 
