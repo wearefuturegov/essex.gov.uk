@@ -13,26 +13,10 @@
           What is the total value of your savings and investments?
         </h1>
         <p>
-          The value of the home that you live in is <strong>not included</strong> in the Financial Assessment
+          The value of the home that you live in is <strong>not included</strong>
         </p>
-        <div class="form-group">
-          <fieldset>
-            <div class="multiple-choice">
-              <input id="savings-value" type="radio" name="savingsValue" value="over" {{ checked("option", "over") }}required>
-              <label for="savings-value">Over £23,250</label>
-            </div>
-            <div class="multiple-choice">
-              <input id="savings-value" type="radio" name="savingsValue" value="between" {{ checked("option", "between") }} required>
-              <label for="savings-value">between £14,250 and £23,250</label>
-            </div>
-            <div class="multiple-choice">
-              <input id="savings-value" type="radio" name="savingsValue" value="under" {{ checked("option", "under") }} required>
-              <label for="savings-value">less than £14,250</label>
-            </div>
-          </fieldset>
-        </div>
         <p>
-          The following savings and investments will be considered when we calculate your contribution.
+          You should include:
         </p>
         <ul class="list list-bullet">
           <li>
@@ -45,6 +29,18 @@
             The value of any additional properties your own (or your share if jointly owned)
           </li>
         </ul>
+        <div class="form-group">
+          <fieldset>
+            <div class="multiple-choice">
+              <input id="savings-value" type="radio" name="savingsValue" value="over" {{ checked("option", "over") }}required>
+              <label for="savings-value">Over £23,250</label>
+            </div>
+            <div class="multiple-choice">
+              <input id="savings-value" type="radio" name="savingsValue" value="under" {{ checked("option", "under") }} required>
+              <label for="savings-value">Under £23,250</label>
+            </div>
+          </fieldset>
+        </div>
         <div class="form-group">
           <input type="submit" class="button" value="Continue">
         </div>

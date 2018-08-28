@@ -5,35 +5,49 @@
 {% block content %}
 <div id="global-header-bar"></div>
 <main id="content" role="main">
-  <a href="savings-and-investment" class="link-back">Back</a>
+  <a href="financial-checker/savings-and-investment" class="link-back">Back</a>
   <div class="grid-row">
     <div class="column-two-thirds">
 
       <form action="/howOld" method="get" class="form">
 
-      <div class="form-group">
-        <fieldset>
+      <form class="form">
+
+        <fieldset class="form-group">
           <legend>
-            <h1 class="heading-large">How old are you?</h1>
+            <h1 class="heading-large">
+              What is your date of birth?
+            </h1>
+            <p class="body-text">
+              For example, 31 3 1980
+            </p>
           </legend>
-          <div class="multiple-choice">
-            <input id="age" type="radio" name="howOld" value="eighteen" {{ checked("option", "eighteen") }}required>
-            <label for="age">18 to 24</label>
-          </div>
-          <div class="multiple-choice">
-            <input id="age" type="radio" name="howOld" value="twentyfour" {{ checked("option", "twentyfour") }}required>
-            <label for="age">24 to pensionable age</label>
-          </div>
-          <div class="multiple-choice">
-            <input id="age" type="radio" name="howOld" value="pension" {{ checked("option", "pension") }}required>
-            <label for="age">Get pension</label>
+
+          <div class="form-date">
+
+            <div class="form-group form-group-day">
+              <label for="dob-day">Day</label>
+              <input class="form-control" id="dob-day" name="dob-day" type="number" pattern="[0-9]*" min="0" max="31">
+            </div>
+
+            <div class="form-group form-group-month">
+              <label for="dob-month">Month</label>
+              <input class="form-control" id="dob-month" name="dob-month" type="number" pattern="[0-9]*" min="0" max="12">
+            </div>
+
+            <div class="form-group form-group-year">
+              <label for="dob-year">Year</label>
+              <input class="form-control" id="dob-year" name="dob-year" type="number" pattern="[0-9]*" min="0" max="2014">
+            </div>
+
           </div>
         </fieldset>
-      </div>
-      <div class="form-group">
-        <input type="submit" class="button" value="Continue">
-      </div>
-    </form>
+
+        <div class="form-group">
+          <input class="button" type="submit" value="Continue">
+        </div>
+
+      </form>
 
     </div>
   </div>

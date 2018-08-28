@@ -39,78 +39,34 @@ router.get('/savingsValue', function (req, res) {
 // age
 
 router.get('/howOld', function (req, res) {
-  var option = req.query.howOld
-  if (option === 'eighteen') {
     res.redirect('financial-checker/benefits')
-  }
-  else if (option === 'twentyfour') {
-    res.redirect('financial-checker/benefits')
-  }
-  else {
-    res.render('financial-checker/private-pensions')
-  }
-})
-
-
-// pensions
-
-router.get('/privatePension', function (req, res) {
-  var option = req.query.privatePension
-  if (option === 'yes') {
-      res.redirect('financial-checker/benefits')
-    }
-  else {
-    res.render('financial-checker/state-pensions')
-  }
-})
-
-
-router.get('/statePension', function (req, res) {
-  var option = req.query.statePension
-  if (option === 'yes') {
-    res.redirect('financial-checker/state-pensions')
-  }
-  else {
-    res.render('financial-checker/benefits')
-  }
 })
 
 // benefits
 
 router.get('/benefits', function (req, res) {
-  var option = req.query.benefits
-  if (option === 'yes') {
-    res.redirect('financial-checker/benefits')
-  }
-  else {
-    res.render('financial-checker/rent-property')
-  }
+    res.redirect('financial-checker/rent-property')
 })
 
 
 // rent out property
 
 router.get('/rentProperty', function (req, res) {
-  var option = req.query.rentProperty
-  if (option === 'yes') {
-    res.redirect('financial-checker/rent-property')
-  }
-  else {
-    res.render('financial-checker/other-income')
-  }
+    res.redirect('financial-checker/pensions')
+})
+
+
+// pensions
+
+router.get('/pensions', function (req, res) {
+    res.redirect('financial-checker/other-income')
 })
 
 
 // other income
 
 router.get('/otherIncome', function (req, res) {
-  var option = req.query.otherIncome
-  if (option === 'yes') {
     res.redirect('financial-checker/other-income')
-  }
-  else {
-    res.render('financial-checker/self-funded-care')
-  }
 })
 
 
