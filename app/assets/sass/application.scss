@@ -41,6 +41,71 @@ $path: "/public/images/";
   }
 }
 
+// Primary link content (on topic pages)
+
+.primary-link-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -0.5em;
+}
+
+.primary-link-list {
+  display: flex;
+  padding: 0;
+	width: 100%;
+}
+
+@media all and (min-width: 40em) {
+  .primary-link-list {
+    width: 50%;
+  }
+}
+@media all and (min-width: 60em) {
+  .primary-link-list {
+    width: 33.33%;
+  }
+}
+
+.primary-link-content {
+  background-color: #f8f8f8;
+  margin: 0 0.5em 0.5em 0.5em;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+	width: 100%;
+  border-bottom: solid 1px #bfc1c3;
+  h3 {
+    margin-top: 0;
+  }
+  p {
+  	flex: 1 0 auto;
+  }
+}
+
+
+// Secondary link content
+
+.secondary-link {
+  border-bottom: 1px solid $border-colour;
+  @extend %contain-floats;
+}
+
+
+// news
+
+.news-img {
+  max-width: 100%;
+  margin-top: 1em;
+}
+
+// Section break
+
+.section-break {
+  border-top: 2px solid #005ea5;
+  margin-top: 60px;
+  padding-top: 15px;
+}
+
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
 
 @import "base/import";

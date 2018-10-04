@@ -54,9 +54,11 @@ $task-list-indent: 35px;
   @extend %contain-floats;
 }
 
+
 .task-list-item:first-child {
   border-top: 1px solid $border-colour;
 }
+
 
 
 .task-name {
