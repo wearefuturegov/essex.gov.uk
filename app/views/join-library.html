@@ -1,0 +1,82 @@
+{% extends "layout.html" %}
+{% block page_title %}
+  Join the library
+{% endblock %}
+{% block content %}
+<div id="global-header-bar"></div>
+<main id="content" role="main">
+  {% include "includes/breadcrumb_examples.html" %}
+    <li>
+      <a href="libraries">Libraries</a>
+    </li>
+  </ol>
+</div>
+  <div class="grid-row">
+    <div class="column-two-thirds">
+      <h1 class="heading-xlarge">Join the library</h1>
+
+
+<!-- In-page navigation -->
+
+        <div class="navigation-container small">
+          <p>
+            Contents:
+          </p>
+          <ol class="list list-number">
+            <li>Join the library</li>
+            <li><a href="#">Library cards and membership types</a></li>
+            <li><a href="#">Computers and WiFi</a></li>
+            <li><a href="#">Accessing library buildings and facilities</a></li>
+            <li><a href="#">Charges, fees and exemptions</a></li>
+            <li><a href="#">Music scores and play sets</a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+<!-- Body copy -->
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+      <div class="navigation-break"></div>
+      <p>Joining the library service is free and easy. It gives you access to:</p>
+      <ul class="list list-bullet">
+        <li>Books,e-books and e-magazines</li>
+        <li>Online courses and resources</li>
+        <li>Library computers and Wifi</li>
+      </ul>
+      <p>
+        You don’t need any identification to join the library.
+      </p>
+      <p>
+        Joining can be done online or in person in any of the Essex libraries.
+      </p>
+      <h2 class="heading-medium" id="subsection-title">Join online</h2>
+      <p>Completing the registration form will give you an ‘Adult temp’ membership. You will receive a registration number by email and will be able to:</p>
+      <ul class="list list-bullet">
+        <li>search the library catalogue immediately</li>
+        <li>reserve items that can be sent to any library in Essex</li>
+      </ul>
+      <p><a href="#">Join online</a></p>
+      <h2 class="heading-medium" id="subsection-title">Join at the library</h2>
+    </div>
+
+<!-- Related links -->
+
+    <div class="column-third">
+      <aside class="govuk-related-items" role="complementary">
+        <h2 class="heading-medium" id="subsection-title">Related content</h2>
+        <nav role="navigation" aria-labelledby="subsection-title">
+          <ul class="font-xsmall">
+            <li><a href="financial-assessment">Start your financial assessment</a></li>
+            <li><a href="care-charges">Care charges</a></li>
+            <li><a href="ways-to-pay">Ways to pay for your care</a></li>
+          </ul>
+        </nav>
+      </aside>
+    </div>
+  </div>
+
+
+</main>
+{% endblock %}
