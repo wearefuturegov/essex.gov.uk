@@ -1,0 +1,79 @@
+{% extends "layout.html" %}
+{% block page_title %}
+  Personal budget
+{% endblock %}
+{% block content %}
+<div id="global-header-bar"></div>
+<main id="content" role="main">
+  {% include "includes/breadcrumb_examples.html" %}
+    <li>
+      <a href="adult-social-care">Adult social care</a>
+    </li>
+    <li>
+      <a href="paying-for-care">Paying for care</a>
+    </li>
+  </ol>
+</div>
+  <div class="grid-row">
+    <div class="column-two-thirds">
+      <h1 class="heading-xlarge">
+        Personal budget
+      </h1>
+
+<!-- In-page navigation -->
+
+      <div class="navigation-container small">
+            <p>Contents:</p>
+                <ol class="list list-number">
+                <li><a href="paying-for-care">Paying for care and support</a></li>
+                <li><a href="care-at-home">Care and support at home</a></li>
+                <li><a href="#">Care in a residential home</a></li>
+                <li><a href="what-financial-assessment">Financial assessment</a></li>
+                <li>Personal budget</li>
+                <li><a href="care-charges">Care charges</a></li>                  <li><a href="ways-to-pay">Ways to pay for your care</a></li>
+                <li><a href="#">Independent financial advice</a></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+<!-- Body copy -->
+
+<div class="grid-row">
+  <div class="column-two-thirds">
+    <div class="navigation-break"></div>
+    <p>Personal budget is the amount of money we have worked out you need to pay for your care and support needs.</p>
+    <p>
+      There are 3 ways you can take a personal budget, they are:
+    </p>
+    <ul class="list list-bullet">
+      <li>
+        we will spend your personal budget and arrange your care and support
+      </li>
+      <li>
+        you will arrange your own care and support using a <a href="https://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/charging-for-care-services/Pages/Direct-payments.aspx">direct payment</a>
+      </li>
+      <li>
+        a combination of both us arranging your care and support, and you arranging your own care and support
+      </li>
+    </ul>
+    <p>
+      Your social worker will go through this with you when you agree your care and support plan.
+    </p>
+  </div>
+  <div class="column-third">
+    <aside class="govuk-related-items" role="complementary">
+      <h2 class="heading-medium" id="subsection-title">Related content</h2>
+      <nav role="navigation" aria-labelledby="subsection-title">
+        <ul class="font-xsmall">
+          <li><a href="financial-assessment">Start your financial assessment</a></li>
+          <li><a href="care-charges">Care charges</a></li>
+          <li><a href="ways-to-pay">Ways to pay for your care</a></li>
+        </ul>
+      </nav>
+    </aside>
+  </div>
+</div>
+
+</main>
+{% endblock %}
