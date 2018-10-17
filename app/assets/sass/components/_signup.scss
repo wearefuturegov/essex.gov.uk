@@ -1,0 +1,16 @@
+.signup {
+  background: $gray-dark;
+  color: $white;
+  p {
+    margin-bottom: $baseline*2;
+  }
+  #content {
+    padding: $baseline*2 0;
+  }
+  input.form-control {
+    width: 100%;
+  }
+  input.button.subscribe {
+    width: 100%;
+  }
+}

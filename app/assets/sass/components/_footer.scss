@@ -1,5 +1,36 @@
-#footer,
 #footer .footer-wrapper {
-  padding-top: 0;
+  padding-top: $baseline*0.5;
+  padding-bottom: $baseline*0.5;
   background-color: $brand;
+}
+
+#footer {
+  border: none;
+  background-color: $brand;
+  .hero {
+    background: url(/public/images/footer-hero.jpg) no-repeat;
+    background-size: 100%;
+    background-position: 0;
+    height: $baseline*30;
+  }
+  h2, h2 :hover {
+    color: $white;
+  }
+}
+
+.footer-top {
+  position: relative;
+}
+
+#footer .footer-mid {
+  color: $white;
+  background: $black;
+  padding-top: $baseline;
+  padding-bottom: $baseline;
+  a {
+    color: $white;
+  }
+  #content {
+    padding-bottom: 0;
+  }
 }
