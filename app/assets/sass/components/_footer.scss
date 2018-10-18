@@ -7,19 +7,6 @@
 #footer {
   border: none;
   background-color: $brand;
-  .hero {
-    background: url(/public/images/footer-hero.jpg) no-repeat;
-    background-size: 100%;
-    background-position: 0;
-    height: $baseline*30;
-  }
-  h2, h2 :hover {
-    color: $white;
-  }
-}
-
-.footer-top {
-  position: relative;
 }
 
 #footer .footer-mid {

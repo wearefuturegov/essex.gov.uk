@@ -1,0 +1,16 @@
+.impact {
+  position: relative;
+  .hero {
+    background: url(/public/images/footer-hero.jpg) no-repeat;
+    background-size: 100%;
+    background-position: 0;
+    height: $baseline*30;
+  }
+  h2, h2 a, h2 :hover {
+    color: $white;
+    margin: 0;
+  }
+  + .signup {
+    display: none;
+  }
+}
