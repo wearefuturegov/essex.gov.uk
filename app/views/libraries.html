@@ -71,9 +71,16 @@
     </ul>
   </div>
   <div class="column-full">
-    <p>
-      <a href="#">See all services</a>
-    </p>
+    <div class="toggle-b">
+      <div class="js-hidden content" id="tab-one">
+        …more services will appear here
+      </div>
+      <div data-target="tab-one">
+        <input class="checkbox" id="toggle-one" type="checkbox">
+        <label class="show" for="toggle-one">See all services</label>
+        <label class="hide" for="toggle-one">Hide</label>
+      </div>
+    </div>
   </div>
 </div>
 

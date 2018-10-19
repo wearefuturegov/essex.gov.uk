@@ -61,11 +61,19 @@
     </ul>
   </div>
   <div class="column-full">
-    <p>
-      <a href="#">See all services</a>
-    </p>
+    <div class="toggle-b">
+      <div class="js-hidden content" id="tab-one">
+        …more services will appear here
+      </div>
+      <div data-target="tab-one">
+        <input class="checkbox" id="toggle-one" type="checkbox">
+        <label class="show" for="toggle-one">See all services</label>
+        <label class="hide" for="toggle-one">Hide</label>
+      </div>
+    </div>
   </div>
 </div>
+
 
 <!-- Guidance and legislation -->
 
@@ -91,9 +99,16 @@
       </ul>
     </div>
     <div class="column-full">
-      <p>
-        <a href="#">See all guidance and legislation</a>
-      </p>
+      <div class="toggle-b">
+        <div class="js-hidden content" id="tab-two">
+          …more guidance and legislation will appear here
+        </div>
+        <div data-target="tab-two">
+          <input class="checkbox" id="toggle-two" type="checkbox">
+          <label class="show" for="toggle-two">See all guidance and legislation</label>
+          <label class="hide" for="toggle-two">Hide</label>
+        </div>
+      </div>
     </div>
   </div>
 
