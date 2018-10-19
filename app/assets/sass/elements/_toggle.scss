@@ -7,8 +7,9 @@
 }
 
 .toggle-b {
-  .content {
-    margin-bottom: $baseline;
+  .show, .hide {
+    display: block;
+    margin-top: $baseline;
   }
 }
 
