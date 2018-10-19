@@ -6,6 +6,12 @@
   }
 }
 
+.toggle-b {
+  .content {
+    margin-bottom: $baseline;
+  }
+}
+
 input.checkbox, .hide {
   display: none;
 }
