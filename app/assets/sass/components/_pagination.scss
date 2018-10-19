@@ -23,13 +23,17 @@
       }
     }
     li.next {
-      float: right;
-      width: 50%;
+      float: left;
+      width: 100%;
       a {
         span.pagination-item {
           text-align: right;
         }
       }
+    }
+    li.prev + li.next {
+      float: right;
+      width: 50%;
     }
   }
   ul {
