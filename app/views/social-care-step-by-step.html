@@ -24,88 +24,125 @@
           Getting care and support for yourself, or someone you care for, can be complicated and stressful. Use this step by step guide to check what to do and who speak to at each stage of the process.
         </p>
 
-          <div class="tab-group">
-            <div class="tab">
-            <input id="tab-one" type="checkbox" name="tabs">
-              <label for="tab-one" class="heading-medium"><a href"#">1. Check what help is available <br/><span class="font-xsmall show-content">show</span></a></label>
-              <div class="tab-content">
-                <p><a href="#">Help with walking and mobility</a></p>
-                <p><a href="#">Equipment to help at home</a></p>
-                <p><a href="#">Help with meals and shopping</a></p>
-                <p><a href="#">Search the directory of independent service providers</a></p>
-                <p><a href="social-care-help">Contact Adult Social Care</a> for an informal chat about your care and support needs or to arrange an assessment of care needs.</p>
-              </div>
+        <div class="toggle">
+          <div data-target="tab-one">
+            <h3 class="heading-medium">1. Check what help is available</h3>
+            <input class="checkbox" id="toggle-one" type="checkbox">
+            <label class="show" for="toggle-one">show</label>
+            <label class="hide" for="toggle-one">hide</label>
           </div>
-          <div class="tab">
-            <input id="tab-two" type="checkbox" name="tabs">
-              <label for="tab-two" class="heading-medium"><a href"#">2. Get an assessment of care needs<br/><span class="font-xsmall show-content">show</span></a></label>
-              <div class="tab-content">
-                <p><a href="social-care-help">Contact Adult Social Care</a> for an informal chat about your care and support needs.</p>
-                <p>A social worker or occupational therapist might visit you to discuss your care and support needs and advise you on the next steps.</p>
-              </div>
+          <div class="js-hidden content" id="tab-one">
+            <p><a href="#">Help with walking and mobility</a></p>
+            <p><a href="#">Equipment to help at home</a></p>
+            <p><a href="#">Help with meals and shopping</a></p>
+            <p><a href="#">Search the directory of independent service providers</a></p>
+            <p><a href="social-care-help">Contact Adult Social Care</a> for an informal chat about your care and support needs or to arrange an assessment of care needs.</p>
           </div>
-          <div class="tab">
-            <input id="tab-three" type="checkbox" name="tabs">
-              <label for="tab-three" class="heading-medium"><a href"#">3. Care and support plan <br/><span class="font-xsmall show-content">show</span></a></label>
-              <div class="tab-content">
-                <p>If you are assessed as needing care and support, a social worker will agree a care and support plan with you. The plan gives details of:</p>
-                <ul class="list list-bullet">
-                  <li>how your support will be provided</li>
-                  <li>how much it costs</li>
-                  <li>who will be paying for it</li>
-                </ul>
-              </div>
+        </div>
+
+        <div class="toggle">
+          <div data-target="tab-two">
+            <h3 class="heading-medium">2. Get an assessment of care needs</h3>
+            <input class="checkbox" id="toggle-two" type="checkbox">
+            <label class="show" for="toggle-two">show</label>
+            <label class="hide" for="toggle-two">hide</label>
           </div>
-          <div class="tab">
-            <input id="tab-four" type="checkbox" name="tabs">
-              <label for="tab-four" class="heading-medium"><a href"#">4. Check eligibility for financial support <br/><span class="font-xsmall show-content">show</span></a></label>
-              <div class="tab-content">
-                <p>Some people are entitled to financial support towards the cost of care. This depends on your financial circumstances.</p>
-                <p>Use our <a href="financial-checker">5-minute financial checker</a> to find out if you, or the person you are looking after, might be eligible for financial support.</p>
-                <p>Complete your <a href="financial-assessment">full financial assessment</a> so that we can work out how much you will need to pay towards your care.</p>
-              </div>
+          <div class="js-hidden content" id="tab-two">
+            <p><a href="social-care-help">Contact Adult Social Care</a> for an informal chat about your care and support needs.</p>
+            <p>A social worker or occupational therapist might visit you to discuss your care and support needs and advise you on the next steps.</p>
           </div>
-          <div class="tab">
-            <input id="tab-five" type="checkbox" name="tabs">
-              <label for="tab-five" class="heading-medium"><a href"#">5. Arrange care and support <br/><span class="font-xsmall show-content">show</span></a></label>
-              <div class="tab-content">
-                <p>If we have agreed to pay for some or all of your care, we will give you a <a href="#">personal budget</a>. You can use this to:</p>
-                <ul class="list list-bullet">
-                  <li>arrange your own care and support</li>
-                  <li>authorise the council to arrange care and support on your behalf</li>
-                  <li>arrange some care and support yourself, and have some arranged for you</li>
-                </ul>
-                <p>This will be disccussed when your social worker creates your care and support plan.</p>
-                <p><a href="#">Search the directory of independent service providers</a></p>
-                <p><a href="#">Check costs of council care and support services</a></p>
-                <p><a href="#">Find out about care homes</a></p>
-              </div>
+        </div>
+
+        <div class="toggle">
+          <div data-target="tab-three">
+            <h3 class="heading-medium">3. Care and support plan</h3>
+            <input class="checkbox" id="toggle-three" type="checkbox">
+            <label class="show" for="toggle-three">show</label>
+            <label class="hide" for="toggle-three">hide</label>
           </div>
-          <div class="tab">
-            <input id="tab-six" type="checkbox" name="tabs">
-              <label for="tab-six" class="heading-medium"><a href"#">6. Pay for care <br/><span class="font-xsmall show-content">show</span></a></label>
-              <div class="tab-content">
-                <p><a href="#">Pay your care invoice</a></p>
-                <p><a href="#">Arrange direct payments</a></p>
-                <p><a href="#">Seek independent financial advice</a></p>
-              </div>
+          <div class="js-hidden content" id="tab-three">
+            <p>If you are assessed as needing care and support, a social worker will agree a care and support plan with you. The plan gives details of:</p>
+            <ul class="list list-bullet">
+              <li>how your support will be provided</li>
+              <li>how much it costs</li>
+              <li>who will be paying for it</li>
+            </ul>
           </div>
-          <div class="tab">
-            <input id="tab-seven" type="checkbox" name="tabs">
-              <label for="tab-seven" class="heading-medium"><a href"#">7. Review of care needs<br/><span class="font-xsmall show-content">show</span></a></label>
-              <div class="tab-content">
-                <p>Your social worker will review your needs on a regular basis to make sure you are getting the right level of care and support.</p>
-                <p><a href="change-circumstances">Tell us if your care needs have changed</a></p>
-              </div>
+        </div>
+
+        <div class="toggle">
+          <div data-target="tab-four">
+            <h3 class="heading-medium">4. Check eligibility for financial support</h3>
+            <input class="checkbox" id="toggle-four" type="checkbox">
+            <label class="show" for="toggle-four">show</label>
+            <label class="hide" for="toggle-four">hide</label>
           </div>
-          <div class="tab">
-            <input id="tab-eight" type="checkbox" name="tabs">
-              <label for="tab-eight" class="heading-medium"><a href"#">8. Annual reassessment: why your payments might change<br/><span class="font-xsmall show-content">show</span></a></label>
-              <div class="tab-content">
-                <p>We will review what you pay towards your care each year. This is called an annual reassessment. The reassessment accounts for any changes to benefits and legislation that all local authorities must follow. It will also explain any changes to care charges.</p>
-                <p>It's important to tell us as soon as possible if there are any changes to your circumstances. f you don't, this might have an impact on your annual reassessment.</p>
-                <p><a href="change-circumstances">Update your details</a></p>
-              </div>
+          <div class="js-hidden content" id="tab-four">
+            <p>Some people are entitled to financial support towards the cost of care. This depends on your financial circumstances.</p>
+            <p>Use our <a href="financial-checker">5-minute financial checker</a> to find out if you, or the person you are looking after, might be eligible for financial support.</p>
+            <p>Complete your <a href="financial-assessment">full financial assessment</a> so that we can work out how much you will need to pay towards your care.</p>
+          </div>
+        </div>
+
+        <div class="toggle">
+          <div data-target="tab-five">
+            <h3 class="heading-medium">5. Arrange care and support</h3>
+            <input class="checkbox" id="toggle-five" type="checkbox">
+            <label class="show" for="toggle-five">show</label>
+            <label class="hide" for="toggle-five">hide</label>
+          </div>
+          <div class="js-hidden content" id="tab-five">
+            <p>If we have agreed to pay for some or all of your care, we will give you a <a href="#">personal budget</a>. You can use this to:</p>
+            <ul class="list list-bullet">
+              <li>arrange your own care and support</li>
+              <li>authorise the council to arrange care and support on your behalf</li>
+              <li>arrange some care and support yourself, and have some arranged for you</li>
+            </ul>
+            <p>This will be disccussed when your social worker creates your care and support plan.</p>
+            <p><a href="#">Search the directory of independent service providers</a></p>
+            <p><a href="#">Check costs of council care and support services</a></p>
+            <p><a href="#">Find out about care homes</a></p>
+          </div>
+        </div>
+
+        <div class="toggle">
+          <div data-target="tab-six">
+            <h3 class="heading-medium">6. Pay for care</h3>
+            <input class="checkbox" id="toggle-six" type="checkbox">
+            <label class="show" for="toggle-six">show</label>
+            <label class="hide" for="toggle-six">hide</label>
+          </div>
+          <div class="js-hidden content" id="tab-six">
+            <p><a href="#">Pay your care invoice</a></p>
+            <p><a href="#">Arrange direct payments</a></p>
+            <p><a href="#">Seek independent financial advice</a></p>
+          </div>
+        </div>
+
+        <div class="toggle">
+          <div data-target="tab-seven">
+            <h3 class="heading-medium">7. Review of care needs</h3>
+            <input class="checkbox" id="toggle-seven" type="checkbox">
+            <label class="show" for="toggle-seven">show</label>
+            <label class="hide" for="toggle-seven">hide</label>
+          </div>
+          <div class="js-hidden content" id="tab-seven">
+            <p>Your social worker will review your needs on a regular basis to make sure you are getting the right level of care and support.</p>
+            <p><a href="change-circumstances">Tell us if your care needs have changed</a></p>
+          </div>
+        </div>
+
+        <div class="toggle">
+          <div data-target="tab-eight">
+            <h3 class="heading-medium">8. Annual reassessment: why your payments might change</h3>
+            <input class="checkbox" id="toggle-eight" type="checkbox">
+            <label class="show" for="toggle-eight">show</label>
+            <label class="hide" for="toggle-eight">hide</label>
+          </div>
+          <div class="js-hidden content" id="tab-eight">
+            <p>We will review what you pay towards your care each year. This is called an annual reassessment. The reassessment accounts for any changes to benefits and legislation that all local authorities must follow. It will also explain any changes to care charges.</p>
+            <p>It's important to tell us as soon as possible if there are any changes to your circumstances. f you don't, this might have an impact on your annual reassessment.</p>
+            <p><a href="change-circumstances">Update your details</a></p>
           </div>
         </div>
 
