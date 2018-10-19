@@ -95,13 +95,11 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
     <div class="column-third">
-      <img class="news-img" src="public/images/news.jpg" />
       <h3 class="heading-small"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h3>
       <p class="small">10 September 2018</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
     <div class="column-third">
-      <img class="news-img" src="public/images/news.jpg" />
       <h3 class="heading-small"><a href="#">Consectetur adipisicing elit.</a></h3>
       <p class="small">22 May 2018</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -110,9 +108,16 @@
 
   <div class="grid-row">
     <div class="column-full">
-      <p>
-        <a href="#">See all News in Essex</a>
-      </p>
+      <div class="toggle-b">
+        <div class="js-hidden content" id="tab-two">
+          …more news will appear here
+        </div>
+        <div data-target="tab-two">
+          <input class="checkbox" id="toggle-two" type="checkbox">
+          <label class="show" for="toggle-two">See all News in Essex</label>
+          <label class="hide" for="toggle-two">Hide</label>
+        </div>
+      </div>
     </div>
   </div>
 
