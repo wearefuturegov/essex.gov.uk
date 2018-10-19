@@ -3,8 +3,9 @@
   .hero {
     background: url(/public/images/footer-hero.jpg) no-repeat;
     background-size: cover;
-    background-position: 0;
-    height: $baseline*30;
+    background-position-x: 0;
+    background-position-y: -$baseline*6;
+    height: $baseline*26;
   }
   h2, h2 a, h2 :hover {
     color: $white;
