@@ -5,6 +5,10 @@
   margin-bottom: $baseline;
   .fa-exclamation-triangle {
     font-size: $baseline*2;
+    margin-top: $baseline*0.25;
     margin-bottom: $baseline*0.25;
+  }
+  p:last-child {
+    margin-bottom: 0;
   }
 }
