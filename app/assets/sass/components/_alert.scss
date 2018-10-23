@@ -3,4 +3,8 @@
   text-align: center;
   padding: $baseline*0.5;
   margin-bottom: $baseline;
+  .fa-exclamation-triangle {
+    font-size: $baseline*2;
+    margin-bottom: $baseline*0.25;
+  }
 }
