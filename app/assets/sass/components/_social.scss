@@ -1,0 +1,10 @@
+.social {
+  ul li {
+    font-size: $baseline;
+    display: inline;
+    margin-right: $gutter;
+  }
+  span {
+    display: none;
+  }
+}
