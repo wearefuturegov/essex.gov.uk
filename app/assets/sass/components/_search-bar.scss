@@ -21,11 +21,32 @@ section.section.search-bar {
     width: 100%;
   }
   .form-group {
+    position: relative;
     margin-bottom: $baseline;
   }
   .button.search-section {
-    background-color: $black;
+    background-color: #222;
     width: 100%;
     text-align: center;
+    &:hover {
+      background-color: $black;
+    }
+  }
+  .search-icon-position {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: none;
+    border: none;
+    padding-left: $gutter*0.5;
+    padding-right: $gutter*0.5;
+    .fa-search {
+      font-size: $baseline*1.5;
+    }
+    &:hover {
+      cursor: pointer;
+      color: $gray;
+    }
   }
 }
