@@ -6,6 +6,9 @@
     background-position-x: 0;
     background-position-y: -$baseline*6;
     height: $baseline*26;
+    @media only screen and (max-width:640px) {
+      background-position-y: 0;
+    }
   }
   h2, h2 a, h2 :hover {
     color: $white;
