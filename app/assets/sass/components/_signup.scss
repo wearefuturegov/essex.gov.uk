@@ -1,11 +1,10 @@
 .signup {
-  background: $gray-dark;
-  color: $white;
+  color: $gray-dark;
   p {
     margin-bottom: $baseline;
   }
   #content {
-    padding: $baseline*1.5 0;
+    padding: $baseline*1 0;
   }
   input.form-control {
     width: 100%;
