@@ -30,7 +30,7 @@ input[aria-expanded="true"] + label.show + label.hide {
 }
 
 label.show, label.hide {
-  font-size: $small;
+  font-size: 19px;
   cursor: pointer;
   color: #005ea5;
   &:hover {
