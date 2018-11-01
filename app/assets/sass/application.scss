@@ -27,6 +27,24 @@ $path: "/public/images/";
   }
 }
 
+// Right hand navigation
+
+.side-nav {
+  padding-top: 5px;
+  margin-left: 20px;
+
+  .heading-small {
+    margin-top: 0.3em;
+    margin-bottom: 0.5em;
+  }
+
+  li {
+    padding: 20px 0;
+    border-bottom: 1px solid #bfc1c3;
+    list-style-type: none;
+  }
+}
+
 
 // Call to action box
 
