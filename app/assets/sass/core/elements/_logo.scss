@@ -1,0 +1,19 @@
+// Logo
+// ==========================================================================
+
+// Header logo
+
+.logo {
+    float: left;
+    overflow: visible;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    border-bottom: none;
+    background: url(/public/images/logo-b.svg) no-repeat;
+    background-size: 300px 40px;
+    background-position: 0 0;
+}
