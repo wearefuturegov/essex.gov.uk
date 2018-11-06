@@ -7,8 +7,8 @@ $path: "/public/images/";
 @import 'govuk-elements';
 
 // Take a look at in app/assets/sass/patterns/ to see which files are imported.
-@import 'patterns/check-your-answers';
-@import 'patterns/task-list';
+// @import 'prototype/patterns/check-your-answers';
+// @import 'prototype/patterns/task-list';
 
 // Related items
 // (These styles will be moved to GOV.UK elements, duplicating here for now.)
@@ -123,4 +123,5 @@ $path: "/public/images/";
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
 
-@import "base/import";
+// @import "prototype/base/import";
+@import "core/base/import";
