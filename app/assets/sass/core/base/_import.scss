@@ -1,11 +1,17 @@
+@import "reset";
 @import "variables";
 
-@import "core/elements/import";
 @import "core/identity/import";
+@import "core/elements/import";
+@import "core/layout/import";
 
-/* development styles for core */
+/* temp development styles for core */
 
-code {
+code, body {
   float: left;
   width: 100%;
+}
+
+code {
+  font-family: monospace;
 }
