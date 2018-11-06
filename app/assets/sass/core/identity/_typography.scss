@@ -13,3 +13,33 @@ h2 {
   font-weight: 700;
   text-transform: none;
 }
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+p {
+  font-size: 19px;
+  font-weight: 400;
+  text-transform: none;
+}
+
+//Lists
+
+.list {
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.list-bullet {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.list-number {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
