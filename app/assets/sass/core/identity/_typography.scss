@@ -25,3 +25,21 @@ p {
   font-weight: 400;
   text-transform: none;
 }
+
+//Lists
+
+.list {
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.list-bullet {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.list-number {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
