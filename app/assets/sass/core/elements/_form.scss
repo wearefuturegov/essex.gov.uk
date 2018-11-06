@@ -1,0 +1,34 @@
+.form {
+  display: block;
+  label, span, input {
+    font-size: $body;
+    line-height: $baseline;
+    text-transform: none;
+    display: block;
+  }
+  span {
+    font-weight: 300;
+  }
+  input {
+    box-sizing: border-box;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 16px;
+    width: 100%;
+    padding: 5px 4px 4px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(11, 12, 12);
+    border-image: initial;
+  }
+  .day, .month, .year {
+    float: left;
+    width: 50px;
+    margin-right: 20px;
+    clear: none;
+  }
+  .year {
+    width: 100px;
+    margin-right: 0;
+  }
+}
