@@ -13,5 +13,11 @@
     background: url(/public/images/logo-b.svg) no-repeat;
     background-size: 300px 40px;
     background-position: 0 0;
-    background-color: #FFFFF0;
+    background-color: #F2D7D5;
+}
+
+.logo img {
+    margin: 2px 1px 0 0;
+    vertical-align: bottom;
+    visibility: hidden;
 }
