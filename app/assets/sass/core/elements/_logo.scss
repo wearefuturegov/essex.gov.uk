@@ -1,10 +1,7 @@
 // Logo
 // ==========================================================================
 
-// Header logo
-
 .logo {
-    float: left;
     overflow: visible;
     color: white;
     font-weight: 400;
@@ -16,4 +13,5 @@
     background: url(/public/images/logo-b.svg) no-repeat;
     background-size: 300px 40px;
     background-position: 0 0;
+    background-color: #FFFFF0;
 }
