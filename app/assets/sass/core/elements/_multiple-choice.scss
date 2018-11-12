@@ -8,11 +8,10 @@
     position: relative;
     padding: 0 0 0 38px;
     margin-bottom: 10px;
-}
 
-@media (min-width: 641px)
-.multiple-choice {
-    float: left;
+    @include media (min-width 641px) {
+      float: left;
+    }
 }
 
 .multiple-choice input {
@@ -29,16 +28,16 @@
     opacity: 0;
 }
 
-@media (min-width: 641px)
-.multiple-choice label {
-    float: left;
-    padding-top: 7px;
-    padding-bottom: 7px;
-}
 .multiple-choice label {
     cursor: pointer;
     padding: 8px 10px 9px 12px;
     display: block;
     -ms-touch-action: manipulation;
     touch-action: manipulation;
+
+    @include media (min-width 641px) {
+      float: left;
+      padding-top: 7px;
+      padding-bottom: 7px;
+    }
 }
