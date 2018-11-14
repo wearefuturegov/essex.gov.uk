@@ -1,0 +1,17 @@
+// Email sign up
+
+.signup {
+  color: $white;
+  p {
+    margin-bottom: $baseline;
+  }
+  #content {
+    padding: $baseline*1.5 0;
+  }
+  input.form-control {
+    width: 100%;
+  }
+  input.button.subscribe {
+    width: 100%;
+  }
+}
