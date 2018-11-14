@@ -21,4 +21,6 @@
       <li><a href="components/highlight-box">Highlight box</a></li>
       <li><a href="components/pagination">Pagination</a></li>
       <li><a href="components/panel">Panel</a></li>
+      <li><a href="components/search">Search</a></li>
+      <li><a href="components/signup">Signup</a></li>
     </ul>
