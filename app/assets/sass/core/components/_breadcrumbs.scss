@@ -1,17 +1,6 @@
-// Email sign up
+// Breadcrumbs
 
-.signup {
-  color: $white;
-  p {
-    margin-bottom: $baseline;
-  }
-  #content {
-    padding: $baseline*1.5 0;
-  }
-  input.form-control {
-    width: 100%;
-  }
-  input.button.subscribe {
-    width: 100%;
-  }
+.breadcrumbs {
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
 }
