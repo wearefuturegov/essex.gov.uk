@@ -1,0 +1,58 @@
+// Search bar
+
+section.section.search-bar {
+  background-color: rgba(255, 255, 255, 0.25);
+  position: relative;
+  padding: $baseline;
+  @media only screen and (max-width:640px) {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  input {
+    border: none;
+  }
+  label.search-label {
+    color: #6f777b;
+    position: absolute;
+    left: $gutter*0.5;
+    top: $baseline*0.25;
+  }
+  &[type="search"]:focus {
+    z-index: 2;
+    background: red;
+  }
+  .form-control {
+    padding: $baseline*0.25 $baseline*0.5;
+    line-height: $baseline;
+    width: 100%;
+  }
+  .form-group {
+    position: relative;
+    margin-bottom: $baseline;
+  }
+  .button.search-section {
+    background-color: #222;
+    width: 100%;
+    text-align: center;
+    &:hover {
+      background-color: $black;
+    }
+  }
+  .search-icon-position {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: none;
+    border: none;
+    padding-left: $gutter*0.5;
+    padding-right: $gutter*0.5;
+    .fa-search {
+      font-size: $baseline*1.5;
+    }
+    &:hover {
+      cursor: pointer;
+      color: $gray;
+    }
+  }
+}
