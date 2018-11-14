@@ -1,67 +1,169 @@
-{% extends "govuk_template_unbranded.html" %}
-
+{% extends "layout.html" %}
 {% block page_title %}
-GOV.UK prototype kit
+  Essex County Council
 {% endblock %}
-
 {% block content %}
+<header class="homepage-top">
+  <div id="content">
+    <div class="grid-row">
+      <div class="column-full">
+        <div class="homepage-top-inner">
+          {% block search %}
+            {% include "includes/search.html" %}
+          {% endblock %}
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
 
 <main id="content" role="main">
-  <div class="grid-row">
+
+  <div class="alert column-full">
+    <div class="column-third">
+      <i class="fas fa-exclamation-triangle"></i>
+    </div>
     <div class="column-two-thirds">
+      <h4>School closures</h4>
+      <p>School closures. Some schools in Essex are closed due to severe weather</p>
+      <p><a href="#">Check if your child's school is closed</a></p>
+    </div>
+  </div>
 
-      <h1 class="heading-xlarge">GOV.UK prototype kit</h1>
 
-      <p class="lede">
-        Rapidly create HTML prototypes of GOV.UK services.
-      </p>
-{{releaseVersion | log }}
+  <div class="grid-row">
+    <div class="column-third">
+      <h3 class="heading-small"><a href="#">Births, ceremonies, deaths</a></h3>
+        <p>Registration offices and apply for licences</p>
     </div>
 
+    <div class="column-third">
+      <h3 class="heading-small"><a href="#">Roads, streets and transport</a></h3>
+      <p>Includes report a pothole, report a broken street light and apply for a blue badge or a bus pass</p>
+    </div>
 
+    <div class="column-third">
+      <h3 class="heading-small"><a href="#">Council and democracy</a></h3>
+      <p>Includes senior officers, cabinet members and calculating council tax</p>
+    </div>
   </div>
 
   <div class="grid-row">
+    <div class="column-third">
+      <h3 class="heading-small"><a href="adult-social-care">Social care and health</a></h3>
+      <p>Includes reporting a concern about an adult, looking after someone and paying for care</p>
+    </div>
 
-        <div class="column-third">
+    <div class="column-third">
+      <h3 class="heading-small"><a href="#">Business, licensing and trading standards</a></h3>
+      <p>Includes doing business with council, licensing and trading standards</p>
+    </div>
 
-          <h2 class="heading-medium"><a href="/docs/install">Install</a></h2>
-          <p>
-            Download and installation instructions.
-          </p>
+    <div class="column-third">
+      <h3 class="heading-small"><a href="education">Education and learning</a></h3>
+      <p>Includes school admissions, term dates and adult learning</p>
+    </div>
+  </div>
 
+
+  <div class="grid-row">
+    <div class="column-third">
+      <h3 class="heading-small"><a href="#">Jobs, volunteering and apprenticeships</a></h3>
+      <p>Includes apprenticeships and jobs at the council</p>
+    </div>
+
+    <div class="column-third">
+      <h3 class="heading-small"><a href="libraries">Libraries, leisure and local history</a></h3>
+      <p>Includes visit Essex, country parks and cultural development</p>
+    </div>
+
+    <div class="column-third">
+      <h3 class="heading-small"><a href="#">Waste, planning and land</a></h3>
+      <p>Includes recycling, flooding, planning applications and developer information</p>
+    </div>
+  </div>
+
+  <div class="section-break"></div>
+
+  <div class="grid-row">
+    <div class="column-full">
+      <h2 class="heading-large">News in Essex</h2>
+    </div>
+  </div>
+
+  <div class="grid-row">
+    <div class="column-third">
+      <img class="news-img" src="public/images/news.jpg" />
+      <h3 class="heading-small"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h3>
+      <p class="small">3 October 2018</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="column-third">
+      <h3 class="heading-small"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h3>
+      <p class="small">10 September 2018</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="column-third">
+      <h3 class="heading-small"><a href="#">Consectetur adipisicing elit.</a></h3>
+      <p class="small">22 May 2018</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+
+  <div class="grid-row">
+    <div class="column-full">
+      <div class="toggle-b">
+        <div class="js-hidden content" id="tab-one">
+          …more news in Essex will appear here
         </div>
-        <div class="column-third">
-
-          <h2 class="heading-medium"><a href="/docs/tutorials-and-examples">Tutorials and examples</a></h2>
-          <p>
-            Tutorials, examples and templates.
-          </p>
-
+        <div data-target="tab-one">
+          <input class="checkbox" id="toggle-one" type="checkbox">
+          <label class="show" for="toggle-one">See all News in Essex</label>
+          <label class="hide" for="toggle-one">Hide</label>
         </div>
-        <div class="column-third">
-
-          <h2 class="heading-medium"><a href="/docs/about">About</a></h2>
-          <p>
-            About the kit, principles, privacy.
-          </p>
-
-        </div>
-
       </div>
-      <div class="grid-row">
+    </div>
+  </div>
 
-        <div class="column-third">
-
-          <h2 class="heading-medium"><a href="https://github.com/alphagov/govuk_prototype_kit">GitHub</a></h2>
-          <p>
-            Source code, contributing, bugs.
-          </p>
-
-        </div>
-
-
-      </div>
 </main>
+
+<div class="signup">
+  <div id="content">
+    <p>
+      Get the latest news and information about your council services straight to your inbox
+    </p>
+    <form action="/search" method="get" role="search" class="form">
+      <div class="form-group">
+        <div class="grid-row">
+          <div class="column-two-thirds">
+            <input type="text" class="form-control" placeholder="Enter your email address" id="full-name" name="name" {{ checked("index", "name") }} required>
+          </div>
+          <div class="column-third">
+            <input type="submit" class="button subscribe" value="Subscribe">
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="impact">
+  <div class="hero"></div>
+  <div class="overlay">
+    <div id="content">
+      <div class="grid-row">
+        <div class="column-third">
+          <h2 class="heading-large"><a href="#">Spooky family fun at Cressing Temple</a></h2>
+        </div>
+        <div class="column-two-thirds">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 {% endblock %}
