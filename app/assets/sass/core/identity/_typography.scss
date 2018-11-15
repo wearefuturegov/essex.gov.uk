@@ -6,30 +6,40 @@ h1 {
   font-size: 48px;
   font-weight: 700;
   text-transform: none;
+  margin-top: $baseline;
+  margin-bottom: $baseline*0.5;
 }
 
 h2 {
   font-size: 36px;
   font-weight: 700;
   text-transform: none;
+  margin-top: $baseline;
+  margin-bottom: $baseline*0.5;
 }
 
 h3 {
   font-size: 24px;
   font-weight: 700;
   text-transform: none;
+  margin-top: $baseline;
+  margin-bottom: $baseline*0.5;
 }
 
 h4 {
   font-size: 19px;
   font-weight: 700;
   text-transform: none;
+  margin-top: $baseline;
+  margin-bottom: $baseline*0.5;
 }
 
 p {
   font-size: 19px;
   font-weight: 400;
   text-transform: none;
+  margin-top: $baseline;
+  margin-bottom: $baseline*0.5;
 }
 
 //Lists
