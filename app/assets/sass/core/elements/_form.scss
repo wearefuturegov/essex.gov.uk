@@ -7,7 +7,9 @@
     display: block;
   }
   span {
+    font-size: $body;
     font-weight: 300;
+    color: $gray;
   }
   input {
     box-sizing: border-box;

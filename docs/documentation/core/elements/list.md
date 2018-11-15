@@ -1,4 +1,6 @@
-# Unordered list
+## List
+
+### Unordered list
 
 <ul class="list list-bullet">
   <li>
@@ -24,7 +26,7 @@
       </li>
     </ul>
 
-# Ordered list
+### Ordered list
 
 <ol class="list list-number">
   <li>Paying for care and support</li>
