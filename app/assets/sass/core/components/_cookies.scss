@@ -8,9 +8,13 @@
   p {
     color: $white;
     display: inline;
+    a {
+      color: $brand-c;  
+    }
   }
   .button {
-    background-color: yellow;
+    float: right;
+    background-color: $brand-c;
     color: $black;
   }
 }
