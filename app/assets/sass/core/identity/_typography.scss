@@ -46,26 +46,26 @@ p {
 
 .list {
     padding: 0;
-    margin-top: 5px;
-    margin-bottom: 20px;
+    margin-top: $baseline*0.5;
+    margin-bottom: $baseline;
 }
 
 .list-bullet {
     list-style-type: disc;
-    padding-left: 20px;
+    padding-left: $gutter;
 }
 
 .list-number {
     list-style-type: decimal;
-    padding-left: 20px;
+    padding-left: $gutter;
 }
 
 // Meta
 
 .meta {
-    margin-top: 3em;
-    margin-bottom: 1.5em;
-    color: #6f777b;
-    font-size: 16px;
-    line-height: 1.25em;
+    margin-top: $baseline*2;
+    margin-bottom: $baseline;
+    color: $gray;
+    font-size: $body;
+    line-height: $baseline;
 }

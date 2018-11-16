@@ -1,4 +1,5 @@
 pre {
+  @include wrap;
   font-family: monospace;
   font-size: $smaller;
   white-space: pre;
@@ -10,4 +11,8 @@ pre {
     border: $thin solid $gray;
     background-color: $gray-light;
   }
+}
+
+.logo {
+  background-color: $brand;
 }
