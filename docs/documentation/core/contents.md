@@ -26,4 +26,5 @@
   <li><a href="components/related">Related</a></li>
   <li><a href="components/side-bar">Side-bar</a></li>
   <li><a href="components/contents">Contents</a></li>
+  <li><a href="components/cookies">Cookies</a></li>
 </ul>

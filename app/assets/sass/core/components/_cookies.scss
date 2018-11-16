@@ -1,0 +1,16 @@
+.cookies {
+  background-color: $black;
+  padding: $baseline $gutter;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  p {
+    color: $white;
+    display: inline;
+  }
+  .button {
+    background-color: yellow;
+    color: $black;
+  }
+}
