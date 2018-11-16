@@ -1,0 +1,22 @@
+.side-nav {
+  background: $gray-light;
+  padding-top: $baseline;
+  padding-bottom: $baseline;
+  padding-right: $gutter*2;
+  h3 {
+    margin-top: $baseline*0.25;
+    margin-bottom: $baseline*0.5;
+    padding-left: $gutter*2;
+  }
+  li {
+    font-size: $small;
+    padding-bottom: $baseline*0.5;
+    padding-top: $baseline*0.5;
+    padding-left: $gutter*2;
+    list-style-type: none;
+    border-bottom: $thin solid $gray;
+    &.active {
+      background: $white;
+    }
+  }
+}
