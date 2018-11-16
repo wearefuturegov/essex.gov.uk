@@ -1,0 +1,20 @@
+.cookies {
+  background-color: $black;
+  padding: $baseline $gutter;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  p {
+    color: $white;
+    display: inline;
+    a {
+      color: $brand-c;  
+    }
+  }
+  .button {
+    float: right;
+    background-color: $brand-c;
+    color: $black;
+  }
+}
