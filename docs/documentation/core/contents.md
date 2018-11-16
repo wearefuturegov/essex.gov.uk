@@ -24,6 +24,6 @@
   <li><a href="components/search">Search</a></li>
   <li><a href="components/signup">Signup</a></li>
   <li><a href="components/related">Related</a></li>
-  <li><a href="components/sidebar">Sidebar</a></li>
-  <li><a href="components/sidebar">Contents</a></li>
+  <li><a href="components/sidebar">Side-bar</a></li>
+  <li><a href="components/contents">Contents</a></li>
 </ul>
