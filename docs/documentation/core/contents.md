@@ -25,4 +25,5 @@
       <li><a href="components/panel">Panel</a></li>
       <li><a href="components/search">Search</a></li>
       <li><a href="components/signup">Signup</a></li>
+      <li><a href="components/related">Related</a></li>
     </ul>
