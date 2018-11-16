@@ -9,16 +9,11 @@
   text-decoration: none;
   text-rendering: optimizeLegibility;
   border-bottom: none;
-  background: no-repeat;
-  background-size: $logo-width $logo-height;
+  //background: url(/public/images/logo-b.svg) no-repeat;
+  //background-size: $logo-width $logo-height;
   background-position: 0 0;
   img {
     margin-bottom: $baseline*0.25;
-  }
-  h1 {
-    font-size: 30px;
-    font-weight: bold;
-    padding-top: $baseline*0.25;
   }
   &:hover, &:focus {
     text-decoration: none;
