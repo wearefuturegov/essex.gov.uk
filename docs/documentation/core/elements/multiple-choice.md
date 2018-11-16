@@ -1,4 +1,6 @@
-# Radio
+## Multiple choice
+
+### Radio
 
 <div class="form-group">
   <fieldset>
@@ -26,7 +28,7 @@
       </fieldset>
     </div>
 
-# Checkbox
+### Checkbox
 
 <div class="form-group">
   <fieldset>
