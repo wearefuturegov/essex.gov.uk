@@ -2,22 +2,8 @@
 // ==========================================================================
 
 .logo {
-    overflow: visible;
-    color: white;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5em;
-    text-decoration: none;
-    text-rendering: optimizeLegibility;
-    border-bottom: none;
-    background: url(/public/images/logo-b.svg) no-repeat;
-    background-size: 300px 40px;
-    background-position: 0 0;
-    background-color: #F2D7D5;
-}
-
-.logo img {
-    margin: 2px 1px 0 0;
-    vertical-align: bottom;
-    visibility: hidden;
+  display: inline-block;
+  img {
+    display: block
+  }
 }
