@@ -1,0 +1,16 @@
+.related {
+  border-top: $thick solid $brand;
+  h3 {
+    margin-top: $baseline*0.25;
+    margin-bottom: $baseline*0.5;
+  }
+  ul {
+    margin-top: $baseline*0.5;
+    margin-bottom: $baseline*0.75;
+  }
+  li {
+    font-size: $small;
+    margin-bottom: $baseline*0.5;
+    list-style-type: none;
+  }
+}
