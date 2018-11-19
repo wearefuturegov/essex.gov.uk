@@ -19,16 +19,17 @@
 <ul class="list list-bullet">
   <li><a href="components/alert">Alert</a></li>
   <li><a href="components/breadcrumbs">Breadcrumbs</a></li>
+  <li><a href="components/cookies">Cookies</a></li>
+  <li><a href="components/contents">Contents</a></li>
   <li><a href="components/highlight-box">Highlight-box</a></li>
   <li><a href="components/overlay">Overlay</a></li>
   <li><a href="components/pagination">Pagination</a></li>
   <li><a href="components/panel">Panel</a></li>
   <li><a href="components/preview">*Preview</a></li>
   <li><a href="components/preview-list">Preview list</a></li>
+  <li><a href="components/related">Related</a></li>
   <li><a href="components/search">Search</a></li>
   <li><a href="components/signup">Signup</a></li>
-  <li><a href="components/related">Related</a></li>
   <li><a href="components/side-bar">Side-bar</a></li>
-  <li><a href="components/contents">Contents</a></li>
-  <li><a href="components/cookies">Cookies</a></li>
+  <li><a href="components/table">Table</a></li>
 </ul>
