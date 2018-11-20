@@ -1,15 +1,22 @@
 // Email sign up
 
 .signup {
-  color: $white;
   p {
     margin-bottom: $baseline;
   }
   #content {
     padding: $baseline*1.5 0;
   }
-  form input {
-    border: none;
+  .form input {
+    font-size: $large - $thin;
+    &.button {
+      font-size: $large;
+      font-weight: 600;
+      border: none;
+      &:hover {
+        background-color: darken($button, 5%);
+      }
+    }
   }
   input.form-control {
     width: 100%;
