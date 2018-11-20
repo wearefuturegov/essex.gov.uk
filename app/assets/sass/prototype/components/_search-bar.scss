@@ -12,7 +12,7 @@ section.section.search-bar {
   label.search-label {
     color: #6f777b;
     position: absolute;
-    left: $gutter*0.5;
+    left: $gutter*0.25;
     top: $baseline*0.25;
   }
   &[type="search"]:focus {
@@ -43,8 +43,8 @@ section.section.search-bar {
     bottom: 0;
     background: none;
     border: none;
-    padding-left: $gutter*0.5;
-    padding-right: $gutter*0.5;
+    padding-left: $gutter*0.25;
+    padding-right: $gutter*0.25;
     .fa-search {
       font-size: $baseline*1.5;
     }

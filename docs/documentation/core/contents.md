@@ -31,6 +31,6 @@
   <li><a href="components/related">Related</a></li>
   <li><a href="components/search">Search</a></li>
   <li><a href="components/signup">Signup</a></li>
-  <li><a href="components/side-bar">Side-bar</a></li>
+  <li><a href="components/side-nav">Side-nav</a></li>
   <li><a href="components/table">Table</a></li>
 </ul>

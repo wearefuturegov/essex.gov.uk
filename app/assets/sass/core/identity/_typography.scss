@@ -2,6 +2,12 @@ body {
   font-family: "nta", Arial, sans-serif;
 }
 
+main {
+  font-size: $body;
+  line-height: $baseline;
+  -webkit-font-smoothing: antialiased;
+}
+
 h1 {
   font-size: 48px;
   font-weight: 700;
@@ -44,20 +50,33 @@ p {
 
 //Lists
 
+
+ul,
+ol {
+  list-style-type: none;
+}
+
 .list {
     padding: 0;
     margin-top: $baseline*0.5;
     margin-bottom: $baseline;
 }
 
+.list li {
+  margin-bottom: $baseline*0.25;
+}
+
 .list-bullet {
     list-style-type: disc;
-    padding-left: $gutter;
+    padding-left: $gutter*0.5;
 }
 
 .list-number {
     list-style-type: decimal;
-    padding-left: $gutter;
+    padding-left: $gutter*0.5;
+    @include ie-lte(7) {
+      padding-left: 28px;
+    }
 }
 
 // Meta

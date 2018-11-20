@@ -3,7 +3,7 @@
   ul li {
     font-size: $baseline;
     display: inline;
-    margin-right: $gutter;
+    margin-right: $gutter*0.5;
   }
   span {
     display: none;
