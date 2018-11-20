@@ -1,0 +1,43 @@
+// Link box (used on topic pages)
+
+.link-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -0.5em;
+}
+
+.link-box {
+  display: flex;
+  padding: 0;
+	width: $full-width;
+}
+
+@media all and (min-width: 40em) {
+ .link-box {
+   width: $full-width / 2;
+ }
+}
+
+@media all and (min-width: 60em) {
+ .link-box {
+   width: $full-width / 3;
+ }
+}
+
+.link-content {
+  background-color: $gray-light;
+  margin: 0 0.5em 0.5em 0.5em;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+	width: $full-width;
+  border-bottom: solid $thin $gray;
+  h2 {
+    margin-top: 0;
+    font-size: $body;
+  }
+  p {
+  	flex: 1 0 auto;
+    margin-top: 0;
+  }
+}
