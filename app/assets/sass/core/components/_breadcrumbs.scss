@@ -1,5 +1,4 @@
 // Breadcrumbs
-
 .breadcrumbs {
   padding-top: $baseline;
   padding-bottom: $baseline;
@@ -9,33 +8,24 @@
   li {
     font-size: $body;
     float: left;
-
     background-image: file-url("icon/separator.png");
-
     @include device-pixel-ratio() {
       background-image: file-url("icon/separator-2x.png");
       background-size: 6px 11px;
     }
-
     background-position: 0% 50%;
     background-repeat: no-repeat;
-
     list-style: none;
-
     margin-left: 0.6em;
     margin-bottom: 0.4em;
     padding-left: 0.9em;
-
     &:first-child {
       background-image: none;
       margin-left: 0;
       padding-left: 0;
     }
-
   }
-
   a {
     color: $black;
   }
-
 }

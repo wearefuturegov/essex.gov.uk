@@ -19,7 +19,7 @@
 <ul class="list list-bullet">
   <li><a href="components/alert">Alert</a>&#10003;</li>
   <li><a href="components/breadcrumbs">Breadcrumbs</a>&#10003;</li>
-  <li><a href="components/highlight-box">Highlight-box</a></li>
+  <li><a href="components/highlight-box">Highlight-box</a>&#10003;</li>
   <li><a href="components/overlay">Overlay</a></li>
   <li><a href="components/pagination">Pagination</a></li>
   <li><a href="components/panel">Panel</a></li>
