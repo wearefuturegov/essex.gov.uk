@@ -13,6 +13,7 @@
   <li><a href="elements/multiple-choice">Multiple choice</a></li>
   <li><a href="elements/page-heading">Page heading</a></li>
   <li><a href="elements/paragraph">Paragraph</a></li>
+  <li><a href="elements/section-break">Section break</a></li>
   <li><a href="elements/section-heading">Section heading</a></li>
 </ul>
 <h2>Components</h2>
