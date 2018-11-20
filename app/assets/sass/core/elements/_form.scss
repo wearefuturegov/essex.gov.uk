@@ -34,3 +34,8 @@
     margin-right: 0;
   }
 }
+
+input.form-control, textarea.form-control {
+    -webkit-appearance: none;
+    border-radius: 0;
+}

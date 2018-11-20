@@ -1,3 +1,7 @@
+$stack: Arial, sans-serif;
+// need to refer to govuk_modules/govuk_frontend_toolkit/stylesheets/_typography.scss
+// once we have fonts decided
+
 $h1: 48px;
 $h2: 36px;
 $h3: 30px;
@@ -22,9 +26,11 @@ $white: #fff;
 $gray: #bfc1c3;
 $gray-dark: #222222;
 $gray-light: #f8f8f8;
+$overlay: rgba(0, 0, 0, 0.6);
 
 $thin: 1px;
 $thick: 3px;
+$very-thick: $thick*4;
 
 $amount: 15%; // Percentage on colour change
 

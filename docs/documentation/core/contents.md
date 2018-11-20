@@ -15,6 +15,8 @@
   <li><a href="elements/paragraph">Paragraph</a></li>
   <li><a href="elements/section-break">Section break</a></li>
   <li><a href="elements/section-heading">Section heading</a></li>
+  <li><a href="elements/hero">Hero</a></li>
+  <li><a href="elements/overlay">Overlay</a></li>
 </ul>
 <h2>Components</h2>
 <ul class="list list-bullet">
@@ -22,13 +24,11 @@
   <li><a href="components/breadcrumbs">Breadcrumbs</a></li>
   <li><a href="components/cookies">Cookies</a></li>
   <li><a href="components/contents">Contents</a></li>
-  <li><a href="components/hero">Hero</a></li>
   <li><a href="components/highlight-box">Highlight-box</a></li>
   <li><a href="components/link-box">Link box</a></li>
-  <li><a href="components/overlay">Overlay</a></li>
   <li><a href="components/pagination">Pagination</a></li>
   <li><a href="components/panel">Panel</a></li>
-  <li><a href="components/preview">*Preview</a></li>
+  <li><a href="components/preview">Preview</a></li>
   <li><a href="components/preview-list">Preview list</a></li>
   <li><a href="components/related">Related</a></li>
   <li><a href="components/search">Search</a></li>

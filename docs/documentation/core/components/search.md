@@ -1,12 +1,12 @@
-<section class="section search-bar">
+## Search
+
+<section class="section search">
   <form action="/search" method="get" role="search" class="form">
     <div class="form-group">
       <input type="text" class="form-control" placeholder="Search Essex County Council" id="full-name" name="name" required="">
       <button type="submit" value="search" class="search-icon-position">
         <i class="fas fa-search " type="submit" value="search"></i>
       </button>
-      <!-- <input type="submit" class="button search" value="Search"> -->
-      <!-- <label class="search-label">Search Essex County Council</label> -->
     </div>
   </form>
 
@@ -26,15 +26,13 @@
   </div>
 </section>
 
-    <section class="section search-bar">
+    <section class="section search">
       <form action="/search" method="get" role="search" class="form">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search Essex County Council" id="full-name" name="name" required="">
           <button type="submit" value="search" class="search-icon-position">
             <i class="fas fa-search " type="submit" value="search"></i>
           </button>
-          <!-- <input type="submit" class="button search" value="Search"> -->
-          <!-- <label class="search-label">Search Essex County Council</label> -->
         </div>
       </form>
 
