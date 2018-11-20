@@ -1,3 +1,5 @@
+## Search
+
 <section class="section search-bar">
   <form action="/search" method="get" role="search" class="form">
     <div class="form-group">

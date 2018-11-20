@@ -1,3 +1,5 @@
+## Alert 
+
 <div class="alert">
   <i class="fas fa-exclamation-triangle"></i>
   <h2>School closures</h2>
