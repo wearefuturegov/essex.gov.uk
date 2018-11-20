@@ -1,4 +1,6 @@
 .pagination {
+  display: inline-block;
+  width: 100%;
   margin-top: $baseline*2;
   margin-bottom: $baseline*2;
   a {

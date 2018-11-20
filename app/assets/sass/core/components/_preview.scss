@@ -1,12 +1,11 @@
 // Preview
 
 .preview {
-    img {
-      max-width: 100%;
-      margin-top: 1em;
-    }
-    .meta {
-      font-size: $small;
-      margin-top: 0;
-    }
+  img {
+    max-width: 100%;
+  }
+  .meta {
+    font-size: $small;
+    margin-top: 0;
+  }
 }
