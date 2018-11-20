@@ -1,7 +1,7 @@
 .highlight-box {
-    margin: 1em 0;
-    padding: 2em 1em;
-    color: #fff;
+    margin: $baseline 0;
+    padding: $baseline $gutter;
+    color: $white;
     background: #28a197;
     text-align: center;
 
