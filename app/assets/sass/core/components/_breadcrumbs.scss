@@ -7,7 +7,7 @@
     @extend %contain-floats;
   }
   li {
-    @include core-16;
+    font-size: $body;
     float: left;
 
     background-image: file-url("icon/separator.png");
