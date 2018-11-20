@@ -21,6 +21,7 @@
   <li><a href="components/breadcrumbs">Breadcrumbs</a></li>
   <li><a href="components/cookies">Cookies</a></li>
   <li><a href="components/contents">Contents</a></li>
+  <li><a href="components/hero">Hero</a></li>
   <li><a href="components/highlight-box">Highlight-box</a></li>
   <li><a href="components/overlay">Overlay</a></li>
   <li><a href="components/pagination">Pagination</a></li>
