@@ -1,0 +1,14 @@
+.nav {
+  ul {
+    li {
+      display: inline-block;
+      a {
+        color: $brand;
+        text-decoration: underline;
+        &:hover, &active {
+          color: $black;
+        }
+      }
+    }
+  }
+}

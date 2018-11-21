@@ -1,0 +1,13 @@
+.header {
+  background-color: $brand;
+  .nav {
+    text-align: right;
+    ul {
+      li {
+        a {
+          color: $white;
+        }
+      }
+    }
+  }
+}
