@@ -100,14 +100,3 @@ ol {
   border-bottom: $thin solid $gray;
   margin-top: $baseline;
 }
-
-// Colour swatches
-
-.colour-swatch {
-    top: 0;
-    left: 0;
-    width: 40px;
-    height: 40px;
-    border: $thin solid transparent;
-    border-radius: 20%;
-}

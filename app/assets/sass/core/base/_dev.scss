@@ -16,3 +16,15 @@ pre {
 .logo {
   background-color: $brand;
 }
+
+
+// Colour swatches
+
+.colour-swatch {
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border: $thin solid transparent;
+    border-radius: 20%;
+}
