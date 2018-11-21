@@ -4,13 +4,13 @@
   background-color: $black;
   padding: $baseline*0.25 $baseline*0.5;
   &:hover {
-    background-color: lighten($black, $amount);
+    background-color: lighten($black, $lighten);
   }
 }
 
 .subscribe {
   background-color: $subscribe;
   &:hover {
-    background-color: lighten($subscribe, $amount);
+    background-color: lighten($subscribe, $lighten);
   }
 }
