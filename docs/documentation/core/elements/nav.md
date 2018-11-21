@@ -1,7 +1,7 @@
 ## Nav
 
 <nav class="nav">
-  <ul>
+  <ul class="nav-links">
     <li>
       <a href="#">Link A</a></li><li>
       <a href="#">Link B</a></li><li>
@@ -10,10 +10,10 @@
 </nav>
 
     <nav class="nav">
-      <ul>
+      <ul class="nav-links">
         <li>
-          <a href="#">Link</a></li><li>
-          <a href="#">Link</a></li><li>
-          <a href="#">Link</a></li>
+          <a href="#">Link A</a></li><li>
+          <a href="#">Link B</a></li><li>
+          <a href="#">Link C</a></li>
       </ul>
     </nav>

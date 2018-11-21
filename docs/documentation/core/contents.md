@@ -18,6 +18,7 @@
   <li><a href="elements/paragraph">Paragraph</a></li>
   <li><a href="elements/section-break">Section break</a></li>
   <li><a href="elements/section-heading">Section heading</a></li>
+  <li><a href="elements/social">Social</a></li>
 </ul>
 <h2>Components</h2>
 <ul class="list list-bullet">

@@ -1,12 +1,16 @@
 .nav {
-  ul {
+  ul.nav-links {
     li {
       display: inline-block;
+      margin-right: $gutter*0.5;
       a {
         color: $brand;
+        font-weight: $bold;
         text-decoration: underline;
         &:hover, &active {
-          color: $black;
+          color: $brand;
+          color: lighten($brand, $lighten);
+          text-decoration: underline;
         }
       }
     }

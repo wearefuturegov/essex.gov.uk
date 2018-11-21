@@ -1,26 +1,28 @@
-$stack: Arial, sans-serif;
 // need to refer to govuk_modules/govuk_frontend_toolkit/stylesheets/_typography.scss
 // once we have fonts decided
 
+// font stack
+$stack: Arial, sans-serif;
+
+// typography measurements
 $h1: 48px;
 $h2: 36px;
 $h3: 30px;
-
 $body: 19px;
 $large: 24px;
 $small: 16px;
 $smaller: 14px;
 $baseline: 1.5em;
 $gutter: 30px;
+$normal: 400;
+$bold: 700;
 
+// brand color
 $brand: #d00f42;
 $brand-b: #0072C6;
 $brand-c: #0fc7d0; // This was created from the original brand color
-$linkbox: #0072C6; // Linking to external sites
-$error: #ff0000; 
-$focus-color: #ffbf47; // gds yellow
-$highlight: #28a197; // gds teal
 
+// general color
 $black: #000;
 $white: #fff;
 $gray: #bfc1c3;
@@ -28,21 +30,32 @@ $gray-dark: #222222;
 $gray-light: #f8f8f8;
 $overlay: rgba(0, 0, 0, 0.6);
 
+// element color
+$button: $brand;
+$linkbox: #0072C6; // Linking to external sites
+$error: #ff0000; 
+$focus-color: #ffbf47; // gds yellow
+$highlight: #28a197; // gds teal
+$subscribe: $brand;
+$alert: $brand;
+
+// percentage color change
+$lighten: 15%;
+$darken: 15%;
+
+// border width
 $thin: 1px;
 $thick: 3px;
 $very-thick: $thick*4;
 
-$amount: 15%; // Percentage on colour change
-
-$subscribe: $brand;
-$alert: $brand;
-
+// logo dimensions
 $logo-width: 300px;
 $logo-height: 40px;
 
-$button: $brand;
+// header dimensions, based on logo
+$nav-height: $logo-height*2;
 
-// measurements
+// grid measreuments
 $full-width: 100%;
 $one-quarter: $full-width / 4;
 $one-third: $full-width / 3;
@@ -50,8 +63,8 @@ $half: $full-width / 2;
 $two-thirds: ($full-width) - ($one-third);
 $three-quarters: ($full-width) - ($one-quarter);
 
+// gutter dimensions
 $gutter-one-quarter: $gutter / 4;
 $gutter-one-third: $gutter / 3;
 $gutter-half: $gutter / 2;
 $gutter-two-thirds: $gutter - $gutter-one-third;
-
