@@ -1,0 +1,16 @@
+.social {
+  li {
+    font-size: $baseline;
+    display: inline-block;
+    margin-right: $gutter*0.5;
+    a {
+      color: $brand;
+      &:hover {
+        color: lighten($brand, $lighten);
+      }
+    }
+  }
+  span {
+    display: none;
+  }
+}

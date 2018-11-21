@@ -3,7 +3,7 @@
 
 <ul class="list list-bullet">
   <li><a href="#colour">Colour</a></li>
-  <li><a href="#">Font</a></li>
+  <li><a href="#typography">Typography</a></li>
   <li><a href="#">Headings</a></li>
   <li><a href="#">Paragraphs</a></li>
   <li><a href="#">Links</a></li>
@@ -65,8 +65,11 @@
   </tbody>
 </table>
 
-<h2>Font</h2>
+<h2 id="typography">Typography</h2>
+  <h3>Font</h3>
   <p>Essex.gov.uk uses Arial.</p>
-<h2>Headings</h2>
-<h2>Paragraphs</h2>
-<h2>Links</h2>
+
+<h3>Headings</h3>
+ <p>Headings should create a clear hierarchy for your content.</p>
+
+<h3>Paragraphs</h3>

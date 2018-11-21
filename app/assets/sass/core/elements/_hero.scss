@@ -1,0 +1,10 @@
+.hero {
+  background: url(/public/images/footer-hero.jpg) no-repeat;
+  background-size: cover;
+  background-position-x: 0;
+  background-position-y: 0;
+  height: $baseline*30;
+  position: absolute;
+  left: 0;
+  right: 0;
+}

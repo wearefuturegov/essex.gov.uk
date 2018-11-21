@@ -1,5 +1,6 @@
 pre {
   @include wrap;
+  position: relative;
   font-family: monospace;
   font-size: $smaller;
   white-space: pre;
@@ -27,4 +28,19 @@ pre {
     height: 40px;
     border: $thin solid transparent;
     border-radius: 20%;
+}
+
+.header, .footer {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.header + pre {
+  top: $baseline*6;
+}
+
+.footer + pre {
+  top: $baseline*10;
 }

@@ -1,3 +1,5 @@
+## Pagination
+
 <nav class="pagination">
   <ul>
     <li class="prev">
