@@ -12,6 +12,7 @@
   <li><a href="elements/logo">Logo</a></li>
   <li><a href="elements/meta">Meta</a></li>
   <li><a href="elements/multiple-choice">Multiple choice</a></li>
+  <li><a href="elements/nav">Nav</a></li>
   <li><a href="elements/overlay">Overlay</a></li>
   <li><a href="elements/page-heading">Page heading</a></li>
   <li><a href="elements/paragraph">Paragraph</a></li>
@@ -24,6 +25,8 @@
   <li><a href="components/breadcrumbs">Breadcrumbs</a></li>
   <li><a href="components/contents">Contents</a></li>
   <li><a href="components/cookies">Cookies</a></li>
+  <li><a href="components/footer">Footer</a></li>
+  <li><a href="components/header">Header</a></li>
   <li><a href="components/highlight-box">Highlight-box</a></li>
   <li><a href="components/link-box">Link box</a></li>
   <li><a href="components/pagination">Pagination</a></li>
