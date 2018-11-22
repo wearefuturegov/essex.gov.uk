@@ -1,10 +1,12 @@
-## Design and typography
+# Design and typography
 
 Some text in here about styles
 
 * <a href="#colour">Colour</a>
 * <a href="#typography">Typography</a>
 * <a href="#layout">Layout</a>
+
+
 
 ## Colour
 
@@ -40,7 +42,8 @@ We've used Sass variables so any changes to the ECC colour palette can be easily
   </tbody>
 </table>
 
-<h3>Link</h3>
+### Link
+
 <table>
   <tbody>
     <tr>
@@ -61,25 +64,34 @@ We've used Sass variables so any changes to the ECC colour palette can be easily
   </tbody>
 </table>
 
+
+
 ## Typography
 
 ### Font
 
 Essex.gov.uk uses Arial.
 
-The Sass variable is $stack.
-
 ### Headings
 
 Headings should create a clear hierarchy for your content.
-   <h1>Page heading $h1: 48px</h1>
-   <h2>Section heading $h2: 36px</h2>
-   <h3>Content heading $h3: 30px</h3>
 
-<h3>Paragraphs</h3>
-  <p>The default size for body text is 19px using the Sass variable $body.</p>
-  <p>$large: 24px</p>
-  <p>$small: 16px</p>
-  <p>$smaller: 14px</p>
+# Page heading $h1: 48px
+## Section heading $h2: 36px
+### Content heading $h3: 30px
 
-<h2 id="layout">Layout</h2>
+
+
+### Paragraphs
+
+The default size for body text is 19px using the Sass variable $body.</p>
+
+$large: 24px
+$small: 16px
+$smaller: 14px
+
+## Layout
+
+```
+<p>Here comes your code</p>
+```
