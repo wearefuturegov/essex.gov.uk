@@ -18,9 +18,6 @@ pre {
   background-color: $brand;
 }
 
-
-// Colour swatches
-
 .colour-swatch {
     top: 0;
     left: 0;
@@ -30,12 +27,26 @@ pre {
     border-radius: 20%;
 }
 
-// .header, .footer {
-//   width: 100%;
-//   position: absolute;
-//   left: 0;
-//   right: 0;
-// }
+.colour-swatch-border {
+    border-color: $gray-dark;
+}
+
+.basic-table {
+  table {
+    width: $half;
+    margin-top: $baseline*1;
+  }
+  td {
+    border-bottom: 0;
+  }
+}
+
+.header, .footer {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
 
 .header + pre {
   top: $baseline*6;
