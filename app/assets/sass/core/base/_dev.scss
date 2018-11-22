@@ -34,6 +34,16 @@ pre {
     border-color: $gray-dark;
 }
 
+.basic-table {
+  table {
+    width: $half;
+    margin-top: $baseline*1;
+  }
+  td {
+    border-bottom: 0;
+  }
+}
+
 .header, .footer {
   width: 100%;
   position: absolute;
