@@ -1,4 +1,4 @@
-<h1>Design and typography</h1>
+<h1>Design</h1>
 <p>Some text in here about styles</p>
 
 <ul class="list">
@@ -10,12 +10,10 @@
 
 <h2 id="colour">Colour</h2>
 <p>All colours have been taken from the ECC brand book.</p>
-<p>
-  We've used Sass variables so any changes to the ECC colour palette can be
-  easily updated.
-</p>
+<p>We've used Sass variables so any changes to the ECC colour palette can be
+  easily updated.</p>
 
-<h3>Primary brand colours</h3>
+<h3>Primary brand colour</h3>
 <div class="basic-table">
 <table>
   <tbody>
@@ -23,11 +21,6 @@
       <td><div class="colour-swatch" style="background-color:#e40037"></div></td>
       <td>$brand</td>
       <td>#e40037</td>
-    </tr>
-    <tr>
-      <td><div class="colour-swatch" style="background-color:#000"></div></td>
-      <td>$black</td>
-      <td>#000000</td>
     </tr>
   </tbody>
 </table>
@@ -39,7 +32,7 @@
   <tbody>
     <tr>
       <td><div class="colour-swatch" style="background-color:#0b0c0c"></div></td>
-      <td>$tbc</td>
+      <td>$text-colour</td>
       <td>#0b0c0c</td>
     </tr>
     <tr>
@@ -76,7 +69,6 @@
 </div>
 
 <h3>Focus</h3>
-<p>The focus colour indicates what a user is selecting when they tab using their keyboard.</p>
 <div class="basic-table">
 <table>
   <tbody>
@@ -89,6 +81,35 @@
 </table>
 </div>
 
+<h3>Greyscale</h3>
+<div class="basic-table">
+<table>
+  <tbody>
+    <tr>
+      <td><div class="colour-swatch" style="background-color:#000"></div></td>
+      <td>$black</td>
+      <td>#000000</td>
+    </tr>
+    <tr>
+      <td><div class="colour-swatch" style="background-color:#323232"></div></td>
+      <td>$grey-dark</td>
+      <td>#323232</td>
+    </tr>
+    <tr>
+      <td><div class="colour-swatch" style="background-color:#bfc1c3"></div></td>
+      <td>$grey</td>
+      <td>#bfc1c3</td>
+    </tr>
+    <tr>
+      <td><div class="colour-swatch" style="background-color:#f8f8f8"></div></td>
+      <td>$grey-light</td>
+      <td>#f8f8f8</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
 <div class="section-break-sm"></div>
 
 <h2 id="typography">Typography</h2>
@@ -96,15 +117,20 @@
   <p>Essex.gov.uk uses Arial.</p>
 
 <h3>Headings</h3>
- <p>Headings should create a clear hierarchy for your content.</p>
- <h1>Page heading $h1: 48px</h1>
- <h2>Section heading $h2: 36px</h2>
- <h3>Content heading $h3: 30px</h3>
+  <p>Headings should create a clear hierarchy for content and use appropriate semantic markup.</p>
+
+<div class="panel">
+<h1>Page heading h1 (48px)</h1>
+<h2>Section heading h2 (36px)</h2>
+<h3>Content heading h3 (30px)</h3>
+</div>
 
 <h3>Paragraphs</h3>
-  <p>The default size for body text is 19px using the Sass variable $body.</p>
+  <p>The default size for body text is 19px.</p>
   <p>$large: 24px</p>
   <p>$small: 16px</p>
   <p>$smaller: 14px</p>
+
+<div class="section-break-sm"></div>
 
 <h2 id="layout">Layout</h2>
