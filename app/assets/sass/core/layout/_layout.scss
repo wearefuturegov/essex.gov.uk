@@ -1,3 +1,15 @@
-.group {
+.section {
+  @include grid-column(1);
+}
+
+.section.tight {
   margin-bottom: $baseline;
+}
+
+.section.mid {
+  margin-bottom: $baseline*2;
+}
+
+.section.loose {
+  margin-bottom: $baseline*4;
 }
