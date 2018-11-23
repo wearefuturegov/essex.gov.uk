@@ -12,8 +12,8 @@
       margin: 0 auto;
       @extend %grid-row;
       @include box-sizing(border-box);
-      background-color: rgba(0, 0, 0, 0.1);
       @include border-radius($border-radius);
+      background-color: rgba(0, 0, 0, 0.1);
       position: relative;
       padding: $baseline*1.5 $gutter*0.5;
       .search-input {
