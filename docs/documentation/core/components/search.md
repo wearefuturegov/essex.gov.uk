@@ -1,7 +1,7 @@
 ## Search
 
 <div class="search-background">
-  <div class="hero"></div>
+  <div class="hero tree"></div>
   <div class="search">
     <div class="search-box">
       <div class="search-input">
@@ -31,7 +31,7 @@
 </div>
 
     <div class="search-background">
-      <div class="hero"></div>
+      <div class="hero tree"></div>
       <div class="search">
         <div class="search-box">
           <div class="search-input">
