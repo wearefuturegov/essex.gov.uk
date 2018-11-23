@@ -46,6 +46,7 @@ p {
   text-transform: none;
   margin-top: $baseline;
   margin-bottom: $baseline*0.5;
+  position: relative;
 }
 
 //Lists
@@ -87,16 +88,4 @@ ol {
     color: $gray;
     font-size: $body;
     line-height: $baseline;
-}
-
-// Section break
-
-.section-break-lg {
-  border-top: $thick solid #005ea5;
-  margin-top: $baseline*2;
-}
-
-.section-break-sm {
-  border-bottom: $thin solid $gray;
-  margin-top: $baseline;
 }

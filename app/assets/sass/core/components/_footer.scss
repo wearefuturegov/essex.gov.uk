@@ -1,32 +1,34 @@
-.footer {
-  @extend %grid-row;
+.footer-background {
   background-color: $black;
   padding-top: $baseline;
   padding-bottom: $baseline;
-  .nav {
+  .footer {
     @extend %site-width-container;
-    .nav-links {
-      @include grid-column(1 / 3);
-      font-size: $small;
-      text-align: left;
-      li {
-        display: block;
-        a {
-          color: $white;
-          line-height: $baseline;
-          font-weight: $normal;
-          &:hover, &:active, &:visited {
-            color: darken($white, $darken);
+    .nav {
+      @extend %grid-row;
+      .nav-links {
+        @include grid-column(1 / 3);
+        font-size: $small;
+        text-align: left;
+        li {
+          display: block;
+          a {
+            color: $white;
+            line-height: $baseline;
+            font-weight: $normal;
+            &:hover, &:active, &:visited {
+              color: darken($white, $darken);
+            }
           }
         }
       }
-    }
-    .social {
-      @include grid-column(2 / 3);
-      margin-top: $baseline*0.25;
-      li {
-        a {
-          color: $white;
+      .social {
+        @include grid-column(2 / 3);
+        margin-top: $baseline*0.25;
+        li {
+          a {
+            color: $white;
+          }
         }
       }
     }

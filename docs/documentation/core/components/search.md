@@ -1,53 +1,61 @@
 ## Search
 
-<section class="section search">
-  <form action="/search" method="get" role="search" class="form">
-    <div class="form-group">
-      <input type="text" class="form-control" placeholder="Search Essex County Council" id="full-name" name="name" required="">
-      <button type="submit" value="search" class="search-icon-position">
-        <i class="fas fa-search " type="submit" value="search"></i>
-      </button>
-    </div>
-  </form>
-
-  <div class="grid-row">
-    <div class="column-quarter">
-      <a class="button search-section" href="#" role="button">Bus passes</a>
-    </div>
-    <div class="column-quarter">
-      <a class="button search-section" href="#" role="button">Renew library items</a>
-    </div>
-    <div class="column-quarter">
-      <a class="button search-section" href="#" role="button">School admissions</a>
-    </div>
-    <div class="column-quarter">
-      <a class="button search-section" href="#" role="button">Job vacancies</a>
+<div class="search-background">
+  <div class="hero"></div>
+  <div class="search">
+    <div class="search-box">
+      <div class="search-input">
+        <form action="/search" method="get" role="search" class="form">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search Essex County Council" id="full-name" name="name" required="">
+            <button type="submit" value="search" class="search-icon-position">
+              <i class="fas fa-search " type="submit" value="search"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="search-section">
+        <a class="button" href="#" role="button">Link</a>
+      </div>
+      <div class="search-section">
+        <a class="button" href="#" role="button">Link</a>
+      </div>
+      <div class="search-section">
+        <a class="button" href="#" role="button">Link</a>
+      </div>
+      <div class="search-section">
+        <a class="button" href="#" role="button">Link</a>
+      </div>
     </div>
   </div>
-</section>
+</div>
 
-    <section class="section search">
-      <form action="/search" method="get" role="search" class="form">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search Essex County Council" id="full-name" name="name" required="">
-          <button type="submit" value="search" class="search-icon-position">
-            <i class="fas fa-search " type="submit" value="search"></i>
-          </button>
-        </div>
-      </form>
-
-      <div class="grid-row">
-        <div class="column-quarter">
-          <a class="button search-section" href="#" role="button">Bus passes</a>
-        </div>
-        <div class="column-quarter">
-          <a class="button search-section" href="#" role="button">Renew library items</a>
-        </div>
-        <div class="column-quarter">
-          <a class="button search-section" href="#" role="button">School admissions</a>
-        </div>
-        <div class="column-quarter">
-          <a class="button search-section" href="#" role="button">Job vacancies</a>
+    <div class="search-background">
+      <div class="hero"></div>
+      <div class="search">
+        <div class="search-box">
+          <div class="search-input">
+            <form action="/search" method="get" role="search" class="form">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search Essex County Council" id="full-name" name="name" required="">
+                <button type="submit" value="search" class="search-icon-position">
+                  <i class="fas fa-search " type="submit" value="search"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="search-section">
+            <a class="button" href="#" role="button">Link</a>
+          </div>
+          <div class="search-section">
+            <a class="button" href="#" role="button">Link</a>
+          </div>
+          <div class="search-section">
+            <a class="button" href="#" role="button">Link</a>
+          </div>
+          <div class="search-section">
+            <a class="button" href="#" role="button">Link</a>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
