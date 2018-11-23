@@ -15,16 +15,16 @@
         </form>
       </div>
       <div class="search-section">
-        <a class="button" href="#" role="button">Bus passes</a>
+        <a class="button" href="#" role="button">Link</a>
       </div>
       <div class="search-section">
-        <a class="button" href="#" role="button">Renew library items</a>
+        <a class="button" href="#" role="button">Link</a>
       </div>
       <div class="search-section">
-        <a class="button" href="#" role="button">School admissions</a>
+        <a class="button" href="#" role="button">Link</a>
       </div>
       <div class="search-section">
-        <a class="button" href="#" role="button">Job vacancies</a>
+        <a class="button" href="#" role="button">Link</a>
       </div>
     </div>
   </div>
@@ -45,16 +45,16 @@
             </form>
           </div>
           <div class="search-section">
-            <a class="button" href="#" role="button">Bus passes</a>
+            <a class="button" href="#" role="button">Link</a>
           </div>
           <div class="search-section">
-            <a class="button" href="#" role="button">Renew library items</a>
+            <a class="button" href="#" role="button">Link</a>
           </div>
           <div class="search-section">
-            <a class="button" href="#" role="button">School admissions</a>
+            <a class="button" href="#" role="button">Link</a>
           </div>
           <div class="search-section">
-            <a class="button" href="#" role="button">Job vacancies</a>
+            <a class="button" href="#" role="button">Link</a>
           </div>
         </div>
       </div>
