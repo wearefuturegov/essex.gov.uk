@@ -38,7 +38,7 @@
     <tr>
       <td><div class="colour-swatch colour-swatch-border" style="background-color:#fff"></div></td>
       <td>$white</td>
-      <td>#ffffff</td>
+      <td>#fff</td>
     </tr>
   </tbody>
 </table>
@@ -88,7 +88,7 @@
     <tr>
       <td><div class="colour-swatch" style="background-color:#000"></div></td>
       <td>$black</td>
-      <td>#000000</td>
+      <td>#000</td>
     </tr>
     <tr>
       <td><div class="colour-swatch" style="background-color:#323232"></div></td>
@@ -119,7 +119,7 @@
 <h3>Headings</h3>
   <p>Headings should create a clear hierarchy for content and use appropriate semantic markup.</p>
 
-<div class="panel">
+<div class="dev-panel">
 <h1>Page heading h1 (48px)</h1>
 <h2>Section heading h2 (36px)</h2>
 <h3>Content heading h3 (30px)</h3>
@@ -134,3 +134,47 @@
 <div class="section-break-sm"></div>
 
 <h2 id="layout">Layout</h2>
+<div class="column-full">
+  <div class="dev-panel">
+    <h3>column-full</h3>
+    <p>Some blurb about full column</p>
+  </div>
+</div>
+<div class="column-half">
+  <div class="dev-panel">
+    <h3>column-half</h3>
+    <p>Some blurb about full column</p>
+  </div>
+</div>
+<div class="column-half">
+  <div class="dev-panel">
+    <h3>column-half</h3>
+    <p>Some blurb about full column</p>
+  </div>
+</div>
+<div class="column-two-thirds">
+  <div class="dev-panel">
+    <p>column-two-thirds</p>
+  </div>
+</div>
+<div class="column-third">
+  <div class="dev-panel">
+    <p>column-third</p>
+  </div>
+</div>
+<div class="column-third">
+  <div class="dev-panel">
+    <p>column-third</p>
+  </div>
+</div>
+<div class="column-third">
+  <div class="dev-panel">
+    <p>column-third</p>
+  </div>
+</div>
+<div class="column-third">
+  <div class="dev-panel">
+    <p>column-third</p>
+  </div>
+</div>
+<h3>Screen sizes</h3>
