@@ -4,6 +4,7 @@
   padding-bottom: $baseline;
   .footer {
     @extend %site-width-container;
+    position: relative;
     .nav {
       @extend %grid-row;
       .nav-links {

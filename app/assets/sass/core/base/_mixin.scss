@@ -1,3 +1,10 @@
+@mixin default-type {
+  font-size: $body;
+  font-weight: $normal;
+  line-height: $baseline;
+  color: $black;
+}
+
 @mixin wrap {
   white-space: pre-wrap;       /* Since CSS 2.1 */
   white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */

@@ -1,8 +1,7 @@
 .form {
   display: block;
   label, span, input {
-    font-size: $body;
-    line-height: $baseline;
+    @include default-type;
     text-transform: none;
     display: block;
   }

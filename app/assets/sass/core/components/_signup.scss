@@ -1,27 +1,34 @@
 // Email sign up
 
 .signup {
-  p {
-    margin-bottom: $baseline;
-  }
-  #content {
-    padding: $baseline*1.5 0;
-  }
-  .form input {
-    font-size: $large - $thin;
-    &.button {
-      font-size: $large;
-      font-weight: 600;
-      border: none;
-      &:hover {
-        background-color: darken($button, 5%);
+  .form {
+    .form-group {
+      @extend %grid-row;
+      input.form-control {
+        width: 100%;
+        font-size: $large - $thin;
+        padding-left: $gutter*0.5;
+        padding-right: $gutter*0.5;
+      }
+      input.button.subscribe {
+        border: none;
+        width: 100%;
+        &.button {
+          font-size: $large;
+          font-weight: 600;
+          color: $white;
+          border: none;
+          &:hover {
+            background-color: darken($button, 5%);
+          }
+        }
+      }
+      .signup-input {
+        @include grid-column(2 / 3);
+      }
+      .signup-button {
+        @include grid-column(1 / 3);
       }
     }
-  }
-  input.form-control {
-    width: 100%;
-  }
-  input.button.subscribe {
-    width: 100%;
   }
 }
