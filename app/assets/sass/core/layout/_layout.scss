@@ -1,5 +1,5 @@
 .section {
-  @include grid-column(1);
+  @extend %site-width-container;
 }
 
 .section.tight {
@@ -12,4 +12,16 @@
 
 .section.loose {
   margin-bottom: $baseline*4;
+}
+
+// Section break
+
+.section-break-lg {
+  border-top: $thick solid #005ea5;
+  margin-top: $baseline*2;
+}
+
+.section-break-sm {
+  border-bottom: $thin solid $gray;
+  margin-top: $baseline;
 }
