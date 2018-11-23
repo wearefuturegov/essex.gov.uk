@@ -1,28 +1,31 @@
-.header {
+.header-box {
   background-color: $brand;
   height: $nav-height;
-  .nav {
+  .header {
     @extend %site-width-container;
-    text-align: right;
-    .logo {
-      @include grid-column(1 / 2);
-      margin-top: $logo-height*0.5;
-      margin-bottom: $logo-height*0.5;
-      img {
-        height: $logo-height;
-        width: $logo-width;
+    .nav {
+      @extend %grid-row;
+      text-align: right;
+      .logo {
+        @include grid-column(1 / 2);
+        margin-top: $logo-height*0.5;
+        margin-bottom: $logo-height*0.5;
+        img {
+          height: $logo-height;
+          width: $logo-width;
+        }
       }
-    }
-    ul.nav-links {
-      @include grid-column(1 / 2);
-      li {
-        margin-left: $gutter*0.5;
-        margin-right: 0;
-        a {
-          color: $white;
-          line-height: $nav-height;
-          &:hover, &:active {
-            color: darken($white, $darken);
+      ul.nav-links {
+        @include grid-column(1 / 2);
+        li {
+          margin-left: $gutter*0.5;
+          margin-right: 0;
+          a {
+            color: $white;
+            line-height: $nav-height;
+            &:hover, &:active {
+              color: darken($white, $darken);
+            }
           }
         }
       }
