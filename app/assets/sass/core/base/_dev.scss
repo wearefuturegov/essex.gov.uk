@@ -1,11 +1,11 @@
 pre {
-  @include wrap;
   position: relative;
   font-family: monospace;
   font-size: $smaller;
   white-space: pre;
   margin: $baseline 0;
   code {
+    @include wrap;
     display: block;
     margin: $baseline 0;
     padding: $baseline;
