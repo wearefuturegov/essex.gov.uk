@@ -119,10 +119,10 @@
 <h3>Headings</h3>
   <p>Headings should create a clear hierarchy for content and use appropriate semantic markup.</p>
 
-<div class="panel-grey">
-<h1>Page heading h1 (48px)</h1>
-<h2>Section heading h2 (36px)</h2>
-<h3>Content heading h3 (30px)</h3>
+<div class="demo-box">
+  <h1>Page heading h1 (48px)</h1>
+  <h2>Section heading h2 (36px)</h2>
+  <h3>Content heading h3 (30px)</h3>
 </div>
 
 <h3>Paragraphs</h3>
@@ -137,60 +137,52 @@
 
 <div class="grid-row">
   <div class="column-full">
-    <div class="panel-grey">
-      <h3>column-full</h3>
-      <p>Here is some paragraph text in a full column layout.</p>
+    <div class="demo-box">
+    <h3>column-full</h3>
     </div>
   </div>
 </div>
 
 <div class="grid-row">
   <div class="column-two-thirds">
-    <div class="panel-grey">
+    <div class="demo-box">
       <h3>column-two-thirds</h3>
-      <p>Here is some paragraph text in a two-thirds column layout.</p>
     </div>
   </div>
   <div class="column-third">
-    <div class="panel-grey">
+    <div class="demo-box">
       <h3>column-third</h3>
-      <p>Here is some paragraph text in a third column layout.</p>
     </div>
   </div>
 </div>
 
 <div class="grid-row">
   <div class="column-half">
-    <div class="panel-grey">
+    <div class="demo-box">
       <h3>column-half</h3>
-      <p>Here is some paragraph text in a half column layout.</p>
     </div>
   </div>
   <div class="column-half">
-    <div class="panel-grey">
+    <div class="demo-box">
       <h3>column-half</h3>
-      <p>Here is some paragraph text in a half column layout.</p>
     </div>
   </div>
 </div>
 
 <div class="grid-row">
   <div class="column-third">
-    <div class="panel-grey">
+    <div class="demo-box">
       <h3>column-third</h3>
-      <p>Here is some paragraph text in a third column layout.</p>
     </div>
   </div>
   <div class="column-third">
-    <div class="panel-grey">
+    <div class="demo-box">
       <h3>column-third</h3>
-      <p>Here is some paragraph text in a third column layout.</p>
     </div>
   </div>
   <div class="column-third">
-    <div class="panel-grey">
+    <div class="demo-box">
       <h3>column-third</h3>
-      <p>Here is some paragraph text in a third column layout.</p>
     </div>
   </div>
 </div>
