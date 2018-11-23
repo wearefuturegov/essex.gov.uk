@@ -56,12 +56,18 @@ pre {
   top: $baseline*10;
 }
 
-.dev-panel {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  clear: both;
-  padding: 0.78947em;
-  margin-bottom: 0.78947em;
+
+
+.panel-grey {
+  @extend %grid-row;
   background-color: $gray-light;
+  padding-top: $baseline;
+  padding-bottom: $baseline;
+//  -webkit-box-sizing: border-box;
+//  -moz-box-sizing: border-box;
+//  box-sizing: border-box;
+//  clear: both;
+//  padding: 0.78947em;
+//  margin-bottom: 0.78947em;
+//  background-color: $gray-light;
 }
