@@ -9,8 +9,8 @@ pre {
     display: block;
     margin: $baseline 0;
     padding: $baseline;
-    border: $thin solid $gray;
-    background-color: $gray-light;
+    border: $thin solid $grey;
+    background-color: $grey-light;
   }
 }
 
@@ -24,7 +24,7 @@ pre {
 }
 
 .colour-swatch-border {
-    border-color: $gray-dark;
+    border-color: $grey-dark;
 }
 
 .basic-table {
@@ -54,7 +54,7 @@ pre {
 
 
 .demo-box {
-  background-color: $gray-light;
+  background-color: $grey-light;
   padding: $baseline;
   margin-top: $baseline;
 }
