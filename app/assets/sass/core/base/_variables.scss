@@ -18,13 +18,21 @@ $normal: 400;
 $bold: 700;
 
 // brand color
-$brand: #d00f42;
-$brand-b: #0072C6;
+$brand: #e40037;
+$brand-b: #0072C6; // Remove brand-b and brand-c? I think this is GDS colour
 $brand-c: #0fc7d0; // This was created from the original brand color
+
+// text colour
+$text-colour: #0b0c0c; // New
+$white: #fff;
+
+// link colour
+$link: #004899;
+$hover: #00a8d6;
+$visited: #682558;
 
 // general color
 $black: #000;
-$white: #fff;
 $gray: #bfc1c3;
 $gray-dark: #222222;
 $gray-light: #f8f8f8;
