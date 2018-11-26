@@ -55,9 +55,9 @@
       <td>#004899</td>
     </tr>
     <tr>
-      <td><div class="colour-swatch" style="background-color:#00a8d6"></div></td>
+      <td><div class="colour-swatch" style="background-color:#326cad"></div></td>
       <td>$hover</td>
-      <td>#00a8d6</td>
+      <td>#326cad</td>
     </tr>
     <tr>
       <td><div class="colour-swatch" style="background-color:#682558"></div></td>
@@ -73,9 +73,9 @@
 <table>
   <tbody>
     <tr>
-      <td><div class="colour-swatch" style="background-color:#ffbf47"></div></td>
+      <td><div class="colour-swatch" style="background-color:#fab500"></div></td>
       <td>$focus-colour</td>
-      <td>#ffbf47</td>
+      <td>##fab500</td>
     </tr>
   </tbody>
 </table>
