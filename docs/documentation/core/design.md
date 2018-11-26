@@ -127,9 +127,6 @@
 
 <h3>Paragraphs</h3>
   <p>The default size for body text is 19px.</p>
-  <p>$large: 24px</p>
-  <p>$small: 16px</p>
-  <p>$smaller: 14px</p>
 
 <div class="section-break-sm"></div>
 
