@@ -29,8 +29,8 @@ pre {
 
 .basic-table {
   table {
-    width: $half;
     margin-top: $baseline*1;
+    table-layout: fixed;
   }
   td {
     border-bottom: 0;

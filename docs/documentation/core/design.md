@@ -9,7 +9,7 @@
 <div class="section-break-sm"></div>
 
 <h2 id="colour">Colour</h2>
-<p>All colours have been taken from the ECC brand book.</p>
+<p>The colours used on essex.gov.uk are part of ECC's colour palette.</p>
 <p>We've used Sass variables so any changes to the ECC colour palette can be
   easily updated.</p>
 
@@ -55,9 +55,9 @@
       <td>#004899</td>
     </tr>
     <tr>
-      <td><div class="colour-swatch" style="background-color:#326cad"></div></td>
+      <td><div class="colour-swatch" style="background-color:#2A7AB0"></div></td>
       <td>$hover</td>
-      <td>#326cad</td>
+      <td>#2A7AB0</td>
     </tr>
     <tr>
       <td><div class="colour-swatch" style="background-color:#682558"></div></td>
@@ -69,19 +69,22 @@
 </div>
 
 <h3>Focus</h3>
+<p>This colour is used to highlight which elements on a page users are interacting with. It can be seen when tabbing content with a keyboard.</p>
 <div class="basic-table">
 <table>
   <tbody>
     <tr>
       <td><div class="colour-swatch" style="background-color:#fab500"></div></td>
       <td>$focus-colour</td>
-      <td>##fab500</td>
+      <td>#fab500</td>
     </tr>
   </tbody>
 </table>
 </div>
 
 <h3>Greyscale</h3>
+<p>Greyscale colours are AAA compliant for accessibility when used with the contrasting text colours. $white text should be used on the darker colours and $text-colour should be used on the lighter colours.</p>
+<p></p>
 <div class="basic-table">
 <table>
   <tbody>
