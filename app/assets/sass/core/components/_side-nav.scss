@@ -1,22 +1,41 @@
 .side-nav {
+  @include grid-column( 1 /3 );
   background: $gray-light;
   padding-top: $baseline;
   padding-bottom: $baseline;
-  padding-right: $gutter;
+  padding-left: 0;
+  padding-right: $gutter*0.5;
   h3 {
     margin-top: $baseline*0.25;
     margin-bottom: $baseline*0.5;
     padding-left: $gutter;
   }
   li {
+    @include default-type;
     font-size: $small;
     padding-bottom: $baseline*0.5;
     padding-top: $baseline*0.5;
     padding-left: $gutter;
     list-style-type: none;
     border-bottom: $thin solid $gray;
+    a {
+      &:hover {
+
+      }
+    }
     &.active {
       background: $white;
+      &:before {
+        content: "\f053";
+        font-family: 'Font Awesome 5 Free';
+        visibility: visible;
+        font-weight: 900;
+        margin-right: $gutter*0.5;
+        margin-left: -$gutter*0.5;
+      }
+      a {
+        color: $black;
+      }
     }
   }
 }
