@@ -51,3 +51,10 @@ pre {
 .footer + pre {
   top: $baseline*10;
 }
+
+
+.demo-box {
+  background-color: $gray-light;
+  padding: $baseline;
+  margin-top: $baseline;
+}
