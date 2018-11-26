@@ -55,9 +55,9 @@
       <td>#004899</td>
     </tr>
     <tr>
-      <td><div class="colour-swatch" style="background-color:#2A7AB0"></div></td>
+      <td><div class="colour-swatch" style="background-color:#2a7ab0"></div></td>
       <td>$hover</td>
-      <td>#2A7AB0</td>
+      <td>#2a7ab0</td>
     </tr>
     <tr>
       <td><div class="colour-swatch" style="background-color:#682558"></div></td>
@@ -83,7 +83,7 @@
 </div>
 
 <h3>Greyscale</h3>
-<p>Greyscale colours are AAA compliant for accessibility when used with the contrasting text colours. $white text should be used on the darker colours and $text-colour should be used on the lighter colours.</p>
+<p>Greyscale colours are AAA compliant when used with the contrasting text colours. $white should be used on the darker colours and $text-colour should be used on the lighter colours.</p>
 <p></p>
 <div class="basic-table">
 <table>
@@ -123,9 +123,9 @@
   <p>Headings should create a clear hierarchy for content and use appropriate semantic markup.</p>
 
 <div class="demo-box">
-  <h1>Page heading h1 (48px)</h1>
-  <h2>Section heading h2 (36px)</h2>
-  <h3>Content heading h3 (30px)</h3>
+  <h1>Page heading - h1 (48px)</h1>
+  <h2>Section heading - h2 (36px)</h2>
+  <h3>Content heading - h3 (30px)</h3>
 </div>
 
 <h3>Paragraphs</h3>
