@@ -5,7 +5,7 @@
     Get the latest news and information about your council services
   </h3>
   <form action="/search" method="get" role="search" class="form">
-    <div class="form-group">
+    <div class="group">
       <div class="signup-input">
         <input type="text" class="form-control" placeholder="Enter your email address" id="full-name" name="name" required="">
       </div>
@@ -21,7 +21,7 @@
         Get the latest news and information about your council services
       </h3>
       <form action="/search" method="get" role="search" class="form">
-        <div class="form-group">
+        <div class="group">
           <div class="signup-input">
             <input type="text" class="form-control" placeholder="Enter your email address" id="full-name" name="name" required="">
           </div>

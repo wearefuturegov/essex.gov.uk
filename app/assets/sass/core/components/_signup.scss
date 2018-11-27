@@ -2,7 +2,7 @@
 
 .signup {
   .form {
-    .form-group {
+    .group {
       @extend %grid-row;
       input.form-control {
         width: 100%;

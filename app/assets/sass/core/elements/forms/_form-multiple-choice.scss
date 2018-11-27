@@ -104,11 +104,11 @@
 
   // Focused state
   [type=radio]:focus + label::before {
-    @include box-shadow(0 0 0 4px $focus-color);
+    @include box-shadow(0 0 0 4px $focus-colour);
   }
 
   [type=checkbox]:focus + label::before {
-    @include box-shadow(0 0 0 3px $focus-color);
+    @include box-shadow(0 0 0 3px $focus-colour);
   }
 
   // Selected state

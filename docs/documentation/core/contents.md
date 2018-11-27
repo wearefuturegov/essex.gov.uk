@@ -5,9 +5,9 @@
 <ul class="list list-bullet">
   <li><a href="elements/buttons">Buttons</a></li>
   <li><a href="elements/content-heading">Content heading</a></li>
-  <li><a href="elements/form">Form</a></li>
   <li><a href="elements/hero">Hero</a></li>
   <li><a href="elements/icon">Icon</a></li>
+  <li><a href="elements/inputs">Inputs</a></li>
   <li><a href="elements/list">List</a></li>
   <li><a href="elements/logo">Logo</a></li>
   <li><a href="elements/meta">Meta</a></li>
@@ -27,6 +27,7 @@
   <li><a href="components/breadcrumbs">Breadcrumbs</a></li>
   <li><a href="components/contents">Contents</a></li>
   <li><a href="components/cookies">Cookies</a></li>
+  <li><a href="components/form">Form</a></li>
   <li><a href="components/footer">Footer</a></li>
   <li><a href="components/header">Header</a></li>
   <li><a href="components/highlight-box">Highlight-box</a></li>

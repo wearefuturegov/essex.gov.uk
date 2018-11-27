@@ -1,4 +1,4 @@
-.form {
+.form .group {
   display: block;
   label, span, input {
     @include default-type;
@@ -11,6 +11,7 @@
     color: $grey;
   }
   input {
+    @include box-sizing(border-box);
     box-sizing: border-box;
     font-weight: 400;
     text-transform: none;
@@ -19,7 +20,7 @@
     padding: 5px 4px 4px;
     border-width: 2px;
     border-style: solid;
-    border-color: rgb(11, 12, 12);
+    border-color: $grey;
     border-image: initial;
     margin-bottom: $baseline;
   }
@@ -33,9 +34,4 @@
     width: 100px;
     margin-right: 0;
   }
-}
-
-input.form-control, textarea.form-control {
-    -webkit-appearance: none;
-    border-radius: 0;
 }

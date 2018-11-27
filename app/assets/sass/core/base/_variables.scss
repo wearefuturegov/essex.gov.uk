@@ -37,13 +37,16 @@ $visited: #682558;
 $link-active: #2A7AB0;
 
 // focus colour
-$focus-color: #fab500;
+$focus-colour: #fab500;
 
 // greyscale
-$black: #000;
-$grey: #bfc1c3;
+$grey-lighter: #f8f8f8;
+$grey-light: #dee0e2;
+$grey: #6f777b;
 $grey-dark: #222222;
-$grey-light: #f8f8f8;
+$black: #000;
+
+// overlay
 $overlay: rgba(0, 0, 0, 0.6);
 
 // element color
@@ -52,7 +55,8 @@ $button-search-box: $grey-dark;
 $search: $button;
 $linkbox: #0072C6; // Linking to external sites
 $error: #ff0000;
-$highlight: #28a197; // gds teal
+$highlight-box: #28a197; // gds teal
+$highlight-box: $link;
 $subscribe: $brand;
 $alert: $brand;
 

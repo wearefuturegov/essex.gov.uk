@@ -4,9 +4,12 @@
     display: inline-block;
     margin-right: $gutter*0.5;
     a {
-      color: $brand;
+      color: $link;
       &:hover {
-        color: lighten($brand, $lighten);
+        color: darken($link, $hover-darken);
+      }
+      .fab {
+        font-size: $icon*0.5;
       }
     }
   }

@@ -6,8 +6,8 @@
     <div class="search-box">
       <div class="search-input">
         <form action="/search" method="get" role="search" class="form">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search Essex County Council" id="full-name" name="name" required="">
+          <div class="group">
+            <input type="text" class="" placeholder="Search Essex County Council" id="" name="name" required="">
             <button type="submit" value="search" class="search-icon-position">
               <i class="fas fa-search " type="submit" value="search"></i>
             </button>
@@ -36,8 +36,8 @@
         <div class="search-box">
           <div class="search-input">
             <form action="/search" method="get" role="search" class="form">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search Essex County Council" id="full-name" name="name" required="">
+              <div class="group">
+                <input type="text" class="" placeholder="Search Essex County Council" id="" name="name" required="">
                 <button type="submit" value="search" class="search-icon-position">
                   <i class="fas fa-search " type="submit" value="search"></i>
                 </button>
@@ -45,16 +45,16 @@
             </form>
           </div>
           <div class="search-section">
-            <a class="button" href="#" role="button">Link</a>
+            <a class="button button-search-box" href="#" role="button">Link</a>
           </div>
           <div class="search-section">
-            <a class="button" href="#" role="button">Link</a>
+            <a class="button button-search-box" href="#" role="button">Link</a>
           </div>
           <div class="search-section">
-            <a class="button" href="#" role="button">Link</a>
+            <a class="button button-search-box" href="#" role="button">Link</a>
           </div>
           <div class="search-section">
-            <a class="button" href="#" role="button">Link</a>
+            <a class="button button-search-box" href="#" role="button">Link</a>
           </div>
         </div>
       </div>
