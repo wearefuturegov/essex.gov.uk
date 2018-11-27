@@ -1,4 +1,4 @@
-<h1>Design</h1>
+<h1>Design System styles guide</h1>
 <p>Some text in here about styles</p>
 
 <ul class="list">

@@ -3,6 +3,7 @@
 .search-background {
   overflow: hidden;
   position: relative;
+  margin-bottom: $baseline;
   .search {
     @extend %site-width-container;
     @extend %contain-floats;
@@ -43,31 +44,33 @@
         z-index: 2;
         background: red;
       }
-      .form-group {
-        position: relative;
-        margin-bottom: $baseline;
-        .form-control {
-          @include default-type;
-          border: $thick solid $white;
-          padding: $baseline*0.25 $gutter;
-          line-height: $baseline*2;
-          width: 100%;
-          @include border-radius($border-radius);
-        }
-        .search-icon-position {
-          position: absolute;
-          top: 0;
-          right: 0;
-          bottom: 0;
-          background: none;
-          border: none;
-          padding-left: $gutter;
-          padding-right: $gutter;
-          .fa-search {
-            color: $search;
-              &:hover {
-              cursor: pointer;
-              color: darken($search, $hover-darken);
+      .form {
+        .group {
+          position: relative;
+          margin-bottom: $baseline;
+          input {
+            @include default-type;
+            border: $thick solid $white;
+            padding: $baseline*0.25 $gutter;
+            line-height: $baseline*2;
+            width: 100%;
+            @include box-sizing(border-box);
+          }
+          .search-icon-position {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background: none;
+            border: none;
+            padding-left: $gutter;
+            padding-right: $gutter;
+            .fa-search {
+              color: $search;
+                &:hover {
+                cursor: pointer;
+                color: darken($search, $hover-darken);
+              }
             }
           }
         }

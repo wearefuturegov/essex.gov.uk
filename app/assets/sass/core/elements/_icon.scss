@@ -7,10 +7,10 @@
 
 .fa, .far, .fas {
     font-family: "Font Awesome 5 Free";
-    font-size: $icon;
 }
 
 .fa, .fab, .fal, .far, .fas {
+    font-size: $icon;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     display: inline-block;

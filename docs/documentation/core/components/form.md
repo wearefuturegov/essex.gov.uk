@@ -30,6 +30,7 @@
       </div>
     </fieldset>
   </div>
+  <input type="submit" class="button" value="Continue">
 </form>
 
     <form class="form">
@@ -62,4 +63,5 @@
           </div>
         </fieldset>
       </div>
+      <input type="submit" class="button" value="Continue">
     </form>
