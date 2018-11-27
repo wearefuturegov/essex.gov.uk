@@ -16,6 +16,7 @@ $baseline: 1.5em;
 $gutter: 30px;
 $normal: 400;
 $bold: 700;
+$icon: 3em;
 
 // brand color
 $brand: #e40037;
@@ -42,6 +43,7 @@ $overlay: rgba(0, 0, 0, 0.6);
 
 // element color
 $button: $brand;
+$search: $brand;
 $linkbox: #0072C6; // Linking to external sites
 $error: #ff0000;
 $highlight: #28a197; // gds teal

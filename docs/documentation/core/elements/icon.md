@@ -7,3 +7,7 @@
 <i class="fas fa-search"></i>
 
     <i class="fas fa-search"></i>
+
+<i class="fas fa-print"></i>
+
+    <i class="fas fa-print"></i>

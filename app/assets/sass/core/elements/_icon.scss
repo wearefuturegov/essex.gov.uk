@@ -20,16 +20,19 @@
 }
 
 // Alert
-
 .fa-exclamation-triangle {
-    font-size: 3em;
+    font-size: $icon;
     margin-top: 0;
     margin-bottom: 0;
     color: $error;
 }
 
 // Search
-
 .fa-search {
-    font-size: 2.25em;
+    font-size: $icon;
+}
+
+// Search
+.fa-print {
+    font-size: $icon;
 }
