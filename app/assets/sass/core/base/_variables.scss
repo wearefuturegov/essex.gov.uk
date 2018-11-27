@@ -18,23 +18,32 @@ $normal: 400;
 $bold: 700;
 
 // brand color
-$brand: #d00f42;
-$brand-b: #0072C6;
-$brand-c: #0fc7d0; // This was created from the original brand color
+$brand: #e40037;
 
-// general color
-$black: #000;
+// text colour
+$text-colour: #0b0c0c; // New
 $white: #fff;
-$gray: #bfc1c3;
-$gray-dark: #222222;
-$gray-light: #f8f8f8;
+
+// link colour
+$link: #004899;
+$hover: #2A7AB0;
+$visited: #682558;
+$link-active: #2A7AB0;
+
+// focus colour
+$focus-color: #fab500;
+
+// greyscale
+$black: #000;
+$grey: #bfc1c3;
+$grey-dark: #222222;
+$grey-light: #f8f8f8;
 $overlay: rgba(0, 0, 0, 0.6);
 
 // element color
 $button: $brand;
 $linkbox: #0072C6; // Linking to external sites
 $error: #ff0000;
-$focus-color: #ffbf47; // gds yellow
 $highlight: #28a197; // gds teal
 $subscribe: $brand;
 $alert: $brand;

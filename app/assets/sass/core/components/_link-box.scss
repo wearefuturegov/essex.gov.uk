@@ -9,9 +9,9 @@
     .link-content {
       @include box-sizing(border-box);
       @include border-radius($border-radius);
-      background-color: $gray-light;
+      background-color: $grey-light;
       padding: $baseline $gutter;
-      border-bottom: solid $thin $gray;
+      border-bottom: solid $thin $grey;
       h2 {
         margin-top: 0;
         font-size: $body;
