@@ -40,3 +40,13 @@
   <li><a href="components/side-nav">Side-nav</a></li>
   <li><a href="components/table">Table</a></li>
 </ul>
+<h2>Design</h2>
+<ul class="list list-bullet">
+  <li><a href="/docs/core/design">Design System styles guide</a></li>
+</ul>
+
+<h2>Examples</h2>
+<ul class="list list-bullet">
+  <li><a href="/">Home</a></li>
+  <li><a href="/form">Form</a></li>
+</ul>
