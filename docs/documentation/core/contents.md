@@ -4,7 +4,7 @@
 <h2>Elements</h2>
 <ul class="list list-bullet">
   <li><a href="elements/buttons">Buttons</a></li>
-  <li><a href="elements/content-heading">Content heading</a></li>
+  <li><a href="elements/headings">Headings</a></li>
   <li><a href="elements/hero">Hero</a></li>
   <li><a href="elements/icon">Icon</a></li>
   <li><a href="elements/inputs">Inputs</a></li>
@@ -14,11 +14,9 @@
   <li><a href="elements/multiple-choice">Multiple choice</a></li>
   <li><a href="elements/nav">Nav</a></li>
   <li><a href="elements/overlay">Overlay</a></li>
-  <li><a href="elements/page-heading">Page heading</a></li>
   <li><a href="elements/paragraph">Paragraph</a></li>
   <li><a href="elements/print-link">Print-link</a></li>
   <li><a href="elements/section-break">Section break</a></li>
-  <li><a href="elements/section-heading">Section heading</a></li>
   <li><a href="elements/social">Social</a></li>
 </ul>
 <h2>Components</h2>
