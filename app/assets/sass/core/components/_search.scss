@@ -67,7 +67,7 @@
             color: $search;
               &:hover {
               cursor: pointer;
-              color: lighten($search, $lighten);
+              color: darken($search, $hover-darken);
             }
           }
         }
