@@ -22,17 +22,17 @@
       .search-section {
         @include grid-column(1 / 4);
       }
-      .button {
+      .button.button-search-box {
         font-size: $body;
         font-weight: $normal;
         color: $white;
-        @include box-shadow(0 2px 0 $black);
-        background-color: $black;
+        @include box-shadow(0 2px 0 $button-search-box);
+        background-color: $button-search-box;
         width: 100%;
         text-align: center;
         line-height: $baseline;
         &:hover {
-          background-color: $black;
+          background-color: darken($button-search-box, $hover-darken);
         }
       }
       @media only screen and (max-width:640px) {

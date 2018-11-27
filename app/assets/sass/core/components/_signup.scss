@@ -17,9 +17,10 @@
           font-size: $large;
           font-weight: 600;
           color: $white;
+          background-color: $brand;
           border: none;
           &:hover {
-            background-color: darken($button, 5%);
+            background-color: darken($brand, $hover-darken);
           }
         }
       }

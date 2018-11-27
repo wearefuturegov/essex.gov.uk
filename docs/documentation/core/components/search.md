@@ -15,16 +15,16 @@
         </form>
       </div>
       <div class="search-section">
-        <a class="button" href="#" role="button">Link</a>
+        <a class="button button-search-box" href="#" role="button">Link</a>
       </div>
       <div class="search-section">
-        <a class="button" href="#" role="button">Link</a>
+        <a class="button button-search-box" href="#" role="button">Link</a>
       </div>
       <div class="search-section">
-        <a class="button" href="#" role="button">Link</a>
+        <a class="button button-search-box" href="#" role="button">Link</a>
       </div>
       <div class="search-section">
-        <a class="button" href="#" role="button">Link</a>
+        <a class="button button-search-box" href="#" role="button">Link</a>
       </div>
     </div>
   </div>
