@@ -1,12 +1,15 @@
 // Alert
 
 .alert {
-    border: $thick solid $error;
-    text-align: center;
-    padding: $baseline $gutter;
-    margin-bottom: $baseline;
-    h2 {
-      margin-top: $baseline*0.5;
-      margin-bottom: $baseline*0.5;
-    }
+  border: $thick solid $error;
+  text-align: center;
+  padding: $baseline $gutter;
+  margin-bottom: $baseline;
+  h2 {
+    margin-top: $baseline*0.5;
+    margin-bottom: $baseline*0.5;
+  }
+  .fa-exclamation-triangle {
+      color: $error;
+  }
 }

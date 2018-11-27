@@ -26,10 +26,8 @@
     &.active {
       background: $white;
       &:before {
+        @include font-awesome;
         content: "\f053";
-        font-family: 'Font Awesome 5 Free';
-        visibility: visible;
-        font-weight: 900;
         margin-right: $gutter*0.5;
         margin-left: -$gutter*0.5;
       }

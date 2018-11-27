@@ -64,11 +64,11 @@
           padding-left: $gutter;
           padding-right: $gutter;
           .fa-search {
-            font-size: $baseline*1.5;
-          }
-          &:hover {
-            cursor: pointer;
-            color: $grey;
+            color: $search;
+              &:hover {
+              cursor: pointer;
+              color: darken($search, $hover-darken);
+            }
           }
         }
       }

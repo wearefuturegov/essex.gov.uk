@@ -16,6 +16,7 @@
   <li><a href="elements/overlay">Overlay</a></li>
   <li><a href="elements/page-heading">Page heading</a></li>
   <li><a href="elements/paragraph">Paragraph</a></li>
+  <li><a href="elements/print-link">Print-link</a></li>
   <li><a href="elements/section-break">Section break</a></li>
   <li><a href="elements/section-heading">Section heading</a></li>
   <li><a href="elements/social">Social</a></li>
