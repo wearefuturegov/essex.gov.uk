@@ -1,1 +1,10 @@
 {% extends "core.html" %}
+
+{% block body_end %}  
+  {% block scripts %} 
+    {% include "includes/scripts.html" %} 
+    {% block page_scripts %}{% endblock %}  
+  {% endblock %}  
+{% endblock %}
+
+<!-- this has been copied to documentation_template -->
