@@ -3,6 +3,22 @@
     display: block;
     margin-top: $baseline;
   }
+  li {
+    border-bottom: $border-thin solid $grey;
+    margin-top: $baseline*0.5;
+    margin-bottom: $baseline*0.5;
+    p {
+      margin-top: $baseline*0.25;
+      margin-bottom: $baseline*0.5;
+    }
+  }
+  &.steps .step {
+    padding-bottom: $baseline*0.5;
+    border-bottom: $border-thin solid $grey;
+    li {
+      border-bottom: none;
+    }
+  }
 }
 
 input.checkbox, .hide {

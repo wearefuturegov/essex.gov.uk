@@ -41,6 +41,7 @@
   <li><a href="components/search">Search</a></li>
   <li><a href="components/signup">Signup</a></li>
   <li><a href="components/side-nav">Side-nav</a></li>
+  <li><a href="components/steps">Steps</a></li>
   <li><a href="components/table">Table</a></li>
 </ul>
 <h2>Design</h2>
