@@ -4,6 +4,7 @@
 <h2>Elements</h2>
 <ul class="list list-bullet">
   <li><a href="elements/buttons">Buttons</a></li>
+  <li><a href="elements/dropdown">Dropdown</a></li>
   <li><a href="elements/headings">Headings</a></li>
   <li><a href="elements/hero">Hero</a></li>
   <li><a href="elements/icon">Icon</a></li>
