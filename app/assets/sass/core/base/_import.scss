@@ -1,7 +1,6 @@
 @import "reset";
 @import "variables";
 @import "mixin";
-@import "dev";
 
 @import "gds/import";
 
@@ -9,3 +8,6 @@
 @import "core/elements/import";
 @import "core/layout/import";
 @import "core/components/import";
+
+// dev styles will overwrite component/element styles to help view in markdown documentation
+@import "dev";

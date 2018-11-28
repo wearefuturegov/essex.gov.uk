@@ -19,6 +19,7 @@ $large: 30px;
 $larger: 34px;
 
 $gutter: 30px;
+$lighter: 300;
 $normal: 400;
 $bold: 700;
 $icon: 3em;
@@ -66,9 +67,9 @@ $hover-darken: 5%;
 $darken: 15%;
 
 // border width
-$thin: 1px;
-$thick: 3px;
-$very-thick: $thick*4;
+$border-thin: 1px;
+$border-thick: 3px;
+$border-very-thick: $border-thick*4;
 
 // border radius
 $border-radius: 3px;

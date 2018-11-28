@@ -17,11 +17,11 @@
 // Section break
 
 .section-break-lg {
-  border-top: $thick solid #005ea5;
+  border-top: $border-thick solid #005ea5;
   margin-top: $baseline*2;
 }
 
 .section-break-sm {
-  border-bottom: $thin solid $grey;
+  border-bottom: $border-thin solid $grey;
   margin-top: $baseline;
 }
