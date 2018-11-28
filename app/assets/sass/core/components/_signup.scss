@@ -6,7 +6,7 @@
       @extend %grid-row;
       input.form-control {
         width: 100%;
-        font-size: $large - $thin;
+        font-size: $large - $border-thin;
         padding-left: $gutter*0.5;
         padding-right: $gutter*0.5;
       }

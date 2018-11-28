@@ -1,0 +1,11 @@
+.impact {
+  position: relative;
+  .hero {
+    background-position-x: 0;
+    background-position-y: -$baseline*6;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+  }
+}

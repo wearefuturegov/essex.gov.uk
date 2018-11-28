@@ -4,10 +4,7 @@
   background-size: cover;
   background-position-x: 0;
   background-position-y: 0;
-  height: $baseline*30;
-  position: absolute;
-  left: 0;
-  right: 0;
+  height: $baseline*20;
   &.tree {
     background-image: url(/public/images/main-hero.jpg);
     background-size: 100%;

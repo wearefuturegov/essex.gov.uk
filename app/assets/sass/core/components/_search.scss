@@ -4,6 +4,11 @@
   overflow: hidden;
   position: relative;
   margin-bottom: $baseline;
+  .hero {
+    position: absolute;
+    right: 0;
+    left: 0;
+  }
   .search {
     @extend %site-width-container;
     @extend %contain-floats;
@@ -50,7 +55,7 @@
           margin-bottom: $baseline;
           input {
             @include default-type;
-            border: $thick solid $white;
+            border: $border-thick solid $white;
             padding: $baseline*0.25 $gutter;
             line-height: $baseline*2;
             width: 100%;

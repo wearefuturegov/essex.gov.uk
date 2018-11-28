@@ -1,60 +1,43 @@
-pre {
-  position: relative;
-  font-family: monospace;
-  font-size: $smaller;
-  white-space: pre;
-  margin: $baseline 0;
-  code {
-    @include wrap;
-    display: block;
+// all styles are based on main class "markdown" for viewing purposes in core documentation
+.markdown {
+  pre {
+    position: relative;
+    font-family: monospace;
+    font-size: $smaller;
+    white-space: pre;
     margin: $baseline 0;
+    code {
+      @include wrap;
+      display: block;
+      margin: $baseline 0;
+      padding: $baseline;
+      border: $border-thin solid $grey-light;
+      background-color: $grey-lighter;
+    }
+  }
+  .colour-swatch {
+      top: 0;
+      left: 0;
+      width: 40px;
+      height: 40px;
+      border: $border-thin solid transparent;
+      border-radius: 20%;
+  }
+  .colour-swatch-border {
+      border-color: $grey-dark;
+  }
+  .basic-table {
+    table {
+      margin-top: $baseline*1;
+      table-layout: fixed;
+    }
+    td {
+      border-bottom: 0;
+    }
+  }
+  .demo-box {
+    background-color: $grey-light;
     padding: $baseline;
-    border: $thin solid $grey-light;
-    background-color: $grey-lighter;
+    margin-top: $baseline;
   }
-}
-
-.colour-swatch {
-    top: 0;
-    left: 0;
-    width: 40px;
-    height: 40px;
-    border: $thin solid transparent;
-    border-radius: 20%;
-}
-
-.colour-swatch-border {
-    border-color: $grey-dark;
-}
-
-.basic-table {
-  table {
-    margin-top: $baseline*1;
-    table-layout: fixed;
-  }
-  td {
-    border-bottom: 0;
-  }
-}
-
-.header, .footer {
-  width: 100%;
-  position: absolute;
-  left: 0;
-  right: 0;
-}
-
-.header + pre {
-  top: $baseline*6;
-}
-
-.footer + pre {
-  top: $baseline*10;
-}
-
-
-.demo-box {
-  background-color: $grey-light;
-  padding: $baseline;
-  margin-top: $baseline;
 }

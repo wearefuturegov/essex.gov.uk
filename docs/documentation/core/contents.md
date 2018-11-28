@@ -30,10 +30,11 @@
   <li><a href="components/footer">Footer</a></li>
   <li><a href="components/header">Header</a></li>
   <li><a href="components/highlight-box">Highlight-box</a></li>
+  <li><a href="components/impact">Impact</a></li>
   <li><a href="components/link-box">Link box</a></li>
   <li><a href="components/pagination">Pagination</a></li>
   <li><a href="components/panel">Panel</a></li>
-  <li><a href="components/preview">Preview</a></li>
+  <li><a href="components/previews">Previews</a></li>
   <li><a href="components/preview-list">Preview list</a></li>
   <li><a href="components/related">Related</a></li>
   <li><a href="components/search">Search</a></li>
