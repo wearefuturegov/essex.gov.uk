@@ -1,29 +1,37 @@
 ## Preview list
 
-  <div class="preview-list">
-    <div class="content js-hidden" id="tab-two" aria-hidden="true">
-      <ul>
-        <li>Preview content…</li>
-        <li>will appear here</li>
-      </ul>
-    </div>
-    <div data-target="tab-two">
-      <input class="checkbox" id="toggle-two" type="checkbox" aria-controls="tab-two" aria-expanded="false">
-      <label class="show" for="toggle-two">See all guidance and legislation</label>
-      <label class="hide" for="toggle-two">Hide</label>
-    </div>
+<div class="preview-list">
+  <div class="content js-hidden" id="tab-one" aria-hidden="true">
+    <ul>
+      <li>
+        <a href="#">Preview</a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+      <li>
+        <a href="#">Preview</a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+    </ul>
   </div>
+  <div data-target="tab-one">
+    <input class="checkbox" id="toggle-one" type="checkbox" aria-controls="tab-one" aria-expanded="false">
+    <label class="show" for="toggle-one">Show</label>
+    <label class="hide" for="toggle-one">Hide</label>
+  </div>
+</div>
 
     <div class="preview-list">
-      <div class="content js-hidden" id="tab-two" aria-hidden="true">
+      <div class="content js-hidden" id="tab-one" aria-hidden="true">
         <ul>
-          <li>Preview content…</li>
-          <li>will appear here</li>
+          <li>
+            <a href="#">Preview</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+          <li>
+            <a href="#">Preview</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
         </ul>
       </div>
-      <div data-target="tab-two">
-        <input class="checkbox" id="toggle-two" type="checkbox" aria-controls="tab-two" aria-expanded="false">
-        <label class="show" for="toggle-two">See all guidance and legislation</label>
-        <label class="hide" for="toggle-two">Hide</label>
+      <div data-target="tab-one">
+        <input class="checkbox" id="toggle-one" type="checkbox" aria-controls="tab-one" aria-expanded="false">
+        <label class="show" for="toggle-one">Show</label>
+        <label class="hide" for="toggle-one">Hide</label>
       </div>
     </div>
