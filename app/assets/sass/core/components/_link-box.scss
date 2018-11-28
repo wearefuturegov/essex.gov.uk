@@ -11,7 +11,7 @@
       @include border-radius($border-radius);
       background-color: $grey-light;
       padding: $baseline $gutter;
-      border-bottom: solid $thin $grey;
+      border-bottom: solid $border-thin $grey;
       h2 {
         margin-top: 0;
         font-size: $body;
