@@ -18,6 +18,7 @@
   <li><a href="elements/print-link">Print-link</a></li>
   <li><a href="elements/section-break">Section break</a></li>
   <li><a href="elements/social">Social</a></li>
+    <li><a href="elements/textarea">Textarea</a></li>
 </ul>
 <h2>Components</h2>
 <ul class="list list-bullet">
