@@ -1,4 +1,5 @@
 {% extends "core.html" %}
+
 {% block content %}
 <main id="content" class="markdown">
   <div class="breadcrumbs">
@@ -9,4 +10,11 @@
 	{{document | safe}}
 </main>
 
+{% endblock %}
+
+{% block body_end %}  
+  {% block scripts %} 
+    {% include "includes/scripts.html" %} 
+    {% block page_scripts %}{% endblock %}  
+  {% endblock %}  
 {% endblock %}
