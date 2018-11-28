@@ -2,17 +2,16 @@
 // ==========================================================================
 
 .select {
-    font-family: "nta",Arial,sans-serif;
+    font-family: $stack;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-weight: 400;
-    font-size: 16px;
-    font-size: 1rem;
-    line-height: 1.25;
+    font-weight: $normal;
+    font-size: $body;
+    line-height: $baseline;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    max-width: 100%;
+    max-width: $full-width;
     height: 40px;
-    padding: 5px;
-    border: 2px solid #0b0c0c;
+    padding: $gutter;
+    border: $thin*2 solid $text-colour;
 }
