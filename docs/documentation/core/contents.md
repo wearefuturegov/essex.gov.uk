@@ -7,6 +7,7 @@
   <li><a href="elements/buttons">Buttons</a></li>
   <li><a href="elements/checkbox">Checkbox</a></li>
   <li><a href="elements/dropdown">Dropdown</a></li>
+  <li><a href="elements/form">Form</a></li>
   <li><a href="elements/headings">Headings</a></li>
   <li><a href="elements/hero">Hero</a></li>
   <li><a href="elements/icon">Icon</a></li>
@@ -30,7 +31,6 @@
   <li><a href="components/breadcrumbs">Breadcrumbs</a></li>
   <li><a href="components/contents">Contents</a></li>
   <li><a href="components/cookies">Cookies</a></li>
-  <li><a href="components/form">Form</a></li>
   <li><a href="components/footer">Footer</a></li>
   <li><a href="components/header">Header</a></li>
   <li><a href="components/highlight-box">Highlight-box</a></li>
