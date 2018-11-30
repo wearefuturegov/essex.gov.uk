@@ -237,3 +237,19 @@ select:focus::-ms-value {
   color: $white;
   background-color: $link;
 }
+
+.form .group {
+  display: block;
+  label, input {
+    @include default-type;
+    text-transform: none;
+    display: block;
+  }
+  .form-hint {
+    @include default-type;
+    color: $grey;
+  }
+  select, input, textarea {
+    width: 100%;
+  }
+}

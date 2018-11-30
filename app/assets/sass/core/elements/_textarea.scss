@@ -1,19 +1,17 @@
-.form .group {
-  textarea {
-    font-family: $stack;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-weight: $normal;
-    font-size: $body;
-    line-height: $baseline;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    display: block;
-    min-height: 40px;
-    margin-bottom: $baseline;
-    padding: $gutter;
-    resize: vertical;
-    border: $border-thin*2 solid $text-colour;
-    -webkit-appearance: none;
-  }
+textarea {
+  font-family: $stack;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: $normal;
+  font-size: $body;
+  line-height: $baseline;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  min-height: $baseline*10;
+  margin-bottom: $baseline;
+  padding: $gutter;
+  resize: vertical;
+  border: $border-normal solid $text-colour;
+  -webkit-appearance: none;
 }

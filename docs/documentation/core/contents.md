@@ -21,7 +21,8 @@
   <li><a href="elements/radio">Radio</a></li>
   <li><a href="elements/section-break">Section break</a></li>
   <li><a href="elements/social">Social</a></li>
-    <li><a href="elements/textarea">Textarea</a></li>
+  <li><a href="elements/textarea">Textarea</a></li>
+  <li><a href="elements/validation">Validation</a></li>
 </ul>
 <h2>Components</h2>
 <ul class="list list-bullet">

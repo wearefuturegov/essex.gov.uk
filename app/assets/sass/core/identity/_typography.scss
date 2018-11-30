@@ -89,7 +89,7 @@ textarea:focus,
 select:focus,
 button:focus {
   outline: $border-thick solid $focus-colour;
-  outline-offset: 0;
+  outline-offset: -$border-thick;
 }
 
 
