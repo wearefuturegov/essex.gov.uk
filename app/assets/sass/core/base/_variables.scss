@@ -55,7 +55,7 @@ $button: #00823b; // green taken from gov.uk
 $button-search-box: $grey-dark;
 $search: $button;
 $linkbox: #0072C6; // Linking to external sites
-$error: #ff0000;
+$error: #b10e1e; 
 $highlight-box: #28a197; // gds teal
 $highlight-box: $link;
 $subscribe: $brand;
@@ -68,7 +68,9 @@ $darken: 15%;
 
 // border width
 $border-thin: 1px;
+$border-normal: 2px;
 $border-thick: 3px;
+$border-thicker: 5px;
 $border-very-thick: $border-thick*4;
 
 // border radius
