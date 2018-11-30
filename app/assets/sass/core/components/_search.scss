@@ -55,6 +55,7 @@
           margin-bottom: $baseline;
           input {
             @include default-type;
+            @include border-radius($border-radius);
             border: $border-thick solid $white;
             padding: $baseline*0.25 $gutter;
             line-height: $baseline*2;
