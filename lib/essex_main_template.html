@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Core</title>
+    <title>Core View</title>
     <link href="{{ asset_path }}stylesheets/fonts.css?0.18.3" media="all" rel="stylesheet" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link href="/public/stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" />
@@ -24,12 +24,12 @@
       {% include "includes/footer.html" %}
     {% endblock %}
 
-
-    <!--end footer-->
-
     <script src="{{ asset_path }}javascripts/govuk-template.js?0.18.3" type="text/javascript"></script>
 
-    {% block scripts %}{% endblock %}
+    {% block scripts %} 
+      {% include "includes/scripts.html" %} 
+    {% endblock %} 
     <script>if (typeof window.GOVUK === 'undefined') document.body.className = document.body.className.replace('js-enabled', '');</script>
+
   </body>
 </html>
