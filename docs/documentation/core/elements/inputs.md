@@ -68,6 +68,6 @@ A text input allows users to add a single line of text, such as their name, emai
 
 A fieldset input lets users add a date, such as their date of birth or a memorable date.
 
-Inputs should be used as part of the <a href="/docs/core/components/form">form component</a>
+Inputs should be used as part of the <a href="form">form component</a>
 
 Don't use inputs when users need to enter a longer string of text - in this case you should use the <a href="textarea">textarea element</a>
