@@ -21,3 +21,11 @@
         </div>
       </div>
     </div>
+
+### Using overlay
+
+The overlay element is designed to sit on top of an image and contain supporting text and a link.
+
+It is usually used with the <a href="hero">hero element</a>
+
+It shouldn't be used to decorate or emphasise body text that isn’t part of the <a href="/docs/core/components/impact">impact component</a>
