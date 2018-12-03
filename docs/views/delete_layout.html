@@ -4,7 +4,10 @@
   {% block scripts %} 
     {% include "includes/scripts.html" %} 
     {% block page_scripts %}{% endblock %}  
-  {% endblock %}  
+  {% endblock %}
+  {% block tracking %}
+    {% include "includes/tracking.html" %}
+  {% endblock %}
 {% endblock %}
 
 <!-- this has been copied to documentation_template -->

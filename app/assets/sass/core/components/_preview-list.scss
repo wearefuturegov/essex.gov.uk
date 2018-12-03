@@ -25,6 +25,7 @@ input.checkbox, .hide {
   display: none;
 }
 
+// show and hide for "show" and "hide" toggle
 input[aria-expanded="false"] + label.show + label.hide {
   display: none;
 }

@@ -6,15 +6,11 @@
       @extend %grid-row;
       input.form-control {
         width: 100%;
-        font-size: $large - $border-thin;
-        padding-left: $gutter*0.5;
-        padding-right: $gutter*0.5;
       }
       input.button.subscribe {
         border: none;
         width: 100%;
         &.button {
-          font-size: $large;
           font-weight: 600;
           color: $white;
           background-color: $brand;
@@ -26,6 +22,9 @@
       }
       .signup-input {
         @include grid-column(2 / 3);
+        input {
+          padding: 6px $gutter*0.5;
+        }
       }
       .signup-button {
         @include grid-column(1 / 3);

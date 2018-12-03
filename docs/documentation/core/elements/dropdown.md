@@ -2,8 +2,8 @@
 
 <div class="form">
   <div class="group">
-    <label>Sort by</label>
-    <select class="select" id="" name="">
+    <label class="form-hint">Sort by</label>
+    <select class="form-control" id="" name="">
       <option>Recently published</option>
       <option selected>Recently updated</option>
       <option>Most views</option>
@@ -14,7 +14,7 @@
 
     <div class="form">
       <div class="group">
-        <label>Sort by</label>
+        <label class="form-hint">Sort by</label>
         <select class="select" id="" name="">
           <option>Recently published</option>
           <option selected>Recently updated</option>

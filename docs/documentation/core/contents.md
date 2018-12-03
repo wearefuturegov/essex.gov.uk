@@ -5,7 +5,9 @@
 <ul class="list list-bullet">
   <li><a href="elements/back">Back</a></li>
   <li><a href="elements/buttons">Buttons</a></li>
+  <li><a href="elements/checkbox">Checkbox</a></li>
   <li><a href="elements/dropdown">Dropdown</a></li>
+  <li><a href="elements/form">Form</a></li>
   <li><a href="elements/headings">Headings</a></li>
   <li><a href="elements/hero">Hero</a></li>
   <li><a href="elements/icon">Icon</a></li>
@@ -13,14 +15,15 @@
   <li><a href="elements/list">List</a></li>
   <li><a href="elements/logo">Logo</a></li>
   <li><a href="elements/meta">Meta</a></li>
-  <li><a href="elements/multiple-choice">Multiple choice</a></li>
   <li><a href="elements/nav">Nav</a></li>
   <li><a href="elements/overlay">Overlay</a></li>
   <li><a href="elements/paragraph">Paragraph</a></li>
   <li><a href="elements/print-link">Print-link</a></li>
+  <li><a href="elements/radio">Radio</a></li>
   <li><a href="elements/section-break">Section break</a></li>
   <li><a href="elements/social">Social</a></li>
-    <li><a href="elements/textarea">Textarea</a></li>
+  <li><a href="elements/textarea">Textarea</a></li>
+  <li><a href="elements/validation">Validation</a></li>
 </ul>
 <h2>Components</h2>
 <ul class="list list-bullet">
@@ -28,7 +31,6 @@
   <li><a href="components/breadcrumbs">Breadcrumbs</a></li>
   <li><a href="components/contents">Contents</a></li>
   <li><a href="components/cookies">Cookies</a></li>
-  <li><a href="components/form">Form</a></li>
   <li><a href="components/footer">Footer</a></li>
   <li><a href="components/header">Header</a></li>
   <li><a href="components/highlight-box">Highlight-box</a></li>
