@@ -40,4 +40,10 @@
       <li>Financial assessment explained</li>
     </ol>
 
+### Using lists
 
+Lists should be used to break up chunks of text to make it easier to read.
+
+Unordered lists are displayed as bullet points and should be used for things that don’t need to be listed in any particular order.
+
+Ordered lists display content in a sequential order using numbers.

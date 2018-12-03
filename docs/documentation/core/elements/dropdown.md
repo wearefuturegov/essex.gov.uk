@@ -23,3 +23,11 @@
         </select>
       </div>
     </div>
+
+### Using dropdown
+
+Dropdown should only be used if there is no other alternative as some users can struggle with the functionality.
+
+Try using the <a href="multiple-choice">radio element</a> instead.
+
+It's often used when there is a long list that can't presented in another way, such as a list of countries or languages.
