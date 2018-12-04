@@ -29,3 +29,11 @@
         <li><a href="#">Independent financial advice</a></li>
       </ol>
     </div>
+
+### Using contents
+
+Contents is an in-page navigation to guide the user through a series of pages that are linked together.
+
+It should be used on information pages and should be positioned at the top, just below the page title.
+
+It shouldn't be used to link to other sections of the website or pages that aren't grouped together. 
