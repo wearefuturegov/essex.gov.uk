@@ -101,3 +101,13 @@
         </div>
       </div>
     </div>
+
+### Using steps
+
+The steps component is designed to help users navigate their way through a step-by-step process.
+
+Each step expands to reveal a list of links and text that provide users with more information.
+
+Steps should only be used when there is a user need for content to be ordered sequentially.
+
+Content held within each step should be clear and concise, signposting users to more information. It should be used as a quick guide or reference page rather than a content page. 
