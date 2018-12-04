@@ -55,3 +55,11 @@
           </tr>
         </tbody>
     </table>
+
+### Using tables
+
+Tables should be used to display data. They should be easy to scan and help users compare figures and key bits of information.
+
+They should be added to the main body of content and must include a table caption and table headers.
+
+Tables should not be used to layout content on a page.

@@ -14,3 +14,11 @@
     </ul>
   </nav>
 </aside>
+
+### Using side nav
+
+The side nav is a vertical list of links positioned at the right side of the body content.
+
+It gives users the ability to navigate to other sections of content within that topic.
+
+The side nav shouldn't repeat the links used in the <a href="">page contents</a> or <a href="">related links</a>. It should only link to pages within the hierarchy of that topic.

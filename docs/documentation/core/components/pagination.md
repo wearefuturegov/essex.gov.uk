@@ -49,3 +49,9 @@
         </li>
       </ul>
     </nav>
+
+### Using pagination
+
+Pagination helps users navigate through content pages that are grouped together.
+
+It is commonly used on information pages to enable users to move to the previous or next page of content. However it could also be adapted and used for navigating multiple pages of news articles. 

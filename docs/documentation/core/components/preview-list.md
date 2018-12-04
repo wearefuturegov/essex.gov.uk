@@ -35,3 +35,16 @@
         <label class="hide" for="toggle-one">Hide</label>
       </div>
     </div>
+
+### Preview list
+
+A preview list gives functionality to show and hide <a href="previews">preview content</a> displayed in a list.
+
+It should only be used when multiple previews need to be displayed, including a list of:
+<ul class="list list-bullet">
+  <li>service areas</li>
+  <li>policies and legislation</li>
+  <li>documents</li>
+</ul>
+
+The first 3 previews in a list should be visible at all times. The preview list only needs to be applied if there are 4 or more items.

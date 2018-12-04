@@ -43,3 +43,9 @@
         </nav>
       </div>
     </footer>
+
+### Using the footer
+
+The footer is displayed at the bottom of every page and is consistent across the entire site.
+
+It should provide users with supplementary information, such as social media links, contact links and copyright information. 
