@@ -59,3 +59,9 @@
         </div>
       </div>
     </div>
+
+### Using search
+
+The search component enables users to look for content on the website by typing in words.
+
+It should only be used on the homepage and the search results page.
