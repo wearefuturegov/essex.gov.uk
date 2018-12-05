@@ -2,6 +2,10 @@
   @extend %site-width-container;
 }
 
+.container {
+  @extend %grid-row;
+}
+
 .content {
   @include grid-column(2 / 3);
 }
