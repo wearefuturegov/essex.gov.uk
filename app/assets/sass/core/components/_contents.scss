@@ -2,5 +2,6 @@
   @extend %grid-row;
   ol.list, ul.list {
     @include grid-column(1 / 2);
+    padding-left: 2em;
   }
 }
