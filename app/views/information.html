@@ -1,0 +1,95 @@
+{% extends "essex_main_template.html" %}
+
+{% block content %}
+
+<main id="content">
+
+  <div class="container">
+    <section class="section tight">
+      {% block breadcrumbs %}
+        {% include "includes/breadcrumbs.html" %}
+      {% endblock %}
+    </section>
+    <div class="content">
+      <section class="mid">
+        <h1>Page title</h1>
+      </section>
+      <section class="mid">
+        <div class="contents">
+          <ol class="list list-number">
+            <li>Paying for care and support</li>
+            <li><a href="#">Financial assessment </a></li>
+            <li><a href="#">Personal budget</a></li>
+            <li><a href="#">Care charges</a></li>
+          </ol>
+          <ol class="list list-number" start="5">
+            <li><a href="#">Ways to pay for your care</a></li>
+            <li><a href="#">Paying for a residential home</a></li>
+            <li><a href="#">Deferred payment scheme</a></li>
+            <li><a href="#">Independent financial advice</a></li>
+          </ol>
+        </div>
+        <div class="section-break-sm"></div>
+      </section>
+
+      <section class="mid">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mattis tortor orci. Morbi vestibulum tortor elit, ac semper ipsum cursus quis. Nam lacinia eget nulla vel scelerisque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies posuere dapibus. Quisque vel massa porttitor, bibendum orci id, hendrerit felis. Praesent consectetur ipsum maximus, condimentum enim eget, porttitor tortor. Proin sodales facilisis laoreet. Nam vitae pharetra metus, sit amet venenatis tortor.</p>
+        <ul class="list list-bullet">
+          <li>item number 1</li>
+          <li>item number 2</li>
+          <li>item number 3</li>
+        </ul>
+        <p><a href="#">This is a link</a></p>
+        <h2>Heading 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mattis tortor orci. Morbi vestibulum tortor elit, ac semper ipsum cursus quis. Nam lacinia eget nulla vel scelerisque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum <a href="#">ultricies posuere</a> dapibus. Quisque vel massa porttitor, bibendum orci id, hendrerit felis. Praesent consectetur ipsum maximus, condimentum enim eget, porttitor tortor. Proin sodales facilisis laoreet. Nam vitae pharetra metus, sit amet venenatis tortor.</p>
+        <table>
+        <caption>2018 care charges</caption>
+          <thead>
+            <tr>
+              <th>Type of service</th>
+              <th>Frequency</th>
+              <th>Cost</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Home Support Services (normal hours) one-to-one</td>
+              <td>Hourly</td>
+              <td>£17.04</td>
+            </tr>
+            <tr>
+              <td>Day Care</td>
+              <td>Per session</td>
+              <td>£10.73</td>
+            </tr>
+            <tr>
+              <td>Day Care with transport</td>
+              <td>Per session</td>
+              <td>£12.20</td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Heading 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mattis tortor orci. Morbi vestibulum tortor elit, ac semper ipsum cursus quis. Nam lacinia eget nulla vel scelerisque.</p>
+      </section>
+
+      <section class="loose">
+        {% block pagination %}
+          {% include "includes/pagination.html" %}
+        {% endblock %}
+      </section>
+
+      <section class="section mid">
+        <a class="print-link">Print this page</a>
+      </section>
+    </div>
+
+    <aside class="side">
+      {% block sidenav %}
+        {% include "includes/sidenav.html" %}
+      {% endblock %}
+    </aside>
+  </div>
+</main>
+
+{% endblock %}
