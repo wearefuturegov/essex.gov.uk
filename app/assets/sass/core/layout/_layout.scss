@@ -6,8 +6,11 @@
   @extend %grid-row;
 }
 
-.content {
+.main {
   @include grid-column(2 / 3);
+  &.only {
+    @include grid-column(1);
+  }
 }
 
 .side {

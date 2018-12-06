@@ -7,87 +7,88 @@
 {% endblock %}
 
 <main id="content">
-  
-  <div class="alert">
-    <i class="fas fa-exclamation-triangle"></i>
-    <h2>School closures</h2>
-    <p>Some schools in Essex are closed due to severe weather. <a href="#">Check if your child's school is closed</a></p>
-  </div>
 
-  <section class="section">
-    <div class="previews">
-      <div class="preview">
-        <h4><a href="#">Preview heading</a></h4>
-        <p>Preview copy explaining what content it contains</p>
+  <div class="container">  
+    <div class="main only">
+      <div class="alert">
+        <i class="fas fa-exclamation-triangle"></i>
+        <h2>School closures</h2>
+        <p>Some schools in Essex are closed due to severe weather. <a href="#">Check if your child's school is closed</a></p>
       </div>
-      <div class="preview">
-        <h4><a href="#">Preview heading</a></h4>
-        <p>Preview copy explaining what content it contains</p>
-      </div>
-      <div class="preview">
-        <h4><a href="#">Preview heading</a></h4>
-        <p>Preview copy explaining what content it contains</p>
-      </div>
-      <div class="preview">
-        <h4><a href="#">Preview heading</a></h4>
-        <p>Preview copy explaining what content it contains</p>
-      </div>
-      <div class="preview">
-        <h4><a href="#">Preview heading</a></h4>
-        <p>Preview copy explaining what content it contains</p>
-      </div>
-      <div class="preview">
-        <h4><a href="#">Preview heading</a></h4>
-        <p>Preview copy explaining what content it contains</p>
-      </div>
-      <div class="preview">
-        <h4><a href="#">Preview heading</a></h4>
-        <p>Preview copy explaining what content it contains</p>
-      </div>
-      <div class="preview">
-        <h4><a href="#">Preview heading</a></h4>
-        <p>Preview copy explaining what content it contains</p>
-      </div>
-      <div class="preview">
-        <h4><a href="#">Preview heading</a></h4>
-        <p>Preview copy explaining what content it contains</p>
-      </div>
-    </div>  
-  </section>
+      <section class="">
+        <div class="previews">
+          <div class="preview">
+            <h4><a href="#">Preview heading</a></h4>
+            <p>Preview copy explaining what content it contains</p>
+          </div>
+          <div class="preview">
+            <h4><a href="#">Preview heading</a></h4>
+            <p>Preview copy explaining what content it contains</p>
+          </div>
+          <div class="preview">
+            <h4><a href="#">Preview heading</a></h4>
+            <p>Preview copy explaining what content it contains</p>
+          </div>
+          <div class="preview">
+            <h4><a href="#">Preview heading</a></h4>
+            <p>Preview copy explaining what content it contains</p>
+          </div>
+          <div class="preview">
+            <h4><a href="#">Preview heading</a></h4>
+            <p>Preview copy explaining what content it contains</p>
+          </div>
+          <div class="preview">
+            <h4><a href="#">Preview heading</a></h4>
+            <p>Preview copy explaining what content it contains</p>
+          </div>
+          <div class="preview">
+            <h4><a href="#">Preview heading</a></h4>
+            <p>Preview copy explaining what content it contains</p>
+          </div>
+          <div class="preview">
+            <h4><a href="#">Preview heading</a></h4>
+            <p>Preview copy explaining what content it contains</p>
+          </div>
+          <div class="preview">
+            <h4><a href="#">Preview heading</a></h4>
+            <p>Preview copy explaining what content it contains</p>
+          </div>
+        </div>  
+      </section>
 
-  <div class="section-break-lg"></div>
+      <div class="section-break-lg"></div>
 
-  <h2>Section heading</h2>
+      <h2>Section heading</h2>
 
-  <section class="section loose">
-    <div class="previews">
-      <div class="preview">
-        <img src="/public/images/news.jpg">
-        <h4><a href="#">Preview heading with image above</a></h4>
-        <p>Preview copy explaining what content it contains.</p>
-        <p class="meta">3 October 2018</p>
-      </div>
-      <div class="preview">
-        <img src="/public/images/news.jpg">
-        <h4><a href="#">Preview heading with image above</a></h4>
-        <p>Preview copy explaining what content it contains.</p>
-        <p class="meta">3 October 2018</p>
-      </div>
-      <div class="preview">
-        <img src="/public/images/news.jpg">
-        <h4><a href="#">Preview heading with image above</a></h4>
-        <p>Preview copy explaining what content it contains.</p>
-        <p class="meta">3 October 2018</p>
-      </div>
+      <section class="loose">
+        <div class="previews">
+          <div class="preview">
+            <img src="/public/images/news.jpg">
+            <h4><a href="#">Preview heading with image above</a></h4>
+            <p>Preview copy explaining what content it contains.</p>
+            <p class="meta">3 October 2018</p>
+          </div>
+          <div class="preview">
+            <img src="/public/images/news.jpg">
+            <h4><a href="#">Preview heading with image above</a></h4>
+            <p>Preview copy explaining what content it contains.</p>
+            <p class="meta">3 October 2018</p>
+          </div>
+          <div class="preview">
+            <img src="/public/images/news.jpg">
+            <h4><a href="#">Preview heading with image above</a></h4>
+            <p>Preview copy explaining what content it contains.</p>
+            <p class="meta">3 October 2018</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="loose">
+        {% block signup %}
+          {% include "includes/signup.html" %}
+        {% endblock %}
+      </section>
     </div>
-  </section>
-
-  <section class="section loose">
-    {% block signup %}
-      {% include "includes/signup.html" %}
-    {% endblock %}
-  </section>
-
 </main>
 
 {% block impact %}

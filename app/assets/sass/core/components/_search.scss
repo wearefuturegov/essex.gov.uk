@@ -13,7 +13,7 @@
     @extend %site-width-container;
     @extend %contain-floats;
     outline: none;
-    padding: $baseline*2;
+    padding: $baseline*2 0;
     .search-box {
       margin: 0 auto;
       @extend %grid-row;

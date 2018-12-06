@@ -1,5 +1,9 @@
 // all styles are based on main class "markdown" for viewing purposes in core documentation
 .markdown {
+  .breadcrumbs {
+    padding-left: 0;
+    padding-right: 0;
+  }
   pre {
     position: relative;
     font-family: monospace;
