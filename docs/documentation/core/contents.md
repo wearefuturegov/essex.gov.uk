@@ -42,10 +42,15 @@
   <li><a href="components/preview-list">Preview list</a></li>
   <li><a href="components/related">Related</a></li>
   <li><a href="components/search">Search</a></li>
+  <li><a href="components/search-header">Search header</a></li>
   <li><a href="components/signup">Signup</a></li>
   <li><a href="components/side-nav">Side-nav</a></li>
   <li><a href="components/steps">Steps</a></li>
   <li><a href="components/table">Table</a></li>
+</ul>
+<h2>Page unique styles</h2>
+<ul class="list list-bullet">
+  <li><a href="pages/search-home">Search home</a></li>
 </ul>
 <h2>Design</h2>
 <ul class="list list-bullet">

@@ -1,83 +1,41 @@
-// Search bar
+// Search
 
-.search-background {
-  overflow: hidden;
-  position: relative;
-  margin-bottom: $baseline;
-  .hero {
-    position: absolute;
-    right: 0;
-    left: 0;
+.search {
+  @extend %site-width-container;
+  @extend %contain-floats;
+  outline: none;
+  &[type="search"]:focus {
+    z-index: 2;
+    background: red;
   }
-  .search {
-    @extend %site-width-container;
-    @extend %contain-floats;
-    outline: none;
-    padding: $baseline*2 0;
-    .search-box {
-      margin: 0 auto;
-      @extend %grid-row;
-      @include box-sizing(border-box);
-      @include border-radius($border-radius);
-      background-color: rgba(0, 0, 0, 0.1);
+  .form {
+    .group {
       position: relative;
-      padding: $baseline*1.5 $gutter*0.5;
-      .search-input {
-        @include grid-column(1);
-      }
-      .search-section {
-        @include grid-column(1 / 4);
-      }
-      .button.button-search-box {
-        font-size: $body;
-        font-weight: $normal;
-        color: $white;
-        @include box-shadow(0 2px 0 $button-search-box);
-        background-color: $button-search-box;
-        width: 100%;
-        text-align: center;
+      margin-bottom: $baseline;
+      input {
+        @include default-type;
+        @include border-radius($border-radius);
+        border: $border-thin solid $grey;
+        padding: $baseline*0.25 $gutter*0.5;
         line-height: $baseline;
-        &:hover {
-          background-color: darken($button-search-box, $hover-darken);
-        }
+        width: 100%;
+        @include box-sizing(border-box);
       }
-      @media only screen and (max-width:640px) {
-        margin-top: 0;
-        margin-bottom: 0;
-      }
-      &[type="search"]:focus {
-        z-index: 2;
-        background: red;
-      }
-      .form {
-        .group {
-          position: relative;
-          margin-bottom: $baseline;
-          input {
-            @include default-type;
-            @include border-radius($border-radius);
-            border: $border-thick solid $white;
-            padding: $baseline*0.25 $gutter;
-            line-height: $baseline*2;
-            width: 100%;
-            @include box-sizing(border-box);
-          }
-          .search-icon-position {
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            background: none;
-            border: none;
-            padding-left: $gutter;
-            padding-right: $gutter;
-            .fa-search {
-              color: $search;
-                &:hover {
-                cursor: pointer;
-                color: darken($search, $hover-darken);
-              }
-            }
+      .search-icon-position {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: none;
+        border: none;
+        padding-left: $gutter*0.5;
+        padding-right: $gutter*0.5;
+        .fa-search {
+          font-size: $icon*0.75;
+          color: $search;
+            &:hover {
+            cursor: pointer;
+            color: darken($search, $hover-darken);
           }
         }
       }
