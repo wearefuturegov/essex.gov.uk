@@ -1,0 +1,28 @@
+.header {
+  .search {
+    width: $gutter*2;
+    ::-webkit-input-placeholder { /* WebKit browsers */
+        color: transparent;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+       color: transparent;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+       color: transparent;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+       color: transparent;
+    }
+    .form {
+      .group {
+        position: relative;
+        margin-bottom: $baseline;
+        input {
+          line-height: $nav-height*0.75;
+          padding: 0;
+          border: none;
+        }
+      }
+    }
+  }
+}
