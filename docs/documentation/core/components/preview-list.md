@@ -1,6 +1,19 @@
 ## Preview list
 
 <div class="preview-list">
+  <div class="content">
+    <ul>
+      <li>
+        <a href="#">Preview</a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+      <li>
+        <a href="#">Preview</a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+      <li>
+        <a href="#">Preview</a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+    </ul>
+  </div>
   <div class="content js-hidden" id="tab-one" aria-hidden="true">
     <ul>
       <li>
@@ -19,6 +32,19 @@
 </div>
 
     <div class="preview-list">
+      <div class="content">
+        <ul>
+          <li>
+            <a href="#">Preview</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+          <li>
+            <a href="#">Preview</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+          <li>
+            <a href="#">Preview</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+        </ul>
+      </div>
       <div class="content js-hidden" id="tab-one" aria-hidden="true">
         <ul>
           <li>
@@ -38,13 +64,17 @@
 
 ### Preview list
 
-A preview list gives functionality to show and hide <a href="previews">preview content</a> displayed in a list.
+A preview list is a way to signpost users to other content using a link and short excerpt of text.
 
-It should only be used when multiple previews need to be displayed, including a list of:
+It's similar to <a href="previews">previews</a> but is displayed as a list with a line break between each item.
+
+The first 3 previews in a list should be visible at all times. Show and hide functionality should be applied if there are 4 or more items.
+
+Each preview list per page must have a unique ID.
+
+Preview lists should be used on higher level pages, such as the homepage and topic pages to signpost to:
 <ul class="list list-bullet">
   <li>service areas</li>
   <li>policies and legislation</li>
   <li>documents</li>
 </ul>
-
-The first 3 previews in a list should be visible at all times. The preview list only needs to be applied if there are 4 or more items.
