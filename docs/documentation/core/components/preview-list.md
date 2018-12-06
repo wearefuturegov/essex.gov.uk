@@ -1,20 +1,18 @@
 ## Preview list
 
 <div class="preview-list">
-  <div class="content">
-    <ul>
-      <li>
-        <a href="#">Preview</a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
-      <li>
-        <a href="#">Preview</a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
-      <li>
-        <a href="#">Preview</a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
-    </ul>
-  </div>
-  <div class="content js-hidden" id="tab-one" aria-hidden="true">
+  <ul>
+    <li>
+      <a href="#">Preview</a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+    <li>
+      <a href="#">Preview</a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+    <li>
+      <a href="#">Preview</a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+  </ul>
+  <div class="js-hidden" id="tab-one" aria-hidden="true">
     <ul>
       <li>
         <a href="#">Preview</a>
@@ -32,20 +30,18 @@
 </div>
 
     <div class="preview-list">
-      <div class="content">
-        <ul>
-          <li>
-            <a href="#">Preview</a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
-          <li>
-            <a href="#">Preview</a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
-          <li>
-            <a href="#">Preview</a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
-        </ul>
-      </div>
-      <div class="content js-hidden" id="tab-one" aria-hidden="true">
+      <ul>
+        <li>
+          <a href="#">Preview</a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+        <li>
+          <a href="#">Preview</a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+        <li>
+          <a href="#">Preview</a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+      </ul>
+      <div class="js-hidden" id="tab-one" aria-hidden="true">
         <ul>
           <li>
             <a href="#">Preview</a>
