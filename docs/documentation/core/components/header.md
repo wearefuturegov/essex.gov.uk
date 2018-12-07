@@ -16,6 +16,24 @@
       </div>
     </header>
 
+
+<header class="header-background">
+  <div class="header">
+    <nav class="nav">
+      <a href="/" class="logo-text">Essex.gov.uk</a>
+    </nav>
+  </div>
+</header>
+
+    <header class="header-background">
+      <div class="header">
+        <nav class="nav">
+          <a href="/" class="logo-text">Essex.gov.uk</a>
+        </nav>
+      </div>
+    </header>
+
+
 ### Using the header
 
 The header is displayed at the top of every page and is consistent across the entire site.

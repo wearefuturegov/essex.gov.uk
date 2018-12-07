@@ -23,6 +23,7 @@
         text-transform: uppercase;
         color: $white;
         line-height: $logo-height;
+        text-decoration: none;
       }
       ul.nav-links {
         @include grid-column(1 / 2);
