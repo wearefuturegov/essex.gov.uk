@@ -5,7 +5,6 @@
     @extend %site-width-container;
     .nav {
       @extend %grid-row;
-      text-align: right;
       .logo {
         @include grid-column(1 / 2);
         margin-top: $logo-height*0.5;
@@ -14,6 +13,16 @@
           height: $logo-height;
           width: $logo-width;
         }
+      }
+      a.logo-text {
+        @include grid-column(1 / 2);
+        display: inline-block;
+        font-family: $stack-logo;
+        font-size: $baseline;
+        margin-top: $nav-height*0.25;
+        text-transform: uppercase;
+        color: $white;
+        line-height: $logo-height;
       }
       ul.nav-links {
         @include grid-column(1 / 2);
