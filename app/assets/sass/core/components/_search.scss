@@ -1,7 +1,6 @@
 
 .search {
   @extend %site-width-container;
-  @extend %contain-floats;
   outline: none;
   &[type="search"]:focus {
     z-index: 2;
