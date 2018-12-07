@@ -2,10 +2,20 @@
 
 .link-boxes {
   @extend %grid-row;
-  display: flex;
+  // @include media(desktop) {
+  //   display: flex;
+  // }
+  // might need this back in some form
   .link-box {
-    @include grid-column(1/ 3);
-    display: flex;
+    cursor: pointer;
+    margin-bottom: $baseline;
+    // @include media(desktop) {
+    //   display: flex;
+    // }
+    // might need this back in some form
+    @include media(desktop) {
+      @include grid-column( 1/3 );
+    }
     .link-content {
       @include box-sizing(border-box);
       @include border-radius($border-radius);
@@ -19,6 +29,7 @@
       p {
         flex: 1 0 auto;
         margin-top: 0;
+        text-decoration: none;
       }
     }
   }
