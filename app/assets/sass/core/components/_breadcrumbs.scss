@@ -2,12 +2,14 @@
 .breadcrumbs {
   @include grid-column(1);
   padding-top: $baseline;
-  padding-bottom: $baseline;
+  @include media (tablet) {
+    padding-bottom: $baseline;
+  }
   ol {
     @extend %contain-floats;
   }
   li {
-    font-size: $body;
+    font-size: $small;
     float: left;
     background-image: file-url("icon/separator.png");
     @include device-pixel-ratio() {
