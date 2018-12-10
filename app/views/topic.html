@@ -72,7 +72,7 @@
         </div>
         <div class="section-break-lg"></div>
       </section>
-      
+
       <section class="tight">
         <h2>Guidance and legislation</h2>
         <div class="preview-list">
@@ -130,21 +130,12 @@
         </div>
       </section>
 
-      <div class="signup">
-        <h3>
-          Get the latest news and information about your council services
-        </h3>
-        <form action="/search" method="get" role="search" class="form">
-          <div class="group">
-            <div class="signup-input">
-              <input type="text" class="form-control" placeholder="Enter your email address" id="full-name" name="name" required="">
-            </div>
-            <div class="signup-button">
-              <input type="submit" class="button subscribe" value="Subscribe">
-            </div>
-          </div>
-        </form>
-      </div>
+      <section class="loose">
+        {% block signup %}
+          {% include "includes/signup.html" %}
+        {% endblock %}
+      </section>
+      
     </div>
   </div>
 
