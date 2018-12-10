@@ -6,7 +6,6 @@
   padding: $baseline*0.5 $gutter*0.5;
   margin-bottom: $baseline;
   display: table;
-  position: relative;
   .alert-icon {
     display: table-cell;
     vertical-align: middle;
@@ -31,63 +30,3 @@
     }
   }
 }
-
-/* ATTEMPT 1
-.alert {
-  border: $border-thick solid $error;
-  padding: $baseline*0.5 $gutter*0.5;
-  margin-bottom: $baseline;
-  position: relative;
-  @extend %grid-row;
-  .alert-icon {
-    @include grid-column(1 / 4);
-    .fa-exclamation-triangle {
-      font-size: 2em;
-      margin-top: $baseline*0.25;
-    }
-    .fa-exclamation-triangle {
-      color: $error;
-    }
-  }
-  .alert-text {
-    @include grid-column(3 / 4);
-    text-align: left;
-    h3 {
-      margin-top: $baseline*0.25;
-      margin-bottom: $baseline*0.25;
-    }
-    p {
-      margin-top: $baseline*0.25;
-    }
-    p:last-child {
-      margin-bottom: 0;
-    }
-  }
-}/*
-
-
-
-/* ORIGINAL
-.alert {
-  border: $border-thick solid $error;
-  text-align: center;
-  padding: $baseline*0.5 $gutter*0.5;
-  margin-bottom: $baseline;
-  .fa-exclamation-triangle {
-    font-size: 2em;
-  }
-  h3 {
-    margin-top: $baseline*0.25;
-    margin-bottom: $baseline*0.25;
-  }
-  p {
-    margin-top: $baseline*0.25;
-  }
-  p:last-child {
-    margin-bottom: 0;
-  }
-  .fa-exclamation-triangle {
-      color: $error;
-  }
-}
-*/
