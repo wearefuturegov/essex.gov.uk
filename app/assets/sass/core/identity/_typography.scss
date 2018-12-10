@@ -17,7 +17,7 @@ h1 {
   font-size: $h1;
   font-weight: 700;
   text-transform: none;
-  margin-top: $baseline;
+  margin-top: $baseline*0.5;
   margin-bottom: $baseline*0.5;
 }
 

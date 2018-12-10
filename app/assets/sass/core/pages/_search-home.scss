@@ -3,12 +3,13 @@
   position: relative;
   margin-bottom: $baseline;
   .search {
-    padding: $baseline*2 0;
+    padding: $baseline 0;
     .search-input {
       @include grid-column(1);
     }
     .search-section {
       @include grid-column(1 / 4);
+      margin-bottom: $baseline*0.5;
     }
     .form {
       .group {

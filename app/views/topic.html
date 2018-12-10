@@ -5,11 +5,9 @@
 <main id="content">
 
   <div class="container">
-    <section class="tight">
       {% block breadcrumbs %}
         {% include "includes/breadcrumbs.html" %}
       {% endblock %}
-    </section>
     <div class="main only">
       <section class="mid">
         <h1>Page title</h1>
@@ -17,27 +15,27 @@
 
       <section class="tight">
         <ul class="link-boxes">
-          <li class="link-box">
+          <a href="#" class="link-box"><li>
             <div class="link-content">
-              <h2><a href="#">Link box</a></h2>
+              <h2>Link box</h2>
                 <p>Link box copy explaining what content it contains
                 </p>
             </div>
-          </li>
-          <li class="link-box">
+          </li></a>
+          <a href="#" class="link-box"><li>
             <div class="link-content">
-              <h2><a href="#">Link box</a></h2>
+              <h2>Link box</h2>
                 <p>Link box copy explaining what content it contains
                 </p>
             </div>
-          </li>
-          <li class="link-box">
+          </li></a>
+          <a href="#" class="link-box"><li>
             <div class="link-content">
-              <h2><a href="#">Link box</a></h2>
+              <h2>Link box</h2>
                 <p>Link box copy explaining what content it contains
                 </p>
             </div>
-          </li>
+          </li></a>
         </ul>
       </section>
 
@@ -72,7 +70,7 @@
         </div>
         <div class="section-break-lg"></div>
       </section>
-      
+
       <section class="tight">
         <h2>Guidance and legislation</h2>
         <div class="preview-list">
@@ -131,22 +129,11 @@
       </section>
 
       <section class="loose">
-        <div class="signup">
-          <h3>
-            Get the latest news and information about your council services
-          </h3>
-          <form action="/search" method="get" role="search" class="form">
-            <div class="group">
-              <div class="signup-input">
-                <input type="text" class="form-control" placeholder="Enter your email address" id="full-name" name="name" required="">
-              </div>
-              <div class="signup-button">
-                <input type="submit" class="button subscribe" value="Subscribe">
-              </div>
-            </div>
-          </form>
-        </div>
+        {% block signup %}
+          {% include "includes/signup.html" %}
+        {% endblock %}
       </section>
+
     </div>
   </div>
 
