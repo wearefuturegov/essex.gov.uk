@@ -2,23 +2,31 @@
 
 .alert {
   border: $border-thick solid $error;
-  text-align: center;
+  text-align: left;
   padding: $baseline*0.5 $gutter*0.5;
   margin-bottom: $baseline;
-  .fa-exclamation-triangle {
-    font-size: 2em;
-  }
-  h3 {
-    margin-top: $baseline*0.25;
-    margin-bottom: $baseline*0.25;
-  }
-  p {
-    margin-top: $baseline*0.25;
-  }
-  p:last-child {
-    margin-bottom: 0;
-  }
-  .fa-exclamation-triangle {
+  display: table;
+  .alert-icon {
+    display: table-cell;
+    vertical-align: middle;
+    padding: $baseline*0.25;
+    .fa-exclamation-triangle {
+      font-size: 2em;
       color: $error;
+    }
+  }
+  .alert-text {
+    padding: $baseline*0.25;
+    h2 {
+      font-size: $medium;
+      margin-top: $baseline*0.25;
+      margin-bottom: $baseline*0.25;
+    }
+    p {
+      margin-top: $baseline*0.25;
+    }
+    p:last-child {
+      margin-bottom: 0;
+    }
   }
 }

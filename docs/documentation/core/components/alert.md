@@ -1,15 +1,23 @@
 ## Alert
 
 <div class="alert">
-  <i class="fas fa-exclamation-triangle"></i>
-  <h3>School closures</h3>
-  <p>Some schools in Essex are closed due to severe weather. <a href="#">Check if your child's school is closed</a></p>
+  <div class="alert-icon">
+    <i class="fas fa-exclamation-triangle alert-icon"></i>
+  </div>
+  <div class="alert-text">
+    <h2>School closures</h2>
+    <p>Some schools in Essex are closed due to severe weather. <a href="#">Check if your child's school is closed</a></p>
+  </div>
 </div>
 
     <div class="alert">
-      <i class="fas fa-exclamation-triangle"></i>
-      <h3>School closures</h3>
-      <p>Some schools in Essex are closed due to severe weather. <a href="#">Check if your child's school is closed</a></p>
+      <div class="alert-icon">
+        <i class="fas fa-exclamation-triangle alert-icon"></i>
+      </div>
+      <div class="alert-text">
+        <h2>School closures</h2>
+        <p>Some schools in Essex are closed due to severe weather. <a href="#">Check if your child's school is closed</a></p>
+      </div>
     </div>
 
 ### Using alerts

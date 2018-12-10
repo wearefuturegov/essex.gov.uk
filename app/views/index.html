@@ -10,11 +10,9 @@
 
   <div class="container">
     <div class="main only">
-      <div class="alert">
-        <i class="fas fa-exclamation-triangle"></i>
-        <h3>School closures</h3>
-        <p>Some schools in Essex are closed due to severe weather. <a href="#">Check if your child's school is closed</a></p>
-      </div>
+      {% block alert %}
+        {% include "includes/alert.html" %}
+      {% endblock %}
       <section class="">
         <div class="previews">
           <div class="preview">
