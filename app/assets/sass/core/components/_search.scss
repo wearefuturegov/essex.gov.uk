@@ -1,7 +1,7 @@
-
 .search {
   @include media(desktop) {
     max-width: $site-width;
+    margin: 0 auto;
   }
   outline: none;
   &[type="search"]:focus {
