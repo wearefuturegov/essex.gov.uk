@@ -2,12 +2,16 @@
 
 {% block content %}
 <main id="content" class="markdown">
-  <div class="breadcrumbs">
-    <ol>
-      <li><a href="/docs/core/contents">Contents</a></li>
-    </ol>
+  <div class="container">
+    <div class="main only loose">
+      <div class="breadcrumbs">
+        <ol>
+          <li><a href="/docs/core/contents">Contents</a></li>
+        </ol>
+      </div>
+    	{{document | safe}}
+    </div>
   </div>
-	{{document | safe}}
 </main>
 
 {% endblock %}
