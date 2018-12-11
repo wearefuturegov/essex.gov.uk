@@ -25,7 +25,8 @@
       }
       .social {
         @include grid-column(2 / 3);
-        margin-top: $baseline*0.25;
+        margin-top: $baseline*1.5;
+        margin-bottom: $baseline*1.5;
         li {
           a {
             color: $white;

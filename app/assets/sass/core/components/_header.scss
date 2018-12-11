@@ -1,6 +1,9 @@
 .header-background {
   background-color: $brand;
-  height: $nav-height;
+  height: auto;
+  @include media(desktop) {
+    height: $nav-height;
+  }
   .header {
     @extend %site-width-container;
     .nav {
@@ -9,6 +12,10 @@
         @include grid-column(1 / 2);
         margin-top: $logo-height*0.5;
         margin-bottom: $logo-height*0.5;
+        @include media(mobile) {
+          margin-bottom: $baseline*0.25;
+          padding: 0;
+        }
         img {
           height: $logo-height;
           width: $logo-width;
@@ -20,6 +27,7 @@
         font-family: $stack-logo;
         font-size: $baseline;
         margin-top: $nav-height*0.25;
+        margin-bottom: $nav-height*0.25;
         text-transform: uppercase;
         color: $white;
         line-height: $logo-height;
