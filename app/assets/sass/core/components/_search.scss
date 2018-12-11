@@ -1,6 +1,8 @@
-
 .search {
-  @extend %site-width-container;
+  @include media(desktop) {
+    max-width: $site-width;
+    margin: 0 auto;
+  }
   outline: none;
   &[type="search"]:focus {
     z-index: 2;

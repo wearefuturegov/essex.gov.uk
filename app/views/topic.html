@@ -14,29 +14,9 @@
       </section>
 
       <section class="tight">
-        <ul class="link-boxes">
-          <a href="#" class="link-box"><li>
-            <div class="link-content">
-              <h2>Link box</h2>
-                <p>Link box copy explaining what content it contains
-                </p>
-            </div>
-          </li></a>
-          <a href="#" class="link-box"><li>
-            <div class="link-content">
-              <h2>Link box</h2>
-                <p>Link box copy explaining what content it contains
-                </p>
-            </div>
-          </li></a>
-          <a href="#" class="link-box"><li>
-            <div class="link-content">
-              <h2>Link box</h2>
-                <p>Link box copy explaining what content it contains
-                </p>
-            </div>
-          </li></a>
-        </ul>
+        {% block linkbox %}
+          {% include "includes/link-box.html" %}
+        {% endblock %}
       </section>
 
       <section class="tight">

@@ -3,7 +3,10 @@
   position: relative;
   margin-bottom: $baseline;
   .search {
-    padding: $baseline 0;
+    @include media(desktop) {
+      padding: $baseline 0;
+    }
+    padding: 0;
     .search-input {
       @include grid-column(1);
     }

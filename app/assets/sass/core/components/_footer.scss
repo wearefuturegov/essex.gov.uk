@@ -29,6 +29,9 @@
         li {
           a {
             color: $white;
+            &:hover {
+              color: darken($white, $darken);
+            }
           }
         }
       }
