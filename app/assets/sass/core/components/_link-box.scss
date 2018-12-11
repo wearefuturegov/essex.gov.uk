@@ -1,12 +1,10 @@
 // Link box (used on topic pages)
 
 .link-boxes {
-  // @extend %grid-row;
   @include media(desktop) {
     flex-wrap: wrap;
     display: flex;
   }
-  // might need this back in some form
   display: inline-block;
   .link-box {
     cursor: pointer;
@@ -14,15 +12,14 @@
     display: block;
     background-color: $grey-light;
     border-bottom: solid $border-thin $grey;
+    text-decoration: none;
     @include media(desktop) {
       display: flex;
     }
-    // might need this back in some form
     @include media(desktop) {
       float: left;
       width: calc(33.33333% - #{$gutter*0.7});
       margin-right: $gutter;
-      // @include grid-column( 1/3 );
       padding: 0;
       &:last-child {
         margin-right: 0;
@@ -35,6 +32,7 @@
       h2 {
         margin-top: 0;
         font-size: $body;
+        text-decoration: underline;
       }
       p {
         flex: 1 0 auto;
