@@ -2,17 +2,21 @@
 
 .link-boxes {
   // @extend %grid-row;
-  // @include media(desktop) {
-  //   display: flex;
-  // }
+  @include media(desktop) {
+    flex-wrap: wrap;
+    display: flex;
+  }
   // might need this back in some form
+  display: inline-block;
   .link-box {
     cursor: pointer;
     margin-bottom: $baseline;
     display: block;
-    // @include media(desktop) {
-    //   display: flex;
-    // }
+    background-color: $grey-light;
+    border-bottom: solid $border-thin $grey;
+    @include media(desktop) {
+      display: flex;
+    }
     // might need this back in some form
     @include media(desktop) {
       float: left;
@@ -27,9 +31,7 @@
     .link-content {
       @include box-sizing(border-box);
       @include border-radius($border-radius);
-      background-color: $grey-light;
       padding: $baseline $gutter;
-      border-bottom: solid $border-thin $grey;
       h2 {
         margin-top: 0;
         font-size: $body;

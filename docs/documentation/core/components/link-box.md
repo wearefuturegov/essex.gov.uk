@@ -1,49 +1,54 @@
 ## Link box
 
 <ul class="link-boxes">
-  <a href="#"><li class="link-box">
+  <a href="#" class="link-box"><li>
     <div class="link-content">
-      <h2>Report abuse or neglect</h2>
-        <p>How to spot signs of abuse or neglect, what you should do, and how to report it
+      <h2>Link box</h2>
+        <p>Link box copy explaining what content it contains
         </p>
     </div>
   </li></a>
-  <a href="social-care-step-by-step"><li class="link-box">
+  <a href="#" class="link-box"><li>
     <div class="link-content">
-      <h2>Adult Social Care: step by step</h2>
-      <p>
-        Not sure where to start? Check what help is available and who to speak to at each stage of the care and support process
-      </p>
+      <h2>Link box</h2>
+        <p>Link box copy explaining what content it contains
+        </p>
     </div>
   </li></a>
-  <a href="looking-after-someone"><li class="link-box">
+  <a href="#" class="link-box"><li>
     <div class="link-content">
-      <h2>Looking after someone</h2>
-      <p>Financial and practical support for carers, people who look after a friend or family member</p>
+      <h2>Link box</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
     </div>
   </li></a>
 </ul>
 
     <ul class="link-boxes">
-      <a href="#"><li class="link-box">
+      <a href="#" class="link-box"><li>
         <div class="link-content">
-          <h2>Report abuse or neglect</h2>
-            <p>How to spot signs of abuse or neglect, what you should do, and how to report it
+          <h2>Link box</h2>
+            <p>Link box copy explaining what content it contains
             </p>
         </div>
       </li></a>
-      <a href="social-care-step-by-step"><li class="link-box">
+      <a href="#" class="link-box"><li>
         <div class="link-content">
-          <h2>Adult Social Care: step by step</h2>
-          <p>
-            Not sure where to start? Check what help is available and who to speak to at each stage of the care and support process
-          </p>
+          <h2>Link box</h2>
+            <p>Link box copy explaining what content it contains
+            </p>
         </div>
       </li></a>
-      <a href="looking-after-someone"><li class="link-box">
+      <a href="#" class="link-box"><li>
         <div class="link-content">
-          <h2>Looking after someone</h2>
-          <p>Financial and practical support for carers, people who look after a friend or family member</p>
+          <h2>Link box</h2>
+            <p>Link box copy explaining what content it contains
+            </p>
         </div>
       </li></a>
     </ul>
