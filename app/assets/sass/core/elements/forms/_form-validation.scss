@@ -4,11 +4,11 @@
 // Use .form-group-error to add a red border to the left of a .form-group
 .form-group-error {
   margin-right: 15px;
-  border-left: $border-thick solid $error;
+  border-left: $border-thicker solid $error;
   padding-left: 10px;
   margin-bottom: $baseline;
   @include media(tablet) {
-    border-left: 5px solid $error;
+    border-left: $border-thicker solid $error;
     padding-left: $gutter-half;
   }
 }
