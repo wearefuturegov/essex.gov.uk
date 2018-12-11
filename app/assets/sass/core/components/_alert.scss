@@ -1,11 +1,14 @@
 // Alert
 
 .alert {
+  @include box-sizing(border-box);
+  position: relative;
   border: $border-thick solid $error;
   text-align: left;
-  padding: $baseline*0.5 $gutter*0.5;
+  padding: $baseline $gutter*0.5 $baseline*0.5 $gutter*0.5;
   margin-bottom: $baseline;
   display: table;
+  width: 100%;
   .alert-icon {
     display: table-cell;
     vertical-align: middle;
@@ -16,7 +19,7 @@
     }
   }
   .alert-text {
-    padding: $baseline*0.25;
+    padding: $baseline*0.25 $gutter*0.25;
     h2 {
       font-size: $medium;
       margin-top: $baseline*0.25;
@@ -29,4 +32,30 @@
       margin-bottom: 0;
     }
   }
+  label.close {
+    font-size: $smaller;
+    position: absolute;
+    top: $baseline*0.25;
+    right: $gutter*0.75;
+    cursor: pointer;
+    color: #005ea5;
+    text-decoration: underline;
+    &:hover {
+      color: lighten($link, $lighten);
+    }
+  }
+  .checkbox {
+    display: none;
+  }
+}
+
+
+// yuk!
+#alert + .alert.js-hidden {
+  display: table;
+  visibility: visible;
+}
+
+#alert + .alert[aria-hidden="false"] {
+  display: none;
 }

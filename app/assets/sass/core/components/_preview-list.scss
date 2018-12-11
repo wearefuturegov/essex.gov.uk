@@ -19,29 +19,29 @@
       border-bottom: none;
     }
   }
-}
+  input.checkbox, .hide {
+    display: none;
+  }
 
-input.checkbox, .hide {
-  display: none;
-}
+  // show and hide for "show" and "hide" toggle
+  input[aria-expanded="false"] + label.show + label.hide {
+    display: none;
+  }
 
-// show and hide for "show" and "hide" toggle
-input[aria-expanded="false"] + label.show + label.hide {
-  display: none;
-}
+  input[aria-expanded="true"] + label.show {
+    display: none;
+  }
 
-input[aria-expanded="true"] + label.show {
-  display: none;
-}
+  input[aria-expanded="true"] + label.show + label.hide {
+    display: block;
+  }
 
-input[aria-expanded="true"] + label.show + label.hide {
-  display: block;
-}
-
-label.show, label.hide {
-  cursor: pointer;
-  color: #005ea5;
-  &:hover {
+  label.show, label.hide {
+    cursor: pointer;
+    color: $link;
     text-decoration: underline;
+    &:hover {
+      color: lighten($link, $lighten);
+    }
   }
 }
