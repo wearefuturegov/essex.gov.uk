@@ -10,7 +10,7 @@
   </div>
   <div data-target="tab-one">
     <input class="checkbox" id="hide-one" type="checkbox" aria-controls="tab-one" aria-expanded="false">
-    <label class="close" for="hide-one">Close</label>
+    <label class="close" for="hide-one"><i class="fas fa-times"></i></label>
   </div>
 </div>
 
@@ -24,7 +24,7 @@
       </div>
       <div data-target="tab-one">
         <input class="checkbox" id="hide-one" type="checkbox" aria-controls="tab-one" aria-expanded="false">
-        <label class="close" for="hide-one">Close</label>
+        <label class="close" for="hide-one"><i class="fas fa-times"></i></label>
       </div>
     </div>
 

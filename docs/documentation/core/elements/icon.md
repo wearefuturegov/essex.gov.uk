@@ -32,6 +32,10 @@
 
     <i class="fab fa-linkedin"></i>
 
+<i class="fas fa-times"></i>
+
+    <i class="fas fa-times"></i>
+
 ### Using icons
 
 Icons should only be used when there is a user need.
