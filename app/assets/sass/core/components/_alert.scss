@@ -51,11 +51,11 @@
 
 
 // yuk!
-#alert + .alert.js-hidden {
+.alert.js-hidden {
   display: table;
   visibility: visible;
 }
 
-#alert + .alert[aria-hidden="false"] {
+.alert[aria-hidden="false"] {
   display: none;
 }
