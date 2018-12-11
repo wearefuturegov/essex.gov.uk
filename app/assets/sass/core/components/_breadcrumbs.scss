@@ -1,6 +1,5 @@
 // Breadcrumbs
 .breadcrumbs {
-  @include grid-column(1);
   padding-top: $baseline;
   @include media (tablet) {
     padding-bottom: $baseline;
