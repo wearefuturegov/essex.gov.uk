@@ -26,4 +26,23 @@
       }
     }
   }
+  @include media(mobile) {
+    .nav {
+      padding-right: 0;
+      .logo {
+        margin-bottom: $baseline*0.25;
+      }
+    }
+    .search {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      .form .group {
+        margin-bottom: $baseline*0.5;
+        input {
+          margin-top: 0;
+        }
+      }
+    }
+  }
 }
