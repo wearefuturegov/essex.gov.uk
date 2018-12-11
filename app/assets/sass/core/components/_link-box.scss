@@ -13,6 +13,9 @@
     background-color: $grey-light;
     border-bottom: solid $border-thin $grey;
     text-decoration: none;
+    a {
+      text-decoration: none;
+    }
     @include media(desktop) {
       display: flex;
     }
@@ -37,7 +40,7 @@
       p {
         flex: 1 0 auto;
         margin-top: 0;
-        text-decoration: none;
+        color: $text-colour;
       }
     }
   }
