@@ -1,15 +1,18 @@
-.section {
-  @extend %site-width-container;
-}
-
 .container {
   @extend %grid-row;
+  @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+    width: $site-width;
+    margin: 0 auto;
+  }
 }
 
 .main {
   @include grid-column(2 / 3);
   &.only {
     @include grid-column(1);
+    @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+      padding: 0;
+    }
   }
 }
 
