@@ -12,12 +12,11 @@ $site-width: 960px;
 
 %site-width-container {
   max-width: $site-width;
+  margin: 0 $gutter;
 
   @include ie-lte(8) {
-    width: $site-width;
+    max-width: $site-width;
   }
-
-  margin: 0 $gutter;
 
   @include media(tablet) {
     margin: 0 $gutter;
