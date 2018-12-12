@@ -23,7 +23,7 @@
           @include border-radius($border-radius);
           border: $border-thick solid $white;
           padding: $baseline*0.25 $gutter;
-          line-height: $baseline*2;
+          height: $baseline*2.5;
           width: 100%;
           @include box-sizing(border-box);
         }

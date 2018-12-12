@@ -24,6 +24,7 @@
         @include grid-column(2 / 3);
         input {
           padding: 6px $gutter*0.5;
+          height: $baseline*1.5;
         }
       }
       .signup-button {
