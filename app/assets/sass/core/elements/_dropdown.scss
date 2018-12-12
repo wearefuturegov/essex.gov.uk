@@ -4,11 +4,10 @@ select {
   -moz-osx-font-smoothing: grayscale;
   font-weight: $normal;
   font-size: $body;
-  line-height: $baseline;
+  height: $baseline*1.25;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   max-width: $full-width;
-  height: 40px;
-  padding: $gutter;
+  padding: $gutter*0.25 0 $gutter*0.25 $gutter*0.5;
   border: $border-normal solid $grey;
 }

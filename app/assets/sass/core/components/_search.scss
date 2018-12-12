@@ -17,9 +17,12 @@
         @include border-radius($border-radius);
         border: $border-thin solid $grey;
         padding: $baseline*0.25 $gutter*0.5;
-        line-height: $baseline;
+        height: $baseline*1.5;
         width: 100%;
         @include box-sizing(border-box);
+        &::-ms-clear {
+          display: none;
+        }
       }
       .search-icon-position {
         position: absolute;
@@ -28,11 +31,11 @@
         bottom: 0;
         background: none;
         border: none;
-        padding-left: $gutter*0.5;
-        padding-right: $gutter*0.5;
+        padding: $gutter*0.25 $gutter*0.5;
         .fa-search {
-          font-size: $icon*0.75;
+          font-size: $icon*0.5;
           color: $search;
+          padding: 0;
             &:hover {
             cursor: pointer;
             color: darken($search, $hover-darken);
