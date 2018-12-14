@@ -6,13 +6,48 @@
     @include media(desktop) {
       padding: $baseline 0;
     }
-    padding: 0;
-    .search-input {
-      @include grid-column(1);
-    }
-    .search-section {
-      @include grid-column(1 / 4);
-      margin-bottom: $baseline*0.5;
+    .search-box {
+      margin: 0 auto;
+      @extend %grid-row;
+      @include box-sizing(border-box);
+      @include border-radius($border-radius);
+      background-color: rgba(0, 0, 0, 0.1);
+      position: relative;
+      padding: $baseline*0.75 $gutter*0.5;
+      .search-input {
+      }
+      .search-buttons {
+        flex-wrap: wrap;
+        display: flex;
+        padding: 0;
+        margin-bottom: $baseline*0.5;
+        .search-button {
+          @include media(desktop) {
+            width: calc(25% - #{$border-normal});
+          }
+          width: 100%;
+          display: flex;
+          padding: 0;
+          margin-right: $border-normal;
+          margin-bottom: $baseline*0.25;
+          &:last-child {
+            margin-right: 0;
+          }
+          .button {
+            @include box-shadow(0 2px 0 $button-search-box);
+            font-size: $body;
+            font-weight: $normal;
+            color: $white;
+            text-align: center;
+            background-color: $button-search-box;
+            padding-bottom: $baseline*0.5;
+            width: 100%;
+            &:hover {
+              background-color: darken($button-search-box, $hover-darken);
+            }
+          }
+        }
+      }
     }
     .form {
       .group {
@@ -37,27 +72,5 @@
     position: absolute;
     right: 0;
     left: 0;
-  }
-  .search-box {
-    margin: 0 auto;
-    @extend %grid-row;
-    @include box-sizing(border-box);
-    @include border-radius($border-radius);
-    background-color: rgba(0, 0, 0, 0.1);
-    position: relative;
-    padding: $baseline*1.5 $gutter*0.5;
-    .button.button-search-box {
-      font-size: $body;
-      font-weight: $normal;
-      color: $white;
-      @include box-shadow(0 2px 0 $button-search-box);
-      background-color: $button-search-box;
-      width: 100%;
-      text-align: center;
-      line-height: $baseline;
-      &:hover {
-        background-color: darken($button-search-box, $hover-darken);
-      }
-    }
   }
 }
