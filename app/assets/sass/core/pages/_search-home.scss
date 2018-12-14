@@ -22,10 +22,14 @@
         padding: 0;
         margin-bottom: $baseline*0.5;
         .search-button {
-          width: calc(25% - #{$border-normal});
+          @include media(desktop) {
+            width: calc(25% - #{$border-normal});
+          }
+          width: 100%;
           display: flex;
           padding: 0;
           margin-right: $border-normal;
+          margin-bottom: $baseline*0.25;
           &:last-child {
             margin-right: 0;
           }
