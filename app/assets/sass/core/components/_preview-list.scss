@@ -3,6 +3,10 @@
     display: block;
     margin-top: $baseline;
   }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
   li {
     border-bottom: $border-thin solid $grey;
     margin-top: $baseline*0.5;

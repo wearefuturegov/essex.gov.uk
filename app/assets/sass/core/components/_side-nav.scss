@@ -9,6 +9,9 @@
     margin-bottom: $baseline*0.5;
     padding-left: $gutter;
   }
+  ul {
+    padding-left: 0;
+  }
   li {
     @include default-type;
     font-size: $small;

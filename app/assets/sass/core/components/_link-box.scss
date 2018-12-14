@@ -1,5 +1,9 @@
 // Link box (used on topic pages)
 
+ul.link-boxes {
+  padding-left: 0;
+}
+
 .link-boxes {
   @include media(desktop) {
     flex-wrap: wrap;

@@ -1,9 +1,12 @@
 .contents {
   @extend %grid-row;
-  ol.list, ul.list {
+  ol, ul {
     @include grid-column(1 / 2);
     padding-left: 2em;
     margin: 0;
     font-size: $small;
+    li {
+      margin-bottom: $baseline*0.25;
+    }
   }
 }
