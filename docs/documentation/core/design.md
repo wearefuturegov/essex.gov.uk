@@ -1,7 +1,7 @@
 <h1>Design System styles guide</h1>
 <p>Some text in here about styles</p>
 
-<ul class="list">
+<ul>
   <li><a href="#colour">Colour</a></li>
   <li><a href="#typography">Typography</a></li>
   <li><a href="#layout">Layout</a></li>
