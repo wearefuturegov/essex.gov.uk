@@ -43,7 +43,7 @@ Icons should only be used when there is a user need.
 They should be clear, simple and accompanied by relevant text.
 
 Icons can be used for:
-<ul class="list list-bullet">
+<ul>
   <li>alerts</li>
   <li>search</li>
   <li>print page</li>
@@ -51,7 +51,7 @@ Icons can be used for:
 </ul>
 
 Icons shouldn't be used:
-<ul class="list list-bullet">
+<ul>
   <li>to decorate content</li>
   <li>instead of an image</li>
   <li>to hide a function, such as a button</li>

@@ -15,7 +15,7 @@ Buttons should be used to help users carry out a task, like starting an applicat
 Button text should be written in sentence case and clearly tell the user what the action is. For example, ‘Start now’, ‘Continue’, ‘Subscribe’.
 
 Buttons can be used to:
-<ul class="list list-bullet">
+<ul>
   <li>Start a form</li>
   <li>Continue to the next question of a form</li>
   <li>Subscribe to something, such as email notifications</li>

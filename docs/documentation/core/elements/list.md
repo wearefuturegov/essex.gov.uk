@@ -2,7 +2,7 @@
 
 ### Unordered list
 
-<ul class="list list-bullet">
+<ul>
   <li>
     Short term (up to 6 weeks)
   </li>
@@ -14,7 +14,7 @@
   </li>
 </ul>
 
-    <ul class="list list-bullet">
+    <ul>
       <li>
         Short term (up to 6 weeks)
       </li>
@@ -28,13 +28,13 @@
 
 ### Ordered list
 
-<ol class="list list-number">
+<ol>
   <li>Paying for care and support</li>
   <li>Care in a residential home</li>
   <li>Financial assessment explained</li>
 </ol>
 
-    <ol class="list list-number">
+    <ol>
       <li>Paying for care and support</li>
       <li>Care in a residential home</li>
       <li>Financial assessment explained</li>

@@ -69,7 +69,7 @@ The first 3 previews in a list should be visible at all times. Show and hide fun
 Each preview list per page must have a unique ID.
 
 Preview lists should be used on higher level pages, such as the homepage and topic pages to signpost to:
-<ul class="list list-bullet">
+<ul>
   <li>service areas</li>
   <li>policies and legislation</li>
   <li>documents</li>

@@ -125,18 +125,18 @@
 The preview component signposts users to other pages of content using a link and a snippet of text. It can also include an image and <a href="/docs/core/elements/meta">metadata</a>.
 
 Examples of where previews are used include:
-<ul class="list list-bullet">
+<ul>
   <li>signposting to service areas on the homepage</li>
   <li>displaying the most recent news articles on the homepage and topic pages</li>
 </ul>
 Previews should always have:
-<ul class="list list-bullet">
+<ul>
   <li>a link to another page of content</li>
   <li>clear and concise link text</li>
   <li>a short description of what the user can expect to find on the page</li>
 </ul>
 They shouldn't have:
-<ul class="list list-bullet">
+<ul>
   <li>lengthy text</li>
   <li>email addresses or telephone numbers</li>
   <li>additional formatting such as bold, italics or lists</li>

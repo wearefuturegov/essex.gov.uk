@@ -11,7 +11,7 @@
 ### Using meta
 
 This element should be used when metadata needs to be visible to the user, for example to display:
-<ul class="list list-bullet">
+<ul>
   <li>the publication date of a page or article</li>
   <li>a category or taxonomy of a page or document</li>
   <li>the name of an author</li>

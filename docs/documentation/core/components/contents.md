@@ -1,13 +1,13 @@
 ## Contents
 
 <div class="contents">
-  <ol class="list list-number">
+  <ol>
     <li>Paying for care and support</li>
     <li><a href="#">Financial assessment </a></li>
     <li><a href="#">Personal budget</a></li>
     <li><a href="#">Care charges</a></li>
   </ol>
-  <ol class="list list-number" start="5">
+  <ol start="5">
     <li><a href="#">Ways to pay for your care</a></li>
     <li><a href="#">Paying for a residential home</a></li>
     <li><a href="#">Deferred payment scheme</a></li>
@@ -16,13 +16,13 @@
 </div>
 
     <div class="contents">
-      <ol class="list list-number">
+      <ol>
         <li>Paying for care and support</li>
         <li><a href="#">Financial assessment </a></li>
         <li><a href="#">Personal budget</a></li>
         <li><a href="#">Care charges</a></li>
       </ol>
-      <ol class="list list-number" start="5">
+      <ol start="5">
         <li><a href="#">Ways to pay for your care</a></li>
         <li><a href="#">Paying for a residential home</a></li>
         <li><a href="#">Deferred payment scheme</a></li>
@@ -36,4 +36,4 @@ Contents is an in-page navigation to guide the user through a series of pages th
 
 It should be used on information pages and should be positioned at the top, just below the page title.
 
-It shouldn't be used to link to other sections of the website or pages that aren't grouped together. 
+It shouldn't be used to link to other sections of the website or pages that aren't grouped together.
