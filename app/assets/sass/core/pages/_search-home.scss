@@ -9,9 +9,11 @@
     padding: 0;
     .search-input {
       @include grid-column(1);
+      padding: 0;
     }
     .search-section {
       @include grid-column(1 / 4);
+      padding: 0;
       margin-bottom: $baseline*0.5;
     }
     .form {
