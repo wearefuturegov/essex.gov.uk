@@ -31,7 +31,7 @@
 ### Using alerts
 
 Alerts are used to direct a user's attention to important information. This could include:
-<ul class="list list-bullet">
+<ul>
   <li>adverse weather information</li>
   <li>technical problems or maintenance on the website</li>
   <li>changes to regular council services</li>

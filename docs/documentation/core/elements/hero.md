@@ -9,7 +9,7 @@
 A hero image is used to promote council campaigns.
 
 Images should always:
-<ul class="list list-bullet">
+<ul>
   <li>be meaningful and support the campaign</li>
   <li>be text-free - text should be added to the <a href="overlay">overlay</a>, not the image</li>
   <li>have alt text</li>
