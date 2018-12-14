@@ -14,17 +14,19 @@
           </div>
         </form>
       </div>
-      <div class="search-section">
-        <a class="button button-search-box" href="#" role="button">Link</a>
-      </div>
-      <div class="search-section">
-        <a class="button button-search-box" href="#" role="button">Link</a>
-      </div>
-      <div class="search-section">
-        <a class="button button-search-box" href="#" role="button">Link</a>
-      </div>
-      <div class="search-section">
-        <a class="button button-search-box" href="#" role="button">Link</a>
+      <div class="search-buttons">
+        <div class="search-button">
+          <a class="button" href="#" role="button">Link text that is longer than the others</a>
+        </div>
+        <div class="search-button">
+          <a class="button" href="#" role="button">Link</a>
+        </div>
+        <div class="search-button">
+          <a class="button" href="#" role="button">Link</a>
+        </div>
+        <div class="search-button">
+          <a class="button" href="#" role="button">Link</a>
+        </div>
       </div>
     </div>
   </div>
@@ -44,17 +46,19 @@
               </div>
             </form>
           </div>
-          <div class="search-section">
-            <a class="button button-search-box" href="#" role="button">Link</a>
-          </div>
-          <div class="search-section">
-            <a class="button button-search-box" href="#" role="button">Link</a>
-          </div>
-          <div class="search-section">
-            <a class="button button-search-box" href="#" role="button">Link</a>
-          </div>
-          <div class="search-section">
-            <a class="button button-search-box" href="#" role="button">Link</a>
+          <div class="search-buttons">
+            <div class="search-button">
+              <a class="button" href="#" role="button">Link text that is longer than the others</a>
+            </div>
+            <div class="search-button">
+              <a class="button" href="#" role="button">Link</a>
+            </div>
+            <div class="search-button">
+              <a class="button" href="#" role="button">Link</a>
+            </div>
+            <div class="search-button">
+              <a class="button" href="#" role="button">Link</a>
+            </div>
           </div>
         </div>
       </div>
