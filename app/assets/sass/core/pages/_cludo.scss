@@ -17,15 +17,38 @@
       margin-top: 0;
       margin-bottom: calc(#{$h3} * 0.83333);
     }
+    .path {
+      font-size: $smaller;
+    }
     &:hover {
-      background: $grey-light;
+      background: $grey-lighter;
     }
   }
   .cludo-banner {
-    background: $grey-light;
-    border: $border-thin $grey solid;
+    background: $highlight-box;
+    color: $white;
+    a {
+      color: $white;
+      font-weight: 600;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    &:hover {
+      background: $highlight-box;
+    }
   }
   .search-results {
     margin-top: $baseline;
+  }
+  .search-filters {
+    @include box-sizing(border-box);
+    background: $grey-lighter;
+    border: $border-thin $grey-light solid;
+    padding: $baseline*0.25 $gutter*0.5;
+  }
+  .search-filters-mobile-button {
+    display: none; // hide for now
   }
 }
