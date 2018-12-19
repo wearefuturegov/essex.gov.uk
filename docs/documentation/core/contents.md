@@ -62,4 +62,6 @@
 <ul>
   <li><a href="/">Home</a></li>
   <li><a href="/form">Form</a></li>
+  <li><a href="/information">Information</a></li>
+  <li><a href="/cludo">Cludo Search</a></li>
 </ul>

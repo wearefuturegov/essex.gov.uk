@@ -1,0 +1,88 @@
+#cludo-search-results {
+  ul {
+    padding-left: 0;
+    li {
+      list-style: none;
+    }
+  }
+  .search-results-item, .cludo-banner {
+    @include box-sizing(border-box);
+    padding: $baseline $gutter*0.5 $baseline*0.5;
+    border-bottom: $border-thin $grey solid;
+    h2 {
+      @include h3;
+      margin-top: 0;
+      margin-bottom: 0;
+      a {
+        text-decoration: none;
+        &:hover {
+          color: $link;
+          text-decoration: underline;
+        }
+      }
+    }
+    p {
+      margin-bottom: $baseline*0.5;
+    }
+    .path {
+      font-size: $smaller;
+    }
+    &:hover {
+      background: $grey-lighter;
+    }
+  }
+  .cludo-banner {
+    background: $highlight-box;
+    border: none;
+    color: $white;
+    h2 {
+      margin-bottom: calc(#{$h3} * 0.83333);
+    }
+    a {
+      color: $white;
+      font-weight: 600;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    &:hover {
+      background: $highlight-box;
+    }
+  }
+  .search-results {
+    margin-top: $baseline;
+  }
+  .main {
+    @include media (mobile) {
+      float: left;
+      margin-top: 0;
+    }
+  }
+  aside.side {
+    float: right;
+    margin-top: calc(#{$h3} * 1.875);
+    margin-bottom: $baseline;
+    font-size: $small;
+    @include media (mobile) {
+      float: left;
+      width: 100%;
+      margin-bottom: 0;
+    }
+    .search-filters {
+      @include box-sizing(border-box);
+      background: $grey-lighter;
+      border: $border-thin $grey-light solid;
+      padding: $baseline*0.25 $gutter*0.5;
+    }
+  }
+  .search-filters-mobile-button {
+    display: none; // hide for now
+  }
+  .cludo-page-navigation {
+    li {
+      display: inline-block;
+      margin: $baseline $gutter*0.125;
+    }
+  }
+}
