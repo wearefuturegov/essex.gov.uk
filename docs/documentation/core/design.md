@@ -14,7 +14,7 @@
   easily updated.</p>
 
 <h3>Primary brand colour</h3>
-<div class="basic-table">
+<div class="table">
 <table>
   <tbody>
     <tr>
@@ -27,7 +27,7 @@
 </div>
 
 <h3>Text</h3>
-<div class="basic-table">
+<div class="table">
 <table>
   <tbody>
     <tr>
@@ -46,7 +46,7 @@
 
 
 <h3>Link</h3>
-<div class="basic-table">
+<div class="table">
 <table>
   <tbody>
     <tr>
@@ -70,7 +70,7 @@
 
 <h3>Focus</h3>
 <p>This colour is used to highlight which elements on a page users are interacting with. It can be seen when tabbing content with a keyboard.</p>
-<div class="basic-table">
+<div class="table">
 <table>
   <tbody>
     <tr>
@@ -85,7 +85,7 @@
 <h3>Greyscale</h3>
 <p>Greyscale colours are AAA compliant when used with the contrasting text colours. $white should be used on the darker colours and $text-colour should be used on the lighter colours.</p>
 <p></p>
-<div class="basic-table">
+<div class="table">
 <table>
   <tbody>
     <tr>
