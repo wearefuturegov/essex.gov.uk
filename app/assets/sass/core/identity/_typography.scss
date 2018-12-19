@@ -15,32 +15,36 @@ $h4: 19px;
 
 h1 {
   font-size: $h1;
+  line-height: 1.04167;
   font-weight: 700;
   text-transform: none;
   margin-top: $baseline*0.5;
-  margin-bottom: $baseline*0.5;
+  margin-bottom: $baseline*0.75;
+
 }
 
 h2 {
   font-size: $h2;
+  line-height: 1.11111;
   font-weight: 700;
   text-transform: none;
   margin-top: $baseline;
-  margin-bottom: $baseline*0.5;
+  margin-bottom: $baseline*0.25;
 }
 
 h3 {
   font-size: $h3;
+  line-height: 1.25;
   font-weight: 700;
   text-transform: none;
   margin-top: $baseline;
-  margin-bottom: $baseline*0.5;
+  margin-bottom: $baseline*0.75;
 }
 
 h4 {
   font-size: $h4;
   font-weight: 700;
-  line-height: 19px;
+  line-height: 1.31579;
   text-transform: none;
   margin-top: $baseline;
   margin-bottom: $baseline*0.25;
@@ -49,8 +53,9 @@ h4 {
 p {
   font-size: 19px;
   font-weight: 400;
+  line-height: $baseline;
   text-transform: none;
-  margin-top: $baseline*0.75;
+  margin-top: $baseline*0.125;
   margin-bottom: $baseline*0.75;
   position: relative;
 }
