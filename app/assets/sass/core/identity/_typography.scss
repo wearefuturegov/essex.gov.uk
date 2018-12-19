@@ -18,8 +18,8 @@ h1 {
   line-height: 1.04167;
   font-weight: 700;
   text-transform: none;
-  margin-top: $baseline*0.5;
-  margin-bottom: $baseline*0.75;
+  margin-top: calc(#{$h1} * 0.625);
+  margin-bottom: calc(#{$h1} * 1.25);
 
 }
 
@@ -28,8 +28,8 @@ h2 {
   line-height: 1.11111;
   font-weight: 700;
   text-transform: none;
-  margin-top: $baseline;
-  margin-bottom: $baseline*0.25;
+  margin-top: calc(#{$h2} * 1.25);
+  margin-bottom: calc(#{$h2} * 0.55556);
 }
 
 h3 {
@@ -37,8 +37,8 @@ h3 {
   line-height: 1.25;
   font-weight: 700;
   text-transform: none;
-  margin-top: $baseline;
-  margin-bottom: $baseline*0.75;
+  margin-top: calc(#{$h3} * 1.875);
+  margin-bottom: calc(#{$h3} * 0.83333);
 }
 
 h4 {
@@ -46,8 +46,8 @@ h4 {
   font-weight: 700;
   line-height: 1.31579;
   text-transform: none;
-  margin-top: $baseline;
-  margin-bottom: $baseline*0.25;
+  margin-top: calc(#{$h4} * 1.05263);
+  margin-bottom: calc(#{$h4} * 0.3125);
 }
 
 p {
@@ -57,7 +57,10 @@ p {
   text-transform: none;
   margin-top: $baseline*0.125;
   margin-bottom: $baseline*0.75;
-  position: relative;
+  &.lede {
+    font-size: 24px;
+    line-height: $baseline*0.84;
+  }
 }
 
 // Link styles
