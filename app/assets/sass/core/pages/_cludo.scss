@@ -1,0 +1,31 @@
+#cludo-search-results {
+  ul {
+    padding-left: 0;
+    li {
+      list-style: none;
+    }
+  }
+  .search-results-item, .cludo-banner {
+    @include box-sizing(border-box);
+    padding: $baseline $gutter*0.5;
+    border-bottom: $border-thin $grey solid;
+    h2 {
+      font-size: $h3;
+      line-height: 1.25;
+      font-weight: 700;
+      text-transform: none;
+      margin-top: 0;
+      margin-bottom: calc(#{$h3} * 0.83333);
+    }
+    &:hover {
+      background: $grey-light;
+    }
+  }
+  .cludo-banner {
+    background: $grey-light;
+    border: $border-thin $grey solid;
+  }
+  .search-results {
+    margin-top: $baseline;
+  }
+}
