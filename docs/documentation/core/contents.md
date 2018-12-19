@@ -55,6 +55,7 @@
 <h2>Design</h2>
 <ul>
   <li><a href="/docs/core/design">Design System styles guide</a></li>
+  <li><a href="/docs/core/typography">Typography</a></li>
 </ul>
 
 <h2>Examples</h2>
