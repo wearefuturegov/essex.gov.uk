@@ -5,17 +5,29 @@
       list-style: none;
     }
   }
+  aside.side {
+    float: right;
+    margin-top: 0;
+    font-size: $small;
+  }
   .search-results-item, .cludo-banner {
     @include box-sizing(border-box);
-    padding: $baseline $gutter*0.5;
+    padding: $baseline $gutter*0.5 $baseline*0.5;
     border-bottom: $border-thin $grey solid;
     h2 {
-      font-size: $h3;
-      line-height: 1.25;
-      font-weight: 700;
-      text-transform: none;
+      @include h3;
       margin-top: 0;
-      margin-bottom: calc(#{$h3} * 0.83333);
+      margin-bottom: 0;
+      a {
+        text-decoration: none;
+        &:hover {
+          color: $link;
+          text-decoration: underline;
+        }
+      }
+    }
+    p {
+      margin-bottom: $baseline*0.5;
     }
     .path {
       font-size: $smaller;
@@ -26,7 +38,11 @@
   }
   .cludo-banner {
     background: $highlight-box;
+    border: none;
     color: $white;
+    h2 {
+      margin-bottom: calc(#{$h3} * 0.83333);
+    }
     a {
       color: $white;
       font-weight: 600;
@@ -47,6 +63,7 @@
     background: $grey-lighter;
     border: $border-thin $grey-light solid;
     padding: $baseline*0.25 $gutter*0.5;
+    margin-top: calc(#{$h3} * 1.875);
   }
   .search-filters-mobile-button {
     display: none; // hide for now

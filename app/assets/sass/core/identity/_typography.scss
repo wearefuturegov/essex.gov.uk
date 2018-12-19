@@ -13,17 +13,21 @@ $h2: 36px;
 $h3: 24px;
 $h4: 19px;
 
-h1 {
+
+@mixin h1 {
   font-size: $h1;
   line-height: 1.04167;
   font-weight: 700;
   text-transform: none;
   margin-top: calc(#{$h1} * 0.625);
   margin-bottom: calc(#{$h1} * 1.25);
-
 }
 
-h2 {
+h1, .h1 {
+  @include h1;
+}
+
+@mixin h2 {
   font-size: $h2;
   line-height: 1.11111;
   font-weight: 700;
@@ -32,7 +36,11 @@ h2 {
   margin-bottom: calc(#{$h2} * 0.55556);
 }
 
-h3 {
+h2, .h2 {
+  @include h2;
+}
+
+@mixin h3 {
   font-size: $h3;
   line-height: 1.25;
   font-weight: 700;
@@ -41,13 +49,21 @@ h3 {
   margin-bottom: calc(#{$h3} * 0.83333);
 }
 
-h4 {
+h3, .h3 {
+  @include h3;
+}
+
+@mixin h4 {
   font-size: $h4;
   font-weight: 700;
   line-height: 1.31579;
   text-transform: none;
   margin-top: calc(#{$h4} * 1.05263);
   margin-bottom: calc(#{$h4} * 0.3125);
+}
+
+h4, .h4 {
+  @include h4;
 }
 
 p {
