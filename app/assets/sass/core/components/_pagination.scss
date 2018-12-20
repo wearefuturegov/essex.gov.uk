@@ -5,7 +5,12 @@
   ul {
     list-style: none;
     li.prev, li.next {
+      float: left;
       margin-bottom: $baseline;
+      width: 50%;
+    }
+    li.next a {
+      text-align: right;
     }
     a {
       @include box-sizing(border-box);
