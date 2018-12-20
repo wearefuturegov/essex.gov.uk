@@ -1,6 +1,9 @@
 // Banner
 
 .phase-banner {
+  @media print {
+    display: none;
+  }
   padding-top: $gutter*0.5;
   padding-bottom: $gutter*0.25;
   border-bottom: 1px solid $grey;
