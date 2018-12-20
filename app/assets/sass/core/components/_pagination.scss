@@ -5,7 +5,19 @@
   ul {
     list-style: none;
     li.prev, li.next {
+      float: left;
+      width: 50%;
       margin-bottom: $baseline;
+      @include media(mobile) {
+        float: none;
+        width: 100%;
+      }
+    }
+    li.next a {
+      text-align: right;
+      @include media(mobile) {
+        text-align: left;
+      }
     }
     a {
       @include box-sizing(border-box);
