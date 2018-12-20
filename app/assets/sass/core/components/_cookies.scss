@@ -18,3 +18,32 @@
     color: $text-colour;
   }
 }
+
+// http://silktide.com/cookieconsent
+
+
+// link within cookies
+a.cc_more_info {
+  color: $link;
+  &:hover {
+    color: $hover;
+  }
+}
+
+// button
+
+a.cc-btn {
+  @include button;
+  background-color: darken($white, $darken) !important;
+  color: $black !important;
+  &:hover {
+    background-color: $white !important;
+    color: $black !important;
+  }
+}
+
+// banner 
+
+.cc-banner {
+  background-color: $link !important;
+}
