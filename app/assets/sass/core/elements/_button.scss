@@ -1,10 +1,9 @@
 // Buttons
 // ==========================================================================
 
-.button {
+@mixin button {
     // Colour
   background-color: $button;
-
   // Size and shape
   position: relative;
   @include inline-block;
@@ -130,6 +129,10 @@
     width: 100%;
     text-align: center;
   }
+}
+
+.button {
+  @include button;
 }
 
 // Fix unwanted button padding in Firefox
