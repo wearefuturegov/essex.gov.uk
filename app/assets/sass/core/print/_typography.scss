@@ -1,0 +1,150 @@
+body {
+  font-family: $stack;
+}
+
+main {
+  font-size: $body;
+  line-height: $baseline;
+  -webkit-font-smoothing: antialiased;
+}
+
+$h1: 48px;
+$h2: 36px;
+$h3: 24px;
+$h4: 19px;
+
+
+@mixin h1 {
+  font-size: $h1;
+  line-height: 1.04167;
+  font-weight: 700;
+  text-transform: none;
+  margin-top: calc(#{$h1} * 0.625);
+  margin-bottom: calc(#{$h1} * 1.25);
+}
+
+h1, .h1 {
+  @include h1;
+}
+
+@mixin h2 {
+  font-size: $h2;
+  line-height: 1.11111;
+  font-weight: 700;
+  text-transform: none;
+  margin-top: calc(#{$h2} * 1.25);
+  margin-bottom: calc(#{$h2} * 0.55556);
+}
+
+h2, .h2 {
+  @include h2;
+}
+
+@mixin h3 {
+  font-size: $h3;
+  line-height: 1.25;
+  font-weight: 700;
+  text-transform: none;
+  margin-top: calc(#{$h3} * 1.875);
+  margin-bottom: calc(#{$h3} * 0.83333);
+}
+
+h3, .h3 {
+  @include h3;
+}
+
+@mixin h4 {
+  font-size: $h4;
+  font-weight: 700;
+  line-height: 1.31579;
+  text-transform: none;
+  margin-top: calc(#{$h4} * 1.05263);
+  margin-bottom: calc(#{$h4} * 0.3125);
+}
+
+h4, .h4 {
+  @include h4;
+}
+
+p {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: $baseline;
+  text-transform: none;
+  margin-top: $baseline*0.125;
+  margin-bottom: $baseline*0.75;
+  &.lede {
+    font-size: 24px;
+    line-height: $baseline*0.84;
+  }
+}
+
+// Link styles
+a:link {
+  color: $link;
+}
+
+a:visited {
+  color: $visited;
+}
+
+a:hover {
+  color: $hover;
+}
+
+a:active {
+  color: $link-active;
+}
+
+// Set focus styles
+a {
+  // Allow RGBA here, this line has been copied from govuk_template
+  // scss-lint:disable ColorVariable
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+}
+
+a:focus {
+  background-color: $focus-colour;
+  outline: $border-thick solid $focus-colour;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  outline: $border-thick solid $focus-colour;
+  outline-offset: -$border-thick;
+}
+
+
+//Lists
+
+ol,
+ul {
+  margin-top: $baseline*0.5;
+  margin-bottom: $baseline;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+  @include ie-lte(7) {
+    padding-left: 28px;
+  }
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+
+// Meta
+
+.meta {
+  font-size: $small;
+  line-height: $baseline;
+  color: $grey;
+  margin-top: $baseline*0.5;
+  margin-bottom: $baseline;
+}
