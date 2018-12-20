@@ -85,9 +85,9 @@
         {% endblock %}
       </section>
 
-      <section class="mid">
-        <a class="print-link">Print this page</a>
-      </section>
+      {% block printlink %}
+        {% include "includes/print-link.html" %}
+      {% endblock %}
     </div>
 
     <aside class="side">
