@@ -86,6 +86,29 @@
       background: $grey-lighter;
       border: $border-thin $grey-light solid;
       padding: $baseline*0.25 $gutter*0.5;
+      ul {
+        margin-bottom: $baseline*0.5;
+      }
+      ul, ul li {
+        border: none;
+      }
+      ul a {
+        font-weight: 600;
+        padding: 0;
+        color: $link;
+        display: initial;
+        border: none;
+        transition: none;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      ul a.active {
+        background-color: initial;
+        color: $black;
+        text-decoration: underline;
+      }
     }
   }
   .search-filters-mobile-button {
