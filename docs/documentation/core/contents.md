@@ -38,6 +38,7 @@
   <li><a href="components/link-box">Link box</a></li>
   <li><a href="components/pagination">Pagination</a></li>
   <li><a href="components/panel">Panel</a></li>
+  <li><a href="components/phase-banner">Phase banner</a></li>
   <li><a href="components/previews">Previews</a></li>
   <li><a href="components/preview-list">Preview list</a></li>
   <li><a href="components/related">Related</a></li>
