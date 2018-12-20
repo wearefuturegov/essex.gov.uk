@@ -1,9 +1,10 @@
-// Tables
-// ==========================================================================
-
 .table {
   overflow-x: auto;
   table {
+    @media print {
+      margin-top: $baseline;
+      margin-bottom: $baseline;
+    }
     margin-top: $baseline*2;
     margin-bottom: $baseline*2;
     border-collapse: collapse;

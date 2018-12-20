@@ -1,4 +1,7 @@
 .pagination {
+  @media print {
+    display: none;
+  }
   @extend %grid-row;
   margin-top: $baseline*2;
   margin-bottom: $baseline*2;

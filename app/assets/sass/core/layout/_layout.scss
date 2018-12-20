@@ -9,6 +9,21 @@
   }
 }
 
+@media print {
+  .container, #content, .main {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    float: none;
+  }
+}
+
+// defined as default in print settings
+@page {
+  margin: 1cm 0.5cm 1.5cm 0.5cm;
+}
+
 .main {
   @include grid-column(2 / 3);
   &.only {
@@ -29,10 +44,16 @@
 
 .mid {
   margin-bottom: $baseline*2;
+  @media print {
+    margin-bottom: $baseline;
+  }
 }
 
 .loose {
   margin-bottom: $baseline*4;
+  @media print {
+    margin-bottom: $baseline;
+  }
 }
 
 // Section break

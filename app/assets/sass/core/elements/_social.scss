@@ -1,4 +1,7 @@
 .social {
+  @media print {
+    display: none;
+  }
   li {
     font-size: $baseline;
     display: inline-block;

@@ -1,11 +1,17 @@
 .highlight-box {
-    margin: $baseline 0;
-    padding: $baseline*2 $gutter;
-    color: $white;
-    background: $highlight-box;
-    text-align: center;
-    p {
-      text-transform: none;
-      font-size: $medium;
-    }
+  @media print {
+    background: initial;
+    border: $border-thick $black solid;
+    color: $black;
+    padding: $baseline $gutter;
+  }
+  margin: $baseline 0;
+  padding: $baseline*2 $gutter;
+  color: $white;
+  background: $highlight-box;
+  text-align: center;
+  p {
+    text-transform: none;
+    font-size: $medium;
+  }
 }

@@ -3,7 +3,7 @@
 <header class="header-background">
   <div class="header">
     <nav class="nav">
-      <a href="/" class="logo"><img src="/public/images/logotype.svg" width="300" height="40" alt=""></a>
+      <a href="/docs/core/contents" class="logo-text">Essex.gov.uk</a>
       <div class="search">
         <div class="search-input">
           <form action="/search" method="get" role="search" class="form">
@@ -23,7 +23,7 @@
     <header class="header-background">
       <div class="header">
         <nav class="nav">
-          <a href="/" class="logo"><img src="/public/images/logotype.svg" width="300" height="40" alt=""></a>
+          <a href="/docs/core/contents" class="logo-text">Essex.gov.uk</a>
           <div class="search">
             <div class="search-input">
               <form action="/search" method="get" role="search" class="form">

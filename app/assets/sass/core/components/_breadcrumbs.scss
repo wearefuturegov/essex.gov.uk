@@ -1,4 +1,7 @@
 .breadcrumbs {
+  @media print {
+    display: none;
+  }
   padding-top: $baseline;
   @include media (mobile) {
     padding-bottom: $baseline;
@@ -34,12 +37,6 @@
   }
   a {
     color: $black;
-  }
-}
-
-@media print {
-  .breadcrumbs {
-    display: none;
   }
 }
 

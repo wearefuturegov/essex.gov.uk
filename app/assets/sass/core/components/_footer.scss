@@ -1,4 +1,7 @@
 .footer-background {
+  @media print {
+    display: none;
+  }
   background-color: $black;
   padding-top: $baseline;
   padding-bottom: $baseline;

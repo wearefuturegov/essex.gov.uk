@@ -4,12 +4,14 @@
     padding-right: $gutter*3;
   }
   .search {
+    @media print {
+      display: none;
+    }
     position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
     width: $gutter*8;
-    // @include no-placeholder;
     .form {
       .group {
         position: relative;
@@ -35,6 +37,9 @@
       }
     }
     .search {
+      @media print {
+        display: none;
+      }
       position: relative;
       display: inline-block;
       width: 100%;
