@@ -1,4 +1,7 @@
 .search {
+  @media print {
+    display: none;
+  }
   @include media(desktop) {
     max-width: $site-width;
     margin: 0 auto;

@@ -1,6 +1,7 @@
-// Email sign up
-
 .signup {
+  @media print {
+    display: none;
+  }
   .form {
     .group {
       @extend %grid-row;

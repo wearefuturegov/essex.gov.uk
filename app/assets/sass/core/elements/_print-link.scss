@@ -1,4 +1,7 @@
 .print-link {
+  @media print {
+    display: none;
+  }
   margin-top: $baseline;
   margin-bottom: $baseline;
   color: $link;

@@ -1,4 +1,4 @@
-{% extends "essex_main_template.html" %}
+{% extends "essex_main_template_search_header.html" %}
 
 {% block content %}
 
@@ -46,33 +46,35 @@
         <p><a href="#">This is a link</a></p>
         <h2>Heading 2</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mattis tortor orci. Morbi vestibulum tortor elit, ac semper ipsum cursus quis. Nam lacinia eget nulla vel scelerisque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum <a href="#">ultricies posuere</a> dapibus. Quisque vel massa porttitor, bibendum orci id, hendrerit felis.</p>
-        <table>
-        <caption>2018 care charges</caption>
-          <thead>
-            <tr>
-              <th>Type of service</th>
-              <th>Frequency</th>
-              <th>Cost</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Home Support Services (normal hours) one-to-one</td>
-              <td>Hourly</td>
-              <td>£17.04</td>
-            </tr>
-            <tr>
-              <td>Day Care</td>
-              <td>Per session</td>
-              <td>£10.73</td>
-            </tr>
-            <tr>
-              <td>Day Care with transport</td>
-              <td>Per session</td>
-              <td>£12.20</td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="table">
+          <table>
+          <caption>2018 care charges</caption>
+            <thead>
+              <tr>
+                <th>Type of service</th>
+                <th>Frequency</th>
+                <th>Cost</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Home Support Services (normal hours) one-to-one</td>
+                <td>Hourly</td>
+                <td>£17.04</td>
+              </tr>
+              <tr>
+                <td>Day Care</td>
+                <td>Per session</td>
+                <td>£10.73</td>
+              </tr>
+              <tr>
+                <td>Day Care with transport</td>
+                <td>Per session</td>
+                <td>£12.20</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
         <h3>Heading 3</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mattis tortor orci. Morbi vestibulum tortor elit, ac semper ipsum cursus quis. Nam lacinia eget nulla vel scelerisque.</p>
       </section>
@@ -83,9 +85,9 @@
         {% endblock %}
       </section>
 
-      <section class="mid">
-        <a class="print-link">Print this page</a>
-      </section>
+      {% block printlink %}
+        {% include "includes/print-link.html" %}
+      {% endblock %}
     </div>
 
     <aside class="side">

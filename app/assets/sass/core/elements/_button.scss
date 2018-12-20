@@ -2,7 +2,10 @@
 // ==========================================================================
 
 @mixin button {
-    // Colour
+  @media print {
+    display: none;
+  }
+  // Colour
   background-color: $button;
   // Size and shape
   position: relative;

@@ -4,8 +4,14 @@
   @include media(desktop) {
     height: $nav-height;
   }
+  @media print {
+    height: auto;
+  }
   .header {
     @extend %site-width-container;
+    @media print {
+      margin: 0 $gutter;
+    }
     .nav {
       @extend %grid-row;
       .logo {
@@ -32,6 +38,13 @@
         color: $white;
         line-height: $logo-height;
         text-decoration: none;
+        @media print {
+          color: $black;
+          font-weight: 700;
+          padding: 0;
+          margin-top: 0;
+          margin-bottom: 0;
+        }
       }
       ul.nav-links {
         @include grid-column(1 / 2);

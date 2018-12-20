@@ -1,4 +1,7 @@
 .cookies {
+  @media print {
+    display: none;
+  }
   background-color: $grey-dark;
   padding: $baseline $gutter;
   position: absolute;

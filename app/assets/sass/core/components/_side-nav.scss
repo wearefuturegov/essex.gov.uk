@@ -1,4 +1,7 @@
-.side-nav {
+.side-nav {  
+  @media print {
+    display: none;
+  }
   background: $grey-light;
   padding-top: $baseline;
   padding-bottom: $baseline;

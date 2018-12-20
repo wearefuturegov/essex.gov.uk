@@ -1,5 +1,3 @@
-// Preview
-
 .previews {
   @extend %grid-row;
   .preview {
@@ -7,6 +5,9 @@
     img {
       margin-top: $baseline;
       width: 100%;
+      @media print {
+        display: none;
+      }
     }
     h4 + p {
       margin-top: 0;

@@ -1,6 +1,7 @@
-// Alert
-
 .alert {
+  @media print {
+    display: none !important;
+  }
   @include box-sizing(border-box);
   position: relative;
   border: $border-thick solid $error;
