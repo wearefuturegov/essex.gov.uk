@@ -41,7 +41,7 @@
           padding: 0;
             &:hover {
             cursor: pointer;
-            color: darken($search, $hover-darken);
+            color: lighten($search, $lighten);
           }
         }
       }
