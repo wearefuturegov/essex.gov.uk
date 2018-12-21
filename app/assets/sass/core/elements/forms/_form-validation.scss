@@ -60,6 +60,7 @@
   }
   .error-summary-list {
     padding-left: 0;
+    list-style: none;
     li {
       @include media(tablet) {
         margin-bottom: 5px;
