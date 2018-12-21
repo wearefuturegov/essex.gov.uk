@@ -1,9 +1,4 @@
 #cludo-search-results {
-  @media print {
-    h1.h3 {
-      margin-top: $h3;
-    }
-  }
   ul {
     padding-left: 0;
     li {
@@ -74,9 +69,7 @@
     margin-bottom: $baseline;
     font-size: $small;
     @include media (mobile) {
-      float: left;
-      width: 100%;
-      margin-bottom: 0;
+      display: none;
     }
     .search-filters {
       @media print {
@@ -102,6 +95,7 @@
         text-decoration: none;
         &:hover {
           text-decoration: underline;
+          background-color: initial;
         }
       }
       ul a.active {
