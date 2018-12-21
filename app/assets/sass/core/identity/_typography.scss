@@ -50,26 +50,32 @@ $h4: 19px;
   margin-bottom: calc(#{$h4} * 0.3125);
 }
 
-h1, .h1 {
+// page-heading is used at the top of each page
+h1, .h1, .page-heading {
   @include h1;
 }
 
 @media print {
-  h1, .h1 {
+  h1, .h1, .page-heading {
     @include h2;
     margin-top: $h2;
   }
 }
 
-h2, .h2 {
+// content-heading is used for each new and unlreated piece of content within a page.
+h2, .h2, .content-heading {
   @include h2;
 }
 
-h3, .h3 {
+// section-heading is used for each section within content on a page.
+h3, .h3, .section-heading {
   @include h3;
 }
 
-h4, .h4 {
+// sub-section-heading is used for those occasional 
+// cases of additional breaking down within a section is required
+// or additionally certain preview sections
+h4, .h4, .sub-section-heading {
   @include h4;
 }
 

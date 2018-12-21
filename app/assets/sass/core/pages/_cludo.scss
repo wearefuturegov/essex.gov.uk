@@ -82,11 +82,11 @@
       @media print {
         display: none;
       }
-      @include box-sizing(border-box);
-      background: $grey-lighter;
-      border: $border-thin $grey-light solid;
-      padding: $baseline*0.25 $gutter*0.5;
       ul {
+        @include box-sizing(border-box);
+        background: $grey-lighter;
+        border: $border-thin $grey-light solid;
+        padding: $baseline*0.25 $gutter*0.5;
         margin-bottom: $baseline*0.5;
       }
       ul, ul li {
