@@ -1,14 +1,17 @@
 // Banner
 
 .phase-banner {
+  @extend %site-width-container;
   @media print {
     display: none;
   }
-  padding-top: $gutter*0.5;
-  padding-bottom: $gutter*0.25;
+  margin-top: $baseline*0.75;
+  margin-bottom: $baseline*0.75;
   border-bottom: 1px solid $grey;
   p {
     font-size: $small;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 
@@ -17,12 +20,24 @@
   -moz-osx-font-smoothing: grayscale;
   font-weight: $bold;
   display: inline-block;
-  padding: 4px 8px;
-  padding-bottom: 1px;
+  padding: $baseline*0.25 $gutter*0.5;
+  margin-right: $gutter*0.25;
+  margin-bottom: $baseline*0.25;
   outline: 2px solid transparent;
   outline-offset: -2px;
   color: $white;
   background-color: #005ea5;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+@include media(mobile) {
+  .phase-text {
+    display: table-cell;
+    vertical-align: baseline;
+  }
+}
+
+.header-background + .phase-banner {
+  border-bottom: none;
 }
