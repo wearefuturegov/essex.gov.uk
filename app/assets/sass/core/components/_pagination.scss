@@ -17,6 +17,9 @@
         width: 100%;
       }
     }
+    li.next {
+      float: right;
+    }
     li.next a {
       text-align: right;
       @include media(mobile) {
