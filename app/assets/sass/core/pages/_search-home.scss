@@ -1,4 +1,7 @@
 .search-background {
+  @media print {
+    display: none;
+  }
   overflow: hidden;
   position: relative;
   margin-bottom: $baseline;
@@ -61,6 +64,10 @@
           height: $baseline*2.5;
           width: 100%;
           @include box-sizing(border-box);
+          @include media(mobile) {
+            font-size: $smaller;
+            padding: $baseline*0.25 $gutter*1.5 $baseline*0.25 $gutter*0.5;
+          }
         }
         .search-icon-position .fa-search {
           font-size: $icon*0.75;
@@ -72,11 +79,5 @@
     position: absolute;
     right: 0;
     left: 0;
-  }
-}
-
-@media print {
-  .search-background {
-    display: none;
   }
 }
