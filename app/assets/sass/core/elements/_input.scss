@@ -3,7 +3,7 @@ input {
   font-weight: $normal;
   text-transform: none;
   font-size: $body;
-  padding: 5px 4px 4px;
+  padding: $baseline*0.125 $gutter*0.25;
   border-width: $border-normal;
   border-style: solid;
   border-color: $grey;

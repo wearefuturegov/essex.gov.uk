@@ -11,12 +11,18 @@
   p {
     color: $white;
     display: inline;
+    @include media(mobile) {
+      display: block;
+    }
     a {
       color: $white;
     }
   }
   .button {
     float: right;
+    @include media(mobile) {
+      float: none;
+    }
     background-color: $white;
     color: $text-colour;
   }

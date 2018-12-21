@@ -2,7 +2,6 @@
   @extend %grid-row;
   ol, ul {
     @include grid-column(1 / 1);
-    padding-left: 2em;
     margin: 0;
     font-size: $small;
     @include media(desktop) {

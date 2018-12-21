@@ -6,6 +6,7 @@
   position: relative;
   margin-bottom: $baseline;
   .search {
+    @extend %site-width-container;
     @include media(desktop) {
       padding: $baseline 0;
     }
