@@ -30,11 +30,13 @@
     }
     &.active {
       background: $white;
-      &:before {
-        @include font-awesome;
-        content: "\f053";
-        margin-right: $gutter*0.5;
-        margin-left: -$gutter*0.5;
+      @include media(desktop) {
+        &:before {
+          @include font-awesome;
+          content: "\f053";
+          margin-right: $gutter*0.5;
+          margin-left: -$gutter*0.5;
+        }
       }
       a {
         color: $black;

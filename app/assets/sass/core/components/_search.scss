@@ -6,6 +6,10 @@
     max-width: $site-width;
     margin: 0 auto;
   }
+  @include media(mobile) {
+    width: calc(100% - #{$gutter*2});
+    margin: 0 auto;
+  }
   outline: none;
   &[type="search"]:focus {
     z-index: 2;

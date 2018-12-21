@@ -11,6 +11,11 @@
   display: table;
   width: 100%;
   .alert-icon {
+    @include media(mobile) {
+      padding: 0;
+      display: block;
+      width: 100%;
+    }
     display: table-cell;
     vertical-align: middle;
     padding: $baseline*0.25;
@@ -20,6 +25,11 @@
     }
   }
   .alert-text {
+    @include media(mobile) {
+      padding: 0;
+      display: block;
+      width: 100%;
+    }
     padding: $baseline*0.25 $gutter*0.25;
     h2 {
       font-size: $medium;
