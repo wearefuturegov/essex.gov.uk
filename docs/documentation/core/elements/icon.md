@@ -32,6 +32,10 @@
 
     <i class="fab fa-linkedin"></i>
 
+<i class="fab fa-flickr"></i>
+
+    <i class="fab fa-flickr"></i>
+
 <i class="fas fa-times"></i>
 
     <i class="fas fa-times"></i>
