@@ -98,7 +98,7 @@
           background-color: initial;
         }
       }
-      ul a.active {
+      ul a.active, a:active, a:hover {
         background-color: initial;
         color: $black;
         text-decoration: underline;
