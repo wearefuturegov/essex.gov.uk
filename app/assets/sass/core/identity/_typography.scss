@@ -130,11 +130,13 @@ ol,
 ul {
   margin-top: $baseline*0.5;
   margin-bottom: $baseline;
+  li {
+    list-style-position: inside;
+  }
 }
 
 ol {
   list-style-type: decimal;
-  padding-left: 20px;
   @include ie-lte(7) {
     padding-left: 28px;
   }
@@ -142,7 +144,6 @@ ol {
 
 ul {
   list-style-type: disc;
-  padding-left: 20px;
 }
 
 
