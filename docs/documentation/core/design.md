@@ -124,8 +124,9 @@
 
 <div class="demo-box">
   <h1>Page heading - h1 (48px)</h1>
-  <h2>Section heading - h2 (36px)</h2>
-  <h3>Content heading - h3 (30px)</h3>
+  <h2>Content heading - h2 (36px)</h2>
+  <h3>Section heading - h3 (30px)</h3>
+  <h4>Sub-section heading - h4 (30px)</h4>
 </div>
 
 <h3>Paragraphs</h3>
