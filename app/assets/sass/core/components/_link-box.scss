@@ -20,6 +20,10 @@ ul.link-boxes {
     a {
       text-decoration: none;
     }
+    a:focus {
+      background-color: $grey-light;
+      outline: $border-thick solid $focus-colour;
+    }
     @include media(desktop) {
       display: flex;
     }

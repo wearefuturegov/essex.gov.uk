@@ -38,6 +38,10 @@
         color: $white;
         line-height: $logo-height;
         text-decoration: none;
+        &:focus {
+           background-color: $brand;
+           outline: $border-thick solid $focus-colour;
+         }
         @media print {
           color: $black;
           font-weight: 700;
