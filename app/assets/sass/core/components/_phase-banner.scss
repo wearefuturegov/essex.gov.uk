@@ -1,14 +1,15 @@
 // Banner
+.phase-banner-background {
+  background-color: $brand2;
+  border-bottom: $border-thin solid #b6c9cd;
+}
 
 .phase-banner {
   @extend %site-width-container;
   @media print {
     display: none;
   }
-  margin-top: $baseline*0.75;
-  margin-bottom: $baseline*0.75;
-  padding-bottom: $baseline*0.25;
-  border-bottom: 1px solid $grey-light;
+  padding: $baseline*0.5 0;
   p {
     font-size: $small;
     margin-top: 0;
@@ -23,7 +24,6 @@
   display: inline-block;
   padding: $baseline*0.25 $gutter*0.5;
   margin-right: $gutter*0.25;
-  margin-bottom: $baseline*0.25;
   outline: 2px solid transparent;
   outline-offset: -2px;
   color: $white;
