@@ -38,6 +38,9 @@
         color: $white;
         line-height: $logo-height;
         text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
         &:focus {
            background-color: $brand;
            outline: $border-thick solid $focus-colour;
