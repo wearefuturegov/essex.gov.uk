@@ -13,7 +13,7 @@
       margin: 0 $gutter;
     }
     .nav {
-      @extend %grid-row;
+    //  @extend %grid-row;
       .logo {
         @include grid-column(1 / 2);
         margin-top: $logo-height*0.5;
@@ -28,7 +28,6 @@
         }
       }
       a.logo-text {
-        @include grid-column(1 / 2);
         display: inline-block;
         font-family: $stack-logo;
         font-size: $baseline;
