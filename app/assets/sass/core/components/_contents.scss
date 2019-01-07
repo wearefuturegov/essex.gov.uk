@@ -4,6 +4,7 @@
     @include grid-column(1 / 1);
     margin: 0;
     font-size: $small;
+    list-style-position: inside;
     li {
       margin-bottom: $baseline*0.25;
       @media print {
