@@ -1,5 +1,6 @@
 body {
   font-family: $stack;
+  color: $text-colour;
 }
 
 main {
@@ -72,7 +73,7 @@ h3, .h3, .section-heading {
   @include h3;
 }
 
-// sub-section-heading is used for those occasional 
+// sub-section-heading is used for those occasional
 // cases of additional breaking down within a section is required
 // or additionally certain preview sections
 h4, .h4, .sub-section-heading {
