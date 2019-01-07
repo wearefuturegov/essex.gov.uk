@@ -1,32 +1,32 @@
 ## Contents
 
-<div class="contents">
+<div class="contents split-list">
   <ol>
     <li>Paying for care and support</li>
     <li><a href="#">Financial assessment </a></li>
     <li><a href="#">Personal budget</a></li>
     <li><a href="#">Care charges</a></li>
-  </ol>
-  <ol start="5">
     <li><a href="#">Ways to pay for your care</a></li>
     <li><a href="#">Paying for a residential home</a></li>
     <li><a href="#">Deferred payment scheme</a></li>
     <li><a href="#">Independent financial advice</a></li>
+    <li><a href="#">Direct payments</a></li>
+    <li><a href="#">Contact us</a></li>
   </ol>
 </div>
 
-    <div class="contents">
+    <div class="contents split-list">
       <ol>
         <li>Paying for care and support</li>
         <li><a href="#">Financial assessment </a></li>
         <li><a href="#">Personal budget</a></li>
         <li><a href="#">Care charges</a></li>
-      </ol>
-      <ol start="5">
         <li><a href="#">Ways to pay for your care</a></li>
         <li><a href="#">Paying for a residential home</a></li>
         <li><a href="#">Deferred payment scheme</a></li>
         <li><a href="#">Independent financial advice</a></li>
+        <li><a href="#">Direct payments</a></li>
+        <li><a href="#">Contact us</a></li>
       </ol>
     </div>
 
