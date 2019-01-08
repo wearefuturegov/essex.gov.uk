@@ -10,7 +10,7 @@
     @extend %contain-floats;
   }
   li {
-    font-size: $small;
+    font-size: $smaller;
     float: left;
     background-image: file-url("icon/separator.png");
     @include device-pixel-ratio() {
