@@ -3,8 +3,8 @@
     display: none;
   }
   @extend %grid-row;
-  margin-top: $baseline*2;
-  margin-bottom: $baseline*2;
+  margin-top: $baseline;
+  margin-bottom: $baseline;
   ul {
     padding-left: $gutter*0.5;
     list-style: none;
