@@ -1,53 +1,92 @@
 ## Footer
 
-<footer class="footer-background">
-  <div class="footer">
-    <nav class="nav">
-      <ul class="nav-links">
-        <li>
-          <a href="#">Contact us</a></li><li>
-          <a href="#">Privacy & Cookies</a></li><li>
-          <a href="#">Terms & Conditions</a></li><li>
-          <a href="#">Feedback</a></li>
-      </ul>
-      <ul class="social">
-        <li>
-          <a href="#"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li><li>
-          <a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a></li><li>
-          <a href="#"><i class="fab fa-youtube"></i><span>Youtube</span></a></li><li>
-          <a href="#"><i class="fab fa-instagram"></i><span>Instagram</span></a></li><li>
-          <a href="#"><i class="fab fa-linkedin"></i><span>Linkedin</span></a></li><li>
-          <a href="#"><i class="fab fa-flickr"></i><span>Flickr</span></a></li>
-      </ul>
-    </nav>
+<footer class="footer-container">
+  <div class="footer-top">
+    <div class="footer">
+      <nav class="nav">
+        <ul class="nav-links">
+          <li>
+            <a href="/docs/core/contents">Essex Design System</a></li><li>
+            <a href="#">Contact us</a></li><li>
+            <a href="#">Privacy & Cookies</a></li><li>
+        </ul>
+        <ul class="nav-links">
+          <li>
+            <a href="#">Accessibility</a></li><li>
+            <a href="#">Terms & Conditions</a></li><li>
+            <a href="#">Feedback</a></li>
+        </ul>
+        <ul class="social">
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li><li>
+            <a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a></li><li>
+            <a href="#"><i class="fab fa-youtube"></i><span>Youtube</span></a></li><li>
+            <a href="#"><i class="fab fa-instagram"></i><span>Instagram</span></a></li><li>
+            <a href="#"><i class="fab fa-linkedin"></i><span>Linkedin</span></a></li><li>
+            <a href="#"><i class="fab fa-flickr"></i><span>Flickr</span></a></li>
+        </ul>
+      </nav>
+    </div>
   </div>
+    <div class="footer-bottom">
+      <div class="footer">
+        <div class="nav">
+          <div class="copyright">
+            © Essex County Council 2019
+          </div>
+          <div class="design-link">
+            <a href="#">Built by the Service Design Team</a>
+          </div>
+        </div>
+      </div>
+    </div>
 </footer>
 
-    <footer class="footer-background">
-      <div class="footer">
-        <nav class="nav">
-          <ul class="nav-links">
-            <li>
-              <a href="#">Contact us</a></li><li>
-              <a href="#">Privacy & Cookies</a></li><li>
-              <a href="#">Terms & Conditions</a></li><li>
-              <a href="#">Feedback</a></li>
-          </ul>
-          <ul class="social">
-            <li>
-              <a href="#"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li><li>
-              <a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a></li><li>
-              <a href="#"><i class="fab fa-youtube"></i><span>Youtube</span></a></li><li>
-              <a href="#"><i class="fab fa-instagram"></i><span>Instagram</span></a></li><li>
-              <a href="#"><i class="fab fa-linkedin"></i><span>Linkedin</span></a></li><li>
-              <a href="#"><i class="fab fa-flickr"></i><span>Flickr</span></a></li>
-          </ul>
-        </nav>
+    <footer class="footer-container">
+      <div class="footer-top">
+        <div class="footer">
+          <nav class="nav">
+            <ul class="nav-links">
+              <li>
+                <a href="/docs/core/contents">Essex Design System</a></li><li>
+                <a href="#">Contact us</a></li><li>
+                <a href="#">Privacy & Cookies</a></li><li>
+            </ul>
+            <ul class="nav-links">
+              <li>
+                <a href="#">Accessibility</a></li><li>
+                <a href="#">Terms & Conditions</a></li><li>
+                <a href="#">Feedback</a></li>
+            </ul>
+            <ul class="social">
+              <li>
+                <a href="#"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li><li>
+                <a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a></li><li>
+                <a href="#"><i class="fab fa-youtube"></i><span>Youtube</span></a></li><li>
+                <a href="#"><i class="fab fa-instagram"></i><span>Instagram</span></a></li><li>
+                <a href="#"><i class="fab fa-linkedin"></i><span>Linkedin</span></a></li><li>
+                <a href="#"><i class="fab fa-flickr"></i><span>Flickr</span></a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
+        <div class="footer-bottom">
+          <div class="footer">
+            <div class="nav">
+              <div class="copyright">
+                © Essex County Council 2019
+              </div>
+              <div class="design-link">
+                <a href="#">Built by the Service Design Team</a>
+              </div>
+            </div>
+          </div>
+        </div>
     </footer>
+
 
 ### Using the footer
 
 The footer is displayed at the bottom of every page and is consistent across the entire site.
 
-It should provide users with supplementary information, such as social media links, contact links and copyright information. 
+It should provide users with supplementary information, such as social media links, contact links and copyright information.

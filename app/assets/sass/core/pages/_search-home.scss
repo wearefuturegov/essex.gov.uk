@@ -8,7 +8,7 @@
   .search {
     @extend %site-width-container;
     @include media(desktop) {
-      padding: $baseline 0;
+      padding: $baseline*2.5 0;
     }
     .search-box {
       margin: 0 auto;
@@ -24,7 +24,7 @@
         flex-wrap: wrap;
         display: flex;
         padding: 0;
-        margin-bottom: $baseline*0.5;
+        //margin-bottom: $baseline*0.5;
         .search-button {
           @include media(desktop) {
             width: calc(25% - #{$border-normal});
@@ -33,7 +33,7 @@
           display: flex;
           padding: 0;
           margin-right: $border-normal;
-          margin-bottom: $baseline*0.25;
+          //margin-bottom: $baseline*0.25;
           &:last-child {
             margin-right: 0;
           }
@@ -46,8 +46,15 @@
             background-color: $button-search-box;
             padding-bottom: $baseline*0.5;
             width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             &:hover {
               background-color: darken($button-search-box, $hover-darken);
+            }
+            &:focus {
+              background-color: darken($button-search-box, $hover-darken);
+              outline: $border-thick solid $focus-colour;
             }
           }
         }
