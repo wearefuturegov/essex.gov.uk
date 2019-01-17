@@ -9,8 +9,6 @@
             <a href="/docs/core/contents">Essex Design System</a></li><li>
             <a href="#">Contact us</a></li><li>
             <a href="#">Privacy & Cookies</a></li><li>
-        </ul>
-        <ul class="nav-links">
           <li>
             <a href="#">Accessibility</a></li><li>
             <a href="#">Terms & Conditions</a></li><li>
@@ -51,8 +49,6 @@
                 <a href="/docs/core/contents">Essex Design System</a></li><li>
                 <a href="#">Contact us</a></li><li>
                 <a href="#">Privacy & Cookies</a></li><li>
-            </ul>
-            <ul class="nav-links">
               <li>
                 <a href="#">Accessibility</a></li><li>
                 <a href="#">Terms & Conditions</a></li><li>
