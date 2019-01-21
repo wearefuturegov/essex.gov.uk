@@ -19,3 +19,5 @@
 Breadcrumbs show users where they are in the website hierarchy and they provide a way to navigate through previous levels of content.
 
 They should always be displayed at the top of the page.
+
+We also remove hyperlink styles for the last-child in the breadcrumbs.

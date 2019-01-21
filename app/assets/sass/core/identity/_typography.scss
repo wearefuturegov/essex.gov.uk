@@ -110,6 +110,14 @@ a:active {
   color: $link-active;
 }
 
+// added this for general removing hyperlink
+.not-active {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: $black;
+}
+
 // Set focus styles
 a {
   // Allow RGBA here, this line has been copied from govuk_template
