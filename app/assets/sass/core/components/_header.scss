@@ -61,7 +61,7 @@
             color: $white;
             line-height: $nav-height;
             &:hover, &:active {
-              color: darken($white, $darken);
+              color: $white-on-black-hover;
             }
           }
         }

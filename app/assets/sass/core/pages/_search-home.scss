@@ -50,10 +50,10 @@
             align-items: center;
             justify-content: center;
             &:hover {
-              background-color: darken($button-search-box, $hover-darken);
+              background-color: $button-search-box-hover;
             }
             &:focus {
-              background-color: darken($button-search-box, $hover-darken);
+              background-color: $button-search-box-hover;
               outline: $border-thick solid $focus-colour;
             }
           }

@@ -18,9 +18,9 @@
   -webkit-appearance: none;
 
   // Bottom edge effect
-  @include box-shadow(0 2px 0 darken($button, $darken));
+  @include box-shadow(0 2px 0 $black);
   @include ie-lte(8) {
-    border-bottom: 2px solid darken($button, $darken);
+    border-bottom: 2px solid $black;
   }
 
   // Text
@@ -38,7 +38,7 @@
 
   &:hover,
   &:focus {
-    background-color: darken($button, $hover-darken);
+    background-color: $button-hover-darken;
   }
 
   &:active {
@@ -58,9 +58,9 @@
 
     &:active {
       top: 0;
-      @include box-shadow(0 2px 0 darken($button, $darken));
+      @include box-shadow(0 2px 0 $black);
       @include ie-lte(8) {
-        border-bottom: 2px solid darken($button, $darken);
+        border-bottom: 2px solid $black;
       }
     }
   }

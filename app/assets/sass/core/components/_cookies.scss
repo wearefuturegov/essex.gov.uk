@@ -43,7 +43,7 @@ a.cc_more_info {
 
 a.cc-btn {
   @include button;
-  background-color: darken($white, $darken) !important;
+  background-color: $white-on-black-hover !important;
   color: $black !important;
   &:hover {
     background-color: $white !important;
