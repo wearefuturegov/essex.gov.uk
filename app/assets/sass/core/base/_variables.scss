@@ -64,10 +64,13 @@ $highlight-box: $link;
 $subscribe: $brand;
 $alert: $brand;
 
-// percentage color change
+
+// we probably need to change these to be specifically defined colours 
+// and not percentage to be sure to deal with accessibility
 $lighten: 20%;
 $hover-darken: 5%;
 $darken: 15%;
+
 
 // border width
 $border-thin: 1px;
