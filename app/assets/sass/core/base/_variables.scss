@@ -37,8 +37,13 @@ $white: #fff;
 // link colour
 $link: #004899;
 $hover: #2A7AB0;
+// $hover-darken: ;
 $visited: #682558;
 $link-active: #2A7AB0;
+
+// hover colors
+$brand-hover-darken: #cb0031;
+$button-hover-darken: #00692f;
 
 // focus colour
 $focus-colour: #fab500;
@@ -56,6 +61,8 @@ $overlay: rgba(0, 0, 0, 0.6);
 // element color
 $button: #00823b; // green taken from gov.uk
 $button-search-box: $grey-dark;
+$button-search-box-hover: #151515;
+$white-on-black-hover: #d9d9d9;
 $search: $black;
 $linkbox: #0072C6; // Linking to external sites
 $error: #b10e1e;
@@ -63,13 +70,6 @@ $highlight-box: #28a197; // gds teal
 $highlight-box: $link;
 $subscribe: $brand;
 $alert: $brand;
-
-
-// we probably need to change these to be specifically defined colours 
-// and not percentage to be sure to deal with accessibility
-$lighten: 20%;
-$hover-darken: 5%;
-$darken: 15%;
 
 
 // border width

@@ -54,7 +54,7 @@
     .fa-times {
       font-size: $small;
       &:hover {
-        color: lighten($black, $lighten);
+        color: $grey-dark;
       }
     }
   }

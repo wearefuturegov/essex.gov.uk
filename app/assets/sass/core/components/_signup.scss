@@ -17,7 +17,7 @@
           background-color: $brand;
           border: none;
           &:hover {
-            background-color: darken($brand, $hover-darken);
+            background-color: $brand-hover-darken;
           }
         }
       }

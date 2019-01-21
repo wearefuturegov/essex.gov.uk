@@ -4,12 +4,11 @@
       display: inline-block;
       margin-right: $gutter*0.5;
       a {
-        color: $brand;
+        color: $link;
         font-weight: $bold;
         text-decoration: underline;
         &:hover, &active {
-          color: $brand;
-          color: lighten($brand, $lighten);
+          color: $hover;
           text-decoration: underline;
         }
       }

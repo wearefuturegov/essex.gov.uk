@@ -9,7 +9,7 @@
     a {
       color: $link;
       &:hover {
-        color: darken($link, $hover-darken);
+        color: $hover;
       }
       &:focus {
          background-color: $black;
