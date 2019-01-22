@@ -2,7 +2,10 @@
   @media print {
     display: none;
   }
+  padding-left: 0;
+  margin-left: 0;
   li {
+    padding-left: 0;
     font-size: $baseline;
     display: inline-block;
     margin-right: $gutter*0.5;
