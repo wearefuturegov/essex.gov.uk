@@ -6,12 +6,17 @@
     font-size: $small;
     list-style-position: inside;
     li {
+      padding-left: 0;
       margin-bottom: $baseline*0.25;
       @media print {
         a {
           text-decoration: none;
         }
       }
+    }
+    li:nth-child(n+10) {
+      margin-left: 0px;
+      padding-left: 0px;
     }
   }
   &.split-list {

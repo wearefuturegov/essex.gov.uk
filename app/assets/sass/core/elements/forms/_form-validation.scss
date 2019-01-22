@@ -61,9 +61,11 @@
   .error-summary-list {
     padding-left: 0;
     list-style: none;
+    margin-left: 0;
     li {
       @include media(tablet) {
         margin-bottom: 5px;
+        padding-left: 0;
       }
     }
     a {

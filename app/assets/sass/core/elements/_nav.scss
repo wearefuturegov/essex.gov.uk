@@ -1,8 +1,11 @@
 .nav {
   ul.nav-links {
+    padding-left: 0;
+    margin-left: 0;
     li {
       display: inline-block;
       margin-right: $gutter*0.5;
+      padding-left: 0;
       a {
         color: $link;
         font-weight: $bold;

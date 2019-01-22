@@ -1,8 +1,10 @@
 #cludo-search-results {
   ul {
+    margin-left: 0;
     padding-left: 0;
     li {
       list-style: none;
+      padding-left: 0;
     }
   }
   .search-results-item, .cludo-banner {
@@ -81,6 +83,10 @@
         border: $border-thin $grey-light solid;
         padding: $baseline*0.25 $gutter*0.5;
         margin-bottom: $baseline*0.5;
+        margin-left: 0;
+        li {
+          padding-left: 0;
+        }
       }
       ul, ul li {
         border: none;
@@ -115,6 +121,7 @@
     li {
       display: inline-block;
       margin: $baseline $gutter*0.125;
+      padding-left: 0;
     }
   }
 }

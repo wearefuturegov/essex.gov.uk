@@ -16,6 +16,7 @@
     //  @extend %grid-row;
       .logo {
         @include grid-column(1 / 2);
+        padding: 0;
         margin-top: $logo-height*0.5;
         margin-bottom: $logo-height*0.5;
         @include media(mobile) {
@@ -53,10 +54,13 @@
         }
       }
       ul.nav-links {
+        margin-left: 0;
+        padding-left: 0;
         @include grid-column(1 / 2);
         li {
           margin-left: $gutter*0.5;
           margin-right: 0;
+          padding-left: 0;
           a {
             color: $white;
             line-height: $nav-height;
