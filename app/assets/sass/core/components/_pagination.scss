@@ -10,7 +10,6 @@
     list-style: none;
     li.prev, li.next {
       width: 50%;
-      margin-bottom: $baseline;
       @include media(mobile) {
         float: none;
         width: 100%;
@@ -37,8 +36,9 @@
         background: $grey-lighter;
       }
       span.pagination-item {
-        font-size: 27px;
-        line-height: 1.25em;
+        @include h3;
+        margin-top: 0;
+        margin-bottom: 0;
         display: block;
         svg {
           margin-right: $gutter*0.5;
