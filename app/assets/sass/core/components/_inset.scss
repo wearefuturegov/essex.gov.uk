@@ -1,0 +1,16 @@
+.inset {
+	background: $grey-lighter;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  clear: both;
+  border-left: $border-very-thick solid $grey-light;
+  padding: $baseline $gutter;
+  margin-bottom: $baseline;
+  p:last-child {
+  	margin-bottom: 0;
+  }
+  h3 {
+  	margin-top: 0;
+  }
+}
