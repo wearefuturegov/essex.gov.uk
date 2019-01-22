@@ -93,6 +93,14 @@ p {
   }
 }
 
+strong {
+  font-weight: 700;
+}
+
+em, i {
+  font-style: italic;
+} 
+
 // Link styles
 a:link {
   color: $link;
