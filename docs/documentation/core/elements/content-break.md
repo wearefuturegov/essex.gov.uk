@@ -1,16 +1,16 @@
-## Section break
+## Content break
 
-<div class="section-break-lg"></div>
+<div class="content-break-lg"></div>
 
-    <div class="section-break-lg"></div>
+    <div class="content-break-lg"></div>
 
-<div class="section-break-sm"></div>
+<div class="content-break-sm"></div>
 
-    <div class="section-break-sm"></div>
+    <div class="content-break-sm"></div>
 
-### Using section breaks
+### Using content breaks
 
-Section breaks are visual elements used to separate sections of content.
+Content breaks are visual elements used to separate sections of content.
 
 They should be used to:
 <ul>
