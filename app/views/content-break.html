@@ -1,25 +1,28 @@
-{% extends "essex_main_template.html" %}
+{% extends "essex_main_template_search_header.html" %}
 
 {% block content %}
 
 <main id="content">
 
   <div class="container">
-      {% block breadcrumbs %}
-        {% include "includes/breadcrumbs.html" %}
-      {% endblock %}
-    <div class="main only">
-      <section class="mid">
-        <h1>Page title</h1>
+    <div class="main">
+      <div class="breadcrumbs">
+        <ol>
+          <li><a href="docs/core/contents">Contents</a></li>
+          <li><a href="">Content break example</a></li>
+        </ol>
+      </div>
+      <section class="intro">
+        <h1>Content break example</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.
+        </p>
       </section>
 
-      <section class="tight">
-        {% block linkbox %}
-          {% include "includes/link-box.html" %}
-        {% endblock %}
-      </section>
-
-      <section class="tight">
+      <section class="content">
+        <h2>Initial content heading</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mattis tortor orci. Morbi vestibulum tortor elit, ac semper ipsum cursus quis. Nam lacinia eget nulla vel scelerisque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies posuere dapibus. Quisque vel massa porttitor, bibendum orci id, hendrerit felis. Praesent consectetur ipsum maximus, condimentum enim eget, porttitor tortor. Proin sodales facilisis laoreet. Nam vitae pharetra metus, sit amet venenatis tortor.</p>
         <div class="preview-list">
           <ul>
             <li>
@@ -48,11 +51,10 @@
             <label class="hide" for="toggle-one">Hide</label>
           </div>
         </div>
-        <div class="content-break-lg"></div>
       </section>
 
-      <section class="tight">
-        <h2>Guidance and legislation</h2>
+      <section class="content">
+        <h2>Further content heading</h2>
         <div class="preview-list">
           <ul>
             <li>
@@ -81,42 +83,19 @@
             <label class="hide" for="toggle-two">Hide</label>
           </div>
         </div>
-        <div class="content-break-lg"></div>
       </section>
 
-      <section class="loose">
-        <h2>Latest news</h2>
-        <div class="previews">
-          <div class="preview">
-            <img src="/public/images/news.jpg">
-            <h4><a href="#">Preview heading with image above</a></h4>
-            <p>Preview copy explaining what content it contains.</p>
-            <p class="meta">3 October 2018</p>
-          </div>
-          <div class="preview">
-            <img src="/public/images/news.jpg">
-            <h4><a href="#">Preview heading with image above</a></h4>
-            <p>Preview copy explaining what content it contains.</p>
-            <p class="meta">3 October 2018</p>
-          </div>
-          <div class="preview">
-            <img src="/public/images/news.jpg">
-            <h4><a href="#">Preview heading with image above</a></h4>
-            <p>Preview copy explaining what content it contains.</p>
-            <p class="meta">3 October 2018</p>
-          </div>
-        </div>
-      </section>
+      <section class="function">
+        {% block pagination %}
+          {% include "includes/pagination.html" %}
+        {% endblock %}
 
-      <section class="loose">
-        {% block signup %}
-          {% include "includes/signup.html" %}
+        {% block printlink %}
+          {% include "includes/print-link.html" %}
         {% endblock %}
       </section>
-
     </div>
   </div>
-
 </main>
 
 {% endblock %}

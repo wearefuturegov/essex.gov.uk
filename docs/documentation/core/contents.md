@@ -4,6 +4,7 @@
   <li><a href="elements/back">Back</a></li>
   <li><a href="elements/buttons">Buttons</a></li>
   <li><a href="elements/checkbox">Checkbox</a></li>
+  <li><a href="elements/content-break">Content break</a></li>
   <li><a href="elements/dropdown">Dropdown</a></li>
   <li><a href="elements/form">Form</a></li>
   <li><a href="elements/headings">Headings</a></li>
@@ -18,7 +19,6 @@
   <li><a href="elements/paragraph">Paragraph</a></li>
   <li><a href="elements/print-link">Print-link</a></li>
   <li><a href="elements/radio">Radio</a></li>
-  <li><a href="elements/section-break">Section break</a></li>
   <li><a href="elements/social">Social</a></li>
   <li><a href="elements/textarea">Textarea</a></li>
   <li><a href="elements/validation">Validation</a></li>
@@ -57,9 +57,10 @@
   <li><a href="/docs/core/typography">Typography</a></li>
 </ul>
 
-<h2>Examples</h2>
+<h2>Page examples</h2>
 <ul>
   <li><a href="/">Home</a></li>
+  <li><a href="/content-break">Content break</a></li>
   <li><a href="/form">Form</a></li>
   <li><a href="/information">Information</a></li>
   <li><a href="/cludo">Cludo Search</a></li>

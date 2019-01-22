@@ -10,10 +10,12 @@
 
   <div class="container">
     <div class="main only">
-      {% block alert %}
-        {% include "includes/alert.html" %}
-      {% endblock %}
-      <section class="">
+      <section class="intro">
+        {% block alert %}
+          {% include "includes/alert.html" %}
+        {% endblock %}
+      </section>
+      <section class="content">
         <div class="previews">
           <div class="preview">
             <h3 class="sub-section-heading"><a href="#">Preview heading</a></h3>
@@ -58,11 +60,8 @@
         </div>
       </section>
 
-      <div class="section-break-lg"></div>
-
-      <h2>Section heading</h2>
-
-      <section class="loose">
+      <section class="content">
+        <h2>Section heading</h2>
         <div class="previews">
           <div class="preview">
             <img src="/public/images/news.jpg">
@@ -84,8 +83,7 @@
           </div>
         </div>
       </section>
-
-      <section class="loose">
+      <section class="function">
         {% block signup %}
           {% include "includes/signup.html" %}
         {% endblock %}
