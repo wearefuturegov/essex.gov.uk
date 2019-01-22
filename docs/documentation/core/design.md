@@ -6,7 +6,7 @@
   <li><a href="#typography">Typography</a></li>
   <li><a href="#layout">Layout</a></li>
 </ul>
-<div class="section-break-sm"></div>
+<div class="content-break-sm"></div>
 
 <h2 id="colour">Colour</h2>
 <p>The colours used on essex.gov.uk are part of ECC's colour palette.</p>
@@ -113,7 +113,7 @@
 </div>
 
 
-<div class="section-break-sm"></div>
+<div class="content-break-sm"></div>
 
 <h2 id="typography">Typography</h2>
   <h3>Font</h3>
@@ -132,7 +132,7 @@
 <h3>Paragraphs</h3>
   <p>The default size for body text is 19px.</p>
 
-<div class="section-break-sm"></div>
+<div class="content-break-sm"></div>
 
 <h2 id="layout">Layout</h2>
 
