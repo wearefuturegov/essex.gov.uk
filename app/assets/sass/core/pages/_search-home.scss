@@ -31,7 +31,6 @@
         flex-wrap: wrap;
         display: flex;
         padding: 0;
-        //margin-bottom: $baseline*0.5;
         .search-button {
           @include media(desktop) {
             width: calc(25% - #{$border-normal});
