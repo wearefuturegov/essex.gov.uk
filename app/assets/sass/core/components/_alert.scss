@@ -22,7 +22,7 @@
     }
   }
   &.info {
-    border: $border-thick solid $error;
+    border: $border-thick solid $info;
     .alert-icon .fa-info-circle {
       color: $info;
     }
@@ -36,9 +36,10 @@
     display: table-cell;
     vertical-align: middle;
     padding: $baseline*0.25;
-    .fa-exclamation-triangle {
+    .fa-exclamation-triangle,
+    .fa-exclamation-circle,
+    .fa-info-circle {
       font-size: 2em;
-      color: $error;
     }
   }
   .alert-text {
@@ -47,10 +48,10 @@
       display: block;
       width: 100%;
     }
-    padding: $baseline*0.25 $gutter*0.25;
+    padding: 0 $gutter*0.25;
     h2 {
       font-size: $medium;
-      margin-top: $baseline*0.25;
+      margin-top: 0;
       margin-bottom: $baseline*0.25;
     }
     p {
