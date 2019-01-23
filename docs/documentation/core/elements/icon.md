@@ -2,43 +2,51 @@
 
 <i class="fas fa-exclamation-triangle"></i>
 
-    <i class="fas fa-exclamation-triangle"></i>
+	<i class="fas fa-exclamation-triangle"></i>
+
+<i class="fas fa-exclamation-circle"></i>
+	
+	<i class="fas fa-exclamation-circle"></i>
+
+<i class="fas fa-info-circle"></i>
+
+	<i class="fas fa-info-circle"></i>
 
 <i class="fas fa-search"></i>
 
-    <i class="fas fa-search"></i>
+	<i class="fas fa-search"></i>
 
 <i class="fas fa-print"></i>
 
-    <i class="fas fa-print"></i>
+	<i class="fas fa-print"></i>
 
 <i class="fab fa-facebook-f"></i>
 
-    <i class="fab fa-facebook-f"></i>
+	<i class="fab fa-facebook-f"></i>
 
 <i class="fab fa-twitter"></i>
 
-    <i class="fab fa-twitter"></i>
+	<i class="fab fa-twitter"></i>
 
 <i class="fab fa-youtube"></i>
 
-    <i class="fab fa-youtube"></i>
+	<i class="fab fa-youtube"></i>
 
 <i class="fab fa-instagram"></i>
 
-    <i class="fab fa-instagram"></i>
+	<i class="fab fa-instagram"></i>
 
 <i class="fab fa-linkedin"></i>
 
-    <i class="fab fa-linkedin"></i>
+	<i class="fab fa-linkedin"></i>
 
 <i class="fab fa-flickr"></i>
 
-    <i class="fab fa-flickr"></i>
+	<i class="fab fa-flickr"></i>
 
 <i class="fas fa-times"></i>
 
-    <i class="fas fa-times"></i>
+	<i class="fas fa-times"></i>
 
 ### Using icons
 
@@ -52,6 +60,7 @@ Icons can be used for:
   <li>search</li>
   <li>print page</li>
   <li>social media</li>
+  <li>general functionality <em>i.e. closing alerts</em></li>
 </ul>
 
 Icons shouldn't be used:

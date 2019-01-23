@@ -4,12 +4,29 @@
   }
   @include box-sizing(border-box);
   position: relative;
-  border: $border-thick solid $error;
   text-align: left;
   padding: $baseline $gutter*0.5 $baseline*0.5 $gutter*0.5;
   margin-bottom: $baseline;
   display: table;
   width: 100%;
+  &.warning {
+    border: $border-thick solid $warning;
+    .alert-icon .fa-exclamation-triangle {
+      color: $warning;
+    }
+  }
+  &.error {
+    border: $border-thick solid $error;
+    .alert-icon .fa-exclamation-circle {
+      color: $error;
+    }
+  }
+  &.info {
+    border: $border-thick solid $info;
+    .alert-icon .fa-info-circle {
+      color: $info;
+    }
+  }
   .alert-icon {
     @include media(mobile) {
       padding: 0;
@@ -19,9 +36,10 @@
     display: table-cell;
     vertical-align: middle;
     padding: $baseline*0.25;
-    .fa-exclamation-triangle {
+    .fa-exclamation-triangle,
+    .fa-exclamation-circle,
+    .fa-info-circle {
       font-size: 2em;
-      color: $error;
     }
   }
   .alert-text {
@@ -30,10 +48,10 @@
       display: block;
       width: 100%;
     }
-    padding: $baseline*0.25 $gutter*0.25;
+    padding: 0 $gutter*0.25;
     h2 {
       font-size: $medium;
-      margin-top: $baseline*0.25;
+      margin-top: 0;
       margin-bottom: $baseline*0.25;
     }
     p {
