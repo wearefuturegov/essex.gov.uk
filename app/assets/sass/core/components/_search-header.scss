@@ -44,6 +44,7 @@
       display: inline-block;
       width: 100%;
       @include grid-column(1);
+      padding: 0;
       .form .group {
         margin-bottom: $baseline*0.5;
         input {

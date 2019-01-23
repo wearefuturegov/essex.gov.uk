@@ -24,6 +24,7 @@
   display: inline-block;
   padding: $baseline*0.25 $gutter*0.5;
   margin-right: $gutter*0.25;
+  margin-bottom: $baseline*0.25;
   outline: 2px solid transparent;
   outline-offset: -2px;
   color: $white;
@@ -38,7 +39,3 @@
     vertical-align: baseline;
   }
 }
-
-// .header-background + .phase-banner {
-//   border-bottom: none;
-// }
