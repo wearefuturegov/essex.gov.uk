@@ -87,6 +87,7 @@ p {
   text-transform: none;
   margin-top: $baseline*0.125;
   margin-bottom: $baseline*0.75;
+  @include word-break;
   &.lede {
     font-size: 24px;
     line-height: $baseline*0.84;
