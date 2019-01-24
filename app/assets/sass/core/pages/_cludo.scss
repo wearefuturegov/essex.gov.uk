@@ -7,6 +7,10 @@
       padding-left: 0;
     }
   }
+  .search-filters ul a.active {
+    background-color: $grey-lighter;
+    color: $black;
+  }
   .search-results-item, .cludo-banner {
     @include box-sizing(border-box);
     padding: $baseline $gutter*0.5 $baseline*0.5;
