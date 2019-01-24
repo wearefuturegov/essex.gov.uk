@@ -1,7 +1,6 @@
 // Banner
 .phase-banner-background {
-  background-color: $brand2;
-  border-bottom: $border-thin solid #b6c9cd;
+  background-color: $highlight-box-light;
 }
 
 .phase-banner {
@@ -28,7 +27,7 @@
   outline: 2px solid transparent;
   outline-offset: -2px;
   color: $white;
-  background-color: #005ea5;
+  background-color: $link;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
