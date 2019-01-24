@@ -38,14 +38,13 @@
       border: $border-thick $black solid;
       color: $black;
     }
-    background: $highlight-box;
-    border: none;
-    color: $white;
+    background: $highlight-box-light;
+    color: $black;
     h2 {
       margin-bottom: calc(#{$h3} * 0.83333);
     }
     a {
-      color: $white;
+      color: $link;
       font-weight: 600;
       text-decoration: none;
       &:hover {
@@ -53,7 +52,7 @@
       }
     }
     &:hover {
-      background: $highlight-box;
+      background: $highlight-box-light;
     }
   }
   .search-results {
