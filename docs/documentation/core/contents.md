@@ -44,6 +44,7 @@
   <li><a href="components/search-header">Search header</a></li>
   <li><a href="components/signup">Signup</a></li>
   <li><a href="components/side-nav">Side-nav</a></li>
+  <li><a href="components/skip-link">Skip link</a></li>
   <li><a href="components/steps">Steps</a></li>
   <li><a href="components/table">Table</a></li>
 </ul>
