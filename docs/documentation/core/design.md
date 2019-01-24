@@ -135,7 +135,7 @@
 <div class="content-break-sm"></div>
 
 <h2 id="layout">Layout</h2>
-
+<p>Our grid currently only uses the divisions below with a gutter of 30px.</p>
 <div class="grid-row">
   <div class="column-full">
     <div class="demo-box">
