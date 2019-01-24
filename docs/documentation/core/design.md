@@ -125,8 +125,8 @@
 <div class="demo-box">
   <h1>Page heading - h1 (48px)</h1>
   <h2>Content heading - h2 (36px)</h2>
-  <h3>Section heading - h3 (30px)</h3>
-  <h4>Sub-section heading - h4 (30px)</h4>
+  <h3>Section heading - h3 (24px)</h3>
+  <h4>Sub-section heading - h4 (19px)</h4>
 </div>
 
 <h3>Paragraphs</h3>
@@ -135,11 +135,12 @@
 <div class="content-break-sm"></div>
 
 <h2 id="layout">Layout</h2>
-
+<p>Our grid currently only uses the divisions below with a gutter of 30px.</p>
 <div class="grid-row">
   <div class="column-full">
     <div class="demo-box">
     <h3>column-full</h3>
+    <p>960px</p>
     </div>
   </div>
 </div>
@@ -148,11 +149,13 @@
   <div class="column-two-thirds">
     <div class="demo-box">
       <h3>column-two-thirds</h3>
+      <p>630px</p>
     </div>
   </div>
   <div class="column-third">
     <div class="demo-box">
       <h3>column-third</h3>
+      <p>300px</p>
     </div>
   </div>
 </div>
@@ -161,11 +164,13 @@
   <div class="column-half">
     <div class="demo-box">
       <h3>column-half</h3>
+      <p>465px</p>
     </div>
   </div>
   <div class="column-half">
     <div class="demo-box">
       <h3>column-half</h3>
+      <p>465px</p>
     </div>
   </div>
 </div>
@@ -174,16 +179,19 @@
   <div class="column-third">
     <div class="demo-box">
       <h3>column-third</h3>
+      <p>300px</p>
     </div>
   </div>
   <div class="column-third">
     <div class="demo-box">
       <h3>column-third</h3>
+      <p>300px</p>
     </div>
   </div>
   <div class="column-third">
     <div class="demo-box">
       <h3>column-third</h3>
+      <p>300px</p>
     </div>
   </div>
 </div>
