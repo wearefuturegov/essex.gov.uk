@@ -2,9 +2,6 @@
   @media print {
     display: none;
   }
-  display: block;
-  margin-top: $baseline*1.5;
-  margin-bottom: $baseline;
   .form {
     .group {
       @extend %grid-row;
