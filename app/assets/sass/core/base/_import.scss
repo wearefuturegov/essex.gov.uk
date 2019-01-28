@@ -10,8 +10,9 @@
 @import "core/elements/import";
 @import "core/components/import";
 @import "core/pages/import";
-
 @import "core/layout/import";
+
+@import "design";
 
 // dev styles will overwrite component/element styles to help view in markdown documentation
 @import "dev";

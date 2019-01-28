@@ -1,0 +1,86 @@
+#design {
+	$stack: 'Open Sans', sans-serif;
+	// $gutter: 120px;
+	// $gutter-half: $gutter / 2;
+
+	// typography
+	body {
+	  font-family: $stack;
+	  color: $text-colour;
+	}
+	p {
+		font-size: 17px;
+	}
+	// search-home
+	.search-background .search .search-box {
+		padding-left: $gutter*0.125;
+		padding-right: $gutter*0.125;
+		// .search-buttons {
+		// 	display: none;
+		// }
+	}
+	input {
+		font-family: $stack;
+	}
+	// ::-webkit-input-placeholder {
+ //    font-family: $stack !important;
+	// }
+	// :-moz-placeholder {
+ //    font-family: $stack !important;
+	// }
+	// ::-moz-placeholder {
+ //    font-family: $stack !important;
+	// }
+	// :-ms-input-placeholder {
+ //    font-family: $stack !important;
+	// }
+	// alert
+	.alert {
+  	padding: $baseline $gutter*0.125 $baseline*0.5 $gutter*0.125;
+	  .alert-text {
+	    padding: 0 $gutter*0.125;
+	  }
+	  label.close {
+	    right: $gutter*0.25;
+	  }
+	}
+
+	// social
+	.social li {
+    margin-right: $gutter*0.0125;
+  }
+  // layout
+  .content {
+  	margin-top: $baseline*1.5;
+  	margin-bottom: $baseline*1.5;
+  }
+  // preview
+  .previews .preview {
+  	padding: $baseline $gutter*0.5;
+  	span {
+  		display: inline-block;
+  		font-size: 44px;
+  		font-weight: 700;
+  		color: $brand;
+  		margin-bottom: $baseline*0.125;
+  	}
+  	h3.sub-section-heading {
+  		font-size: 22px;
+  		line-height: 26px;
+  		margin-top: 0;
+  		margin-bottom: 24px;
+  		a {
+	  		color: $text-colour;
+	  		// text-decoration: none;
+	  	}
+  	}
+  }
+
+	// hero
+	// .hero {
+	//   background-image: url(/public/images/chelmsford.jpg);
+	//   background-size: cover;
+ //  	background-position-x: 0;
+ //  	background-position-y: -150px;
+	// }
+}
