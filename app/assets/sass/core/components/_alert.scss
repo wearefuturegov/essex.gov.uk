@@ -5,7 +5,7 @@
   @include box-sizing(border-box);
   position: relative;
   text-align: left;
-  padding: $baseline $gutter*0.5 $baseline*0.5 $gutter*0.5;
+  padding: $padding-thin;
   margin-bottom: $baseline;
   display: table;
   width: 100%;
@@ -66,7 +66,7 @@
     // font-size: $smaller;
     position: absolute;
     top: $baseline*0.25;
-    right: $gutter*0.75;
+    right: $padding-thin;
     cursor: pointer;
     color: $black;
     // text-decoration: underline;

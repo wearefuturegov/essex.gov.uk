@@ -21,6 +21,7 @@
 }
 
 @mixin default-type {
+  font-family: $stack;
   font-size: $body;
   font-weight: $normal;
   line-height: $baseline;

@@ -3,6 +3,11 @@ body {
   color: $text-colour;
 }
 
+#design body {
+  $stack-b: 'Open Sans', sans-serif;
+  font-family: $stack-b;
+}
+
 main {
   font-size: $body;
   line-height: $baseline;
@@ -12,7 +17,7 @@ main {
 $h1: 48px;
 $h2: 36px;
 $h3: 24px;
-$h4: 19px;
+$h4: 22px;
 
 
 @mixin h1 {
@@ -48,7 +53,7 @@ $h4: 19px;
   line-height: 1.31579;
   text-transform: none;
   margin-top: calc(#{$h4} * 1.05263);
-  margin-bottom: calc(#{$h4} * 0.3125);
+  margin-bottom: calc(#{$h4} * 1.0);
 }
 
 // page-heading is used at the top of each page

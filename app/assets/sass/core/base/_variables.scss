@@ -21,7 +21,7 @@ $large: 30px;
 $larger: 34px;
 
 $gutter: 30px;
-$gutter: 120px;
+// $gutter: 120px;
 
 $lighter: 300;
 $normal: 400;
@@ -83,6 +83,10 @@ $border-normal: 2px;
 $border-thick: 3px;
 $border-thicker: 5px;
 $border-very-thick: $border-thick*4;
+
+// padding
+$padding-thin: $baseline;
+$padding-thinner: $baseline*0.25;
 
 // border radius
 $border-radius: 3px;

@@ -19,7 +19,7 @@
       @include border-radius($border-radius);
       background-color: rgba(0, 0, 0, 0.1);
       position: relative;
-      padding: $baseline*0.75 $gutter*0.5;
+      padding: $padding-thin;
       @include media(mobile) {
         padding-left: $gutter;
         padding-right: $gutter;
@@ -40,7 +40,7 @@
           @include border-radius($border-radius);
           margin-bottom: 0;
           border: $border-thick solid $white;
-          padding: $baseline*0.25 $gutter*0.125;
+          padding: $padding-thin*0.5;
           height: $baseline*2.5;
           width: 100%;
           @include box-sizing(border-box);
