@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" id="design">
+<html lang="en">
   <!-- core app -->
   {% block head %}
     {%include "includes/head.html" %}
   {% endblock %}
 
-  <body class="{% block body_classes %}{% endblock %}">
+  <body class="{% block body_classes %}{% endblock %}" id="design">
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
     {% block body_start %}{% endblock %}

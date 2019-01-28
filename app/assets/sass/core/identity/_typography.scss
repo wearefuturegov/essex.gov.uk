@@ -1,11 +1,11 @@
 body {
   font-family: $stack;
   color: $text-colour;
-}
-
-#design body {
-  $stack-b: 'Open Sans', sans-serif;
-  font-family: $stack-b;
+  &#design {
+    $stack: 'Open Sans', sans-serif;
+    font-family: $stack;
+    font-size: 17px;
+  }
 }
 
 main {
