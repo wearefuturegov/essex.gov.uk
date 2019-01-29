@@ -5,12 +5,12 @@
 @import "base";
 
 @import "gds/import";
+@import "core/layout/import";
 
 @import "core/identity/import";
 @import "core/elements/import";
 @import "core/components/import";
 @import "core/pages/import";
-@import "core/layout/import";
 
 // dev styles will overwrite component/element styles to help view in markdown documentation
 @import "dev";

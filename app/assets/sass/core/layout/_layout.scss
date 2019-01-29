@@ -34,9 +34,6 @@
   }
   .content {
     margin-bottom: $baseline*2;
-    + .content {
-      @include content-break-lg;
-    }
   }
   .function {
     margin-top: $baseline*3;
