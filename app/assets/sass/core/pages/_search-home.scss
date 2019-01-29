@@ -1,9 +1,36 @@
+body#design .search-background {
+  .search {
+    .search-box {
+      background-color: rgba(222,238,255,0.2);
+      h1 {
+        display: block;
+      }
+    }
+    .form .group {
+      margin-bottom: 0;
+      input {
+        margin-bottom: 0;
+      }
+      .fa-search {
+        color: $search;
+          &:hover {
+          color: $search-hover;
+        }
+      }
+    }
+    .search-buttons {
+      display: none;
+    }
+  }
+}
+
 .search-background {
   @media print {
     display: none;
   }
   overflow: hidden;
   position: relative;
+  margin-bottom: $baseline;
   .search {
     @extend %site-width-container;
     @include media(desktop) {
@@ -13,34 +40,73 @@
       margin: 0 !important;
     }
     .search-box {
+      // #design
+      h1 {
+        display: none;
+      }
       margin: 0 auto;
       @extend %grid-row;
       @include box-sizing(border-box);
       @include border-radius($border-radius);
       background-color: rgba(0, 0, 0, 0.1);
       position: relative;
-      padding: $padding-thin;
+      padding: $baseline*0.75 $gutter*0.5;
       @include media(mobile) {
         padding-left: $gutter;
         padding-right: $gutter;
       }
       .search-input {
-        margin-bottom: 0;
-        + .search-buttons {
-          margin-top: $baseline;
+      }
+      .search-buttons {
+        flex-wrap: wrap;
+        display: flex;
+        padding: 0;
+        .search-button {
+          @include media(desktop) {
+            width: calc(25% - #{$border-normal});
+            margin-right: $border-normal;
+            margin-bottom: 0;
+          }
+          margin-bottom: $border-thicker;
+          width: 100%;
+          display: flex;
+          padding: 0;
+          margin-right: 0;
+          &:last-child {
+            margin-right: 0;
+          }
+          .button {
+            @include box-shadow(0 2px 0 $button-search-box);
+            font-size: $body;
+            font-weight: $normal;
+            color: $white;
+            text-align: center;
+            background-color: $button-search-box;
+            padding-bottom: $baseline*0.5;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:hover {
+              background-color: $button-search-box-hover;
+            }
+            &:focus {
+              background-color: $button-search-box-hover;
+              outline: $border-thick solid $focus-colour;
+            }
+          }
         }
       }
     }
     .form {
       .group {
         position: relative;
-        margin-bottom: 0;
+        margin-bottom: $baseline;
         input {
           @include default-type;
           @include border-radius($border-radius);
-          margin-bottom: 0;
           border: $border-thick solid $white;
-          padding: $padding-thin*0.5;
+          padding: $baseline*0.25 $gutter;
           height: $baseline*2.5;
           width: 100%;
           @include box-sizing(border-box);
@@ -59,51 +125,5 @@
     position: absolute;
     right: 0;
     left: 0;
-  }
-}
-
-.search-buttons-background {
-  background-color: $button-search-box;
-  overflow: hidden;
-  position: relative;
-  .search-buttons {
-    @extend %site-width-container;
-    flex-wrap: wrap;
-    display: flex;
-    .search-button {
-      @include media(desktop) {
-        width: calc(25%});
-        margin-bottom: 0;
-      }
-      margin-bottom: $border-thicker;
-      width: 100%;
-      display: flex;
-      padding: 0;
-      margin-right: 0;
-      &:last-child {
-        margin-right: 0;
-        border: none;
-      }
-      .button {
-        @include box-shadow(0 2px 0 $button-search-box);
-        font-size: $body;
-        font-weight: $normal;
-        color: $white;
-        text-align: center;
-        background-color: $button-search-box;
-        padding-bottom: $baseline*0.5;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        &:hover {
-          background-color: $button-search-box-hover;
-        }
-        &:focus {
-          background-color: $button-search-box-hover;
-          outline: $border-thick solid $focus-colour;
-        }
-      }
-    }
   }
 }

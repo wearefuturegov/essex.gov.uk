@@ -13,6 +13,22 @@
   @include box-sizing(border-box);
 }
 
+// #design
+@mixin grid-column-b($width, $full-width: tablet, $float: left) {
+
+  @include media($full-width) {
+    float: $float;
+    width: percentage($width);
+  }
+
+  @include ie-lte(7) {
+    width: (($site-width + $gutter) * $width) - $gutter;
+  }
+  $gutter-half: 60px;
+  padding: 0 $gutter-half;
+  @include box-sizing(border-box);
+}
+
 #content {
   @extend %site-width-container;
   @extend %contain-floats;
@@ -20,37 +36,6 @@
   // Remove the blue outline
   outline: none;
 }
-
-// Use .grid-row to define a row for grid columns to sit in
-.grid-row {
-  @extend %grid-row;
-}
-
-// Use .grid-column to create a grid column with 15px gutter
-// By default grid columns break to become full width at tablet size
-.column-quarter,
-.column-one-quarter {
-  @include grid-column(1 / 4);
-}
-
-.column-half,
-.column-one-half {
-  @include grid-column(1 / 2);
-}
-
-.column-third,
-.column-one-third {
-  @include grid-column(1 / 3);
-}
-
-.column-two-thirds {
-  @include grid-column(2 / 3);
-}
-
-.column-full {
-  @include grid-column(1);
-}
-
 
 %site-width-container {
   max-width: $site-width;
@@ -81,5 +66,11 @@
 
 %grid-row {
   @extend %contain-floats;
+  margin: 0 (-$gutter-half);
+}
+
+%grid-row-b {
+  @extend %contain-floats;
+  $gutter-half: 60px;
   margin: 0 (-$gutter-half);
 }

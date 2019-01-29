@@ -1,24 +1,32 @@
 body {
   font-family: $stack;
-  color: $text-colour;
-  &#design {
-    $stack: 'Open Sans', sans-serif;
-    font-family: $stack;
-    font-size: 17px;
-  }
-}
-
-main {
   font-size: $body;
   line-height: $baseline;
   -webkit-font-smoothing: antialiased;
+  background: $white;
+  color: $text-colour;
+  &#design {
+    $stack: 'Open Sans', sans-serif;
+    $body: 16px;
+    font-family: $stack;
+    font-size: $body;
+  }
 }
+
+// main {
+//   font-size: $body;
+//   line-height: $baseline;
+//   -webkit-font-smoothing: antialiased;
+// }
 
 $h1: 48px;
 $h2: 36px;
 $h3: 24px;
 $h4: 22px;
 
+h1, h2, h3, h4 {
+  letter-spacing: -1px;
+}
 
 @mixin h1 {
   font-size: $h1;
@@ -86,9 +94,6 @@ h4, .h4, .sub-section-heading {
 }
 
 p {
-  font-size: 19px;
-  font-weight: 400;
-  line-height: $baseline;
   text-transform: none;
   margin-top: $baseline*0.125;
   margin-bottom: $baseline*0.75;

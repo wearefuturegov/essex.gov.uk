@@ -24,6 +24,10 @@
   margin: 1cm 0.5cm 1.5cm 0.5cm;
 }
 
+#content {
+  margin-top: $baseline;
+}
+
 .main {
   @include grid-column(2 / 3);
   &.only {

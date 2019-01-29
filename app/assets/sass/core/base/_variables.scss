@@ -62,6 +62,7 @@ $button-search-box: $grey-dark;
 $button-search-box-hover: #151515;
 $white-on-black-hover: #d9d9d9;
 $search: $black;
+$search-hover: $grey-dark;
 $linkbox: #0072C6; // Linking to external sites
 
 $error: #b10e1e;
@@ -97,7 +98,7 @@ $nav-height: $logo-height*2;
 
 // grid measreuments
 $gutter: 30px;
-$gutter: 120px;
+// $gutter: 120px;
 
 $site-width: 960px;
 $outer-grid-margin: $gutter*0.125;
