@@ -20,8 +20,6 @@ $medium: 26px;
 $large: 30px;
 $larger: 34px;
 
-$gutter: 30px;
-
 $lighter: 300;
 $normal: 400;
 $bold: 700;
@@ -97,9 +95,13 @@ $logo-height: 40px;
 // header dimensions, based on logo
 $nav-height: $logo-height*2;
 
-$site-width: 960px;
-
 // grid measreuments
+$gutter: 30px;
+$gutter: 120px;
+
+$site-width: 960px;
+$outer-grid-margin: $gutter*0.125;
+
 $full-width: 100%;
 $one-quarter: $full-width / 4;
 $one-third: $full-width / 3;

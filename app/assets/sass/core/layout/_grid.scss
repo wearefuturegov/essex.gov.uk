@@ -54,17 +54,17 @@
 
 %site-width-container {
   max-width: $site-width;
-  margin: 0 $gutter;
+  margin: 0 $outer-grid-margin;
 
   @include ie-lte(8) {
     max-width: $site-width;
   }
 
   @include media(tablet) {
-    margin: 0 $gutter;
+    margin: 0 $outer-grid-margin;
   }
 
-  @include media($min-width: ($site-width + $gutter * 2)) {
+  @include media($min-width: ($site-width + $outer-grid-margin * 2)) {
     margin: 0 auto;
   }
 }
