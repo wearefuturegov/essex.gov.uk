@@ -24,6 +24,7 @@
             color: $white;
             background-color: $brand;
             border: $border-normal $white solid;
+            height: 2.25em;
             &:hover {
               background-color: $brand-hover-darken;
             }
