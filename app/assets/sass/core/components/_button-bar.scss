@@ -1,13 +1,3 @@
-body#design .button-bar-background {
-  .button-bar {
-    // @extend %site-width-container;
-    // @extend %grid-row-b;
-    .bar-button {
-      @include grid-column(1 / 3);
-    }
-  }
-}
-
 .button-bar-background {
   background-color: $grey-lighter;
   overflow: hidden;
@@ -21,17 +11,9 @@ body#design .button-bar-background {
       flex-wrap: wrap;
       display: flex;
       .bar-button {
-        margin-bottom: $border-thicker;
-        width: 100%;
+        @include grid-column(1 / 3);
         display: flex;
-        padding: 0;
-        margin-right: 0;
-        &:last-child {
-          margin-right: 0;
-          border: none;
-        }
         .button {
-          // @include box-shadow(0 2px 0 $button-search-box);
           font-size: $small;
           font-weight: $normal;
           color: $black;
