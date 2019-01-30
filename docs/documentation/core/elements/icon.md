@@ -20,6 +20,10 @@
 
 	<i class="fas fa-print"></i>
 
+<i class="far fa-file-alt"></i>
+
+	<i class="far fa-file-alt"></i>
+
 <i class="fab fa-facebook-f"></i>
 
 	<i class="fab fa-facebook-f"></i>

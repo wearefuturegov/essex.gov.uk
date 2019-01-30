@@ -1,0 +1,29 @@
+.file-link {
+  display: inline-block;
+  @media print {
+    display: none;
+  }
+  margin-top: $baseline;
+  margin-bottom: $baseline;
+  width: 100%;
+  .icon {
+    float: left;
+    width: $icon;
+  }
+  .info {
+    float: left;
+    width: calc(100% - #{$icon});
+    h3 {
+      text-decoration: underline;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    p {
+      font-size: $small;
+      span {
+        font-size: $smaller;
+        display: block;
+      }
+    }
+  }
+}
