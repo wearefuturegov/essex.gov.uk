@@ -1,3 +1,8 @@
+#design input {
+  $stack: 'Open Sans', sans-serif;
+  font-family: $stack;
+}
+
 input {
   @include box-sizing(border-box);
   font-weight: $normal;

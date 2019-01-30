@@ -1,0 +1,81 @@
+@mixin grid-column($width, $full-width: tablet, $float: left) {
+
+  @include media($full-width) {
+    float: $float;
+    width: percentage($width);
+  }
+
+  @include ie-lte(7) {
+    width: (($site-width + $gutter) * $width) - $gutter;
+  }
+
+  padding: 0 $gutter-half;
+  @include box-sizing(border-box);
+}
+
+// #design
+@mixin grid-column-b($width, $full-width: tablet, $float: left) {
+
+  @include media($full-width) {
+    float: $float;
+    width: percentage($width);
+  }
+
+  @include ie-lte(7) {
+    width: (($site-width + $gutter) * $width) - $gutter;
+  }
+  $gutter-half: 60px;
+  padding: 0 $gutter-half;
+  @include box-sizing(border-box);
+}
+
+#content {
+  @extend %site-width-container;
+  @extend %contain-floats;
+  // Pressing enter when focus is on the skiplink sets focus on the #content area
+  // Remove the blue outline
+  outline: none;
+}
+
+%site-width-container {
+  max-width: $site-width;
+
+  @include ie-lte(8) {
+    max-width: $site-width;
+  }
+
+  @include media(tablet) {
+    margin-left: $outer-grid-margin * 10;
+    margin-right: $outer-grid-margin * 10;
+  }
+
+  @include media(mobile) {
+    margin-left: $outer-grid-margin * 10;
+    margin-right: $outer-grid-margin * 10;
+  }
+
+  @include media($min-width: ($site-width + $outer-grid-margin * 2)) {
+    margin: 0 auto;
+  }
+}
+
+%outdent-to-full-width {
+  margin-left: -$gutter-half;
+  margin-right: -$gutter-half;
+
+  @include media(tablet) {
+    margin-left: -$gutter;
+    margin-right: -$gutter;
+  }
+}
+
+%grid-row {
+  @extend %contain-floats;
+  margin: 0 (-$gutter-half);
+}
+
+%grid-row-b {
+  @extend %contain-floats;
+  $gutter-half: 60px;
+  margin: 0 (-$gutter-half);
+}

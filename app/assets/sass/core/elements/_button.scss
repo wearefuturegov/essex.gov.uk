@@ -17,12 +17,6 @@
   outline-offset: -1px; // fixes bug in Safari that outline width on focus is not overwritten, is reset to 0 on focus in govuk_template
   -webkit-appearance: none;
 
-  // Bottom edge effect
-  @include box-shadow(0 2px 0 $black);
-  @include ie-lte(8) {
-    border-bottom: 2px solid $black;
-  }
-
   // Text
   font-size: 1em; // inherit from parent
   line-height: 1.25;
@@ -43,7 +37,6 @@
 
   &:active {
     top: 2px;
-    @include box-shadow(0 0 0 $button);
   }
 
   // Disabled button styles
@@ -58,10 +51,6 @@
 
     &:active {
       top: 0;
-      @include box-shadow(0 2px 0 $black);
-      @include ie-lte(8) {
-        border-bottom: 2px solid $black;
-      }
     }
   }
 

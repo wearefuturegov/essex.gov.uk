@@ -20,7 +20,6 @@ $medium: 26px;
 $large: 30px;
 $larger: 34px;
 
-$gutter: 30px;
 $lighter: 300;
 $normal: 400;
 $bold: 700;
@@ -63,6 +62,7 @@ $button-search-box: $grey-dark;
 $button-search-box-hover: #151515;
 $white-on-black-hover: #d9d9d9;
 $search: $black;
+$search-hover: $grey-dark;
 $linkbox: #0072C6; // Linking to external sites
 
 $error: #b10e1e;
@@ -82,6 +82,10 @@ $border-thick: 3px;
 $border-thicker: 5px;
 $border-very-thick: $border-thick*4;
 
+// padding
+$padding-thin: $baseline;
+$padding-thinner: $baseline*0.25;
+
 // border radius
 $border-radius: 3px;
 
@@ -93,6 +97,12 @@ $logo-height: 40px;
 $nav-height: $logo-height*2;
 
 // grid measreuments
+$gutter: 30px;
+
+$site-width: 960px;
+$outer-grid-margin: $gutter*0.125;
+$outer-grid-padding: $gutter*0.125;
+
 $full-width: 100%;
 $one-quarter: $full-width / 4;
 $one-third: $full-width / 3;

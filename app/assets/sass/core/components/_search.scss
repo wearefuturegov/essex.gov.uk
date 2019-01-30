@@ -6,10 +6,6 @@
     max-width: $site-width;
     margin: 0 auto;
   }
-  // @include media(mobile) {
-  //   width: calc(100% - #{$gutter*2});
-  //   margin: 0 auto;
-  // }
   outline: none;
   &[type="search"]:focus {
     z-index: 2;
@@ -38,7 +34,7 @@
         bottom: 0;
         background: none;
         border: none;
-        padding: $gutter*0.25 $gutter*0.5;
+        padding: $padding-thin;
         .fa-search {
           font-size: $icon*0.5;
           color: $search;

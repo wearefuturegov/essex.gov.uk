@@ -1,0 +1,106 @@
+{% extends "essex_main_template_design.html" %}
+
+{% block content %}
+
+{% block search %}
+  {% include "includes/search-home.html" %}
+{% endblock %}
+
+<main id="content">
+
+  <div class="container">
+    <div class="main only">
+<!--       <section class="intro">
+        {% block alert %}
+          {% include "includes/alert.html" %}
+        {% endblock %}
+      </section> -->
+      <section class="content">
+        <h1 class="h2">Services</h1>
+        <div class="previews">
+          <div class="preview">
+            <h3 class="sub-section-heading"><a href="#">Social care and health</a></h3>
+            <p>Includes children, young people and families and adult social care</p>
+          </div>
+          <div class="preview">
+            <h3 class="sub-section-heading"><a href="#">Schools and learning</a></h3>
+            <p>Includes school admissions, early learning and childcare, education and training for young people and adult learning</p>
+          </div>
+          <div class="preview">
+            <h3 class="sub-section-heading"><a href="#">Jobs and apprenticeships</a></h3>
+            <p>Donec nec nunc vel lacus scelerisque fermentum</p>
+          </div>
+        </div>
+        <div class="previews">
+          <div class="preview">
+            <h3 class="sub-section-heading"><a href="#">Births, ceremonies and deaths</a></h3>
+            <p>Includes weddings, civil partnerships, births and deaths</p>
+          </div>
+          <div class="preview">
+            <h3 class="sub-section-heading"><a href="#">Libraries</a></h3>
+            <p>Includes how to join a library in Essex, library events and local history</p>
+          </div>
+          <div class="preview">
+            <h3 class="sub-section-heading"><a href="#">Roads, streets and transport</a></h3>
+            <p>Vivamus sit amet mi lacus. Proin scelerisque, turpis ac condimentum iaculis</p>
+          </div>
+        </div>
+        <div class="previews">
+          <div class="preview">
+            <h3 class="sub-section-heading"><a href="#">Recycling, planning and land</a></h3>
+            <p>Maecenas commodo nec mauris vitae imperdiet. Cras ac urna rutrum, aliquet lorem vel</p>
+          </div>
+          <div class="preview">
+            <h3 class="sub-section-heading"><a href="#">Business</a></h3>
+            <p>Thinking of starting and running a business in Essex?</p>
+          </div>
+          <div class="preview">
+            <h3 class="sub-section-heading"><a href="#">Running the council</a></h3>
+            <p>Includes, find your councillor, council tax, how decisions are made and the council is run</p>
+          </div>
+        </div>
+        <div class="previews">
+          <div class="preview">
+            <h3 class="sub-section-heading"><a href="#">Leisure, culture and local heritage</a></h3>
+            <p>Includes places to go, cultural events and activities, historical records and building conservation</p>
+          </div>
+        </div>
+      </section>
+
+<!--       <section class="content">
+        <h2>Section heading</h2>
+        <div class="previews">
+          <div class="preview">
+            <img src="/public/images/news.jpg">
+            <h3 class="sub-section-heading"><a href="#">Preview heading with image above</a></h3>
+            <p>Preview copy explaining what content it contains.</p>
+            <p class="meta">3 October 2018</p>
+          </div>
+          <div class="preview">
+            <img src="/public/images/news.jpg">
+            <h3 class="sub-section-heading"><a href="#">Preview heading with image above</a></h3>
+            <p>Preview copy explaining what content it contains.</p>
+            <p class="meta">3 October 2018</p>
+          </div>
+          <div class="preview">
+            <img src="/public/images/news.jpg">
+            <h3 class="sub-section-heading"><a href="#">Preview heading with image above</a></h3>
+            <p>Preview copy explaining what content it contains.</p>
+            <p class="meta">3 October 2018</p>
+          </div>
+        </div>
+      </section> -->
+      <section class="function">
+        {% block signup %}
+          {% include "includes/signup.html" %}
+        {% endblock %}
+      </section>
+    </div>
+  </div>
+</main>
+
+<!-- {% block impact %}
+  {% include "includes/impact.html" %}
+{% endblock %} -->
+
+{% endblock %}

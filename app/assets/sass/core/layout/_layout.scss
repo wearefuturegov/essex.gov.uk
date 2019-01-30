@@ -24,6 +24,10 @@
   margin: 1cm 0.5cm 1.5cm 0.5cm;
 }
 
+#content {
+  margin-top: $baseline;
+}
+
 .main {
   @include grid-column(2 / 3);
   &.only {
@@ -34,9 +38,6 @@
   }
   .content {
     margin-bottom: $baseline*2;
-    + .content {
-      @include content-break-lg;
-    }
   }
   .function {
     margin-top: $baseline*3;

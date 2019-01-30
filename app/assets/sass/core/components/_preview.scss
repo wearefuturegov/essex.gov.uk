@@ -1,7 +1,22 @@
+body#design .previews {
+  margin-top: $baseline*2;
+  margin-bottom: $baseline*2;
+  @extend %grid-row-b;
+  .preview {
+    @include grid-column-b(1 / 3);
+    &:nth-child(2) {
+      border-left: $border-thin solid $grey-light;
+      border-right: $border-thin solid $grey-light;
+    }
+  }
+}
+
 .previews {
   @extend %grid-row;
   .preview {
     @include grid-column(1 / 3);
+    padding-top: $baseline;
+    padding-bottom: $baseline;
     img {
       margin-top: $baseline;
       width: 100%;

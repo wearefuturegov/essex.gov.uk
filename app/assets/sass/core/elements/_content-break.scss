@@ -19,3 +19,7 @@
 .content-break-sm {
 	@include content-break-sm;
 }
+
+.content + .content {
+  @include content-break-lg;
+}

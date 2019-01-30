@@ -1,3 +1,29 @@
+body#design .search-background {
+  .search {
+    .search-box {
+      background-color: rgba(222,238,255,0.2);
+      h1 {
+        display: block;
+      }
+    }
+    .form .group {
+      margin-bottom: 0;
+      input {
+        margin-bottom: 0;
+      }
+      .fa-search {
+        color: $search;
+          &:hover {
+          color: $search-hover;
+        }
+      }
+    }
+    .search-buttons {
+      display: none;
+    }
+  }
+}
+
 .search-background {
   @media print {
     display: none;
@@ -10,10 +36,11 @@
     @include media(desktop) {
       padding: $baseline*2.5 0;
     }
-    @include media(mobile) {
-      margin: 0 !important;
-    }
     .search-box {
+      // #design
+      h1 {
+        display: none;
+      }
       margin: 0 auto;
       @extend %grid-row;
       @include box-sizing(border-box);
@@ -21,10 +48,6 @@
       background-color: rgba(0, 0, 0, 0.1);
       position: relative;
       padding: $baseline*0.75 $gutter*0.5;
-      @include media(mobile) {
-        padding-left: $gutter;
-        padding-right: $gutter;
-      }
       .search-input {
       }
       .search-buttons {

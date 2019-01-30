@@ -1,19 +1,26 @@
 body {
   font-family: $stack;
-  color: $text-colour;
-}
-
-main {
   font-size: $body;
   line-height: $baseline;
   -webkit-font-smoothing: antialiased;
+  background: $white;
+  color: $text-colour;
+  &#design {
+    $stack: 'Open Sans', sans-serif;
+    $body: 16px;
+    font-family: $stack;
+    font-size: $body;
+  }
 }
 
 $h1: 48px;
 $h2: 36px;
 $h3: 24px;
-$h4: 19px;
+$h4: 22px;
 
+h1, h2, h3, h4 {
+  letter-spacing: -1px;
+}
 
 @mixin h1 {
   font-size: $h1;
@@ -26,7 +33,7 @@ $h4: 19px;
 
 @mixin h2 {
   font-size: $h2;
-  line-height: 1.11111;
+  line-height: 1.3;
   font-weight: 700;
   text-transform: none;
   margin-top: calc(#{$h2} * 1.25);
@@ -48,7 +55,7 @@ $h4: 19px;
   line-height: 1.31579;
   text-transform: none;
   margin-top: calc(#{$h4} * 1.05263);
-  margin-bottom: calc(#{$h4} * 0.3125);
+  margin-bottom: calc(#{$h4} * 1.0);
 }
 
 // page-heading is used at the top of each page
@@ -81,9 +88,6 @@ h4, .h4, .sub-section-heading {
 }
 
 p {
-  font-size: 19px;
-  font-weight: 400;
-  line-height: $baseline;
   text-transform: none;
   margin-top: $baseline*0.125;
   margin-bottom: $baseline*0.75;
