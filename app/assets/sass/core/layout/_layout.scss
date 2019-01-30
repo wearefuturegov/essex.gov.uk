@@ -1,4 +1,5 @@
 .container {
+  margin-bottom: $baseline*2;
   @extend %grid-row;
   @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
     max-width: $site-width + $gutter;

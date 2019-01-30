@@ -1,26 +1,27 @@
 .overlay {
   background: $overlay;
   width: 100%;
-  color: $white;
   padding-top: $baseline;
   padding-bottom: $baseline;
   .overlay-box {
     @extend %site-width-container;
     .overlay-content {
       @extend %grid-row;
+      h2, p {
+        padding-left: $gutter*0.5;
+        padding-right: $gutter*0.5;
+      }
       h2 {
-        @include grid-column(1 / 2);
         margin-top: $baseline*0.5;
       }
       p {
-        @include grid-column(1 / 2);
         font-size: $small;
         line-height: $baseline;
         font-weight: $lighter; // not in Arial though
       }
     }
     a, a:hover, a:active, a:visited {
-      color: $white;
+      color: $black;
     }
   }
 }

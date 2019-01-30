@@ -10,6 +10,29 @@
   }
 }
 
+.main .impact {
+  .hero {
+    height: initial;
+    display: inline-block;
+  }
+  .overlay {
+    background: $overlay-heavy;
+    @include grid-column(1 / 2);
+    position: relative;
+    margin: $gutter;
+    .overlay-content {
+      padding: $gutter;
+      h2, p {
+        padding-left: 0;
+        padding-right: 0;
+      }
+      h2 {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
 @media print {
   .impact {
     .hero {
