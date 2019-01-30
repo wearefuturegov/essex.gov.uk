@@ -10,7 +10,7 @@
   // Size and shape
   position: relative;
   @include inline-block;
-  padding: $baseline*0.125 $gutter*0.25; // 10px 15px 5px
+  padding: .526315em .789473em .263157em; // 10px 15px 5px
   border: none;
   @include border-radius(0);
   outline: $border-thin solid transparent; // keep some button appearance when changing colour settings in browsers

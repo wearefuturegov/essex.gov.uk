@@ -25,6 +25,7 @@
             background-color: $brand;
             border: $border-normal $white solid;
             height: 2.25em;
+            padding: $baseline*0.125 $gutter*0.25;
             &:hover {
               background-color: $brand-hover-darken;
             }
@@ -53,6 +54,44 @@
             color: $white-on-black-hover;
           }
         }
+      }
+    }
+  }
+}
+
+
+.signup {
+  @media print {
+    display: none;
+  }
+  .form {
+    .group {
+      @extend %grid-row;
+      input.form-control {
+        width: 100%;
+      }
+      input.button.subscribe {
+        border: none;
+        width: 100%;
+        &.button {
+          font-weight: 600;
+          color: $white;
+          background-color: $brand;
+          border: none;
+          &:hover {
+            background-color: $brand-hover-darken;
+          }
+        }
+      }
+      .signup-input {
+        @include grid-column(2 / 3);
+        input {
+          padding: 6px $gutter*0.5;
+          height: $baseline*1.5;
+        }
+      }
+      .signup-button {
+        @include grid-column(1 / 3);
       }
     }
   }
