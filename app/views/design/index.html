@@ -98,13 +98,12 @@
           </div>
         </div>
       </section> -->
-      <section class="function">
-        {% block signup %}
-          {% include "includes/signup.html" %}
-        {% endblock %}
-      </section>
     </div>
   </div>
 </main>
+
+{% block signupbig %}
+  {% include "includes/signup-big.html" %}
+{% endblock %}
 
 {% endblock %}
