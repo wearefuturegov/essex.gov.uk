@@ -36,9 +36,6 @@ body#design .search-background {
     @include media(desktop) {
       padding: $baseline*2.5 0;
     }
-    @include media(mobile) {
-      margin: 0 !important;
-    }
     .search-box {
       // #design
       h1 {
@@ -51,10 +48,6 @@ body#design .search-background {
       background-color: rgba(0, 0, 0, 0.1);
       position: relative;
       padding: $baseline*0.75 $gutter*0.5;
-      @include media(mobile) {
-        padding-left: $gutter;
-        padding-right: $gutter;
-      }
       .search-input {
       }
       .search-buttons {

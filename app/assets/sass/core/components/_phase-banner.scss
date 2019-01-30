@@ -8,7 +8,8 @@
   @media print {
     display: none;
   }
-  padding: $baseline*0.5 0;
+  padding-top: $baseline*0.5;
+  padding-bottom: $baseline*0.5;
   p {
     font-size: $small;
     margin-top: 0;
