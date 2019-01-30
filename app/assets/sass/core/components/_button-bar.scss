@@ -9,48 +9,47 @@ body#design .button-bar-background {
 }
 
 .button-bar-background {
-  background-color: $grey-light;
+  background-color: $grey-lighter;
   overflow: hidden;
   position: relative;
   padding-top: $baseline;
   padding-bottom: $baseline;
-  .button-bar {
+  .button-bar-container {
     @extend %site-width-container;
-    flex-wrap: wrap;
-    display: flex;
-    .bar-button {
-      @include media(desktop) {
-        width: calc(25%});
-        margin-bottom: 0;
-      }
-      margin-bottom: $border-thicker;
-      width: 100%;
+    .button-bar {
+      @extend %grid-row;
+      flex-wrap: wrap;
       display: flex;
-      padding: 0;
-      margin-right: 0;
-      &:last-child {
-        margin-right: 0;
-        border: none;
-      }
-      .button {
-        // @include box-shadow(0 2px 0 $button-search-box);
-        font-size: $small;
-        font-weight: $normal;
-        color: $black;
-        text-align: center;
-        background: none;
-        border: $border-thin solid $brand;
-        padding-bottom: $baseline*0.5;
+      .bar-button {
+        margin-bottom: $border-thicker;
         width: 100%;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        &:hover {
-          background-color: $brand;
+        padding: 0;
+        margin-right: 0;
+        &:last-child {
+          margin-right: 0;
+          border: none;
         }
-        &:focus {
-          background-color: $button-search-box-hover;
-          outline: $border-thick solid $focus-colour;
+        .button {
+          // @include box-shadow(0 2px 0 $button-search-box);
+          font-size: $small;
+          font-weight: $normal;
+          color: $black;
+          text-align: center;
+          background: none;
+          border: $border-thin solid $brand;
+          padding-bottom: $baseline*0.5;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          &:hover {
+            background-color: $brand;
+          }
+          &:focus {
+            background-color: $button-search-box-hover;
+            outline: $border-thick solid $focus-colour;
+          }
         }
       }
     }

@@ -6,15 +6,19 @@
   {% include "includes/search-home.html" %}
 {% endblock %}
 
+{% block buttonbar %}
+  {% include "includes/button-bar.html" %}
+{% endblock %}
+
 <main id="content">
 
   <div class="container">
     <div class="main only">
-<!--       <section class="intro">
+      <section class="intro">
         {% block alert %}
           {% include "includes/alert.html" %}
         {% endblock %}
-      </section> -->
+      </section>
       <section class="content">
         <h1 class="h2">Services</h1>
         <div class="previews">
