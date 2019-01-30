@@ -30,7 +30,6 @@ body#design .search-background {
   }
   overflow: hidden;
   position: relative;
-  margin-bottom: $baseline;
   .search {
     @extend %site-width-container;
     @include media(desktop) {
