@@ -39,12 +39,11 @@
 
 %site-width-container {
   max-width: $site-width;
-  // margin: 0 $outer-grid-margin;
 
   @include ie-lte(8) {
     max-width: $site-width;
   }
-  
+
   @include media(tablet) {
     margin-left: $outer-grid-margin * 10;
     margin-right: $outer-grid-margin * 10;
