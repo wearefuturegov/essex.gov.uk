@@ -71,6 +71,10 @@
         </div>
       </section>
 
+      {% block impact %}
+        {% include "includes/impact.html" %}
+      {% endblock %}
+
 <!--       <section class="content">
         <h2>Section heading</h2>
         <div class="previews">
@@ -102,9 +106,5 @@
     </div>
   </div>
 </main>
-
-<!-- {% block impact %}
-  {% include "includes/impact.html" %}
-{% endblock %} -->
 
 {% endblock %}
