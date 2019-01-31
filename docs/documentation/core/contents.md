@@ -44,6 +44,7 @@
   <li><a href="components/preview-list">Preview list</a></li>
   <li><a href="components/related">Related</a></li>
   <li><a href="components/search">Search</a></li>
+  <li><a href="components/search-buttons">Search buttons</a></li>
   <li><a href="components/search-header">Search header</a></li>
   <li><a href="components/signup">Signup</a></li>
   <li><a href="components/side-nav">Side-nav</a></li>
