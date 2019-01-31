@@ -5,12 +5,6 @@ body {
   -webkit-font-smoothing: antialiased;
   background: $white;
   color: $text-colour;
-  &#design {
-    $stack: 'Open Sans', sans-serif;
-    $body: 16px;
-    font-family: $stack;
-    font-size: $body;
-  }
 }
 
 $h1: 48px;
