@@ -7,7 +7,7 @@
       <div class="search-input">
         <form action="/search" method="get" role="search" class="form">
           <div class="group">
-            <input type="text" class="" placeholder="Search Essex County Council" id="" name="name" required="">
+            <input type="text" class="" placeholder="Search essex.go.uk" id="" name="name" required="">
             <button type="submit" value="search" class="search-icon-position">
               <i class="fas fa-search " type="submit" value="search"></i>
             </button>
@@ -25,7 +25,7 @@
           <div class="search-input">
             <form action="/search" method="get" role="search" class="form">
               <div class="group">
-                <input type="text" class="" placeholder="Search Essex County Council" id="" name="name" required="">
+                <input type="text" class="" placeholder="Search essex.go.uk" id="" name="name" required="">
                 <button type="submit" value="search" class="search-icon-position">
                   <i class="fas fa-search " type="submit" value="search"></i>
                 </button>
