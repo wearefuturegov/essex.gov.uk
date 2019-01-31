@@ -45,13 +45,13 @@
   }
 
   @include media(tablet) {
-    margin-left: $outer-grid-margin * 10;
-    margin-right: $outer-grid-margin * 10;
+    margin-left: $outer-grid-margin * 5;
+    margin-right: $outer-grid-margin * 5;
   }
 
   @include media(mobile) {
-    margin-left: $outer-grid-margin * 10;
-    margin-right: $outer-grid-margin * 10;
+    margin-left: $outer-grid-margin * 5;
+    margin-right: $outer-grid-margin * 5;
   }
 
   @include media($min-width: ($site-width + $outer-grid-margin * 2)) {

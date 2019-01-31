@@ -30,6 +30,16 @@
         margin-top: 0;
       }
     }
+    @include media(mobile) {
+      padding: $gutter*0.25;
+      margin: 0;
+      .overlay-content {
+        margin: 0;
+      }
+      .overlay-box {
+        margin: 0;
+      }
+    }
   }
 }
 
