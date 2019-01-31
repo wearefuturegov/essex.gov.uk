@@ -1,5 +1,14 @@
 body#design .search-background {
   .search {
+    @include media(mobile) {
+      width: 100%;
+      margin: 0;
+      .search-box {
+        margin: 0;
+        padding-right: $outer-grid-margin * 5;
+        padding-left: $outer-grid-margin * 5;
+      }
+    }
     .search-box {
       background-color: $overlay;
       h1 {

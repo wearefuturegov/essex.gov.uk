@@ -13,6 +13,10 @@
       .bar-button {
         @include grid-column(1 / 3);
         display: flex;
+        @include media(mobile) {
+          width: 100%;
+          margin-bottom: $baseline*0.25;
+        }
         .button {
           font-size: $small;
           font-weight: $normal;
