@@ -5,69 +5,29 @@
   overflow: hidden;
   position: relative;
   .search {
+    @extend %site-width-container;
     @include media(mobile) {
       width: 100%;
       margin: 0;
     }
-    @extend %site-width-container;
-    @include media(desktop) {
-      padding: $baseline*2.5 0;
+    .search-buttons {
+      display: none;
     }
     .search-box {
-      margin: 0;
-      padding-right: $outer-grid-margin * 5;
-      padding-left: $outer-grid-margin * 5;
-      background-color: $overlay;
-      h1 {
-        display: block;
-      }
+      @include grid-column(1 / 2);
       @extend %grid-row;
       @include box-sizing(border-box);
       @include border-radius($border-radius);
-      background-color: rgba(0, 0, 0, 0.1);
+      margin: 0;
+      margin-top: $baseline;
+      margin-bottom: $baseline*2;
+      padding-right: $outer-grid-margin * 5;
+      padding-left: $outer-grid-margin * 5;
+      background-color: $overlay;
       position: relative;
-      padding: $baseline*0.75 $gutter*0.5;
-      .search-input {
-      }
-      .search-buttons {
-        flex-wrap: wrap;
-        display: none;
-        padding: 0;
-        .search-button {
-          @include media(desktop) {
-            width: calc(25% - #{$border-normal});
-            margin-right: $border-normal;
-            margin-bottom: 0;
-          }
-          margin-bottom: $border-thicker;
-          width: 100%;
-          display: flex;
-          padding: 0;
-          margin-right: 0;
-          &:last-child {
-            margin-right: 0;
-          }
-          .button {
-            @include box-shadow(0 2px 0 $button-search-box);
-            font-size: $body;
-            font-weight: $normal;
-            color: $white;
-            text-align: center;
-            background-color: $button-search-box;
-            padding-bottom: $baseline*0.5;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            &:hover {
-              background-color: $button-search-box-hover;
-            }
-            &:focus {
-              background-color: $button-search-box-hover;
-              outline: $border-thick solid $focus-colour;
-            }
-          }
-        }
+      padding: $outer-grid-padding * 2;
+      h1 {
+        display: block;
       }
     }
     .form {
@@ -77,12 +37,12 @@
         input {
           @include default-type;
           @include border-radius($border-radius);
+          @include box-sizing(border-box);
           border: $border-thick solid $white;
-          padding: $baseline*0.25 $gutter;
+          padding: $outer-grid-padding * 2;
           margin-bottom: 0;
           height: $baseline*2.5;
           width: 100%;
-          @include box-sizing(border-box);
           @include media(mobile) {
             font-size: $smaller;
             padding: $baseline*0.25 $gutter*1.5 $baseline*0.25 $gutter*0.5;
