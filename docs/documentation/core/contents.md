@@ -38,6 +38,7 @@
   <li><a href="components/inset">Inset</a></li>
   <li><a href="components/link-box">Link box</a></li>
   <li><a href="components/pagination">Pagination</a></li>
+  <li><a href="components/pdf-link">Pdf-link</a></li>
   <li><a href="components/phase-banner">Phase banner</a></li>
   <li><a href="components/previews">Previews</a></li>
   <li><a href="components/preview-list">Preview list</a></li>
