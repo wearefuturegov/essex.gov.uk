@@ -1,38 +1,3 @@
-body#design .search-background {
-  .search {
-    @include media(mobile) {
-      width: 100%;
-      margin: 0;
-      .search-box {
-        margin: 0;
-        padding-right: $outer-grid-margin * 5;
-        padding-left: $outer-grid-margin * 5;
-      }
-    }
-    .search-box {
-      background-color: $overlay;
-      h1 {
-        display: block;
-      }
-    }
-    .form .group {
-      margin-bottom: 0;
-      input {
-        margin-bottom: 0;
-      }
-      .fa-search {
-        color: $search;
-          &:hover {
-          color: $search-hover;
-        }
-      }
-    }
-    .search-buttons {
-      display: none;
-    }
-  }
-}
-
 .search-background {
   @media print {
     display: none;
@@ -40,16 +5,22 @@ body#design .search-background {
   overflow: hidden;
   position: relative;
   .search {
+    @include media(mobile) {
+      width: 100%;
+      margin: 0;
+    }
     @extend %site-width-container;
     @include media(desktop) {
       padding: $baseline*2.5 0;
     }
     .search-box {
-      // #design
+      margin: 0;
+      padding-right: $outer-grid-margin * 5;
+      padding-left: $outer-grid-margin * 5;
+      background-color: $overlay;
       h1 {
-        display: none;
+        display: block;
       }
-      margin: 0 auto;
       @extend %grid-row;
       @include box-sizing(border-box);
       @include border-radius($border-radius);
@@ -60,7 +31,7 @@ body#design .search-background {
       }
       .search-buttons {
         flex-wrap: wrap;
-        display: flex;
+        display: none;
         padding: 0;
         .search-button {
           @include media(desktop) {
@@ -102,12 +73,13 @@ body#design .search-background {
     .form {
       .group {
         position: relative;
-        margin-bottom: $baseline;
+        margin-bottom: 0;
         input {
           @include default-type;
           @include border-radius($border-radius);
           border: $border-thick solid $white;
           padding: $baseline*0.25 $gutter;
+          margin-bottom: 0;
           height: $baseline*2.5;
           width: 100%;
           @include box-sizing(border-box);
@@ -118,6 +90,10 @@ body#design .search-background {
         }
         .search-icon-position .fa-search {
           font-size: $icon*0.75;
+          color: $search;
+            &:hover {
+            color: $search-hover;
+          }
         }
       }
     }
