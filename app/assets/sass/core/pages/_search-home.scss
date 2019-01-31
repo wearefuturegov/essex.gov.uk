@@ -14,8 +14,8 @@
       display: none;
     }
     .search-box {
-      @include grid-column(1 / 2);
       @extend %grid-row;
+      @include grid-column(1 / 2);
       @include box-sizing(border-box);
       @include border-radius($border-radius);
       margin: 0;
