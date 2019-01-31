@@ -21,11 +21,16 @@
       margin: 0;
       margin-top: $baseline;
       margin-bottom: $baseline*2;
-      padding-right: $outer-grid-margin * 5;
-      padding-left: $outer-grid-margin * 5;
       background-color: $overlay;
       position: relative;
       padding: $outer-grid-padding * 2;
+      @include media(mobile) {
+        padding-right: $outer-grid-margin * 5;
+        padding-left: $outer-grid-margin * 5;
+        padding-top: $baseline;
+        padding-bottom: $baseline;
+        margin: 0;
+      }
       h1 {
         display: block;
       }
