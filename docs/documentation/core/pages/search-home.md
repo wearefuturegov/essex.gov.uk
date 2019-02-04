@@ -7,26 +7,12 @@
       <div class="search-input">
         <form action="/search" method="get" role="search" class="form">
           <div class="group">
-            <input type="text" class="" placeholder="Search Essex County Council" id="" name="name" required="">
+            <input type="text" class="" placeholder="Search essex.go.uk" id="" name="name" required="">
             <button type="submit" value="search" class="search-icon-position">
               <i class="fas fa-search " type="submit" value="search"></i>
             </button>
           </div>
         </form>
-      </div>
-      <div class="search-buttons">
-        <div class="search-button">
-          <a class="button" href="#" role="button">Link text that is longer than the others</a>
-        </div>
-        <div class="search-button">
-          <a class="button" href="#" role="button">Link</a>
-        </div>
-        <div class="search-button">
-          <a class="button" href="#" role="button">Link</a>
-        </div>
-        <div class="search-button">
-          <a class="button" href="#" role="button">Link</a>
-        </div>
       </div>
     </div>
   </div>
@@ -39,26 +25,12 @@
           <div class="search-input">
             <form action="/search" method="get" role="search" class="form">
               <div class="group">
-                <input type="text" class="" placeholder="Search Essex County Council" id="" name="name" required="">
+                <input type="text" class="" placeholder="Search essex.go.uk" id="" name="name" required="">
                 <button type="submit" value="search" class="search-icon-position">
                   <i class="fas fa-search " type="submit" value="search"></i>
                 </button>
               </div>
             </form>
-          </div>
-          <div class="search-buttons">
-            <div class="search-button">
-              <a class="button" href="#" role="button">Link text that is longer than the others</a>
-            </div>
-            <div class="search-button">
-              <a class="button" href="#" role="button">Link</a>
-            </div>
-            <div class="search-button">
-              <a class="button" href="#" role="button">Link</a>
-            </div>
-            <div class="search-button">
-              <a class="button" href="#" role="button">Link</a>
-            </div>
           </div>
         </div>
       </div>
