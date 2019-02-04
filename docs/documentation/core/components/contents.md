@@ -1,6 +1,9 @@
 ## Contents
 
-<div class="contents split-list">
+<div class="contents">
+  <div class="heading">
+    <h2>Contents</h2>
+  </div>
   <ol>
     <li>Paying for care and support</li>
     <li><a href="#">Financial assessment </a></li>
@@ -15,7 +18,10 @@
   </ol>
 </div>
 
-    <div class="contents split-list">
+    <div class="contents">
+      <div class="heading">
+        <h2>Contents</h2>
+      </div>
       <ol>
         <li>Paying for care and support</li>
         <li><a href="#">Financial assessment </a></li>

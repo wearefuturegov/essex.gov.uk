@@ -12,28 +12,26 @@
       </ol>
     </div>
     <div class="main">
-      <section class="mid">
-        <h1>Page title</h1>
-      </section>
-      <section class="tight">
-        <div class="contents split-list">
-          <ol>
-            <li>Paying for care and support</li>
-            <li><a href="#">Financial assessment </a></li>
-            <li><a href="#">Personal budget</a></li>
-            <li><a href="#">Care charges</a></li>
-            <li><a href="#">Ways to pay for your care</a></li>
-            <li><a href="#">Paying for a residential home</a></li>
-            <li><a href="#">Deferred payment scheme</a></li>
-            <li><a href="#">Independent financial advice</a></li>
-            <li><a href="#">Direct payments</a></li>
-            <li><a href="#">Contact us</a></li>
-          </ol>
+      <h1>Page title</h1>
+      <nav class="contents">
+        <div class="heading">
+          <h2>Contents</h2>
         </div>
-        <div class="content-break-sm"></div>
-      </section>
+        <ol>
+          <li>Paying for care and support</li>
+          <li><a href="#">Financial assessment </a></li>
+          <li><a href="#">Personal budget</a></li>
+          <li><a href="#">Care charges</a></li>
+          <li><a href="#">Ways to pay for your care</a></li>
+          <li><a href="#">Paying for a residential home</a></li>
+          <li><a href="#">Deferred payment scheme</a></li>
+          <li><a href="#">Independent financial advice</a></li>
+          <li><a href="#">Direct payments</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ol>
+      </nav>
 
-      <section class="mid">
+      <section class="content">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mattis tortor orci. Morbi vestibulum tortor elit, ac semper ipsum cursus quis. Nam lacinia eget nulla vel scelerisque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies posuere dapibus. Quisque vel massa porttitor, bibendum orci id, hendrerit felis. Praesent consectetur ipsum maximus, condimentum enim eget, porttitor tortor. Proin sodales facilisis laoreet. Nam vitae pharetra metus, sit amet venenatis tortor.</p>
         <ul>
           <li>item number 1</li>
@@ -81,11 +79,9 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mattis tortor orci. Morbi vestibulum tortor elit, ac semper ipsum cursus quis. Nam lacinia eget nulla vel scelerisque.</p>
       </section>
 
-      <section class="tight">
-        {% block pagination %}
-          {% include "includes/pagination.html" %}
-        {% endblock %}
-      </section>
+      {% block pagination %}
+        {% include "includes/pagination.html" %}
+      {% endblock %}
 
       {% block filelink %}
         {% include "includes/file-link.html" %}
