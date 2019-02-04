@@ -1,0 +1,16 @@
+.more-background {
+	text-align: center;
+	margin-top: $baseline*3;
+	margin-bottom: $baseline*3;
+	width: 100%;
+}
+
+.button.more {
+	font-weight: 600;
+  background-color: $brand;
+  border-color: $brand;
+  &:hover {
+  	color: $brand;
+  	background-color: transparent;
+  }
+}

@@ -17,7 +17,7 @@
   }
   .overlay {
     background: $overlay-heavy;
-    @include grid-column(1 / 2);
+    @include grid-column(2 / 4);
     position: relative;
     margin: $gutter*0.5;
     .overlay-content {
@@ -26,8 +26,12 @@
         padding-left: 0;
         padding-right: 0;
       }
-      h2 {
+      h2, h3 {
         margin-top: 0;
+        a {
+          font-weight: 300;
+          text-decoration: none;
+        }
       }
     }
     @include media(mobile) {

@@ -1,6 +1,6 @@
 // Banner
 .phase-banner-background {
-  background-color: $highlight-box-light;
+  background-color: $white;
 }
 
 .phase-banner {
@@ -8,8 +8,8 @@
   @media print {
     display: none;
   }
-  padding-top: $baseline*0.5;
-  padding-bottom: $baseline*0.5;
+  padding-top: $baseline*0.25;
+  padding-bottom: $baseline*0.25;
   p {
     font-size: $small;
     margin-top: 0;
@@ -21,16 +21,27 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: $bold;
+  line-height: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $white;
+  background-color: $brand;
   display: inline-block;
-  padding: $baseline*0.25 $gutter*0.5;
+  padding: $baseline*0.125 $baseline*0.25;
   margin-right: $gutter*0.25;
-  margin-bottom: $baseline*0.25;
   outline: 2px solid transparent;
   outline-offset: -2px;
-  color: $white;
-  background-color: $link;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+  @include media(mobile) {
+    margin-bottom: $baseline*0.25;
+  }
+}
+
+.phase-text {
+  font-size: $smaller;
+  @include media(mobile) {
+    display: table-cell;
+    vertical-align: baseline;
+  }
 }
 
 @include media(mobile) {

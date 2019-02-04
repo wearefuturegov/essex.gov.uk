@@ -6,17 +6,21 @@
   {% include "includes/search-home.html" %}
 {% endblock %}
 
+<!-- {% block buttonbar %}
+  {% include "includes/button-bar.html" %}
+{% endblock %} -->
+
 <main id="content">
 
   <div class="container">
     <div class="main only">
-      <section class="intro">
+<!--       <section class="intro">
         {% block alert %}
           {% include "includes/alert.html" %}
         {% endblock %}
-      </section>
+      </section> -->
       <section class="content">
-        <h1 class="h2">Services</h1>
+        <h1 class="h3">Essex County Council Services</h1>
         <div class="previews">
           <div class="preview">
             <h3 class="sub-section-heading"><a href="#">Social care and health</a></h3>
@@ -59,46 +63,50 @@
             <p>Includes find your councillor, council tax, how decisions are made and the council is run</p>
           </div>
         </div>
-        <div class="previews">
+<!--         <div class="previews">
           <div class="preview">
             <h3 class="sub-section-heading"><a href="#">Leisure, culture and local heritage</a></h3>
             <p>Includes places to go, cultural events and activities, historical records and building conservation</p>
           </div>
-        </div>
+        </div> -->
       </section>
 
+      <section class="more-background">
+        <button class="button more">View more services</button>
+      </section>
+
+      {% block impact %}
+        {% include "includes/impact.html" %}
+      {% endblock %}
+
       <section class="content">
-        <h2>Section heading</h2>
-        <div class="previews">
+        <div class="previews news">
           <div class="preview">
             <img src="/public/images/news.jpg">
+            <p class="meta">3 October 2018</p>
             <h3 class="sub-section-heading"><a href="#">Preview heading with image above</a></h3>
             <p>Preview copy explaining what content it contains.</p>
-            <p class="meta">3 October 2018</p>
           </div>
           <div class="preview">
             <img src="/public/images/news.jpg">
+            <p class="meta">3 October 2018</p>
             <h3 class="sub-section-heading"><a href="#">Preview heading with image above</a></h3>
             <p>Preview copy explaining what content it contains.</p>
-            <p class="meta">3 October 2018</p>
           </div>
           <div class="preview">
             <img src="/public/images/news.jpg">
+            <p class="meta">3 October 2018</p>
             <h3 class="sub-section-heading"><a href="#">Preview heading with image above</a></h3>
             <p>Preview copy explaining what content it contains.</p>
-            <p class="meta">3 October 2018</p>
           </div>
         </div>
       </section>
-      {% block signup %}
-        {% include "includes/signup.html" %}
-      {% endblock %}
     </div>
   </div>
 </main>
 
-<!-- {% block impact %}
-  {% include "includes/impact.html" %}
-{% endblock %} -->
+{% block signupbig %}
+  {% include "includes/signup-big.html" %}
+{% endblock %}
 
 {% endblock %}
