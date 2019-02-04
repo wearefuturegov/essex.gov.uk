@@ -28,6 +28,10 @@
           width: $logo-width;
         }
       }
+      span {
+        color: $white;
+        margin-left: $gutter*0.125;
+      }
       a.logo-text {
         display: inline-block;
         font-family: $stack-logo;
@@ -42,9 +46,9 @@
           text-decoration: underline;
         }
         &:focus {
-           background-color: $brand;
-           outline: $border-thick solid $focus-colour;
-         }
+          background-color: $brand;
+          outline: $border-thick solid $focus-colour;
+        }
         @media print {
           color: $black;
           font-weight: 700;
