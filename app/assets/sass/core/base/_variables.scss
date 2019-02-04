@@ -27,6 +27,7 @@ $icon: 3em;
 
 // brand colors
 $brand: #e40037; // red
+$brand: #682558; // red
 $brand2: #d5ebf0; // ice blue
 
 // text colour
@@ -51,11 +52,12 @@ $grey-lighter: #f5f5f5;
 $grey-light: #dee0e2;
 $grey: #616161;
 $grey-dark: #222222;
+$grey-darker: #111111;
 $black: #000;
 
 // overlay
-$overlay: rgba(222,238,255,0.2);
-$overlay-heavy: rgba(222,238,255,0.8);
+$overlay: rgba(255,255,255,0.2);
+$overlay-heavy: rgba(255,255,255,0.8);
 
 // element color
 $button: #00823b; // green taken from gov.uk

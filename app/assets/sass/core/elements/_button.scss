@@ -5,42 +5,32 @@
   @media print {
     display: none;
   }
-  // Colour
   background-color: $button;
-  // Size and shape
   position: relative;
   @include inline-block;
   // padding: .526315em .789473em .263157em; // 10px 15px 5px
-  padding: $baseline*0.5 $gutter*0.25; // 10px 15px 5px
-  border: none;
-  @include border-radius(0);
+  padding: $baseline*0.75 $gutter*0.5; // 10px 15px 5px
+  // border: none;
+  border: $border-normal $brand solid;
+  @include border-radius($body*2);
   outline: $border-thin solid transparent; // keep some button appearance when changing colour settings in browsers
   outline-offset: -1px; // fixes bug in Safari that outline width on focus is not overwritten, is reset to 0 on focus in govuk_template
   -webkit-appearance: none;
-
-  // Text
   font-size: 1em; // inherit from parent
   line-height: 1.25;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
-
-  // Interaction
   cursor: pointer;
-
   &:visited {
     background-color: $button;
   }
-
   &:hover,
   &:focus {
     background-color: $button-hover-darken;
   }
-
   &:active {
     top: 2px;
   }
-
-  // Disabled button styles
   &.disabled,
   &[disabled="disabled"],
   &[disabled] {
@@ -54,11 +44,9 @@
       top: 0;
     }
   }
-
   // Set text colour depending on background colour
   @if lightness($button) < 50% {
     color: $white;
-
     &:link,
     &:link:focus,
     &:hover,
@@ -68,7 +56,6 @@
     }
   } @else {
     color: $black;
-
     &:link,
     &:link:focus,
     &:hover,
@@ -77,7 +64,6 @@
       color: $black;
     }
   }
-
   // making the click target bigger than the button
   // (and fill the space made when the button moves)
   &:before {
@@ -90,7 +76,6 @@
     top: 0;
     left: 0;
   }
-
   &:active:before {
     top: -10%;
     height: 120%;
@@ -102,7 +87,6 @@
       height: 100%;
     }
   }
-
   // Fixes a bug where IE puts a black border around certain elements
   @include ie-lte(8) {
     &[type="submit"],
@@ -110,14 +94,12 @@
     &[type="button"] {
       filter: chroma(color = $black);
     }
-
     &[type=submit].button {
       filter: none;
     }
   }
   @include box-sizing (border-box);
   vertical-align: top;
-
   @include media (mobile) {
     width: 100%;
     text-align: center;
@@ -156,12 +138,10 @@
   background-repeat: no-repeat;
   background-position: 100% 50%;
   padding: em(7) em(41) em(4) em(16);
-
   @include device-pixel-ratio {
     background-image: file-url("icon-pointer-2x.png");
     background-size: 30px 19px;
   }
-
   @include ie(6) {
     background-image: file-url("icon-pointer-2x.png");
   }

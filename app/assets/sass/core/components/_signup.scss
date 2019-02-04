@@ -24,21 +24,21 @@
           width: 100%;
           &.button {
             font-weight: 600;
-            color: $white;
-            background-color: $brand;
+            color: $brand;
+            background-color: $white;
             border: $border-normal $white solid;
-            // height: 2.25em;
             height: $baseline*2;
             padding: $baseline*0.125 $gutter*0.25;
             &:hover {
-              background-color: $brand-hover-darken;
+              color: $white;
+              background-color: $brand;
             }
           }
         }
         .signup-input {
           @include grid-column(2 / 3);
           input {
-            padding: 6px $gutter*0.5;
+            padding: 6px $gutter*0.25;
             height: $baseline*2;
             border: $border-normal $white solid;
           }
