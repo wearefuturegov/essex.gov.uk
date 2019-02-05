@@ -1,4 +1,7 @@
 #cludo-search-results {
+  .search-filter-header {
+    display: none;
+  }
   ul {
     margin-left: 0;
     padding-left: 0;
@@ -13,12 +16,12 @@
   }
   .search-results-item, .cludo-banner {
     @include box-sizing(border-box);
-    padding: $baseline $gutter*0.5 $baseline*0.5;
+    padding: $baseline $gutter*0.25 $baseline*0.5;
     border-bottom: $border-thin $grey solid;
     h2 {
       @include h3;
       margin-top: 0;
-      margin-bottom: 0;
+      margin-bottom: $baseline*0.25;
       a {
         text-decoration: none;
         &:hover {
@@ -84,7 +87,7 @@
         @include box-sizing(border-box);
         background: $grey-lighter;
         border: $border-thin $grey-light solid;
-        padding: $baseline*0.25 $gutter*0.5;
+        padding: $baseline*0.25 $gutter*0.25;
         margin-bottom: $baseline*0.5;
         margin-left: 0;
         li {
@@ -117,7 +120,7 @@
   .search-filters-mobile-button {
     display: none; // hide for now
   }
-  .cludo-page-navigation {
+  .search_page_list {
     @media print {
       display: none;
     }
