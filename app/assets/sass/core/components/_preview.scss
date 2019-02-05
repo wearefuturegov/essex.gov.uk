@@ -30,10 +30,9 @@
     }
     h3.sub-section-heading {
       min-height: $h4 * 2.5;
-      a {
-        color: $black;
-        text-decoration: none;
-      }
+      // a {
+      //   color: $black;
+      // }
     }
     p {
       min-height: $body * 2.5;

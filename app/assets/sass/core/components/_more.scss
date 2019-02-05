@@ -5,8 +5,9 @@
 	width: 100%;
 }
 
-.button.more {
-	font-weight: 600;
+.button.more, a.button.more {
+  color: $white;
+	font-weight: $bold;
   background-color: $brand;
   border-color: $brand;
   &:hover {

@@ -17,11 +17,16 @@
       p {
         font-size: $small;
         line-height: $baseline;
-        font-weight: $lighter; // not in Arial though
+        font-weight: $light;
       }
     }
-    a, a:hover, a:active, a:visited {
-      color: $black;
+    h3 {
+      & a, 
+      & a:hover, 
+      & a:active, 
+      & a:visited {
+        color: $black;
+      }
     }
   }
 }
