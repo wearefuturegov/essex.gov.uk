@@ -9,23 +9,24 @@
   position: relative;
   @include inline-block;
   // padding: .526315em .789473em .263157em; // 10px 15px 5px
-  padding: $baseline*0.75 $gutter*0.5; // 10px 15px 5px
+  padding: $baseline*0.25 $gutter*0.25; // 10px 15px 5px
   // border: none;
-  border: $border-normal $brand solid;
-  @include border-radius($body*2);
+  border: $border-normal $button solid;
   outline: $border-thin solid transparent; // keep some button appearance when changing colour settings in browsers
   outline-offset: -1px; // fixes bug in Safari that outline width on focus is not overwritten, is reset to 0 on focus in govuk_template
   -webkit-appearance: none;
   font-size: 1em; // inherit from parent
-  line-height: 1.25;
+  line-height: 1em;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
   cursor: pointer;
+  @include box-shadow(0 2px 0 $black);
   &:visited {
     background-color: $button;
   }
   &:hover,
   &:focus {
+    border-color: $button-hover-darken;
     background-color: $button-hover-darken;
   }
   &:active {
@@ -137,7 +138,8 @@
   background-image: file-url("icon-pointer.png");
   background-repeat: no-repeat;
   background-position: 100% 50%;
-  padding: em(7) em(41) em(4) em(16);
+  // padding: em(7) em(41) em(4) em(16);
+  padding: $baseline*0.25 $gutter $baseline*0.25 $gutter*0.25;
   @include device-pixel-ratio {
     background-image: file-url("icon-pointer-2x.png");
     background-size: 30px 19px;

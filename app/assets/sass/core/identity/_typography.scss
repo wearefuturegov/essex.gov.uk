@@ -19,7 +19,7 @@ h1, h2, h3, h4 {
 @mixin h1 {
   font-size: $h1;
   line-height: 1.04167;
-  font-weight: 400;
+  font-weight: $bold;
   text-transform: none;
   margin-top: calc(#{$h1} * 0.5);
   margin-bottom: calc(#{$h1} * 1);
@@ -28,7 +28,7 @@ h1, h2, h3, h4 {
 @mixin h2 {
   font-size: $h2;
   line-height: 1.3;
-  font-weight: 400;
+  font-weight: $bold;
   text-transform: none;
   margin-top: calc(#{$h2} * 1.25);
   margin-bottom: calc(#{$h2} * 0.55556);
@@ -37,7 +37,7 @@ h1, h2, h3, h4 {
 @mixin h3 {
   font-size: $h3;
   line-height: 1.25;
-  font-weight: 400;
+  font-weight: $bold;
   text-transform: none;
   margin-top: calc(#{$h3} * 1.5);
   margin-bottom: calc(#{$h3} * 1);
@@ -45,7 +45,7 @@ h1, h2, h3, h4 {
 
 @mixin h4 {
   font-size: $h4;
-  font-weight: 600;
+  font-weight: $bold;
   line-height: 1.31579;
   text-transform: none;
   margin-top: calc(#{$h4} * 1);

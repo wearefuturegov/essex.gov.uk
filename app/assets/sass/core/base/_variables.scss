@@ -20,18 +20,19 @@ $medium: 26px;
 $large: 30px;
 $larger: 34px;
 
-$lighter: 300;
+$light: 300;
 $normal: 400;
+$semi: 600;
 $bold: 700;
 $icon: 3em;
 
 // brand colors
 $brand: #e40037; // red
-$brand: #682558; // purple
+// $brand: #682558; // purple
 $brand2: #d5ebf0; // ice blue
 
 // text colour
-$text-colour: #0b0c0c; // New
+$text-colour: #000;
 $white: #fff;
 
 // link colour
@@ -43,6 +44,7 @@ $link-active: #2A7AB0;
 // hover colors
 $brand-hover-darken: #cb0031;
 $button-hover-darken: #00692f;
+$white-hover: #e8e8e8;
 
 // focus colour
 $focus-colour: #fab500;
@@ -50,7 +52,7 @@ $focus-colour: #fab500;
 // greyscale
 $grey-lighter: #f5f5f5;
 $grey-light: #dee0e2;
-$grey: #616161;
+$grey: #505050;
 $grey-dark: #222222;
 $grey-darker: #111111;
 $black: #000;

@@ -40,7 +40,7 @@ ul.link-boxes {
     .link-content {
       @include box-sizing(border-box);
       @include border-radius($border-radius);
-      padding: $baseline $gutter;
+      padding: $baseline $gutter*0.5;
       h2 {
         margin-top: 0;
         font-size: $body;

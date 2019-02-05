@@ -30,8 +30,9 @@
             height: $baseline*2;
             padding: $baseline*0.125 $gutter*0.25;
             &:hover {
-              color: $white;
-              background-color: $brand;
+              color: $brand;
+              background-color: $white-hover;
+              border-color: $white-hover;
             }
           }
         }
