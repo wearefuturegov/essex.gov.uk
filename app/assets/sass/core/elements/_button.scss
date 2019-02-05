@@ -8,25 +8,25 @@
   background-color: $button;
   position: relative;
   @include inline-block;
-  padding: $baseline*0.25 $gutter*0.25;
+  // padding: .526315em .789473em .263157em; // 10px 15px 5px
+  padding: $baseline*0.25 $gutter*0.25; // 10px 15px 5px
+  // border: none;
   border: $border-normal $button solid;
-  outline: $border-thin solid transparent;
-  outline-offset: -1px;
+  outline: $border-thin solid transparent; // keep some button appearance when changing colour settings in browsers
+  outline-offset: -1px; // fixes bug in Safari that outline width on focus is not overwritten, is reset to 0 on focus in govuk_template
   -webkit-appearance: none;
-  font-size: 1em;
-  line-height: $baseline;
+  font-size: 1em; // inherit from parent
+  line-height: 1em;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
   cursor: pointer;
-  @mixin box-shadow($black) {
-    background-color: $black;
-  }
-  @mixin box-shadow($shadow)
+  @include box-shadow(0 2px 0 $black);
   &:visited {
     background-color: $button;
   }
   &:hover,
   &:focus {
+    border-color: $button-hover-darken;
     background-color: $button-hover-darken;
   }
   &:active {

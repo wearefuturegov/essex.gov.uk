@@ -5,12 +5,12 @@
 	width: 100%;
 }
 
-// .button.more, a.button.more {
-//   color: $white;
-//   background-color: $brand;
-//   border-color: $brand;
-//   &:hover {
-//   	color: $brand;
-//   	background-color: transparent;
-//   }
-// }
+.button.more, a.button.more {
+  color: $white;
+  background-color: $brand;
+  border-color: $brand;
+  padding: $baseline*0.5 $gutter*0.5;
+  &:hover {
+  	background-color: $brand-hover-darken;
+  }
+}

@@ -5,7 +5,7 @@
   box-sizing: border-box;
   clear: both;
   border-left: $border-very-thick solid $grey-light;
-  padding: $baseline $gutter;
+  padding: $baseline $gutter*0.5;
   margin-bottom: $baseline;
   p:last-child {
   	margin-bottom: 0;
