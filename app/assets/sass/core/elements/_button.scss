@@ -117,7 +117,7 @@
 }
 
 .button:focus {
-  outline: $border-thick solid $button;
+  outline: $border-thick solid $focus-colour;
 }
 
 // Disabled buttons
