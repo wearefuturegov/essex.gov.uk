@@ -21,13 +21,10 @@
       margin: $baseline 0;
       background-color: $overlay;
       position: relative;
-      padding: $outer-grid-padding * 2;
+      padding: $gutter*0.25;
       @include media(mobile) {
-        padding-right: $outer-grid-margin * 5;
-        padding-left: $outer-grid-margin * 5;
-        padding-top: $baseline;
-        padding-bottom: $baseline;
         margin: 0;
+        padding: $outer-grid-margin;
       }
       h1 {
         display: block;

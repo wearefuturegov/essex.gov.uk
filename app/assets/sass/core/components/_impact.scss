@@ -34,7 +34,7 @@
       }
     }
     @include media(mobile) {
-      padding: $gutter*0.25;
+      padding: 0;
       margin: 0;
       .overlay-content {
         margin: 0;

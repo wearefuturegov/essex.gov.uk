@@ -12,15 +12,27 @@ $site-width: 960px;
 
 %site-width-container {
   max-width: $site-width;
-  margin: 0 $gutter;
 
   @include ie-lte(8) {
     max-width: $site-width;
   }
 
-  @include media(tablet) {
-    margin: 0 $gutter;
+  @include media(mobile) {
+    margin: 0 $outer-grid-margin;
+    // background: blue;
   }
+
+  @include media(tablet) {
+    margin: 0 $outer-grid-margin;
+    // background: red;
+  
+  }
+
+  @include media(desktop) {
+    margin: 0 $outer-grid-margin;
+    // background: green;
+  }
+
 
   @include media($min-width: ($site-width + $gutter * 2)) {
     margin: 0 auto;

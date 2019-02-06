@@ -27,6 +27,41 @@
   $gutter-half: 60px;
   padding: 0 $gutter-half;
   @include box-sizing(border-box);
+
+  @include media(mobile) {
+    padding-left: $gutter;
+    padding-right: $gutter;
+  }
+
+  @include media(tablet) {
+    padding-left: $gutter*0.5;
+    padding-right: $gutter*0.5;
+  }
+
+  @include media(desktop) {
+    padding-left: $gutter;
+    padding-right: $gutter;
+  }
+}
+
+
+%grid-row {
+  @extend %contain-floats;
+  margin: 0 (-$gutter-half);
+}
+
+%grid-row-b {
+  @extend %contain-floats;
+  @include media(mobile) {
+    margin: 0 (-$gutter);
+  }
+  @include media(tablet) {
+    margin: 0 (-$gutter*0.5);
+  }
+  @include media(desktop) {
+    $gutter-half: 60px;
+    margin: 0 (-$gutter-half);
+  }
 }
 
 #content {
@@ -44,15 +79,15 @@
     max-width: $site-width;
   }
 
-  @include media(tablet) {
-    margin-left: $outer-grid-margin * 5;
-    margin-right: $outer-grid-margin * 5;
-  }
+  // @include media(tablet) {
+  //   margin-left: $outer-grid-margin * 5;
+  //   margin-right: $outer-grid-margin * 5;
+  // }
 
-  @include media(mobile) {
-    margin-left: $outer-grid-margin * 5;
-    margin-right: $outer-grid-margin * 5;
-  }
+  // @include media(mobile) {
+  //   margin-left: $outer-grid-margin * 5;
+  //   margin-right: $outer-grid-margin * 5;
+  // }
 
   @include media($min-width: ($site-width + $outer-grid-margin * 2)) {
     margin: 0 auto;
@@ -67,15 +102,4 @@
     margin-left: -$gutter;
     margin-right: -$gutter;
   }
-}
-
-%grid-row {
-  @extend %contain-floats;
-  margin: 0 (-$gutter-half);
-}
-
-%grid-row-b {
-  @extend %contain-floats;
-  $gutter-half: 60px;
-  margin: 0 (-$gutter-half);
 }
