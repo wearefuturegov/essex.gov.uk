@@ -30,8 +30,9 @@
     }
     &.active {
       background: $white;
-      padding-left: $gutter*0.5;
+      padding-left: 0;
       @include media(desktop) {
+        padding-left: $gutter*0.5;
         &:before {
           @include font-awesome;
           content: "\f053";

@@ -29,8 +29,8 @@
   @include box-sizing(border-box);
 
   @include media(mobile) {
-    padding-left: $gutter;
-    padding-right: $gutter;
+    padding-left: $gutter*0.5;
+    padding-right: $gutter*0.5;
   }
 
   @include media(tablet) {
@@ -53,7 +53,7 @@
 %grid-row-b {
   @extend %contain-floats;
   @include media(mobile) {
-    margin: 0 (-$gutter);
+    margin: 0 (-$gutter*0.5);
   }
   @include media(tablet) {
     margin: 0 (-$gutter*0.5);
