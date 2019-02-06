@@ -27,8 +27,8 @@ $bold: 700;
 $icon: 3em;
 
 // brand colors
-$brand: #e40037; // red
-// $brand: #682558; // purple
+// $brand: #e40037; // AAA fail. http://accessible-colors.com/ recommend #B4002C 
+$brand: #682558; // AAA complient
 $brand2: #d5ebf0; // ice blue
 
 // text colour
@@ -36,13 +36,13 @@ $text-colour: #000;
 $white: #fff;
 
 // link colour
-$link: #004899;
-$hover: #2A7AB0;
-$visited: #682558;
-$link-active: #2A7AB0;
+$link: #682558; // AAA complient
+$hover: #92006D; // AAA complient (even with background grey on pagination)
+$visited: #192A66; // AAA complient
+$link-active: #682558;
 
 // hover colors
-$brand-hover-darken: #cb0031;
+$brand-hover-darken: #541946;
 $button-hover-darken: #00692f;
 $white-hover: #e8e8e8;
 
