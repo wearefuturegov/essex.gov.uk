@@ -3,6 +3,11 @@
   width: 100%;
   padding-top: $baseline;
   padding-bottom: $baseline;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   .overlay-box {
     @extend %site-width-container;
     .overlay-content {

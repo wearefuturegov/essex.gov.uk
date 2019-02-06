@@ -1,12 +1,15 @@
 .hero {
-  background-image: url(/public/images/footer-hero.jpg);
+  background-image: url(/public/images/img/hero.jpg);
   background-repeat:  no-repeat;
   background-size: cover;
   background-position-x: 0;
   background-position-y: 0;
-  height: $baseline*20;
+  height: $baseline*14;
   width: 100%;
   &.tree {
     background-image: url(/public/images/main-hero.jpg);
+  }
+  &.campaign {
+    background-image: url(/public/images/img/impact.jpg);
   }
 }

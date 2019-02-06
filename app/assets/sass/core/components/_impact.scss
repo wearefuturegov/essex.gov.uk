@@ -11,36 +11,40 @@
 }
 
 .main .impact {
+  .overlay {
+    background: $overlay-brand;
+  }
   .hero {
     height: initial;
     display: inline-block;
-  }
-  .overlay {
-    background: $overlay-heavy;
-    @include grid-column(2 / 4);
-    position: relative;
-    margin: $gutter*0.5;
-    .overlay-content {
-      padding: $gutter*0.5;
-      h2, p {
-        padding-left: 0;
-        padding-right: 0;
-      }
-      h2, h3 {
-        margin-top: 0;
-        a {
-          font-weight: $semi;
+    display: flex;
+    .overlay {
+      background: $overlay-heavy;
+      @include grid-column(2 / 4);
+      position: relative;
+      margin: $gutter*0.5;
+      .overlay-content {
+        padding: $gutter*0.5;
+        h2, p {
+          padding-left: 0;
+          padding-right: 0;
+        }
+        h2, h3 {
+          margin-top: 0;
+          a {
+            font-weight: $semi;
+          }
         }
       }
-    }
-    @include media(mobile) {
-      padding: 0;
-      margin: 0;
-      .overlay-content {
+      @include media(mobile) {
+        padding: 0;
         margin: 0;
-      }
-      .overlay-box {
-        margin: 0;
+        .overlay-content {
+          margin: 0;
+        }
+        .overlay-box {
+          margin: 0;
+        }
       }
     }
   }
