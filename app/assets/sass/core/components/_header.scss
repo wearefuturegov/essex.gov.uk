@@ -1,6 +1,9 @@
 .header-background {
   background-color: $brand;
   height: auto;
+  position: relative;
+  z-index: 100;
+  @include box-shadow(0px 1px 1px 0px $black);
   @include media(desktop) {
     height: $nav-height;
   }

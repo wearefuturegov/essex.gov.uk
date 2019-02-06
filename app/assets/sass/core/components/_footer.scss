@@ -3,15 +3,15 @@
     display: none;
   }
   .footer-top {
-    background-color: $black;
+    background-color: $very-black;
     padding-top: $baseline;
     padding-bottom: $baseline;
     font-size: $smaller;
   }
   .footer-bottom {
-    background-color: $black;
-    padding-top: $baseline*0.25;
-    padding-bottom: $baseline*0.25;
+    background-color: $very-black;
+    padding-top: 0;
+    padding-bottom: $baseline;
     font-size: $smaller;
   }
   .footer {
@@ -24,6 +24,9 @@
         margin-left: 0;
         margin-top: 0;
         margin-bottom: 0;
+        @include media(mobile) {
+          margin-bottom: $baseline;
+        }
         li {
           padding-left: 0;
           display: inline;

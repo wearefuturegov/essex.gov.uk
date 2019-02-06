@@ -4,6 +4,9 @@
   }
   overflow: hidden;
   position: relative;
+  .overlay {
+    background: $overlay-brand;
+  }
   .search {
     @extend %site-width-container;
     @include media(mobile) {
@@ -18,16 +21,13 @@
       @include grid-column(2 / 3);
       @include box-sizing(border-box);
       @include border-radius($border-radius);
-      margin: $baseline 0;
+      margin: $baseline*2 0;
       background-color: $overlay;
       position: relative;
-      padding: $outer-grid-padding * 2;
+      padding: $gutter*0.25;
       @include media(mobile) {
-        padding-right: $outer-grid-margin * 5;
-        padding-left: $outer-grid-margin * 5;
-        padding-top: $baseline;
-        padding-bottom: $baseline;
         margin: 0;
+        padding: $outer-grid-margin;
       }
       h1 {
         display: block;
@@ -60,11 +60,6 @@
         }
       }
     }
-  }
-  .hero {
-    position: absolute;
-    right: 0;
-    left: 0;
   }
   + main#content h1.h3 {
     font-weight: $light;

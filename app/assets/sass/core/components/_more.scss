@@ -1,8 +1,8 @@
 .more-background {
-	text-align: center;
-	margin-top: $baseline*3;
-	margin-bottom: $baseline*3;
-	width: 100%;
+  text-align: center;
+  margin-top: $baseline*3;
+  margin-bottom: $baseline*3;
+  width: 100%;
 }
 
 .button.more, a.button.more {
@@ -11,6 +11,7 @@
   border-color: $brand;
   padding: $baseline*0.5 $gutter*0.5;
   &:hover {
-  	background-color: $brand-hover-darken;
+    border-color: $brand-hover-darken;
+    background-color: $brand-hover-darken;
   }
 }

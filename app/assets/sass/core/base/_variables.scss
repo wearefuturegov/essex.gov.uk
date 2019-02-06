@@ -22,44 +22,50 @@ $larger: 34px;
 
 $light: 300;
 $normal: 400;
+$regular: $normal;
 $semi: 600;
 $bold: 700;
 $icon: 3em;
 
+// greyscale
+$grey-lighter: #f5f5f5;
+$grey-light: #dee0e2;
+$grey: #333333;
+$grey-dark: #222222;
+$grey-darker: #111111;
+
+// This black is a very dark purple based on our brand colour. 
+// We also use this for our text-colour
+$black: #190119;
+$very-black: #000;
+
 // brand colors
-$brand: #e40037; // red
-// $brand: #682558; // purple
+// $brand: #e40037; // AAA fail. http://accessible-colors.com/ recommend #B4002C 
+$brand: #682558; // AAA complient
 $brand2: #d5ebf0; // ice blue
 
 // text colour
-$text-colour: #000;
+$text-colour: $black;
 $white: #fff;
 
 // link colour
-$link: #004899;
-$hover: #2A7AB0;
-$visited: #682558;
-$link-active: #2A7AB0;
+$link: #192A66; // AAA complient
+$hover: #92006D; // AAA complient (even with background grey on pagination)
+$visited: #682558; // AAA complient
+$link-active: #000;
 
 // hover colors
-$brand-hover-darken: #cb0031;
+$brand-hover-darken: #541946;
 $button-hover-darken: #00692f;
 $white-hover: #e8e8e8;
 
 // focus colour
 $focus-colour: #fab500;
 
-// greyscale
-$grey-lighter: #f5f5f5;
-$grey-light: #dee0e2;
-$grey: #505050;
-$grey-dark: #222222;
-$grey-darker: #111111;
-$black: #000;
-
 // overlay
 $overlay: rgba(255,255,255,0.2);
 $overlay-heavy: rgba(255,255,255,0.8);
+$overlay-brand: rgba(0,22,150,0.17);
 
 // element color
 $button: #00823b; // green taken from gov.uk
@@ -105,7 +111,7 @@ $nav-height: $logo-height*2;
 $gutter: 60px;
 
 $site-width: 960px;
-$outer-grid-margin: $gutter*0.125;
+$outer-grid-margin: $gutter*0.5;
 $outer-grid-padding: $gutter*0.125;
 
 $full-width: 100%;
