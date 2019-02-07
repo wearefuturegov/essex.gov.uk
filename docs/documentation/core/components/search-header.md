@@ -9,8 +9,8 @@
           <form action="/search" method="get" role="search" class="form">
             <div class="group">
               <label for="search">Search</label>
-              <input type="text" class="" placeholder="Search" id="search" name="name" required="">
-              <button type="submit" value="search" class="search-icon-position">
+              <input type="text" placeholder="Search" id="search" name="name" required="">
+              <button type="submit" value="search" title="search" class="search-icon-position">
                 <i class="fas fa-search " type="submit" value="search"></i>
               </button>
             </div>
@@ -30,8 +30,8 @@
               <form action="/search" method="get" role="search" class="form">
                 <div class="group">
                   <label for="search">Search</label>
-                  <input type="text" class="" placeholder="Search" id="search" name="name" required="">
-                  <button type="submit" value="search" class="search-icon-position">
+                  <input type="text" placeholder="Search" id="search" name="name" required="">
+                  <button type="submit" value="search" title="search" class="search-icon-position">
                     <i class="fas fa-search " type="submit" value="search"></i>
                   </button>
                 </div>
