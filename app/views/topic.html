@@ -1,16 +1,19 @@
-{% extends "essex_main_template.html" %}
+{% extends "essex_topic_template.html" %}
 
 {% block content %}
 
 <main id="content">
 
   <div class="container">
-      {% block breadcrumbs %}
-        {% include "includes/breadcrumbs.html" %}
-      {% endblock %}
+    <div class="breadcrumbs">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="#">Social care and health</a></li>
+      </ol>
+    </div>
     <div class="main only">
       <section class="mid">
-        <h1>Page title</h1>
+        <h1>Social care and health</h1>
       </section>
 
       <section class="tight">
@@ -19,27 +22,28 @@
         {% endblock %}
       </section>
 
-      <section class="tight">
+      <section class="content">
         <div class="preview-list">
           <ul>
             <li>
-              <a href="#">Preview</a>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+                <a href="#">Support for carers</a>
+                <p>Information, support and guidance for people who look after someone</p>
+            </li>
             <li>
-              <a href="#">Preview</a>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+                <a href="#">Accessible transport and mobility</a>
+                <p>Includes Blue Badge, disabled parking bays, mobilty aids and accessible transport</p>
+            </li>
             <li>
-              <a href="#">Preview</a>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+                <a href="#">Advocacy</a>
+                <p>Find out why you may need an advocate, and whom to contact for advocacy services in Essex</p>
+            </li>
           </ul>
           <div class="js-hidden" id="tab-one" aria-hidden="true">
             <ul>
               <li>
-                <a href="#">Preview</a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
-              <li>
-                <a href="#">Preview</a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+                  <a href="#">Autism</a>
+                  <p>Information to people of all ages affected by autism, either for themselves, a family member or a friend.</p>
+              </li>
             </ul>
           </div>
           <div data-target="tab-one">
@@ -48,70 +52,6 @@
             <label class="hide" for="toggle-one">Hide</label>
           </div>
         </div>
-        <div class="content-break-lg"></div>
-      </section>
-
-      <section class="tight">
-        <h2>Guidance and legislation</h2>
-        <div class="preview-list">
-          <ul>
-            <li>
-              <a href="#">Preview</a>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
-            <li>
-              <a href="#">Preview</a>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
-            <li>
-              <a href="#">Preview</a>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
-          </ul>
-          <div class="js-hidden" id="tab-two" aria-hidden="true">
-            <ul>
-              <li>
-                <a href="#">Preview</a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
-              <li>
-                <a href="#">Preview</a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
-            </ul>
-          </div>
-          <div data-target="tab-two">
-            <input class="checkbox" id="toggle-two" type="checkbox" aria-controls="tab-two" aria-expanded="false">
-            <label class="show" for="toggle-two">Show</label>
-            <label class="hide" for="toggle-two">Hide</label>
-          </div>
-        </div>
-        <div class="content-break-lg"></div>
-      </section>
-
-      <section class="loose">
-        <h2>Latest news</h2>
-        <div class="previews">
-          <div class="preview">
-            <img src="/public/images/news.jpg">
-            <h4><a href="#">Preview heading with image above</a></h4>
-            <p>Preview copy explaining what content it contains.</p>
-            <p class="meta">3 October 2018</p>
-          </div>
-          <div class="preview">
-            <img src="/public/images/news.jpg">
-            <h4><a href="#">Preview heading with image above</a></h4>
-            <p>Preview copy explaining what content it contains.</p>
-            <p class="meta">3 October 2018</p>
-          </div>
-          <div class="preview">
-            <img src="/public/images/news.jpg">
-            <h4><a href="#">Preview heading with image above</a></h4>
-            <p>Preview copy explaining what content it contains.</p>
-            <p class="meta">3 October 2018</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="loose">
-        {% block signup %}
-          {% include "includes/signup.html" %}
-        {% endblock %}
       </section>
 
     </div>
