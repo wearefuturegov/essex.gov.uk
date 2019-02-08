@@ -23,13 +23,13 @@ $site-width: 960px;
   }
 
   @include media(tablet) {
-    margin: 0 $outer-grid-margin;
+    margin: 0 $outer-grid-margin*2;
     // background: red;
   
   }
 
   @include media(desktop) {
-    margin: 0 $outer-grid-margin;
+    margin: 0 $outer-grid-margin*2;
     // background: green;
   }
 
