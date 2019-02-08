@@ -135,16 +135,15 @@
 .button-get-started {
   font-size: $large;
   font-weight: 600;
-  background-image: file-url("icon-pointer.png");
+  background-image: file-url("/icon/icon-pointers.png");
   background-repeat: no-repeat;
   background-position: 100% 50%;
-  // padding: em(7) em(41) em(4) em(16);
   padding: $baseline*0.25 $gutter $baseline*0.25 $gutter*0.25;
   @include device-pixel-ratio {
-    background-image: file-url("icon-pointer-2x.png");
+    background-image: file-url("/icon/icon-pointer-2x.png");
     background-size: 30px 19px;
   }
   @include ie(6) {
-    background-image: file-url("icon-pointer-2x.png");
+    background-image: file-url("/icon/icon-pointer-2x.png");
   }
 }
