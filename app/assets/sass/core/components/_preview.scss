@@ -17,14 +17,17 @@
     @include grid-column-b(1 / 3);
     padding-top: $baseline*0.5;
     padding-bottom: $baseline*0.5;
+    &:nth-child(2) {
+      border-left: $border-thin solid $grey-light;
+      border-right: $border-thin solid $grey-light;
+      @include media(mobile) {
+        border: none;
+      }
+    }
     @include media(mobile) {
       padding-top: 0;
       padding-bottom: 0;
       margin-bottom: $baseline*2;
-    }
-    &:nth-child(2) {
-      border-left: $border-thin solid $grey-light;
-      border-right: $border-thin solid $grey-light;
     }
     img {
       margin-top: $baseline;
