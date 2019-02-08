@@ -11,7 +11,7 @@
               <label for="search">Search</label>
               <input type="text" placeholder="Search" id="search" name="name" required="">
               <button type="submit" value="search" title="search" class="search-icon-position">
-                <i class="fas fa-search " type="submit" value="search"></i>
+                <i class="fas fa-search"></i>
               </button>
             </div>
           </form>
@@ -32,7 +32,7 @@
                   <label for="search">Search</label>
                   <input type="text" placeholder="Search" id="search" name="name" required="">
                   <button type="submit" value="search" title="search" class="search-icon-position">
-                    <i class="fas fa-search " type="submit" value="search"></i>
+                    <i class="fas fa-search"></i>
                   </button>
                 </div>
               </form>
