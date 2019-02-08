@@ -3,9 +3,9 @@
   @extend %grid-row;
   @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
     max-width: $site-width + $gutter;
-    margin: 0 auto;
+    margin-bottom: $baseline*2;
     @include media(mobile) {
-      margin: 0 $gutter*0.5;
+      margin: 0 0 $baseline*2 0;
     }
   }
 }
