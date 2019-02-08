@@ -18,6 +18,7 @@ ul.link-boxes {
     background-color: $grey-light;
     border-bottom: solid $border-thin $grey;
     text-decoration: none;
+    padding-left: 0;
     a {
       text-decoration: none;
     }
@@ -40,7 +41,7 @@ ul.link-boxes {
     .link-content {
       @include box-sizing(border-box);
       @include border-radius($border-radius);
-      padding: $baseline $gutter*0.5;
+      padding: $baseline $gutter*0.25;
       h2 {
         margin-top: 0;
         font-size: $body;
