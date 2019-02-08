@@ -14,9 +14,11 @@
     float: left;
     width: calc(100% - #{$icon});
     h3 {
-      text-decoration: underline;
       margin-top: 0;
       margin-bottom: 0;
+    }
+    a {
+      text-decoration: underline;
     }
     p {
       font-size: $small;

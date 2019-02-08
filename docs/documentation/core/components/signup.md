@@ -7,7 +7,8 @@
   <form action="/search" method="get" role="search" class="form">
     <div class="group">
       <div class="signup-input">
-        <input type="text" class="form-control" placeholder="Enter your email address" id="full-name" name="name" required="">
+        <label for="email">Email</label>
+        <input type="text" class="form-control" placeholder="Enter your email address" id="email" name="email" required="">
       </div>
       <div class="signup-button">
         <input type="submit" class="button subscribe" value="Subscribe">
@@ -23,13 +24,56 @@
       <form action="/search" method="get" role="search" class="form">
         <div class="group">
           <div class="signup-input">
-            <input type="text" class="form-control" placeholder="Enter your email address" id="full-name" name="name" required="">
+            <label for="email">Email</label>
+            <input type="text" class="form-control" placeholder="Enter your email address" id="email" name="email" required="">
           </div>
           <div class="signup-button">
             <input type="submit" class="button subscribe" value="Subscribe">
           </div>
         </div>
       </form>
+    </div>
+
+## Big signup
+
+<div class="signup-background">
+  <div class="signup">
+    <h3 class="h2">
+      Stay up to date 
+    </h3>
+    <p>Get the latest news and information about your council services</p>
+    <form action="/search" method="get" role="search" class="form">
+      <div class="group">
+        <div class="signup-input">
+          <label for="email">Email</label>
+          <input type="text" class="form-control" placeholder="Enter your email address" id="email" name="email">
+        </div>
+        <div class="signup-button">
+          <input type="submit" class="button subscribe" value="Subscribe">
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+    <div class="signup-background">
+      <div class="signup">
+        <h3 class="h2">
+          Stay up to date 
+        </h3>
+        <p>Get the latest news and information about your council services</p>
+        <form action="/search" method="get" role="search" class="form">
+          <div class="group">
+            <div class="signup-input">
+              <label for="email">Email</label>
+              <input type="text" class="form-control" placeholder="Enter your email address" id="email" name="email">
+            </div>
+            <div class="signup-button">
+              <input type="submit" class="button subscribe" value="Subscribe">
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
 
 ### Using signup

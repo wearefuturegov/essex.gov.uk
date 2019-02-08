@@ -17,6 +17,9 @@
     .form {
       .group {
         @extend %grid-row;
+        label {
+          @include visually-hidden;
+        }
         input.form-control {
           width: 100%;
         }
@@ -74,6 +77,9 @@
   .form {
     .group {
       @extend %grid-row;
+      label {
+        @include visually-hidden;
+      }
       input.form-control {
         width: 100%;
       }

@@ -7,3 +7,9 @@ html {
 body {
   background-color: $white;
 }
+
+.hidden,
+.js-enabled .js-hidden {
+  display: none;
+  visibility: hidden;
+}

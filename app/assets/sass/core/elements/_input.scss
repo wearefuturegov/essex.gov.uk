@@ -7,7 +7,7 @@ input {
   border-width: $border-normal;
   border-style: solid;
   border-color: $grey;
-  border-image: initial;
+  // border-image: initial;
   margin-bottom: $baseline;
 }
 .day, .month, .year {

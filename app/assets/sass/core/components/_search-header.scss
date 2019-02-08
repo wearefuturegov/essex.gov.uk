@@ -16,6 +16,9 @@
       .group {
         position: relative;
         margin-bottom: $baseline;
+        label {
+          @include visually-hidden;
+        }
         input {
           background: $white;
           line-height: $nav-height*0.25;

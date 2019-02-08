@@ -10,7 +10,7 @@
         color: $link;
         font-weight: $bold;
         text-decoration: underline;
-        &:hover, &active {
+        &:hover, &:active {
           color: $hover;
           text-decoration: underline;
         }
