@@ -3,11 +3,13 @@
     display: none;
   }
   @extend %grid-row;
+  margin-left: -$gutter*0.25;
+  margin-right: -$gutter*0.25;
   margin-top: $baseline;
   margin-bottom: $baseline;
   ul {
     margin-left: 0;
-    padding-left: $gutter*0.5;
+    padding-left: $gutter*0.25;
     list-style: none;
     li.prev, li.next {
       padding-left: 0;
@@ -31,7 +33,7 @@
     }
     a {
       @include box-sizing(border-box);
-      padding: $gutter*0.5;
+      padding: $gutter*0.25;
       display: block;
       text-decoration: none;
       &:hover {
@@ -43,7 +45,7 @@
         margin-bottom: 0;
         display: block;
         svg {
-          margin-right: $gutter*0.5;
+          margin-right: $gutter*0.25;
         }
         & + span {
           display: block;
