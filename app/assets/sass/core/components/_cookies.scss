@@ -34,9 +34,9 @@
 
 // link within cookies
 a.cc_more_info {
-  color: $link;
+  color: $white;
   &:hover {
-    color: $hover;
+    color: $white-on-black-hover;
   }
 }
 
