@@ -27,9 +27,7 @@
 <ul>
   <li><a href="components/alert">Alert</a></li>
   <li><a href="components/breadcrumbs">Breadcrumbs</a></li>
-  <li><a href="components/button-bar">Button-bar</a></li>
   <li><a href="components/contents">Contents</a></li>
-  <li><a href="components/cookies">Cookies</a></li>
   <li><a href="components/file-link">File-link</a></li>
   <li><a href="components/footer">Footer</a></li>
   <li><a href="components/header">Header</a></li>
@@ -38,13 +36,11 @@
   <li><a href="components/inset">Inset</a></li>
   <li><a href="components/link-box">Link box</a></li>
   <li><a href="components/pagination">Pagination</a></li>
-  <li><a href="components/pdf-link">Pdf-link</a></li>
   <li><a href="components/phase-banner">Phase banner</a></li>
   <li><a href="components/previews">Previews</a></li>
   <li><a href="components/preview-list">Preview list</a></li>
   <li><a href="components/related">Related</a></li>
   <li><a href="components/search">Search</a></li>
-  <li><a href="components/search-buttons">Search buttons</a></li>
   <li><a href="components/search-header">Search header</a></li>
   <li><a href="components/signup">Signup</a></li>
   <li><a href="components/side-nav">Side-nav</a></li>

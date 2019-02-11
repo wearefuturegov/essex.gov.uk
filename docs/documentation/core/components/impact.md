@@ -1,28 +1,28 @@
 ## Impact
 
 <div class="impact">
-  <div class="hero"></div>
-  <div class="overlay">
-    <div class="overlay-box">
-      <div class="overlay-content">
-        <h2><a href="#">Spooky family fun at Cressing Temple</a></h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+  <div class="overlay"></div>
+  <div class="hero campaign">
+    <div class="overlay">
+      <div class="overlay-box">
+        <div class="overlay-content">
+          <h2><a href="#">Get out more at our Country Parks</a></h2>
+          <p>Whether you’re out for a walk or run to improve your fitness or want to take the family on an outdoor adventure, discover many ways to get out more at our Country Parks.</p>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
     <div class="impact">
-      <div class="hero"></div>
-      <div class="overlay">
-        <div class="overlay-box">
-          <div class="overlay-content">
-            <h2><a href="#">Spooky family fun at Cressing Temple</a></h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+      <div class="overlay"></div>
+      <div class="hero campaign">
+        <div class="overlay">
+          <div class="overlay-box">
+            <div class="overlay-content">
+              <h2><a href="#">Get out more at our Country Parks</a></h2>
+              <p>Whether you’re out for a walk or run to improve your fitness or want to take the family on an outdoor adventure, discover many ways to get out more at our Country Parks.</p>
+            </div>
           </div>
         </div>
       </div>
