@@ -3,14 +3,12 @@
 <footer class="footer-container">
   <div class="footer-top">
     <div class="footer">
-      <nav class="nav">
+      <div class="nav">
         <ul class="nav-links">
-          <li>
-            <a href="/docs/core/contents">Essex Design System</a></li><li>
+          <li class="copyright">© 2019 Essex County Council</li><li>
+            <a href="#">About</a></li><li>
             <a href="#">Contact us</a></li><li>
             <a href="#">Privacy & Cookies</a></li><li>
-          <li>
-            <a href="#">Accessibility</a></li><li>
             <a href="#">Terms & Conditions</a></li><li>
             <a href="#">Feedback</a></li>
         </ul>
@@ -19,38 +17,29 @@
             <a href="#"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li><li>
             <a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a></li><li>
             <a href="#"><i class="fab fa-youtube"></i><span>Youtube</span></a></li><li>
-            <a href="#"><i class="fab fa-instagram"></i><span>Instagram</span></a></li><li>
-            <a href="#"><i class="fab fa-linkedin"></i><span>Linkedin</span></a></li><li>
             <a href="#"><i class="fab fa-flickr"></i><span>Flickr</span></a></li>
         </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer">
+      <nav class="nav">
+        <a href="docs/core/contents" class="design-link">Built by the Service Design Team</a>
       </nav>
     </div>
   </div>
-    <div class="footer-bottom">
-      <div class="footer">
-        <div class="nav">
-          <div class="copyright">
-            © Essex County Council 2019
-          </div>
-          <div class="design-link">
-            <a href="#">Built by the Service Design Team</a>
-          </div>
-        </div>
-      </div>
-    </div>
 </footer>
 
     <footer class="footer-container">
       <div class="footer-top">
         <div class="footer">
-          <nav class="nav">
+          <div class="nav">
             <ul class="nav-links">
-              <li>
-                <a href="/docs/core/contents">Essex Design System</a></li><li>
+              <li class="copyright">© 2019 Essex County Council</li><li>
+                <a href="#">About</a></li><li>
                 <a href="#">Contact us</a></li><li>
                 <a href="#">Privacy & Cookies</a></li><li>
-              <li>
-                <a href="#">Accessibility</a></li><li>
                 <a href="#">Terms & Conditions</a></li><li>
                 <a href="#">Feedback</a></li>
             </ul>
@@ -59,25 +48,18 @@
                 <a href="#"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li><li>
                 <a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a></li><li>
                 <a href="#"><i class="fab fa-youtube"></i><span>Youtube</span></a></li><li>
-                <a href="#"><i class="fab fa-instagram"></i><span>Instagram</span></a></li><li>
-                <a href="#"><i class="fab fa-linkedin"></i><span>Linkedin</span></a></li><li>
                 <a href="#"><i class="fab fa-flickr"></i><span>Flickr</span></a></li>
             </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer">
+          <nav class="nav">
+            <a href="docs/core/contents" class="design-link">Built by the Service Design Team</a>
           </nav>
         </div>
       </div>
-        <div class="footer-bottom">
-          <div class="footer">
-            <div class="nav">
-              <div class="copyright">
-                © Essex County Council 2019
-              </div>
-              <div class="design-link">
-                <a href="#">Built by the Service Design Team</a>
-              </div>
-            </div>
-          </div>
-        </div>
     </footer>
 
 
