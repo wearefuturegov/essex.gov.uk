@@ -52,7 +52,7 @@
   <li><a href="components/alert">Alert</a></li>
   <li><a href="components/breadcrumbs">Breadcrumbs</a></li>
   <li><a href="components/contents">Contents</a></li>
-  <li><a href="components/file-link">File-link</a></li>
+  <li><a href="components/file-download">File download</a></li>
   <li><a href="components/footer">Footer</a></li>
   <li><a href="components/header">Header</a></li>
   <li><a href="components/highlight-box">Highlight-box</a></li>
