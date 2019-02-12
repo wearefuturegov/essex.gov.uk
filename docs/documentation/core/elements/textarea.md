@@ -1,3 +1,10 @@
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/docs/core/contents">Contents</a></li>
+    <li><a href="#">Textarea</a></li>
+  </ol>
+</div>
+
 ## Textarea
 
 <div class="form">

@@ -1,3 +1,10 @@
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/docs/core/contents">Contents</a></li>
+    <li><a href="#">Icon</a></li>
+  </ol>
+</div>
+
 ## Icon
 
 <i class="fas fa-exclamation-triangle"></i>

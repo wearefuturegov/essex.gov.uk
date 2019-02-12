@@ -1,3 +1,10 @@
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/docs/core/contents">Contents</a></li>
+    <li><a href="#">Dropdown</a></li>
+  </ol>
+</div>
+
 ## Dropdown
 
 <div class="form">

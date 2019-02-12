@@ -9,5 +9,5 @@ select {
   box-sizing: border-box;
   max-width: $full-width;
   padding: $gutter*0.25 0 $gutter*0.25 $gutter*0.25;
-  border: $border-normal solid $grey;
+  border: $border-normal solid $grey-dark;
 }

@@ -1,5 +1,29 @@
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/docs/core/essex-design-system">Introduction</a></li>
+    <li><a href="/">Contents</a></li>
+  </ol>
+</div>
+
 <h1>Contents</h1>
-<h2>Elements</h2>
+
+<h3>Page examples</h3>
+<ul>
+  <li><a href="/">Main home page</a></li>
+  <li><a href="/dev">Development home page</a></li>
+  <li><a href="/examples/content-break">Content break</a></li>
+  <li><a href="/examples/form">Form</a></li>
+  <li><a href="/examples/information">Information</a></li>
+  <li><a href="/examples/cludo">Cludo Search</a></li>
+</ul>
+
+<h3>Design</h3>
+<ul>
+  <li><a href="/docs/core/styles-guide">Styles guide</a></li>
+  <li><a href="/docs/core/typography">Typography</a></li>
+</ul>
+
+<h3>Elements</h3>
 <ul>
   <li><a href="elements/back">Back</a></li>
   <li><a href="elements/buttons">Buttons</a></li>
@@ -23,7 +47,7 @@
   <li><a href="elements/textarea">Textarea</a></li>
   <li><a href="elements/validation">Validation</a></li>
 </ul>
-<h2>Components</h2>
+<h3>Components</h3>
 <ul>
   <li><a href="components/alert">Alert</a></li>
   <li><a href="components/breadcrumbs">Breadcrumbs</a></li>
@@ -48,22 +72,7 @@
   <li><a href="components/steps">Steps</a></li>
   <li><a href="components/table">Table</a></li>
 </ul>
-<h2>Page unique styles</h2>
+<h3>Page unique styles</h3>
 <ul>
   <li><a href="pages/search-home">Search home</a></li>
-</ul>
-<h2>Design</h2>
-<ul>
-  <li><a href="/docs/core/design">Design System styles guide</a></li>
-  <li><a href="/docs/core/typography">Typography</a></li>
-</ul>
-
-<h2>Page examples</h2>
-<ul>
-  <li><a href="/">Home</a></li>
-  <li><a href="/design">Design review variation</a></li>
-  <li><a href="/content-break">Content break</a></li>
-  <li><a href="/form">Form</a></li>
-  <li><a href="/information">Information</a></li>
-  <li><a href="/cludo">Cludo Search</a></li>
 </ul>

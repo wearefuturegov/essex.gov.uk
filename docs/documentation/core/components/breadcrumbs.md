@@ -1,3 +1,10 @@
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/docs/core/contents">Contents</a></li>
+    <li><a href="#">Breadcrumbs</a></li>
+  </ol>
+</div>
+
 ## Breadcrumbs
 
 <div class="breadcrumbs">

@@ -1,5 +1,24 @@
 // all styles are based on main class "markdown" for viewing purposes in core documentation
 .markdown {
+  h1, h2, h3, h4 {
+    span {
+      @include default-type;
+      display: block;
+      margin: $baseline*0.25 0;
+    }
+  }
+  .light {
+    font-weight: 300;
+  }
+  .regular {
+    font-weight: 400;
+  }
+  .semi-bold {
+    font-weight: 600;
+  }
+  .bold {
+    font-weight: 700;
+  }
   pre {
     position: relative;
     font-family: monospace;
@@ -24,19 +43,17 @@
       border-radius: 20%;
   }
   .colour-swatch-border {
-      border-color: $grey-dark;
+      border-color: $very-black;
   }
-  .basic-table {
-    table {
-      margin-top: $baseline*1;
-      table-layout: fixed;
-    }
-    td {
-      border-bottom: 0;
+  .table {
+    thead tr {
+      font-weight: $semi;
+      border-bottom: $border-normal solid;
     }
   }
   .demo-box {
-    background-color: $grey-light;
+    background-color: $grey-lighter;
+    border: $border-thin solid $grey-light;
     padding: $baseline;
     margin-top: $baseline;
   }

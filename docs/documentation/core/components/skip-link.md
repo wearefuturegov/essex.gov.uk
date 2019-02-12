@@ -1,3 +1,10 @@
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/docs/core/contents">Contents</a></li>
+    <li><a href="#">Skip link</a></li>
+  </ol>
+</div>
+
 ## Skip link
 
 Press tab to view Skip link working and the skip link.

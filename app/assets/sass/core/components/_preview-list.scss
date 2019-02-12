@@ -9,7 +9,7 @@
     margin-left: 0;
   }
   li {
-    border-bottom: $border-thin solid $grey;
+    border-bottom: $border-thin solid $grey-dark;
     margin-top: $baseline*0.5;
     margin-bottom: $baseline*0.5;
     padding-left: 0;
@@ -20,7 +20,7 @@
   }
   &.steps .step {
     padding-bottom: $baseline*0.5;
-    border-bottom: $border-thin solid $grey;
+    border-bottom: $border-thin solid $grey-dark;
     li {
       border-bottom: none;
     }

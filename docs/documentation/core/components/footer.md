@@ -1,3 +1,10 @@
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/docs/core/contents">Contents</a></li>
+    <li><a href="#">Footer</a></li>
+  </ol>
+</div>
+
 ## Footer
 
 <footer class="footer-container">

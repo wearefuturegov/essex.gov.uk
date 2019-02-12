@@ -1,4 +1,13 @@
-Based on: https://govuk-elements.herokuapp.com/typography/example-typography/
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/docs/core/contents">Contents</a></li>
+    <li><a href="#">Typography</a></li>
+  </ol>
+</div>
+
+# Typography
+
+Essex.gov.uk uses [Open Sans from Google Fonts](https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans:300,400,600,700)
 
 # A 46px page heading.
 

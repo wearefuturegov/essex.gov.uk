@@ -1,3 +1,10 @@
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/docs/core/contents">Contents</a></li>
+    <li><a href="#">Social</a></li>
+  </ol>
+</div>
+
 ## Social
 
 <ul class="social">

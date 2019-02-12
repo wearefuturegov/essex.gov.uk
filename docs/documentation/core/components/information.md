@@ -1,3 +1,10 @@
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/docs/core/contents">Contents</a></li>
+    <li><a href="#">Information alert</a></li>
+  </ol>
+</div>
+
 ## Information alert
 
 <div class="alert info js-hidden" id="tab-one" aria-hidden="true">
