@@ -1,4 +1,4 @@
-<h1>Design System</h1>
+<h1>Essex Service Design System</h1>
 <p>You can view the list of Elements and Components in our <a href="contents">contents</a> section.</p>
 <h2>Component Based Design</h2>
 <p>Component Based Design is the practice of splitting UI into smaller, more manageable parts with clear names. Each of these parts fall in one of six distinct groups listed below.</p>

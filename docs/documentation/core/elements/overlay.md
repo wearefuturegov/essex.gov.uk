@@ -1,3 +1,10 @@
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/docs/core/contents">Contents</a></li>
+    <li><a href="#">Overlay, overlay-content</a></li>
+  </ol>
+</div>
+
 ## Overlay, overlay-content
 
 <div class="overlay">

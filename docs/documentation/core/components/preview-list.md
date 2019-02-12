@@ -1,3 +1,10 @@
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/docs/core/contents">Contents</a></li>
+    <li><a href="#">Preview list</a></li>
+  </ol>
+</div>
+
 ## Preview list
 
 <div class="preview-list">

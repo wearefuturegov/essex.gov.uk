@@ -1,3 +1,10 @@
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/docs/core/contents">Contents</a></li>
+    <li><a href="#">Search-header</a></li>
+  </ol>
+</div>
+
 ## Search-header
 
 <header class="header-background">

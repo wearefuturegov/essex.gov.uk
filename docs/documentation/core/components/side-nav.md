@@ -1,3 +1,10 @@
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/docs/core/contents">Contents</a></li>
+    <li><a href="#">Side-nav</a></li>
+  </ol>
+</div>
+
 ## Side-nav
 
 <div class="side-nav" role="">

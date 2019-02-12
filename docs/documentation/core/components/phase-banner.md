@@ -1,3 +1,10 @@
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/docs/core/contents">Contents</a></li>
+    <li><a href="#">Phase banner</a></li>
+  </ol>
+</div>
+
 ## Phase banner
 
 <div class="phase-banner-background">

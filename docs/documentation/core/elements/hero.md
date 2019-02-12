@@ -1,3 +1,10 @@
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/docs/core/contents">Contents</a></li>
+    <li><a href="#">Hero</a></li>
+  </ol>
+</div>
+
 ## Hero
 
     <div class="hero"></div>

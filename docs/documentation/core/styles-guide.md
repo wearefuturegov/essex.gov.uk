@@ -1,3 +1,10 @@
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/docs/core/contents">Contents</a></li>
+    <li><a href="#">Styles guide</a></li>
+  </ol>
+</div>
+
 <h1>Styles guide</h1>
 <p>This begins to tackle showing the fundamentals of visual design and its use within the Essex Design System.</p>
 
@@ -192,6 +199,8 @@
 <h4><span>h4/22px</span>Sub-section heading</h4>
 
 <p>The default size for body text is 16px.</p>
+
+<p>We have an example with copy on our <a href="/docs/core/typography">unique Typograhy page</a></p>
 
 <div class="content-break-sm"></div>
 

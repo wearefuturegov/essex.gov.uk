@@ -1,3 +1,10 @@
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/docs/core/contents">Contents</a></li>
+    <li><a href="#">Table</a></li>
+  </ol>
+</div>
+
 ## Table
 
 <div class="table">
