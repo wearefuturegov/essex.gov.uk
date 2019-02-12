@@ -1,5 +1,3 @@
-Based on: https://govuk-elements.herokuapp.com/typography/example-typography/
-
 # A 46px page heading.
 
 <p class="lede">This is an intro paragraph at 24px.</p>
