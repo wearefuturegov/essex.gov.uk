@@ -61,7 +61,7 @@
 <h2>Page examples</h2>
 <ul>
   <li><a href="/">Home</a></li>
-  <li><a href="/design">Design review variation</a></li>
+  <li><a href="/dev">Development variation</a></li>
   <li><a href="/content-break">Content break</a></li>
   <li><a href="/form">Form</a></li>
   <li><a href="/information">Information</a></li>
