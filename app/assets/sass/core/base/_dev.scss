@@ -1,5 +1,12 @@
 // all styles are based on main class "markdown" for viewing purposes in core documentation
 .markdown {
+  h1, h2, h3, h4 {
+    span {
+      @include default-type;
+      display: block;
+      margin: $baseline*0.25 0;
+    }
+  }
   .light {
     font-weight: 300;
   }

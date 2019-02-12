@@ -1,20 +1,21 @@
-<h1>Design System styles guide</h1>
-<p>Some text in here about styles</p>
+<h1>Styles guide</h1>
+<p>This begins to tackle showing the fundamentals of visual design and its use within the Essex Design System.</p>
 
+<nav class="contents">
 <div class="heading">
-  <strong>Contents</strong>
+  <h2>Contents</h2>
 </div>
-<ul>
-  <li><a href="#colour">Colour</a></li>
-  <li><a href="#typography">Typography</a></li>
-  <li><a href="#layout">Layout</a></li>
-</ul>
-<div class="content-break-sm"></div>
+  <ul>
+    <li><a href="#colour">Colour</a></li>
+    <li><a href="#typography">Typography</a></li>
+    <li><a href="#layout">Layout</a></li>
+  </ul>
+</nav>
 
 <h2 id="colour">Colour</h2>
-<p>The colours used on essex.gov.uk are part of ECC's colour palette.</p>
-<p>We've used Sass variables so any changes to the ECC colour palette can be
-  easily updated.</p>
+<p>The colours used on essex.gov.uk are based on the ECC's colour palette. We've ensure the best use of Sass variables so any changes to the ECC colour palette can be quickly easily updated accross the whole wesbite.</p>
+<h4>WCAG 2.1 contrast complience</h4>
+<p>We should ensure colours are always AAA compliant especially when using background colours, e.g. $white used on darker colours and $text-colour used on lighter colours.</p>
 
 <h3>Primary brand colour</h3>
 <div class="table">
@@ -22,7 +23,7 @@
   <thead>
     <tr>
       <td>Colour</td>
-      <td>WCAG 2.0 contrast complience</td>
+      <td>WCAG 2.1 contrast complience</td>
       <td>Variable</td>
       <td>Hex</td>
     </tr>
@@ -44,7 +45,7 @@
   <thead>
     <tr>
       <td>Colour</td>
-      <td>WCAG 2.0 contrast complience</td>
+      <td>WCAG 2.1 contrast complience</td>
       <td>Variable</td>
       <td>Hex</td>
     </tr>
@@ -79,7 +80,7 @@
   <thead>
     <tr>
       <td>Colour</td>
-      <td>WCAG 2.0 contrast complience</td>
+      <td>WCAG 2.1 contrast complience</td>
       <td>Variable</td>
       <td>Hex</td>
     </tr>
@@ -129,7 +130,6 @@
 </div>
 
 <h3>Greyscale</h3>
-<p>We should ensure greyscale colours are always AAA compliant when used with the contrasting text colours, e.g. $white used on darker colours and $text-colour used on lighter colours.</p>
 <p></p>
 <div class="table">
 <table>
@@ -186,16 +186,16 @@
 <h3>Hierarchy</h3>
   <p>Headings should create a clear hierarchy for content and use appropriate semantic markup.</p>
 
-<h1>Page heading - h1 (46px)</h1>
-<h2>Content heading - h2 (36px)</h2>
-<h3>Section heading - h3 (28px)</h3>
-<h4>Sub-section heading - h4 (22px)</h4>
+<h1><span>h1/46px</span>Page heading</h1>
+<h2><span>h2/36px</span>Content heading</h2>
+<h3><span>h3/28px</span>Section heading</h3>
+<h4><span>h4/22px</span>Sub-section heading</h4>
 
 <p>The default size for body text is 16px.</p>
 
 <div class="content-break-sm"></div>
 
-<h2 id="layout">Layout</h2>
+<h2 id="layout">Grid system</h2>
 <p>Our main grid uses the divisions below with a gutter of 60px.</p>
 <p>We also use a wider gutter of 120px for displaying Essex County Council Services on the home page.</p>
 <div class="grid-row">
