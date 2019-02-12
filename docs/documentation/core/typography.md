@@ -1,3 +1,7 @@
+# Typography
+
+[this](https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans:300,400,600,700)
+
 # A 46px page heading.
 
 <p class="lede">This is an intro paragraph at 24px.</p>

@@ -18,7 +18,7 @@
       input {
         @include default-type;
         @include border-radius($border-radius);
-        border: $border-thin solid $grey;
+        border: $border-thin solid $grey-dark;
         padding: $baseline*0.25 $gutter*0.25;
         height: $baseline*1.5;
         width: 100%;
@@ -41,7 +41,7 @@
           padding: 0;
             &:hover {
             cursor: pointer;
-            color: $grey-dark;
+            color: $grey-darker;
           }
         }
       }

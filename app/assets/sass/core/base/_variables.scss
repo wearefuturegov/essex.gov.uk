@@ -30,8 +30,8 @@ $icon: 3em;
 // greyscale
 $grey-lighter: #f5f5f5;
 $grey-light: #dee0e2;
-$grey: #333333;
-$grey-dark: #222222;
+$grey: #808080;
+$grey-dark: #444444;
 $grey-darker: #111111;
 
 // This black is a very dark purple based on our brand colour. 
@@ -45,7 +45,8 @@ $brand: #682558; // AAA complient
 $brand2: #d5ebf0; // ice blue
 
 // text colour
-$text-colour: $black;
+$text-colour: #190119; // $black
+$body-text-colour: #444444; // $grey-dark
 $white: #fff;
 
 // link colour

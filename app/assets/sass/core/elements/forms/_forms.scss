@@ -247,7 +247,7 @@ select:focus::-ms-value {
   }
   .form-hint {
     @include default-type;
-    color: $grey;
+    color: $grey-dark;
   }
   select, input, textarea {
     width: 100%;

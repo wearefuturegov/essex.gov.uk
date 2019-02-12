@@ -1,6 +1,9 @@
 <h1>Design System styles guide</h1>
 <p>Some text in here about styles</p>
 
+<div class="heading">
+  <strong>Contents</strong>
+</div>
 <ul>
   <li><a href="#colour">Colour</a></li>
   <li><a href="#typography">Typography</a></li>
@@ -16,11 +19,20 @@
 <h3>Primary brand colour</h3>
 <div class="table">
 <table>
+  <thead>
+    <tr>
+      <td>Colour</td>
+      <td>WCAG 2.0 contrast complience</td>
+      <td>Variable</td>
+      <td>Hex</td>
+    </tr>
+  </thead>
   <tbody>
     <tr>
-      <td><div class="colour-swatch" style="background-color:#e40037"></div></td>
+      <td><div class="colour-swatch" style="background-color:#682558"></div></td>
+      <td>AAA</td>
       <td>$brand</td>
-      <td>#e40037</td>
+      <td>#682558</td>
     </tr>
   </tbody>
 </table>
@@ -29,14 +41,30 @@
 <h3>Text</h3>
 <div class="table">
 <table>
+  <thead>
+    <tr>
+      <td>Colour</td>
+      <td>WCAG 2.0 contrast complience</td>
+      <td>Variable</td>
+      <td>Hex</td>
+    </tr>
+  </thead>
   <tbody>
     <tr>
-      <td><div class="colour-swatch" style="background-color:#0b0c0c"></div></td>
+      <td><div class="colour-swatch" style="background-color:#190119"></div></td>
+      <td>AAA</td>
       <td>$text-colour</td>
-      <td>#0b0c0c</td>
+      <td>#190119</td>
+    </tr>
+    <tr>
+      <td><div class="colour-swatch" style="background-color:#444444"></div></td>
+      <td>AAA</td>
+      <td>$body-text-colour</td>
+      <td>#444444</td>
     </tr>
     <tr>
       <td><div class="colour-swatch colour-swatch-border" style="background-color:#fff"></div></td>
+      <td>AAA</td>
       <td>$white</td>
       <td>#fff</td>
     </tr>
@@ -48,19 +76,30 @@
 <h3>Link</h3>
 <div class="table">
 <table>
+  <thead>
+    <tr>
+      <td>Colour</td>
+      <td>WCAG 2.0 contrast complience</td>
+      <td>Variable</td>
+      <td>Hex</td>
+    </tr>
+  </thead>
   <tbody>
     <tr>
-      <td><div class="colour-swatch" style="background-color:#004899"></div></td>
+      <td><div class="colour-swatch" style="background-color:#192A66"></div></td>
+      <td>AAA</td>
       <td>$link</td>
-      <td>#004899</td>
+      <td>#192A66</td>
     </tr>
     <tr>
-      <td><div class="colour-swatch" style="background-color:#2a7ab0"></div></td>
+      <td><div class="colour-swatch" style="background-color:#92006D"></div></td>
+      <td>AAA</td>
       <td>$hover</td>
-      <td>#2a7ab0</td>
+      <td>#92006D</td>
     </tr>
     <tr>
       <td><div class="colour-swatch" style="background-color:#682558"></div></td>
+      <td>AAA</td>
       <td>$visited</td>
       <td>#682558</td>
     </tr>
@@ -72,6 +111,13 @@
 <p>This colour is used to highlight which elements on a page users are interacting with. It can be seen when tabbing content with a keyboard.</p>
 <div class="table">
 <table>
+  <thead>
+    <tr>
+      <td>Colour</td>
+      <td>Variable</td>
+      <td>Hex</td>
+    </tr>
+  </thead>
   <tbody>
     <tr>
       <td><div class="colour-swatch" style="background-color:#fab500"></div></td>
@@ -83,63 +129,79 @@
 </div>
 
 <h3>Greyscale</h3>
-<p>Greyscale colours are AAA compliant when used with the contrasting text colours. $white should be used on the darker colours and $text-colour should be used on the lighter colours.</p>
+<p>We should ensure greyscale colours are always AAA compliant when used with the contrasting text colours, e.g. $white used on darker colours and $text-colour used on lighter colours.</p>
 <p></p>
 <div class="table">
 <table>
+  <thead>
+    <tr>
+      <td>Colour</td>
+      <td>Variable</td>
+      <td>Hex</td>
+    </tr>
+  </thead>
   <tbody>
     <tr>
       <td><div class="colour-swatch" style="background-color:#000"></div></td>
-      <td>$black</td>
+      <td>$very-black</td>
       <td>#000</td>
     </tr>
     <tr>
-      <td><div class="colour-swatch" style="background-color:#323232"></div></td>
+      <td><div class="colour-swatch" style="background-color:#111111"></div></td>
+      <td>$grey-darker</td>
+      <td>#111111</td>
+    </tr>
+    <tr>
+      <td><div class="colour-swatch" style="background-color:#444444"></div></td>
       <td>$grey-dark</td>
-      <td>#323232</td>
+      <td>#444444</td>
     </tr>
     <tr>
-      <td><div class="colour-swatch" style="background-color:#bfc1c3"></div></td>
+      <td><div class="colour-swatch" style="background-color:#808080"></div></td>
       <td>$grey</td>
-      <td>#bfc1c3</td>
+      <td>#808080</td>
     </tr>
     <tr>
-      <td><div class="colour-swatch" style="background-color:#f8f8f8"></div></td>
+      <td><div class="colour-swatch" style="background-color:#dee0e2"></div></td>
       <td>$grey-light</td>
-      <td>#f8f8f8</td>
+      <td>#dee0e2</td>
+    </tr>
+    <tr>
+      <td><div class="colour-swatch" style="background-color:#f5f5f5"></div></td>
+      <td>$grey-lighter</td>
+      <td>#f5f5f5</td>
     </tr>
   </tbody>
 </table>
 </div>
 
-
-<div class="content-break-sm"></div>
-
 <h2 id="typography">Typography</h2>
   <h3>Font</h3>
-  <p>Essex.gov.uk uses Arial.</p>
+  <p>Essex.gov.uk uses [Open Sans from Google Fonts](https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans:300,400,600,700) in the following weights:</p>
+  <p class="light">Light (300)</p>
+  <p class="regular">Regular (400)</p>
+  <p class="semi-bold">Semi-bold (600)</p>
+  <p class="bold">Bold (700)</p>
 
-<h3>Headings</h3>
+<h3>Hierarchy</h3>
   <p>Headings should create a clear hierarchy for content and use appropriate semantic markup.</p>
 
-<div class="demo-box">
-  <h1>Page heading - h1 (48px)</h1>
-  <h2>Content heading - h2 (36px)</h2>
-  <h3>Section heading - h3 (24px)</h3>
-  <h4>Sub-section heading - h4 (19px)</h4>
-</div>
+<h1>Page heading - h1 (46px)</h1>
+<h2>Content heading - h2 (36px)</h2>
+<h3>Section heading - h3 (28px)</h3>
+<h4>Sub-section heading - h4 (22px)</h4>
 
-<h3>Paragraphs</h3>
-  <p>The default size for body text is 19px.</p>
+<p>The default size for body text is 16px.</p>
 
 <div class="content-break-sm"></div>
 
 <h2 id="layout">Layout</h2>
-<p>Our grid currently only uses the divisions below with a gutter of 60px.</p>
+<p>Our main grid uses the divisions below with a gutter of 60px.</p>
+<p>We also use a wider gutter of 120px for displaying Essex County Council Services on the home page.</p>
 <div class="grid-row">
   <div class="column-full">
     <div class="demo-box">
-    <h3>column-full</h3>
+    <h3>Full</h3>
     <p>960px</p>
     </div>
   </div>
@@ -148,13 +210,13 @@
 <div class="grid-row">
   <div class="column-two-thirds">
     <div class="demo-box">
-      <h3>column-two-thirds</h3>
+      <h3>Two thirds</h3>
       <p>630px</p>
     </div>
   </div>
   <div class="column-third">
     <div class="demo-box">
-      <h3>column-third</h3>
+      <h3>Third</h3>
       <p>300px</p>
     </div>
   </div>
@@ -163,13 +225,13 @@
 <div class="grid-row">
   <div class="column-half">
     <div class="demo-box">
-      <h3>column-half</h3>
+      <h3>Half</h3>
       <p>465px</p>
     </div>
   </div>
   <div class="column-half">
     <div class="demo-box">
-      <h3>column-half</h3>
+      <h3>Half</h3>
       <p>465px</p>
     </div>
   </div>
@@ -178,23 +240,20 @@
 <div class="grid-row">
   <div class="column-third">
     <div class="demo-box">
-      <h3>column-third</h3>
+      <h3>Third</h3>
       <p>300px</p>
     </div>
   </div>
   <div class="column-third">
     <div class="demo-box">
-      <h3>column-third</h3>
+      <h3>Third</h3>
       <p>300px</p>
     </div>
   </div>
   <div class="column-third">
     <div class="demo-box">
-      <h3>column-third</h3>
+      <h3>Third</h3>
       <p>300px</p>
     </div>
   </div>
 </div>
-
-
-<h3>Screen sizes</h3>
