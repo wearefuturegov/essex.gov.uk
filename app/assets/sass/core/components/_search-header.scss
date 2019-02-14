@@ -11,23 +11,39 @@
     top: 0;
     bottom: 0;
     right: 0;
-    width: $gutter*4;
+    height: $baseline;
     .form {
       .group {
         position: relative;
+        margin-top: $baseline;
         margin-bottom: $baseline;
+        height: 40px;
+        width: $gutter*5;
+        @include media(mobile) {
+          width: 100%;
+        }
         label {
-          @include visually-hidden;
+          padding: $baseline*0.25 $baseline*0.5;
+          line-height: calc(#{$baseline} + 4px);
+          height: calc(#{$baseline} + 4px);
         }
         input {
-          background: $white;
-          line-height: $nav-height*0.25;
-          height: $nav-height*0.5;
-          margin-top: $nav-height*0.25;
-          margin-bottom: $nav-height*0.25;
-          padding: 0 $gutter*0.25;
           border: none;
-          margin-bottom: 0;
+          height: 40px;
+          padding: $baseline*0.25 $baseline*0.5;
+        }
+        #search {
+          width: calc(100% - 40px);
+        }
+        .fas.fa-search.search-icon-position {
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          background: none;
+          border: none;
+          font-size: $icon*0.4;
+          padding: $baseline*0.35;
         }
       }
     }
