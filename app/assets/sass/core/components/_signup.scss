@@ -31,7 +31,7 @@
             color: $brand;
             background-color: $white;
             border: $border-normal $white solid;
-            padding: $gutter*0.25 + $border-thick - 1px $gutter*0.25 + $border-thick + 2px;
+            padding: 11px $gutter*0.25 + $border-thick + 2px;
             &:hover {
               color: $brand;
               background-color: $white-hover;
@@ -74,8 +74,8 @@
         z-index: 0;
         margin-right: 0;
         padding: $gutter*0.25 + $border-thick - 1px $gutter*0.25 + $border-thick + 2px;
-        line-height: 60px - $gutter*0.5 - $border-thick - 1px;
-        height: 60px - $gutter*0.5 - $border-thick - 1px;
+        line-height: 50px - $gutter*0.5 - $border-thick - 1px;
+        height: 50px - $gutter*0.5 - $border-thick - 1px;
         z-index: 0;
       }
       .signup-input {
@@ -86,8 +86,8 @@
           background: transparent;
           position: absolute;
           top: 0;
-          line-height: 60px;
-          height: 60px;
+          line-height: 50px;
+          height: 50px;
           text-indent: -5000px;
           width: calc(100% - #{$gutter});
           &:focus {
