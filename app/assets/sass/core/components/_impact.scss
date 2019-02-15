@@ -19,7 +19,7 @@
     display: inline-block;
     display: flex;
     .overlay {
-      background: $overlay-heavy;
+      background: $white;
       @include grid-column(2 / 4);
       position: relative;
       margin: $gutter*0.5;
@@ -31,9 +31,6 @@
         }
         h2, h3 {
           margin-top: 0;
-          a {
-            font-weight: $semi;
-          }
         }
       }
       @include media(mobile) {
