@@ -1,65 +1,5 @@
-.signup-background {
-  background-color: $brand;
-  .signup {
-    @extend %site-width-container;
-    padding-top: $baseline*2;
-    padding-bottom: $baseline*2;
-    @media print {
-      display: none;
-    }
-    h3 {
-      margin-top: 0;
-    }
-    h3, p {
-      color: $white;
-      font-weight: 400;
-    }
-    .form {
-      .group {
-        @extend %grid-row;
-        .signup-input {
-          @include grid-column(2 / 3);
-          input {
-            border: none
-          }
-        }
-        .signup-button {
-          @include grid-column(1 / 3);
-          input.button.subscribe {
-            width: 100%;
-            font-weight: 600;
-            color: $brand;
-            background-color: $white;
-            border: $border-normal $white solid;
-            padding: 11px $gutter*0.25 + $border-thick + 2px;
-            &:hover {
-              color: $brand;
-              background-color: $white-hover;
-              border-color: $white-hover;
-            }
-          }
-        }
-      }
-    }
-    .social {
-      text-align: left;
-      margin-top: 0;
-      margin-bottom: 0;
-      li {
-        padding: 0 $gutter*0.05 0 $gutter*0.05;
-        a {
-          color: $white;
-          &:hover {
-            color: $white-on-black-hover;
-          }
-        }
-      }
-    }
-  }
-}
-
-
 .signup {
+  @extend %site-width-container;
   @media print {
     display: none;
   }
@@ -81,8 +21,11 @@
       .signup-input {
         @include grid-column(2 / 3);
         position: relative;
+        @include media(mobile) {
+          margin-bottom: $baseline;
+        }
         input {
-          padding: $gutter*0.25 + $border-thick - 1px $gutter*0.25 + $border-thick + 2px;
+          padding: $gutter*0.25 + $border-thick - 1px $gutter*0.25 + $border-thick;
           background: transparent;
           position: absolute;
           top: 0;
@@ -93,21 +36,72 @@
           &:focus {
             text-indent: 0;
             background: #fff;
-            outline-offset: -3px;
+            // outline-offset: -3px;
           }
         }
       }
       .signup-button {
         @include grid-column(1 / 3);
         input.button.subscribe {
-          border: none;
-          width: 100%;
-          font-weight: 600;
           color: $white;
           background-color: $brand;
-          border: none;
+          font-weight: 600;
+          border: $border-normal $brand solid;
+          padding: 11px $gutter*0.25 + $border-thick + 2px;
+          width: 100%;
           &:hover {
             background-color: $brand-hover-darken;
+          }
+        }
+      }
+    }
+  }
+}
+
+.signup-background {
+  background-color: $brand;
+  .signup {
+    padding-top: $baseline*2;
+    padding-bottom: $baseline*2;
+    h3 {
+      font-weight: 400;
+    }
+    h3, p {
+      color: $white;
+      margin-top: 0;
+    }
+    .form {
+      .group {
+        .signup-input {
+          input {
+            padding: $gutter*0.25 + $border-thick - 1px $gutter*0.25 + $border-thick + 2px;
+            border: none
+          }
+        }
+        .signup-button {
+          input.button.subscribe {
+            color: $brand;
+            background-color: $white;
+            border: $border-normal $white solid;
+            &:hover {
+              color: $brand;
+              background-color: $white-hover;
+              border-color: $white-hover;
+            }
+          }
+        }
+      }
+    }
+    .social {
+      text-align: left;
+      margin-top: 0;
+      margin-bottom: 0;
+      li {
+        padding: 0 $gutter*0.05 0 $gutter*0.05;
+        a {
+          color: $white;
+          &:hover {
+            color: $white-on-black-hover;
           }
         }
       }

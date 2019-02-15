@@ -14,8 +14,8 @@
   <form action="/search" method="get" role="search" class="form">
     <div class="group">
       <div class="signup-input">
-        <label for="email">Email</label>
-        <input type="text" class="form-control" placeholder="Enter your email address" id="email" name="email" required="">
+        <label for="email">Enter your email address</label>
+        <input type="text" placeholder="Enter your email address" id="email" name="email">
       </div>
       <div class="signup-button">
         <input type="submit" class="button subscribe" value="Subscribe">
@@ -31,8 +31,8 @@
       <form action="/search" method="get" role="search" class="form">
         <div class="group">
           <div class="signup-input">
-            <label for="email">Email</label>
-            <input type="text" class="form-control" placeholder="Enter your email address" id="email" name="email" required="">
+            <label for="email">Enter your email address</label>
+            <input type="text" placeholder="Enter your email address" id="email" name="email">
           </div>
           <div class="signup-button">
             <input type="submit" class="button subscribe" value="Subscribe">
@@ -52,8 +52,8 @@
     <form action="/search" method="get" role="search" class="form">
       <div class="group">
         <div class="signup-input">
-          <label for="email">Email</label>
-          <input type="text" class="form-control" placeholder="Enter your email address" id="email" name="email">
+          <label for="email">Enter your email address</label>
+          <input type="text" placeholder="Enter your email address" id="email" name="email">
         </div>
         <div class="signup-button">
           <input type="submit" class="button subscribe" value="Subscribe">
@@ -72,8 +72,8 @@
         <form action="/search" method="get" role="search" class="form">
           <div class="group">
             <div class="signup-input">
-              <label for="email">Email</label>
-              <input type="text" class="form-control" placeholder="Enter your email address" id="email" name="email">
+              <label for="email">Enter your email address</label>
+              <input type="text" placeholder="Enter your email address" id="email" name="email">
             </div>
             <div class="signup-button">
               <input type="submit" class="button subscribe" value="Subscribe">

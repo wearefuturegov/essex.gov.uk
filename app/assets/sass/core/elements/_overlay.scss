@@ -10,6 +10,9 @@
   right: 0;
   .overlay-box {
     @extend %site-width-container;
+    @include media(tablet) {
+      margin: 0 auto;
+    }
     .overlay-content {
       @extend %grid-row;
       h2, p {
