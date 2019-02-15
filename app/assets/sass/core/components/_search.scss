@@ -13,24 +13,24 @@
       margin-bottom: $baseline;
       background: $white;
       overflow: hidden;
-      height: 60px;
+      // height: 60px;
+      label, input {
+        @include box-sizing(border-box);
+        line-height: $baseline;
+        height: $form-padding*8;
+        padding: $form-padding*2 + $border-thick;
+        width: 100%;
+      }
       label {
         $color: $body-text-colour;
         background: $white;
         z-index: 0;
         margin-right: 0;
-        padding: $gutter*0.25 + $border-thick - 1px $gutter*0.25 + $border-thick;
-        line-height: calc(#{$baseline} + #{$border-thick});
-        height: calc(#{$baseline} + #{$border-thick});
       }
       input {
-        @include default-type;
         border: $border-thin solid $grey-dark;
-        padding: 0 $gutter*0.25;
-        height: $baseline*1.5;
-        width: 100%;
+        padding: $form-padding*2 + $border-thin + 1px;
         margin-bottom: 0;
-        @include box-sizing(border-box);
         &::-ms-clear {
           display: none;
         }
@@ -49,22 +49,24 @@
           outline-offset: -3px;
         }
       }
-      .fas.fa-search {
+      .fas.fa-search.search-icon-position {
+        @include box-sizing(border-box);
         font-size: $icon*0.5;
-        color: $search;
-        padding: 0;
+        line-height: $icon*0.5;
+        color: $white;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: none;
+        border: none;
+        padding: 10px;
+        background: $brand;
+        width: $gutter - $border-normal;
         &:hover {
           cursor: pointer;
-          color: $grey-darker;
-        }
-        &.search-icon-position {
-          position: absolute;
-          top: 0;
-          right: 0;
-          bottom: 0;
-          background: none;
-          border: none;
-          padding: $baseline*0.5;
+          color: $white-hover;
         }
       }
     }

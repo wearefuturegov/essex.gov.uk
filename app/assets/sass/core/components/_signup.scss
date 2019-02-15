@@ -13,30 +13,30 @@
         background: $white;
         z-index: 0;
         margin-right: 0;
-        padding: $gutter*0.25 + $border-thick - 1px $gutter*0.25 + $border-thick + 2px;
-        line-height: 50px - $gutter*0.5 - $border-thick - 1px;
-        height: 50px - $gutter*0.5 - $border-thick - 1px;
         z-index: 0;
       }
       .signup-input {
-        @include grid-column(2 / 3);
         position: relative;
+        @include grid-column(2 / 3);
         @include media(mobile) {
           margin-bottom: $baseline;
         }
+        label, input {
+          @include box-sizing(border-box);
+          line-height: $baseline;
+          height: $form-padding*8;
+          padding: $form-padding*2 + $border-thick;
+        }
         input {
-          padding: $gutter*0.25 + $border-thick - 1px $gutter*0.25 + $border-thick;
           background: transparent;
           position: absolute;
           top: 0;
-          line-height: 50px;
-          height: 50px;
           text-indent: -5000px;
           width: calc(100% - #{$gutter});
+          padding: $form-padding*2 + $border-thin;
           &:focus {
             text-indent: 0;
             background: #fff;
-            // outline-offset: -3px;
           }
         }
       }
@@ -47,7 +47,9 @@
           background-color: $brand;
           font-weight: 600;
           border: $border-normal $brand solid;
-          padding: 11px $gutter*0.25 + $border-thick + 2px;
+          line-height: $baseline;
+          height: $form-padding*8;
+          padding: $form-padding*2 + $border-thick;
           width: 100%;
           &:hover {
             background-color: $brand-hover-darken;
@@ -73,8 +75,10 @@
     .form {
       .group {
         .signup-input {
+          label, input {
+            padding: $form-padding*2 + $border-thick;
+          }
           input {
-            padding: $gutter*0.25 + $border-thick - 1px $gutter*0.25 + $border-thick + 2px;
             border: none
           }
         }

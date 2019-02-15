@@ -4,9 +4,6 @@
     padding-right: $gutter*3;
   }
   .search {
-    @media print {
-      display: none;
-    }
     position: absolute;
     top: 0;
     bottom: 0;
@@ -14,7 +11,6 @@
     height: $baseline;
     .form {
       .group {
-        position: relative;
         margin-top: $baseline;
         margin-bottom: $baseline;
         height: 40px;
@@ -22,15 +18,8 @@
         @include media(mobile) {
           width: 100%;
         }
-        label {
-          padding: $baseline*0.25 $baseline*0.5;
-          line-height: calc(#{$baseline} + 4px);
-          height: calc(#{$baseline} + 4px);
-        }
-        input {
+        label, input {
           border: none;
-          height: 40px;
-          padding: $baseline*0.25 $baseline*0.5;
         }
         #search {
           width: calc(100% - 40px);
