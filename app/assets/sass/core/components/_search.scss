@@ -13,7 +13,6 @@
       margin-bottom: $baseline;
       background: $white;
       overflow: hidden;
-      // height: 60px;
       label, input {
         @include box-sizing(border-box);
         line-height: $baseline;

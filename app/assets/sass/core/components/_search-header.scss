@@ -11,18 +11,20 @@
     height: $baseline;
     .form {
       .group {
-        margin-top: $baseline;
-        margin-bottom: $baseline;
-        height: 40px;
+        margin-top: $baseline*0.75;
+        margin-bottom: $baseline*0.75;
         width: $gutter*5;
         @include media(mobile) {
           width: 100%;
         }
         label, input {
           border: none;
+          line-height: $baseline;
+          height: $form-padding*6;
+          padding: $form-padding + $border-thick;
         }
         #search {
-          width: calc(100% - 40px);
+          width: calc(100% - #{$gutter*0.75});
         }
         .fas.fa-search.search-icon-position {
           position: absolute;
@@ -32,7 +34,8 @@
           background: none;
           border: none;
           font-size: $icon*0.4;
-          padding: $baseline*0.35;
+          color: $black;
+          width: $gutter*0.75;
         }
       }
     }
