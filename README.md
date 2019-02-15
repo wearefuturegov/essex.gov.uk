@@ -1,27 +1,25 @@
-# GOV.UK Prototype kit · [![Greenkeeper badge](https://badges.greenkeeper.io/alphagov/govuk_prototype_kit.svg)](https://greenkeeper.io/)
+# Essex.gov.uk prototyping and Design System
 
-Go to the [GOV.UK Prototype Kit site](https://govuk-prototype-kit.herokuapp.com/docs) to download the latest version and read the documentation.
+We use this Github repo for user testing and prototyping and developing our Design System.
 
-## About the prototype kit
+## Branches
 
-The prototype kit provides a simple way to make interactive prototypes that look like pages on GOV.UK. These prototypes can be used to show ideas to people you work with, and to do user research.
+### Core
 
-Read the [project principles](https://govuk-prototype-kit.herokuapp.com/docs/principles).
+By default we are setup to merge code into `core` branch. this branch is used for developing our Design System. We also have a [auto deployment setup to Heroku](https://essex-design-system.herokuapp.com).
 
-## Security
+### Master branch
 
-If you publish your prototypes online, they **must** be protected by a [username and password](https://govuk-prototype-kit.herokuapp.com/docs/publishing-on-heroku). This is to prevent members of the public finding prototypes and thinking they are real services.
+We use `master` only for versions for user testing sessions. This separation of `core` and `master` development allows contious iteratoin in both areas without each affecting the other. This is especially ueful during using testing sessions.
 
-You must protect user privacy at all times, even when using prototypes. Prototypes made with the kit look like GOV.UK, but do not have the same security provisions. Always make sure you are handling user data appropriately.
+We have a seperate [auto deployment setup to Herkou](https://essex-prototype.herokuapp.com).
 
-## Installation instructions
+## Setup
 
-- [Installation guide for new users (non technical)](https://govuk-prototype-kit.herokuapp.com/docs/install/introduction)
-- [Installation guide for developers (technical)](https://govuk-prototype-kit.herokuapp.com/docs/install/developer-install-instructions)
+We are using Gov.uk Prototype kit, so intial setup can follow their guide [here for non-tech](https://govuk-prototype-kit.herokuapp.com/docs/install/introduction) and [here for those with more technical experience](https://govuk-prototype-kit.herokuapp.com/docs/install/developer-install-instructions) for dependencies installation. 
 
-## Community
+After setup, cloning of this repo into a new folder should work.
 
-We have two Slack channels for the Prototype kit. You'll need a government email address to join them.
+## Folder structure
 
-* [Slack channel for users of the prototype kit](https://ukgovernmentdigital.slack.com/messages/prototype-kit/)
-* [Slack channel for developers of the prototype kit](https://ukgovernmentdigital.slack.com/messages/prototype-kit-dev/)
+We have introduced Component Design principles for our folder structure both for sass and documentation, with the magic happening in `/core/` respectfully.
