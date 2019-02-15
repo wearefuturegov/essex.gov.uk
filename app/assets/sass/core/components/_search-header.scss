@@ -4,30 +4,38 @@
     padding-right: $gutter*3;
   }
   .search {
-    @media print {
-      display: none;
-    }
     position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
-    width: $gutter*4;
+    height: $baseline;
     .form {
       .group {
-        position: relative;
-        margin-bottom: $baseline;
-        label {
-          @include visually-hidden;
+        margin-top: $baseline*0.75;
+        margin-bottom: $baseline*0.75;
+        width: $gutter*5;
+        @include media(mobile) {
+          width: 100%;
         }
-        input {
-          background: $white;
-          line-height: $nav-height*0.25;
-          height: $nav-height*0.5;
-          margin-top: $nav-height*0.25;
-          margin-bottom: $nav-height*0.25;
-          padding: 0 $gutter*0.25;
+        label, input {
           border: none;
-          margin-bottom: 0;
+          line-height: $baseline;
+          height: $form-padding*6;
+          padding: $form-padding + $border-thick;
+        }
+        #search {
+          width: calc(100% - #{$gutter*0.75});
+        }
+        .fas.fa-search.search-icon-position {
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          background: none;
+          border: none;
+          font-size: $icon*0.4;
+          color: $black;
+          width: $gutter*0.75;
         }
       }
     }

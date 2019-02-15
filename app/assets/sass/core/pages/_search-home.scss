@@ -7,6 +7,11 @@
   .overlay {
     background: $overlay-brand;
   }
+  .hero {
+    @include media(mobile) {
+      height: $baseline*10;
+    }
+  }
   .search {
     @extend %site-width-container;
     @include media(mobile) {
@@ -16,43 +21,47 @@
     .search-buttons {
       display: none;
     }
-    .search-box {
+    .greeting, .search-input {
       @extend %grid-row;
       @include grid-column(2 / 3);
-      @include box-sizing(border-box);
       @include border-radius($border-radius);
-      margin: $baseline*2 0;
-      background-color: $overlay;
-      position: relative;
-      padding: $gutter*0.25;
+      position: relative;;
       @include media(mobile) {
         margin: 0;
-        padding: $outer-grid-margin;
+      }
+    }
+    .greeting {
+      margin-top: $baseline*3;
+      width: auto;
+      @include media(mobile) {
+        margin-top: 0;
+        padding-top: $baseline;
       }
       h1 {
-        display: block;
+        padding: $form-padding*2;
+        background: $white;
+        margin-top: 0;
+        margin-bottom: $border-thick;
       }
     }
     .form {
       .group {
-        position: relative;
         margin-bottom: 0;
-        input {
-          @include default-type;
-          @include border-radius($border-radius);
-          @include box-sizing(border-box);
-          border: $border-thick solid $white;
-          padding: $outer-grid-padding * 2;
-          margin-bottom: 0;
-          height: $baseline*2.5;
-          width: 100%;
-          @include media(mobile) {
-            font-size: $smaller;
-            padding: $baseline*0.25 $gutter*1.5 $baseline*0.25 $gutter*0.5;
-          }
+        input, label {
+          border: none;
+          line-height: $baseline;
+          height: $form-padding*8;
+          padding: $form-padding*2 + $border-thick;
         }
-        .search-icon-position .fa-search {
-          font-size: $icon*0.75;
+        input {
+          margin-bottom: 0;
+          width: 100%;
+        }
+        .fa-search.search-icon-position  {
+          font-size: $icon*0.5;
+          line-height: $baseline*1.25;
+          padding: 10px;
+          background: $white;
           color: $search;
             &:hover {
             color: $search-hover;
@@ -61,7 +70,7 @@
       }
     }
   }
-  + main#content h1.h3 {
+  + main#content .h3 {
     font-weight: $light;
   }
 }

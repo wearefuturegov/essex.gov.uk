@@ -19,21 +19,24 @@
     display: inline-block;
     display: flex;
     .overlay {
-      background: $overlay-heavy;
+      background: $white;
       @include grid-column(2 / 4);
       position: relative;
       margin: $gutter*0.5;
       .overlay-content {
         padding: $gutter*0.5;
+        @include media(mobile) {
+          padding: 0;
+          h2 {
+            font-size: 30px;
+          }
+        }
         h2, p {
           padding-left: 0;
           padding-right: 0;
         }
         h2, h3 {
           margin-top: 0;
-          a {
-            font-weight: $semi;
-          }
         }
       }
       @include media(mobile) {
