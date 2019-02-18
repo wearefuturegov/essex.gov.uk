@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Pagination
+# Pagination
 
 <nav class="pagination">
   <ul>
@@ -57,7 +57,7 @@
       </ul>
     </nav>
 
-### Using pagination
+## Using pagination
 
 Pagination helps users navigate through content pages that are grouped together.
 

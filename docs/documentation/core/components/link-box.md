@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Link box
+# Link box
 
 <ul class="link-boxes">
   <li class="link-box">
@@ -68,7 +68,7 @@
     </ul>
 
 
-### Using link boxes
+## Using link boxes
 
 Link boxes are usually displayed on topic pages and help to signpost users to the most popular or useful content within that section.
 

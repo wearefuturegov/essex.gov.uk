@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Footer
+# Footer
 
 <footer class="footer-container">
   <div class="footer-top">
@@ -70,7 +70,7 @@
     </footer>
 
 
-### Using the footer
+## Using the footer
 
 The footer is displayed at the bottom of every page and is consistent across the entire site.
 

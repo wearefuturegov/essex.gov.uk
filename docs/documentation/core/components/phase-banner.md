@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Phase banner
+# Phase banner
 
 <div class="phase-banner-background">
   <div class="phase-banner">
@@ -35,7 +35,7 @@
       </div>
     </div>
 
-### Using banners
+## Using banners
 
 Phase banners should be used to tell the user what stage of development the website is in.
 

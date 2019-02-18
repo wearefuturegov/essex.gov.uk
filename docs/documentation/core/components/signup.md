@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Signup
+# Signup
 
 <div class="signup">
   <h3>
@@ -41,7 +41,7 @@
       </form>
     </div>
 
-## Big signup
+# Big signup
 
 <div class="signup-background">
   <div class="signup">
@@ -83,7 +83,7 @@
       </div>
     </div>
 
-### Using signup
+## Using signup
 
 Signup enables users to enter their email address to subscribe to notifications. It's primarily used for email signups but could also be applied to other methods of communication.
 

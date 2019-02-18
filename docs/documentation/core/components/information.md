@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Information alert
+# Information alert
 
 <div class="alert info js-hidden" id="tab-one" aria-hidden="true">
   <div class="alert-icon">
@@ -35,7 +35,7 @@
       </div>
     </div>
 
-### Using Information alerts
+## Using Information alerts
 
 Information alerts are used to direct a user's attention to important information. This could include:
 <ul>

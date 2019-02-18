@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## File download
+# File download
 
 <div class="file-download"><a href="" class="file-link">This is a title for the file download link</a>
 	<p><span>PDF, 4.84 MB</span>This is used for any descriptions required for this downloadable file.</p>
@@ -31,6 +31,6 @@ If we need to show multiple files it is recommended to have signposting to acces
 	</div>
 </div>
 
-### Using file links
+## Using file links
 
 We use file links for displaying to users downloadable files such as pdf.

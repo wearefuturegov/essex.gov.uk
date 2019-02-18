@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Nav
+# Nav
 
 <nav class="nav">
   <ul class="nav-links">
@@ -25,7 +25,7 @@
       </ul>
     </nav>
 
-### Using the nav
+## Using the nav
 
 The nav element is a horizontal list of links that help users to navigate to other sections of the website. It typically displays the top level of information architecture.
 

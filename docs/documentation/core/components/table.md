@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Table
+# Table
 
 <div class="table">
   <table>
@@ -65,7 +65,7 @@
         </tbody>
     </table>
 
-### Using tables
+## Using tables
 
 Tables should be used to display data. They should be easy to scan and help users compare figures and key bits of information.
 

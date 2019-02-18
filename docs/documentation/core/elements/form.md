@@ -5,13 +5,13 @@
   </ol>
 </div>
 
-## Form
+# Form
 
 <form class="form">
   <div class="group">
-    <label>Full name</label>
+    <label for="name">Full name</label>
     <span class="form-hint">As shown on your birth certificate or passport</span>
-    <input class="form-control" id="" name="" type="" pattern="" min="" max="">
+    <input class="form-control" id="name" name="name" type="text">
   </div>
   <div class="group">
     <fieldset>
@@ -24,16 +24,16 @@
         </span>
       </legend>
       <div class="group day">
-        <label for="">Day</label>
-        <input class="form-control" name="" type="" pattern="" min="" max="">
+        <label for="day">Day</label>
+        <input class="form-control" id="day" name="day" type="number">
       </div>
       <div class="group month">
-        <label for="">Month</label>
-        <input class="form-control" name="" type="" pattern="" min="" max="">
+        <label for="month">Month</label>
+        <input class="form-control" id="month" name="month" type="number">
       </div>
       <div class="group year">
-        <label for="">Year</label>
-        <input class="form-control" name="" type="" pattern="" min="" max="">
+        <label for="year">Year</label>
+        <input class="form-control" id="year" name="year" type="number">
       </div>
     </fieldset>
   </div>
@@ -42,9 +42,9 @@
 
     <form class="form">
       <div class="group">
-        <label>Full name</label>
+        <label for="name">Full name</label>
         <span class="form-hint">As shown on your birth certificate or passport</span>
-        <input class="form-control" id="" name="" type="" pattern="" min="" max="">
+        <input class="form-control" id="name" name="name" type="text">
       </div>
       <div class="group">
         <fieldset>
@@ -57,18 +57,25 @@
             </span>
           </legend>
           <div class="group day">
-            <label for="">Day</label>
-            <input class="form-control" name="" type="" pattern="" min="" max="">
+            <label for="day">Day</label>
+            <input class="form-control" id="day" name="day" type="number">
           </div>
           <div class="group month">
-            <label for="">Month</label>
-            <input class="form-control" name="" type="" pattern="" min="" max="">
+            <label for="month">Month</label>
+            <input class="form-control" id="month" name="month" type="number">
           </div>
           <div class="group year">
-            <label for="">Year</label>
-            <input class="form-control" name="" type="" pattern="" min="" max="">
+            <label for="year">Year</label>
+            <input class="form-control" id="year" name="year" type="number">
           </div>
         </fieldset>
       </div>
       <input type="submit" class="button" value="Continue">
     </form>
+
+*Note: Be sure to update all label and input attributes with the correct details i.e.*
+    
+    <label for=""></label>
+    <input id="">
+    <input type="">
+    <input name="">

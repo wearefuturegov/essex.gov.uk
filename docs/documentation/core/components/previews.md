@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Previews
+# Previews
 
 <div class="previews">
   <div class="preview">
@@ -127,7 +127,7 @@
       </div>
     </div>
 
-### Using previews
+## Using previews
 
 The preview component signposts users to other pages of content using a link and a snippet of text. It can also include an image and <a href="/docs/core/elements/meta">metadata</a>.
 

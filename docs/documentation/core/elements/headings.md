@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Headings
+# Headings
 
 <h1 class="page-heading">Page heading</h1>
 
@@ -24,7 +24,7 @@
     <h4 class="sub-section-heading">Sub-section heading</h4>
 
 
-### Using headings
+## Using headings
 
 Headings should be written in sentence case and follow correct semantic structure, for example h1 before h2.
 

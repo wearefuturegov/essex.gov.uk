@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Meta
+# Meta
 
 <p class="meta">
   Last updated: 25 June 2018
@@ -15,7 +15,7 @@
       Last updated: 25 June 2018
     </p>
 
-### Using meta
+## Using meta
 
 This element should be used when metadata needs to be visible to the user, for example to display:
 <ul>

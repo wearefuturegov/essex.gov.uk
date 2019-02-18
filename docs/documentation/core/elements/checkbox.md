@@ -5,22 +5,23 @@
   </ol>
 </div>
 
-## Checkbox
+# Checkbox
 
 <div class="form">
   <div class="group">
     <fieldset>
+      <legend>Ask your question?</legend>
       <div class="multiple-choice">
-        <input id="" name="checkbox" type="checkbox" value="">
-        <label for="">Telephone</label>
+        <input id="telephone" name="checkbox" type="checkbox" value="Telephone">
+        <label for="telephone">Telephone</label>
       </div>
       <div class="multiple-choice">
-        <input id="" name="checkbox" type="checkbox" value="">
-        <label for="">Email</label>
+        <input id="email" name="checkbox" type="checkbox" value="Email">
+        <label for="email">Email</label>
       </div>
-      <div class="multiple-choice" data-target="checkbox-selection">
-        <input id="" name="checkbox" type="checkbox" value="">
-        <label for="">Post</label>
+      <div class="multiple-choice">
+        <input id="post" name="checkbox" type="checkbox" value="Post">
+        <label for="post">Post</label>
       </div>
       <div class="panel js-hidden" id="checkbox-selection">
           This panel is shown if selecting last checkbox
@@ -32,17 +33,18 @@
     <div class="form">
       <div class="group">
         <fieldset>
+          <legend>Ask your question?</legend>
           <div class="multiple-choice">
-            <input id="" name="checkbox" type="checkbox" value="">
-            <label for="">Telephone</label>
+            <input id="telephone" name="checkbox" type="checkbox" value="Telephone">
+            <label for="telephone">Telephone</label>
           </div>
           <div class="multiple-choice">
-            <input id="" name="checkbox" type="checkbox" value="">
-            <label for="">Email</label>
+            <input id="email" name="checkbox" type="checkbox" value="Email">
+            <label for="email">Email</label>
           </div>
-          <div class="multiple-choice" data-target="checkbox-selection">
-            <input id="" name="checkbox" type="checkbox" value="">
-            <label for="">Post</label>
+          <div class="multiple-choice">
+            <input id="post" name="checkbox" type="checkbox" value="Post">
+            <label for="post">Post</label>
           </div>
           <div class="panel js-hidden" id="checkbox-selection">
               This panel is shown if selecting last checkbox
@@ -51,7 +53,7 @@
       </div>
     </div>
 
-### Using checkbox
+## Using checkbox
 
 Checkbox enables users to select more than one choice at a time from a selection of inputs, for examples all items that apply from a list.
 

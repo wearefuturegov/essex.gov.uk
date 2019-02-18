@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Preview list
+# Preview list
 
 <div class="preview-list">
   <ul>
@@ -65,7 +65,7 @@
       </div>
     </div>
 
-### Preview list
+## Preview list
 
 A preview list is a way to signpost users to other content using a link and short excerpt of text.
 

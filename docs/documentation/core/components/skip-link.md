@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Skip link
+# Skip link
 
 Press tab to view Skip link working and the skip link.
 
@@ -21,7 +21,7 @@ Press tab to view Skip link working and the skip link.
 	  </div>
 	</div>
 
-### Using Skip link
+## Using Skip link
 
 The Skip link is displayed at the top of the website and intiially hidden, and only to appear when a user presses `tab` to focus links.
 

@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Social
+# Social
 
 <ul class="social">
   <li>

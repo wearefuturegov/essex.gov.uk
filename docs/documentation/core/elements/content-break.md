@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Content break
+# Content break
 
 <div class="content-break-lg"></div>
 
@@ -15,7 +15,7 @@
 
     <div class="content-break-sm"></div>
 
-### Using content breaks
+## Using content breaks
 
 Content breaks are visual elements used to separate sections of content.
 

@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Impact
+# Impact
 
 <div class="impact">
   <div class="overlay"></div>
@@ -35,7 +35,7 @@
       </div>
     </div>
 
-### Using impact
+## Using impact
 
 The impact component brings together a <a href="/docs/core/elements/hero">hero image</a> and <a href="/docs/core/elements/overlay">overlay</a> to highlight content for news, campaigns and promotions.
 

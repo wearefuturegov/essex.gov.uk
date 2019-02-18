@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Steps
+# Steps
 
 <div class="preview-list steps">
   <div class="step">
@@ -109,7 +109,7 @@
       </div>
     </div>
 
-### Using steps
+## Using steps
 
 The steps component is designed to help users navigate their way through a step-by-step process.
 

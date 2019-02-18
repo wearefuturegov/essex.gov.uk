@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Related
+# Related
 
 <aside class="related" role="">
   <h3>Related content</h3>
@@ -29,7 +29,7 @@
       </nav>
     </aside>
 
-### Using related content
+## Using related content
 
 The realted content component is a vertical list of links, signposting users to other content that might be useful.
 

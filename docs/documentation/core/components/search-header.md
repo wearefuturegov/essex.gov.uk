@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Search-header
+# Search-header
 
 <header class="header-background">
   <div class="header">
@@ -51,4 +51,4 @@
 
 
 
-### Using search header
+## Using search header

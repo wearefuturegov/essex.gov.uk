@@ -5,13 +5,13 @@
   </ol>
 </div>
 
-## Back
+# Back
 
 <a href="/" class="link-back">Back</a>
 
     <a href="/" class="link-back">Back</a>
 
-### Using the back link
+## Using the back link
 
 The back link takes users back to the previous page. It should be used for transactional pages, such as an online form.
 
