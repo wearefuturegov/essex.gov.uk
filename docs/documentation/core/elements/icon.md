@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Icon
+# Icon
 
 <i class="fas fa-exclamation-triangle"></i>
 
@@ -59,7 +59,7 @@
 
 	<i class="fas fa-times"></i>
 
-### Using icons
+## Using icons
 
 Icons should only be used when there is a user need.
 

@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Side-nav
+# Side-nav
 
 <div class="side-nav" role="">
   <h3>Adult Social Care</h3>
@@ -38,7 +38,7 @@
     </div>
 
 
-### Using side nav
+## Using side nav
 
 The side nav is a vertical list of links positioned at the right side of the body content.
 

@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Contents
+# Contents
 
 <div class="contents">
   <div class="heading">
@@ -43,7 +43,7 @@
       </ol>
     </div>
 
-### Using contents
+## Using contents
 
 Contents is an in-page navigation to guide the user through a series of pages that are linked together.
 

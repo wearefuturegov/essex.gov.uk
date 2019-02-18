@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Overlay, overlay-content
+# Overlay, overlay-content
 
 <div class="overlay">
   <div class="overlay-box">
@@ -29,7 +29,7 @@
       </div>
     </div>
 
-### Using overlay
+## Using overlay
 
 The overlay element is designed to sit on top of an image and contain supporting text and a link.
 

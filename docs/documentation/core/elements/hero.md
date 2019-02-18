@@ -5,13 +5,13 @@
   </ol>
 </div>
 
-## Hero
+# Hero
 
     <div class="hero"></div>
 
 <div class="hero"></div>
 
-### Using hero
+## Using hero
 
 A hero image is used to promote council campaigns.
 

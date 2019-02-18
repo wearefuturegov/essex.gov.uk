@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Buttons
+# Buttons
 
 <a class="button button-start" href="financial-assessment-eligibility" role="button">Start now</a>
 
@@ -15,7 +15,7 @@
 
     <input type="submit" class="button" value="Continue">
 
-### Using buttons
+## Using buttons
 
 Buttons should be used to help users carry out a task, like starting an application.
 

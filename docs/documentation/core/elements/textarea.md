@@ -5,25 +5,25 @@
   </ol>
 </div>
 
-## Textarea
+# Textarea
 
 <div class="form">
   <div class="group">
-    <label>Can you provide more detail?</label>
+    <label for="details">Can you provide more detail?</label>
     <span class="form-hint">Don’t include personal or financial information, such as your credit card details.</span>
-    <textarea class="textarea" id="" name="" rows="5" aria-describedby=""></textarea>
+    <textarea class="textarea" id="details" name="details" rows="5"></textarea>
   </div>
 </div>
 
     <div class="form">
       <div class="group">
-        <label>Can you provide more detail?</label>
+        <label for="details">Can you provide more detail?</label>
         <span class="form-hint">Don’t include personal or financial information, such as your credit card details.</span>
-        <textarea class="textarea" id="" name="" rows="5" aria-describedby=""></textarea>
+        <textarea class="textarea" id="details" name="details" rows="5"></textarea>
       </div>
     </div>
 
-### Using textarea
+## Using textarea
 
 The textarea element enables users to input multiple lines of text.
 

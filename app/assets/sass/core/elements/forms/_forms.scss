@@ -238,18 +238,25 @@ select:focus::-ms-value {
   background-color: $link;
 }
 
-.form .group {
-  display: block;
-  label, input {
-    @include default-type;
-    text-transform: none;
+.form {
+  legend {
+    @include h4;
+    margin-top: 0;
+    margin-bottom: $baseline*0.25;
+  }
+  .group {
     display: block;
-  }
-  .form-hint {
-    @include default-type;
-    color: $grey-dark;
-  }
-  select, input, textarea {
-    width: 100%;
+    label, input {
+      @include default-type;
+      text-transform: none;
+      display: block;
+    }
+    .form-hint {
+      @include default-type;
+      color: $grey-dark;
+    }
+    select, input, textarea {
+      width: 100%;
+    }
   }
 }

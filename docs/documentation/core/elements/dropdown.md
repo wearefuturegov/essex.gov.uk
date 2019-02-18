@@ -5,12 +5,12 @@
   </ol>
 </div>
 
-## Dropdown
+# Dropdown
 
 <div class="form">
   <div class="group">
-    <label class="form-hint">Sort by</label>
-    <select class="form-control" id="" name="">
+    <label for="sorting" class="form-hint">Sort by</label>
+    <select class="form-control" id="sorting" name="sorting">
       <option>Recently published</option>
       <option selected>Recently updated</option>
       <option>Most views</option>
@@ -21,8 +21,8 @@
 
     <div class="form">
       <div class="group">
-        <label class="form-hint">Sort by</label>
-        <select class="select" id="" name="">
+        <label for="sorting" class="form-hint">Sort by</label>
+        <select class="form-control" id="sorting" name="sorting">
           <option>Recently published</option>
           <option selected>Recently updated</option>
           <option>Most views</option>
@@ -31,10 +31,16 @@
       </div>
     </div>
 
-### Using dropdown
+## Using dropdown
 
 Dropdown should only be used if there is no other alternative as some users can struggle with the functionality.
 
 Try using the <a href="radio">radio</a> or <a href="checkbox">checkbox</a> elements instead.
 
 It's often used when there is a long list that can't presented in another way, such as a list of countries or languages.
+
+*Note: Be sure to update all label and input attributes with the correct details i.e.*
+    
+    <label for=""></label>
+    <select id="">
+    <select naming="">

@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Header
+# Header
 
 <header class="header-background">
   <div class="header">
@@ -40,7 +40,7 @@
     </header>
 
 
-### Using the header
+## Using the header
 
 The header is displayed at the top of every page and is consistent across the entire site.
 

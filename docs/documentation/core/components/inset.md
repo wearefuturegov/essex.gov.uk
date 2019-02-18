@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Inset
+# Inset
 
 <div class="inset">
   <p>
@@ -33,7 +33,7 @@
 		</p>
 	</div>
 
-### Using insets
+## Using insets
 
 An inset is a visual aid to differentiate an excerpt of text from the body of content. It should contain information that's useful or important to the user.
 

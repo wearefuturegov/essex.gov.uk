@@ -5,9 +5,9 @@
   </ol>
 </div>
 
-## List
+# List
 
-### Unordered list
+## Unordered list
 
 <ul>
   <li>
@@ -33,7 +33,7 @@
       </li>
     </ul>
 
-### Ordered list
+## Ordered list
 
 <ol>
   <li>Paying for care and support</li>
@@ -47,7 +47,7 @@
       <li>Financial assessment explained</li>
     </ol>
 
-### Using lists
+## Using lists
 
 Lists should be used to break up chunks of text to make it easier to read.
 

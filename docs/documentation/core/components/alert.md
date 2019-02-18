@@ -5,9 +5,9 @@
   </ol>
 </div>
 
-## Alert
+# Alert
 
-### Error alert
+## Error alert
 
 <div class="alert error js-hidden" id="tab-one" aria-hidden="true">
   <div class="alert-icon">
@@ -37,7 +37,7 @@
       </div>
     </div>
 
-### Information alert
+## Information alert
 
 <div class="alert info js-hidden" id="tab-one" aria-hidden="true">
   <div class="alert-icon">
@@ -67,7 +67,7 @@
       </div>
     </div>
 
-### Warning alert
+## Warning alert
 
 <div class="alert warning js-hidden" id="tab-one" aria-hidden="true">
   <div class="alert-icon">
@@ -97,7 +97,7 @@
       </div>
     </div>
 
-### When to use Error alerts
+## When to use Error alerts
 
 Error alerts are used to direct a user's attention to important system errors. This could include:
 <ul>
@@ -105,7 +105,7 @@ Error alerts are used to direct a user's attention to important system errors. T
 </ul>
 
 
-### When to use Information alerts
+## When to use Information alerts
 
 Information alerts are used to direct a user's attention to important information. This could include:
 <ul>
@@ -113,14 +113,14 @@ Information alerts are used to direct a user's attention to important informatio
 </ul>
 
 
-### When to use Warning alerts
+## When to use Warning alerts
 
 Warning alerts are used to prepare users for a variety of real life issues. This could incude:
 <ul>
   <li>adverse weather information</li>
 </ul>
 
-### Where to use alerts
+## Where to use alerts
 
 An alert can be displayed on the homepage or on lower level pages, depending on the topic and severity. They should always be clear and concise and link to another page with further information if necessary.
 

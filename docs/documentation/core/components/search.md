@@ -5,7 +5,7 @@
   </ol>
 </div>
 
-## Search
+# Search
 
 
 <div class="search">
@@ -35,7 +35,7 @@
     </div>
 
 
-### Using search
+## Using search
 
 The search component enables users to look for content on the website by typing in words.
 
