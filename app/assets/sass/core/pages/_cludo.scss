@@ -22,7 +22,6 @@
     h2 {
       @include h3;
       margin-top: 0;
-      margin-bottom: $baseline*0.25;
       a {
         color: $link;
         text-decoration: underline;
@@ -42,8 +41,10 @@
     //   background: $grey-lighter;
     // }
   }
-  .search-results-item .path {
-    display: none;
+  .search-results-item, .cludo-banner {
+    .path {
+      display: none;
+    }
   }
   .cludo-banner {
     @media print {
@@ -97,32 +98,37 @@
         padding: $baseline $gutter*0.25;
         margin-bottom: $baseline*0.5;
         margin-left: 0;
+        a {
+          font-weight: 600;
+          padding: 0;
+          color: $link;
+          display: inline-block;
+          border: none;
+          transition: none;
+          &:active, &:hover, &:visited {
+            background-color: initial;
+          }
+          &:hover {
+            color: $hover;
+          }
+          &:active {
+            color: $active;
+          }
+          &:visited {
+            color: $visited;
+          }
+        }
+        .active a {
+          color: $active;
+          background-color: initial;
+        }
         li {
+          border: none;
           padding-left: 0;
           padding-top: $baseline*0.125;
           padding-bottom: $baseline*0.125;
+          line-height: $baseline*0.9;
         }
-      }
-      ul li {
-        border: none;
-      }
-      ul a {
-        font-weight: 600;
-        padding: 0;
-        color: $link;
-        display: initial;
-        border: none;
-        transition: none;
-        text-decoration: none;
-        &:hover {
-          text-decoration: underline;
-          background-color: initial;
-        }
-      }
-      ul a.active, a:active, a:hover {
-        background-color: initial;
-        color: $black;
-        text-decoration: underline;
       }
     }
   }
