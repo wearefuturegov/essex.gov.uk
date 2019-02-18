@@ -39,7 +39,6 @@
   <li><a href="elements/logo">Logo</a></li>
   <li><a href="elements/meta">Meta</a></li>
   <li><a href="elements/nav">Nav</a></li>
-  <li><a href="elements/overlay">Overlay</a></li>
   <li><a href="elements/paragraph">Paragraph</a></li>
   <li><a href="elements/print-link">Print-link</a></li>
   <li><a href="elements/radio">Radio</a></li>
@@ -67,6 +66,7 @@
   <li><a href="components/search">Search</a></li>
   <li><a href="components/search-header">Search header</a></li>
   <li><a href="components/signup">Signup</a></li>
+  <li><a href="components/signup">Signup-big</a></li>
   <li><a href="components/side-nav">Side-nav</a></li>
   <li><a href="components/skip-link">Skip link</a></li>
   <li><a href="components/steps">Steps</a></li>

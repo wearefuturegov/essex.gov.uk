@@ -39,7 +39,7 @@
 
 ## Information alert
 
-<div class="alert info js-hidden" id="tab-one" aria-hidden="true">
+<div class="alert info js-hidden" id="tab-two" aria-hidden="true">
   <div class="alert-icon">
     <i class="fas fa-info-circle alert-icon"></i>
   </div>
@@ -47,13 +47,13 @@
     <h2>We are updating this service</h2>
     <p>We have been doing lots of research and you have helped us update this service.</a></p>
   </div>
-  <div data-target="tab-one">
-    <input class="checkbox" id="hide-one" type="checkbox" aria-controls="tab-one" aria-expanded="false">
-    <label class="close" for="hide-one"><i class="fas fa-times"></i></label>
+  <div data-target="tab-two">
+    <input class="checkbox" id="hide-two" type="checkbox" aria-controls="tab-two" aria-expanded="false">
+    <label class="close" for="hide-two"><i class="fas fa-times"></i></label>
   </div>
 </div>
 
-    <div class="alert info js-hidden" id="tab-one" aria-hidden="true">
+    <div class="alert info js-hidden" id="tab-two" aria-hidden="true">
       <div class="alert-icon">
         <i class="fas fa-info-circle alert-icon"></i>
       </div>
@@ -61,15 +61,15 @@
         <h2>We are updating this service</h2>
         <p>We have been doing lots of research and you have helped us update this service.</a></p>
       </div>
-      <div data-target="tab-one">
-        <input class="checkbox" id="hide-one" type="checkbox" aria-controls="tab-one" aria-expanded="false">
-        <label class="close" for="hide-one"><i class="fas fa-times"></i></label>
+      <div data-target="tab-two">
+        <input class="checkbox" id="hide-two" type="checkbox" aria-controls="tab-two" aria-expanded="false">
+        <label class="close" for="hide-two"><i class="fas fa-times"></i></label>
       </div>
     </div>
 
 ## Warning alert
 
-<div class="alert warning js-hidden" id="tab-one" aria-hidden="true">
+<div class="alert warning js-hidden" id="tab-three" aria-hidden="true">
   <div class="alert-icon">
     <i class="fas fa-exclamation-triangle alert-icon"></i>
   </div>
@@ -77,13 +77,13 @@
     <h2>School closures</h2>
     <p>Some schools in Essex are closed due to severe weather. <a href="#">Check if your child's school is closed</a></p>
   </div>
-  <div data-target="tab-one">
-    <input class="checkbox" id="hide-one" type="checkbox" aria-controls="tab-one" aria-expanded="false">
-    <label class="close" for="hide-one"><i class="fas fa-times"></i></label>
+  <div data-target="tab-three">
+    <input class="checkbox" id="hide-three" type="checkbox" aria-controls="tab-three" aria-expanded="false">
+    <label class="close" for="hide-three"><i class="fas fa-times"></i></label>
   </div>
 </div>
 
-    <div class="alert warning js-hidden" id="tab-one" aria-hidden="true">
+    <div class="alert warning js-hidden" id="tab-three" aria-hidden="true">
       <div class="alert-icon">
         <i class="fas fa-exclamation-triangle alert-icon"></i>
       </div>
@@ -91,9 +91,9 @@
         <h2>School closures</h2>
         <p>Some schools in Essex are closed due to severe weather. <a href="#">Check if your child's school is closed</a></p>
       </div>
-      <div data-target="tab-one">
-        <input class="checkbox" id="hide-one" type="checkbox" aria-controls="tab-one" aria-expanded="false">
-        <label class="close" for="hide-one"><i class="fas fa-times"></i></label>
+      <div data-target="tab-three">
+        <input class="checkbox" id="hide-three" type="checkbox" aria-controls="tab-three" aria-expanded="false">
+        <label class="close" for="hide-three"><i class="fas fa-times"></i></label>
       </div>
     </div>
 

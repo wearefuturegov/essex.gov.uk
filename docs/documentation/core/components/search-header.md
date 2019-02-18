@@ -7,19 +7,18 @@
 
 # Search-header
 
-<header class="header-background">
+<header class="header-background" role="banner">
   <div class="header">
     <nav class="nav">
-      <a href="/docs/core/contents" class="logo-text">Essex.gov.uk</a>
-      <div class="search">
+      <a href="/" class="logo-text">Essex.gov.uk</a><span>Beta</span>
+      <div class="search" role="search">
         <div class="search-input">
           <form action="/search" method="get" role="search" class="form">
             <div class="group">
               <label for="search">Search</label>
-              <input type="text" placeholder="Search" id="search" name="name" required="">
-              <button type="submit" value="search" title="search" class="search-icon-position">
-                <i class="fas fa-search"></i>
-              </button>
+              <input type="text" placeholder="Search" id="search" name="search">
+              <input type="submit" value="search" title="search" class="visually-hidden">
+              <i class="fas fa-search search-icon-position"></i>
             </div>
           </form>
         </div>
@@ -28,19 +27,18 @@
   </div>
 </header>
 
-    <header class="header-background">
+    <header class="header-background" role="banner">
       <div class="header">
         <nav class="nav">
-          <a href="/docs/core/contents" class="logo-text">Essex.gov.uk</a>
-          <div class="search">
+          <a href="/" class="logo-text">Essex.gov.uk</a><span>Beta</span>
+          <div class="search" role="search">
             <div class="search-input">
               <form action="/search" method="get" role="search" class="form">
                 <div class="group">
                   <label for="search">Search</label>
-                  <input type="text" placeholder="Search" id="search" name="name" required="">
-                  <button type="submit" value="search" title="search" class="search-icon-position">
-                    <i class="fas fa-search"></i>
-                  </button>
+                  <input type="text" placeholder="Search" id="search" name="search">
+                  <input type="submit" value="search" title="search" class="visually-hidden">
+                  <i class="fas fa-search search-icon-position"></i>
                 </div>
               </form>
             </div>
