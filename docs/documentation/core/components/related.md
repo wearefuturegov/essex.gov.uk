@@ -7,10 +7,10 @@
 
 # Related
 
-<aside class="related" role="">
+<aside class="related">
   <h3>Related content</h3>
-  <nav role="" aria-labelledby="">
-    <ul>
+  <nav role="navigation" aria-labelledby="related-navigation">
+    <ul id="related-navigation">
       <li><a href="#">Start your financial assessment</a></li>
       <li><a href="#">Independent financial advice</a></li>
       <li><a href="#">Pay your care invoice</a></li>
@@ -18,10 +18,10 @@
   </nav>
 </aside>
 
-    <aside class="related" role="">
+    <aside class="related">
       <h3>Related content</h3>
-      <nav role="" aria-labelledby="">
-        <ul>
+      <nav role="navigation" aria-labelledby="related-nav">
+        <ul id="related-nav">
           <li><a href="#">Start your financial assessment</a></li>
           <li><a href="#">Independent financial advice</a></li>
           <li><a href="#">Pay your care invoice</a></li>

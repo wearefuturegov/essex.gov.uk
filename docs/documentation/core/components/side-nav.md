@@ -7,22 +7,19 @@
 
 # Side-nav
 
-<div class="side-nav" role="">
-  <h3>Adult Social Care</h3>
-  <nav role="" aria-labelledby="">
+<div class="side-nav" role="navigation" aria-labelledby="sidenav">
+  <h3>Social care and health</h3>
+  <nav id="sidenav">
     <ul>
-      <li><a href="#">Report abuse or neglect</a></li>
-      <li><a href="#">Adult Social Care: step by step</a></li>
-      <li class="active"><a href="#">Paying for care</a></li>
-      <li><a href="#">Supported housing and care home options</a></li>
+      <li><a href="#">Children, young people and family care</a></li>
+      <li><a href="#">Adult social care and health</a></li>
+      <li><a href="#">Support for carers</a></li>
     </ul>
     <div class="js-hidden" id="side-show" aria-hidden="true">
       <ul>
-        <li><a href="#">Looking after someone</a></li>
-        <li><a href="#">Blue Badge</a></li>
-        <li><a href="#">Living independently at home</a></li>
-        <li><a href="#">Living independently at home</a></li>
-        <li><a href="#">Living independently at home</a></li>
+        <li><a href="#">Accessible transport and mobility</a></li>
+        <li><a href="#">Advocacy</a></li>
+        <li><a href="#">Autism</a></li>
       </ul>
     </div>
     <div data-target="tab-one">
@@ -34,22 +31,19 @@
 </div>
 
 
-    <div class="side-nav" role="">
-      <h3>Adult Social Care</h3>
-      <nav role="" aria-labelledby="">
+    <div class="side-nav" role="navigation" aria-labelledby="sidenav">
+      <h3>Social care and health</h3>
+      <nav id="sidenav">
         <ul>
-          <li><a href="#">Report abuse or neglect</a></li>
-          <li><a href="#">Adult Social Care: step by step</a></li>
-          <li class="active"><a href="#">Paying for care</a></li>
-          <li><a href="#">Supported housing and care home options</a></li>
+          <li><a href="#">Children, young people and family care</a></li>
+          <li><a href="#">Adult social care and health</a></li>
+          <li><a href="#">Support for carers</a></li>
         </ul>
         <div class="js-hidden" id="side-show" aria-hidden="true">
           <ul>
-            <li><a href="#">Looking after someone</a></li>
-            <li><a href="#">Blue Badge</a></li>
-            <li><a href="#">Living independently at home</a></li>
-            <li><a href="#">Living independently at home</a></li>
-            <li><a href="#">Living independently at home</a></li>
+            <li><a href="#">Accessible transport and mobility</a></li>
+            <li><a href="#">Advocacy</a></li>
+            <li><a href="#">Autism</a></li>
           </ul>
         </div>
         <div data-target="tab-one">
