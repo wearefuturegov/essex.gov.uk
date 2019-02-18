@@ -13,14 +13,26 @@
     <ul>
       <li><a href="#">Report abuse or neglect</a></li>
       <li><a href="#">Adult Social Care: step by step</a></li>
-      <li><a href="#">Looking after someone</a></li>
       <li class="active"><a href="#">Paying for care</a></li>
       <li><a href="#">Supported housing and care home options</a></li>
-      <li><a href="#">Blue Badge</a></li>
-      <li><a href="#">Living independently at home</a></li>
     </ul>
+    <div class="js-hidden" id="side-show" aria-hidden="true">
+      <ul>
+        <li><a href="#">Looking after someone</a></li>
+        <li><a href="#">Blue Badge</a></li>
+        <li><a href="#">Living independently at home</a></li>
+        <li><a href="#">Living independently at home</a></li>
+        <li><a href="#">Living independently at home</a></li>
+      </ul>
+    </div>
+    <div data-target="tab-one">
+      <input class="checkbox" id="side-one" type="checkbox" aria-controls="side-show" aria-expanded="false">
+      <label class="show" for="side-one">Show</label>
+      <label class="hide" for="side-one">Hide</label>
+    </div>
   </nav>
 </div>
+
 
     <div class="side-nav" role="">
       <h3>Adult Social Care</h3>
@@ -28,12 +40,23 @@
         <ul>
           <li><a href="#">Report abuse or neglect</a></li>
           <li><a href="#">Adult Social Care: step by step</a></li>
-          <li><a href="#">Looking after someone</a></li>
           <li class="active"><a href="#">Paying for care</a></li>
           <li><a href="#">Supported housing and care home options</a></li>
-          <li><a href="#">Blue Badge</a></li>
-          <li><a href="#">Living independently at home</a></li>
         </ul>
+        <div class="js-hidden" id="side-show" aria-hidden="true">
+          <ul>
+            <li><a href="#">Looking after someone</a></li>
+            <li><a href="#">Blue Badge</a></li>
+            <li><a href="#">Living independently at home</a></li>
+            <li><a href="#">Living independently at home</a></li>
+            <li><a href="#">Living independently at home</a></li>
+          </ul>
+        </div>
+        <div data-target="tab-one">
+          <input class="checkbox" id="side-one" type="checkbox" aria-controls="side-show" aria-expanded="false">
+          <label class="show" for="side-one">Show</label>
+          <label class="hide" for="side-one">Hide</label>
+        </div>
       </nav>
     </div>
 
