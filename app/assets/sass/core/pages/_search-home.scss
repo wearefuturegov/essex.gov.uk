@@ -49,14 +49,10 @@
         margin-bottom: 0;
         input, label {
           border: none;
-          line-height: $baseline;
-          height: $form-padding*8;
-          padding: $form-padding*2 + $border-thick;
         }
         input {
-          margin-bottom: 0;
-          width: 100%;
-        }
+          width: calc(100% - #{$gutter});
+        }       
         .fa-search.search-icon-position  {
           font-size: $icon*0.5;
           line-height: $baseline*1.25;
