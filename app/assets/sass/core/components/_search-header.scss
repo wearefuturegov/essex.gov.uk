@@ -15,6 +15,8 @@
         margin-bottom: $baseline*0.75;
         width: $gutter*5;
         @include media(mobile) {
+          margin-top: 0;
+          margin-bottom: 0;
           width: 100%;
         }
         label, input {
@@ -53,6 +55,7 @@
       }
       position: relative;
       display: inline-block;
+      height: $form-padding*8;
       width: 100%;
       @include grid-column(1);
       padding: 0;
