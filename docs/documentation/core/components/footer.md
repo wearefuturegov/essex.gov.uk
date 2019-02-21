@@ -7,7 +7,7 @@
 
 # Footer
 
-<footer class="footer-container">
+<footer class="footer-container" role="contentinfo">
   <div class="footer-top">
     <div class="footer">
       <div class="nav">
@@ -32,13 +32,13 @@
   <div class="footer-bottom">
     <div class="footer">
       <nav class="nav">
-        <a href="docs/core/contents" class="design-link">Built by the Service Design Team</a>
+        <a href="/docs/core/essex-design-system" class="design-link">Built by the Service Design Team</a>
       </nav>
     </div>
   </div>
 </footer>
 
-    <footer class="footer-container">
+    <footer class="footer-container" role="contentinfo">
       <div class="footer-top">
         <div class="footer">
           <div class="nav">
@@ -63,12 +63,11 @@
       <div class="footer-bottom">
         <div class="footer">
           <nav class="nav">
-            <a href="docs/core/contents" class="design-link">Built by the Service Design Team</a>
+            <a href="/docs/core/essex-design-system" class="design-link">Built by the Service Design Team</a>
           </nav>
         </div>
       </div>
     </footer>
-
 
 ## Using the footer
 
