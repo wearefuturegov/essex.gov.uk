@@ -7,7 +7,7 @@
 
 # Side-nav
 
-<div class="side-nav" role="navigation" aria-labelledby="sidenav">
+<div class="side-nav" role="navigation" aria-label="sidenav">
   <h3>Social care and health</h3>
   <nav id="sidenav">
     <ul>
@@ -31,7 +31,7 @@
 </div>
 
 
-    <div class="side-nav" role="navigation" aria-labelledby="sidenav">
+    <div class="side-nav" role="navigation" aria-label="sidenav">
       <h3>Social care and health</h3>
       <nav id="sidenav">
         <ul>

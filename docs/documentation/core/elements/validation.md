@@ -7,7 +7,7 @@
 
 # Form Validation
 
-<div class="error-summary" role="alert" aria-labelledby="error-summary-heading-example-1" tabindex="-1">
+<div class="error-summary" role="alert" aria-label="error-summary-heading-example-1" tabindex="-1">
   <h2 class="heading-medium error-summary-heading" id="error-summary-heading-example-1">
     Message to alert the user to a problem goes here
   </h2>
