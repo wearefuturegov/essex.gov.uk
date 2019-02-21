@@ -66,7 +66,7 @@
   <li><a href="components/search">Search</a></li>
   <li><a href="components/search-header">Search header</a></li>
   <li><a href="components/signup">Signup</a></li>
-  <li><a href="components/signup">Signup-big</a></li>
+  <li><a href="components/signup-big">Signup-big</a></li>
   <li><a href="components/side-nav">Side-nav</a></li>
   <li><a href="components/skip-link">Skip link</a></li>
   <li><a href="components/steps">Steps</a></li>

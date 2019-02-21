@@ -7,34 +7,18 @@
 
 # Header
 
-<header class="header-background">
+<header class="header-background" role="banner">
   <div class="header">
     <nav class="nav">
-      <a href="/" class="logo-text">Essex.gov.uk</a>
+      <a href="/" class="logo-text">Essex.gov.uk</a><span>Beta</span>
     </nav>
   </div>
 </header>
 
-    <header class="header-background">
+    <header class="header-background" role="banner">
       <div class="header">
         <nav class="nav">
-          <a href="/" class="logo-text">Essex.gov.uk</a>
-        </nav>
-      </div>
-    </header>
-
-<header class="header-background">
-  <div class="header">
-    <nav class="nav">
-      <a href="/" class="logo"><img src="/public/images/logotype.svg" width="300" height="40" alt=""></a>
-    </nav>
-  </div>
-</header>
-
-    <header class="header-background">
-      <div class="header">
-        <nav class="nav">
-          <a href="/" class="logo"><img src="/public/images/logotype.svg" width="300" height="40" alt=""></a>
+          <a href="/" class="logo-text">Essex.gov.uk</a><span>Beta</span>
         </nav>
       </div>
     </header>

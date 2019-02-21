@@ -9,7 +9,7 @@
 
 <aside class="related">
   <h3>Related content</h3>
-  <nav role="navigation" aria-labelledby="related-navigation">
+  <nav role="navigation" aria-label="related-navigation">
     <ul id="related-navigation">
       <li><a href="#">Start your financial assessment</a></li>
       <li><a href="#">Independent financial advice</a></li>
@@ -20,7 +20,7 @@
 
     <aside class="related">
       <h3>Related content</h3>
-      <nav role="navigation" aria-labelledby="related-nav">
+      <nav role="navigation" aria-label="related-nav">
         <ul id="related-nav">
           <li><a href="#">Start your financial assessment</a></li>
           <li><a href="#">Independent financial advice</a></li>

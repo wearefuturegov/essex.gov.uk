@@ -7,11 +7,11 @@
 
 # Contents
 
-<div class="contents">
+<nav class="contents" role="navigation" aria-label="pages-in-this-service">
   <div class="heading">
     <h2>Contents</h2>
   </div>
-  <ol>
+  <ol id="pages-in-this-service">
     <li>Paying for care and support</li>
     <li><a href="#">Financial assessment </a></li>
     <li><a href="#">Personal budget</a></li>
@@ -23,13 +23,13 @@
     <li><a href="#">Direct payments</a></li>
     <li><a href="#">Contact us</a></li>
   </ol>
-</div>
+</nav>
 
-    <div class="contents">
+    <nav class="contents" role="navigation" aria-label="pages-in-this-service">
       <div class="heading">
         <h2>Contents</h2>
       </div>
-      <ol>
+      <ol id="pages-in-this-service">
         <li>Paying for care and support</li>
         <li><a href="#">Financial assessment </a></li>
         <li><a href="#">Personal budget</a></li>
@@ -41,7 +41,7 @@
         <li><a href="#">Direct payments</a></li>
         <li><a href="#">Contact us</a></li>
       </ol>
-    </div>
+    </nav>
 
 ## Using contents
 
