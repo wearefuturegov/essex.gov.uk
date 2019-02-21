@@ -7,7 +7,7 @@
 
 # Contents
 
-<div class="contents">
+<nav class="contents" role="navigation" aria-labelledby="Pages in this service">
   <div class="heading">
     <h2>Contents</h2>
   </div>
@@ -23,9 +23,9 @@
     <li><a href="#">Direct payments</a></li>
     <li><a href="#">Contact us</a></li>
   </ol>
-</div>
+</nav>
 
-    <div class="contents">
+    <nav class="contents" role="navigation" aria-labelledby="Pages in this service">
       <div class="heading">
         <h2>Contents</h2>
       </div>
@@ -41,7 +41,7 @@
         <li><a href="#">Direct payments</a></li>
         <li><a href="#">Contact us</a></li>
       </ol>
-    </div>
+    </nav>
 
 ## Using contents
 
