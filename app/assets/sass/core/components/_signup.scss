@@ -7,13 +7,11 @@
     .group {
       @extend %grid-row;
       margin-bottom: $baseline;
-      overflow: hidden;
       label {
         $color: $body-text-colour;
         background: $white;
         z-index: 0;
         margin-right: 0;
-        z-index: 0;
       }
       .signup-input {
         position: relative;
@@ -24,19 +22,23 @@
         label, input {
           @include box-sizing(border-box);
           line-height: $baseline;
-          height: $form-padding*8;
           padding: $form-padding*2 + $border-thick;
         }
         input {
+          text-transform: none;
+          text-indent: -5000px;
           background: transparent;
           position: absolute;
+          left: $border-thick*10;
           top: 0;
-          text-indent: -5000px;
+          height: 60px;
           width: calc(100% - #{$gutter});
-          padding: $form-padding*2 + $border-thin;
           &:focus {
+            left: $border-thick*10;
             text-indent: 0;
             background: #fff;
+            outline-offset: 0;
+            padding: $form-padding*2;
           }
         }
       }
@@ -79,7 +81,22 @@
             padding: $form-padding*2 + $border-thick;
           }
           input {
-            border: none
+            border: none;
+            text-transform: none;
+            text-indent: -5000px;
+            background: transparent;
+            position: absolute;
+            left: $border-thick*10 + $border-thick;
+            top: 0;
+            height: 60px;
+            width: calc(100% - #{$gutter});
+            &:focus {
+              left: $border-thick*10;
+              text-indent: 0;
+              background: #fff;
+              outline-offset: 0;
+              padding: $form-padding*2;
+            }
           }
         }
         .signup-button {

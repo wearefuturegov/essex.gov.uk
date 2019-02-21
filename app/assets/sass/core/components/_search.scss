@@ -1,3 +1,5 @@
+// as see top of internal searched pages
+
 .search {
   @media print {
     display: none;
@@ -12,11 +14,9 @@
       position: relative;
       margin-bottom: $baseline;
       background: $white;
-      overflow: hidden;
       label, input {
         @include box-sizing(border-box);
         line-height: $baseline;
-        height: $form-padding*8;
         padding: $form-padding*2 + $border-thick;
         width: 100%;
       }
@@ -27,25 +27,26 @@
         margin-right: 0;
       }
       input {
-        border: $border-thin solid $grey-dark;
-        padding: $form-padding*2 + $border-thin + 1px;
-        margin-bottom: 0;
         &::-ms-clear {
           display: none;
         }
       }
-      #search {
+      input {
         text-transform: none;
+        text-indent: -5000px;
         background: transparent;
         position: absolute;
         left: 0;
         top: 0;
-        text-indent: -5000px;
-        width: calc(100% - #{$gutter});
+        height: 60px;
+        width: calc(100% - #{$gutter + $border-thick});
         &:focus {
+          left: 0;
           text-indent: 0;
           background: #fff;
-          outline-offset: -3px;
+          outline-offset: 0;
+          padding: $form-padding*2;
+          z-index: 10;
         }
       }
       .fas.fa-search.search-icon-position {

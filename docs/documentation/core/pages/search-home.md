@@ -18,7 +18,7 @@
         <form action="/search" method="get" role="search" class="form">
           <div class="group">
             <label for="search">Search essex.gov.uk</label>
-            <input type="text" placeholder="Search essex.gov.uk" id="search" name="search">
+            <input type="text" id="search" name="search">
             <input type="submit" value="search" class="visually-hidden">
             <i class="fas fa-search search-icon-position"></i>
           </div>
@@ -39,7 +39,7 @@
             <form action="/search" method="get" role="search" class="form">
               <div class="group">
                 <label for="search">Search essex.gov.uk</label>
-                <input type="text" placeholder="Search essex.gov.uk" id="search" name="search">
+                <input type="text" id="search" name="search">
                 <input type="submit" value="search" class="visually-hidden">
                 <i class="fas fa-search search-icon-position"></i>
               </div>
