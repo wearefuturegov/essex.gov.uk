@@ -3,7 +3,7 @@
   @extend %grid-row;
   @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
     max-width: $site-width + $gutter;
-    margin: 0 auto $baseline*2 auto;
+    margin: 0 $gutter-half $baseline*2 $gutter-half;
     @include media(mobile) {
       margin: 0 0 $baseline*2 0;
     }
