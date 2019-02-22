@@ -36,7 +36,7 @@
         display: none;
       }
     }
-    h3.sub-section-heading {
+    .sub-section-heading {
       min-height: $h4 * 2.5;
       @include media(mobile) {
         min-height: initial;
