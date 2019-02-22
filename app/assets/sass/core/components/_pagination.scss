@@ -44,8 +44,9 @@
         margin-top: 0;
         margin-bottom: 0;
         display: block;
-        svg {
-          margin-right: $gutter*0.25;
+        .fas {
+          font-size: $icon*0.25;
+          margin-right: $gutter*0.5;
         }
         & + span {
           display: block;
