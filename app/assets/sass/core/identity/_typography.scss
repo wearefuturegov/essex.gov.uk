@@ -73,6 +73,8 @@ h4, .h4, .sub-section-heading {
 }
 
 p {
+  font-size: $body;
+  line-height: $baseline;
   color: $body-text-colour;
   text-transform: none;
   margin-top: 0;
