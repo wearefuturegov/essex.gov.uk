@@ -17,7 +17,8 @@ $h4: 2.2rem;
 
 $body: 16px;
 $body: 1.6rem;
-$baseline: 1.5em;
+$baseline: 1.5rem;
+$line-height: 1.5em;
 
 
 // rough sizes for p tag
@@ -116,6 +117,7 @@ $border-radius: 3px;
 // logo dimensions
 $logo-width: 300px;
 $logo-height: 40px;
+$logo-height: 4.0rem;
 
 // header dimensions, based on logo
 $nav-height: $logo-height*2;

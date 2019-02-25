@@ -1,6 +1,22 @@
 #content {
   font-size: 16px;
   font-size: $body;
+  line-height: $line-height;
+}
+
+p {
+  font-size: 16px;
+  font-size: $body;
+  line-height: $line-height;
+  color: $body-text-colour;
+  text-transform: none;
+  margin-top: 0;
+  margin-bottom: $baseline*0.75;
+  @include word-break;
+  &.lede {
+    font-size: 24px;
+    line-height: $baseline*0.84;
+  }
 }
 
 h1, h2, h3, h4 {
@@ -70,20 +86,6 @@ h3, .h3, .section-heading {
 // or additionally certain preview sections
 h4, .h4, .sub-section-heading {
   @include h4;
-}
-
-p {
-  font-size: $body;
-  line-height: $baseline;
-  color: $body-text-colour;
-  text-transform: none;
-  margin-top: 0;
-  margin-bottom: $baseline*0.75;
-  @include word-break;
-  &.lede {
-    font-size: 24px;
-    line-height: $baseline*0.84;
-  }
 }
 
 strong {

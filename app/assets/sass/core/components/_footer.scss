@@ -28,8 +28,9 @@
           margin-bottom: $baseline;
         }
         li {
+          margin-bottom: $baseline;
           padding-left: 0;
-          display: inline;
+          display: inline-block;
           a {
             color: $white;
             line-height: $baseline;

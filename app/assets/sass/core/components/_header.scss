@@ -32,13 +32,14 @@
         }
       }
       span {
+        font-size: $smaller;
         color: $white;
         margin-left: $gutter*0.125;
       }
       a.logo-text {
         display: inline-block;
         font-family: $stack-logo;
-        font-size: $baseline;
+        font-size: $body;
         margin-top: $nav-height*0.25;
         margin-bottom: $nav-height*0.25;
         text-transform: uppercase;

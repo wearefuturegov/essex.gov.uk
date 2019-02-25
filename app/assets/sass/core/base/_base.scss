@@ -3,10 +3,12 @@ html {
   background-color: $black;
 }
 
+html, body {
+	font-size: 62.5%;
+}
+
 body {
   font-family: $stack;
-  font-size: 62.5%;
-  // font-size: 100%;
   line-height: $baseline;
   -webkit-font-smoothing: antialiased;
   background: $white;
