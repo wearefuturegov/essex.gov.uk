@@ -3,9 +3,13 @@ html {
   background-color: $black;
 }
 
-// so everything isn't black
 body {
-  background-color: $white;
+  font-family: $stack;
+  font-size: 62.5%;
+  line-height: $baseline;
+  -webkit-font-smoothing: antialiased;
+  background: $white;
+  color: $text-colour;
 }
 
 .hidden,

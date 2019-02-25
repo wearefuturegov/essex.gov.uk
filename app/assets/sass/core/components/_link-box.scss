@@ -44,7 +44,7 @@ ul.link-boxes {
       padding: $baseline $gutter*0.25;
       h2 {
         margin-top: 0;
-        font-size: $body;
+        font-size: initial;
         text-decoration: underline;
         letter-spacing: 0;
       }
