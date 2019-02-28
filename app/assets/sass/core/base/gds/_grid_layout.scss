@@ -11,7 +11,7 @@ $site-width: 960px;
 // }
 
 %site-width-container {
-  max-width: $site-width;
+  // max-width: $site-width;
 
   @include ie-lte(8) {
     max-width: $site-width;

@@ -76,7 +76,7 @@
 
 
 %grid-row {
-  @extend %contain-floats;
+  // @extend %contain-floats;
   margin: 0 (-$gutter-half);
 }
 
@@ -94,20 +94,21 @@
   }
 }
 
-#content {
+#content .container {
   @extend %site-width-container;
-  @extend %contain-floats;
+  @extend %site-width-container;
+  // @extend %contain-floats;
   // Pressing enter when focus is on the skiplink sets focus on the #content area
   // Remove the blue outline
   outline: none;
 }
 
 %site-width-container {
-  max-width: $site-width;
+  // max-width: $site-width;
 
-  @include ie-lte(8) {
-    max-width: $site-width;
-  }
+  // @include ie-lte(8) {
+  //   max-width: $site-width;
+  // }
 
   // @include media(tablet) {
   //   margin-left: $outer-grid-margin * 5;
@@ -119,9 +120,9 @@
   //   margin-right: $outer-grid-margin * 5;
   // }
 
-  @include media($min-width: ($site-width + $outer-grid-margin * 2)) {
-    margin: 0 auto;
-  }
+  // @include media($min-width: ($site-width + $outer-grid-margin * 2)) {
+  //   margin: 0 auto;
+  // }
 }
 
 %outdent-to-full-width {
