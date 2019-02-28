@@ -1,181 +1,179 @@
 {% extends "essex_main_template.html" %}
 {% block content %}
 <main id="content">
-  <div class="container">
-    <div class="breadcrumbs">
-       <ol>
-          <li><a href="/docs/core/contents">Contents</a></li>
-          <li class="current">Cludo search</li>
-       </ol>
-    </div>
-    <div id="cludo-search-results">
-      <div class="cludo-r">
-        <aside class="side">
-          <div class="cludo-c-3">
-             <div class="search-filters">
-                <button class="search-filters-mobile-button" onclick="CludoSearch.toggleMobileNavigation(this)"></button>
-                <ul>
-                   <li class="facet-list-item active">
-                      <a href="#" data-facet="null" class="active">All Results (114)</a>
-                   </li>
-                   <li class="facet-list-item ">
-                      <a href="#" data-facet="Documents" class="">
-                      Documents (1)
-                      </a>
-                   </li>
-                   <li class="facet-list-item ">
-                      <a href="#" data-facet="Documents" class="">
-                      Accessible transport and mobility (11)
-                      </a>
-                   </li>
-                   <li class="facet-list-item ">
-                      <a href="#" data-facet="Event" class="">
-                      Event (1)
-                      </a>
-                   </li>
-                </ul>
-             </div>
-          </div>
-        </aside>
-        <div class="main">
-          <h1 class="h3">Search</h1>
-            {% block search %}
-              {% include "includes/search.html" %}
-            {% endblock %}
-          <div class="cludo-c-9">
-             <div class="search-result-count">Your search for '<b>blue</b>' returned <b>114</b> results</div>
-             <div class="search-did-you-mean"></div>
-             <div class="search-results">
-                <div data-cludo-result="banner" data-cludo-id="11922" data-cludo-title="Blue Badge" class="cludo-banner">
-                   <h2>Blue Badge scheme</h2>
-                   <p>The Blue Badge scheme is for drivers or passengers with severe mobility problems and allows them to park on-street close to where they need to go.</p>
-                   <p>You can&nbsp;<a href="blue-badge" data-cludo-result="banner" data-cludo-index="1" data-cludo-object-id="null" data-cludo-title="apply for a Blue Badge online" data-cludo-url="https://eccwa-eccdnt-eun-essexwebapp.azurewebsites.net/blue-badge" data-cludo-page="1">apply for a Blue Badge online</a>.</p>
-                </div>
-                <ul>
-                   <!-- Search result list -->
-                   <li class="search-results-item">
-                      <h2>
-                         <a title="Blue Badges" href="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Blue-Badges-1.aspx" data-cludo-result="searchresult" data-cludo-index="1" data-cludo-url="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Blue-Badges-1.aspx" data-cludo-title="Blue Badges" data-cludo-page="1"><b>Blue</b> Badges</a>
-                      </h2>
-                      <p>
-                         <b>Blue</b> Badges...<b>Blue</b> Badges...<b>Blue</b> Badges
-                      </p>
-                      <span class="path">http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Blue-Badges-1.aspx</span>           
-                   </li>
-                   <li class="search-results-item">
-                      <h2>
-                         <a title="What is a Blue Badge?" href="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Blue-Badges.aspx" data-cludo-result="searchresult" data-cludo-index="2" data-cludo-url="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Blue-Badges.aspx" data-cludo-title="What is a Blue Badge?" data-cludo-page="1">What is a <b>Blue</b> Badge?</a>
-                      </h2>
-                      <p>
-                         <b>Blue</b> Badges...<b>Blue</b> Badges...<b>Blue</b> Badges
-                      </p>
-                      <span class="path">http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Blue-Badges.aspx
-                      </span>                    
-                   </li>
-                   <li class="search-results-item">
-                      <h2>
-                         <a title="Apply for a Blue Badge" href="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Apply-for-a-blue-badge.aspx" data-cludo-result="searchresult" data-cludo-index="3" data-cludo-url="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Apply-for-a-blue-badge.aspx" data-cludo-title="Apply for a Blue Badge" data-cludo-page="1">Apply for a <b>Blue</b> Badge</a>
-                      </h2>
-                      <p>
-                         <b>Blue</b> Badges...<b>Blue</b> Badges...<b>Blue</b> Badge Team
-                      </p>
-                      <span class="path">
-                      http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Apply-for-a-blue-badge.aspx
-                      </span>                    
-                   </li>
-                   <li class="search-results-item">
-                      <h2>
-                         <a title="Using your Blue Badge" href="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges-Old/Pages/Using-your-Blue-Badge.aspx" data-cludo-result="searchresult" data-cludo-index="4" data-cludo-url="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges-Old/Pages/Using-your-Blue-Badge.aspx" data-cludo-title="Using your Blue Badge" data-cludo-page="1">Using your <b>Blue</b> Badge</a>
-                      </h2>
-                      <p>
-                         <b>Blue</b> Badges Old...<b>Blue</b> Badges Old...Using your <b>Blue</b> Badge
-                      </p>
-                      <span class="path">
-                      http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges-Old/Pages/Using-your-Blue-Badge.aspx
-                      </span>                    
-                   </li>
-                   <li class="search-results-item">
-                      <h2>
-                         <a title="Pay for a Blue Badge" href="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Pay-for-a-Blue-Badge.aspx" data-cludo-result="searchresult" data-cludo-index="5" data-cludo-url="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Pay-for-a-Blue-Badge.aspx" data-cludo-title="Pay for a Blue Badge" data-cludo-page="1">Pay for a <b>Blue</b> Badge</a>
-                      </h2>
-                      <p>
-                         <b>Blue</b> Badges...<b>Blue</b> Badges...Pay for a <b>Blue</b> Badge
-                      </p>
-                      <span class="path">
-                      http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Pay-for-a-Blue-Badge.aspx
-                      </span>                    
-                   </li>
-                   <li class="search-results-item">
-                      <h2>
-                         <a title="Renew your Blue Badge" href="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Renew-your-blue-badge.aspx" data-cludo-result="searchresult" data-cludo-index="6" data-cludo-url="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Renew-your-blue-badge.aspx" data-cludo-title="Renew your Blue Badge" data-cludo-page="1">Renew your <b>Blue</b> Badge</a>
-                      </h2>
-                      <p>
-                         <b>Blue</b> Badges...<b>Blue</b> Badges...Renew <b>Blue</b> Badge
-                      </p>
-                      <span class="path">
-                      http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Renew-your-blue-badge.aspx
-                      </span>                    
-                   </li>
-                   <li class="search-results-item">
-                      <h2>
-                         <a title="Contact the Blue Badge Team" href="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Contact-the-Blue-Badge-Team.aspx" data-cludo-result="searchresult" data-cludo-index="7" data-cludo-url="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Contact-the-Blue-Badge-Team.aspx" data-cludo-title="Contact the Blue Badge Team" data-cludo-page="1">Contact the <b>Blue</b> Badge Team</a>
-                      </h2>
-                      <p>
-                         <b>Blue</b> Badges...<b>Blue</b> Badges...<b>Blue</b> Badge Team
-                      </p>
-                      <span class="path">
-                      http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Contact-the-Blue-Badge-Team.aspx
-                      </span>                    
-                   </li>
-                   <li class="search-results-item">
-                      <h2>
-                         <a title="Blue Badge service" href="http://www.essex.gov.uk/privacy-notices/People-Education-Services/Pages/Blue-Badge-service.aspx" data-cludo-result="searchresult" data-cludo-index="8" data-cludo-url="http://www.essex.gov.uk/privacy-notices/People-Education-Services/Pages/Blue-Badge-service.aspx" data-cludo-title="Blue Badge service" data-cludo-page="1"><b>Blue</b> Badge service</a>
-                      </h2>
-                      <p>
-                         <b>Blue</b> Badge service...<b>Blue</b> Badge service...<b>Blue</b> Badge service
-                      </p>
-                      <span class="path">
-                      http://www.essex.gov.uk/privacy-notices/People-Education-Services/Pages/Blue-Badge-service.aspx
-                      </span>                    
-                   </li>
-                   <li class="search-results-item">
-                      <h2>
-                         <a title="Basic computer coaching, Manningtree Library" href="https://libraries.essex.gov.uk/events/manningtree-library-events/basic-computer-coaching-manningtree-library/" data-cludo-result="searchresult" data-cludo-index="9" data-cludo-url="https://libraries.essex.gov.uk/events/manningtree-library-events/basic-computer-coaching-manningtree-library/" data-cludo-title="Basic computer coaching, Manningtree Library" data-cludo-page="1">Basic computer coaching, Manningtree Library</a>
-                      </h2>
-                      <p>
-                         Free Hints and tips on using computers and help with on-line services. ie: <b>Blue</b> Badge Applications, On Line Banking, Creating a CV.
-                      </p>
-                      <span class="path">
-                      https://libraries.essex.gov.uk/events/manningtree-library-events/basic-computer-coaching-manningtree-library/
-                      </span>                    
-                   </li>
-                   <li class="search-results-item">
-                      <h2>
-                         <a title="Organisation: Apply or renew" href="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges-Old/Pages/Organisations-Eligibility.aspx" data-cludo-result="searchresult" data-cludo-index="10" data-cludo-url="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges-Old/Pages/Organisations-Eligibility.aspx" data-cludo-title="Organisation: Apply or renew" data-cludo-page="1">Organisation: Apply or renew</a>
-                      </h2>
-                      <p>
-                         <b>Blue</b> Badges Old...<b>Blue</b> Badges Old...The <b>Blue</b> Badge scheme: rights and responsibilities for organisations that have <b>Blue</b> Badges
-                      </p>
-                      <span class="path">
-                      http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges-Old/Pages/Organisations-Eligibility.aspx
-                      </span>                    
-                   </li>
-                </ul>
-                <!-- Search result paging -->
-                <nav aria-label="Page navigation" class="cludo-page-navigation">
-                   <ul class="search_page_list">
-                      <li class="active">1<span class="cludo-sr-only">(current)</span></li>
-                      <li><a href="" data-page="2">2</a></li>
-                      <li><a href="" data-page="3">3</a></li>
-                      <li><a href="" data-page="4">4</a></li>
-                      <li><a href="" data-page="5">5</a></li>
-                      <li class="next"><a href="" data-page="next" aria-label="Next">&gt;</a></li>
-                   </ul>
-                   <a class="powered-by-cludo" href="https://www.cludo.com" title="Cludo" target="_blank"></a>
-                </nav>
-                <!-- Search result paging -->
-             </div>
-          </div>
+  <div class="breadcrumbs">
+     <ol>
+        <li><a href="/docs/core/contents">Contents</a></li>
+        <li class="current">Cludo search</li>
+     </ol>
+  </div>
+  <div id="cludo-search-results">
+    <div class="cludo-r">
+      <aside class="side">
+        <div class="cludo-c-3">
+           <div class="search-filters">
+              <button class="search-filters-mobile-button" onclick="CludoSearch.toggleMobileNavigation(this)"></button>
+              <ul>
+                 <li class="facet-list-item active">
+                    <a href="#" data-facet="null" class="active">All Results (114)</a>
+                 </li>
+                 <li class="facet-list-item ">
+                    <a href="#" data-facet="Documents" class="">
+                    Documents (1)
+                    </a>
+                 </li>
+                 <li class="facet-list-item ">
+                    <a href="#" data-facet="Documents" class="">
+                    Accessible transport and mobility (11)
+                    </a>
+                 </li>
+                 <li class="facet-list-item ">
+                    <a href="#" data-facet="Event" class="">
+                    Event (1)
+                    </a>
+                 </li>
+              </ul>
+           </div>
+        </div>
+      </aside>
+      <div class="main">
+        <h1 class="h3">Search</h1>
+          {% block search %}
+            {% include "includes/search.html" %}
+          {% endblock %}
+        <div class="cludo-c-9">
+           <div class="search-result-count">Your search for '<b>blue</b>' returned <b>114</b> results</div>
+           <div class="search-did-you-mean"></div>
+           <div class="search-results">
+              <div data-cludo-result="banner" data-cludo-id="11922" data-cludo-title="Blue Badge" class="cludo-banner">
+                 <h2>Blue Badge scheme</h2>
+                 <p>The Blue Badge scheme is for drivers or passengers with severe mobility problems and allows them to park on-street close to where they need to go.</p>
+                 <p>You can&nbsp;<a href="blue-badge" data-cludo-result="banner" data-cludo-index="1" data-cludo-object-id="null" data-cludo-title="apply for a Blue Badge online" data-cludo-url="https://eccwa-eccdnt-eun-essexwebapp.azurewebsites.net/blue-badge" data-cludo-page="1">apply for a Blue Badge online</a>.</p>
+              </div>
+              <ul>
+                 <!-- Search result list -->
+                 <li class="search-results-item">
+                    <h2>
+                       <a title="Blue Badges" href="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Blue-Badges-1.aspx" data-cludo-result="searchresult" data-cludo-index="1" data-cludo-url="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Blue-Badges-1.aspx" data-cludo-title="Blue Badges" data-cludo-page="1"><b>Blue</b> Badges</a>
+                    </h2>
+                    <p>
+                       <b>Blue</b> Badges...<b>Blue</b> Badges...<b>Blue</b> Badges
+                    </p>
+                    <span class="path">http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Blue-Badges-1.aspx</span>           
+                 </li>
+                 <li class="search-results-item">
+                    <h2>
+                       <a title="What is a Blue Badge?" href="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Blue-Badges.aspx" data-cludo-result="searchresult" data-cludo-index="2" data-cludo-url="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Blue-Badges.aspx" data-cludo-title="What is a Blue Badge?" data-cludo-page="1">What is a <b>Blue</b> Badge?</a>
+                    </h2>
+                    <p>
+                       <b>Blue</b> Badges...<b>Blue</b> Badges...<b>Blue</b> Badges
+                    </p>
+                    <span class="path">http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Blue-Badges.aspx
+                    </span>                    
+                 </li>
+                 <li class="search-results-item">
+                    <h2>
+                       <a title="Apply for a Blue Badge" href="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Apply-for-a-blue-badge.aspx" data-cludo-result="searchresult" data-cludo-index="3" data-cludo-url="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Apply-for-a-blue-badge.aspx" data-cludo-title="Apply for a Blue Badge" data-cludo-page="1">Apply for a <b>Blue</b> Badge</a>
+                    </h2>
+                    <p>
+                       <b>Blue</b> Badges...<b>Blue</b> Badges...<b>Blue</b> Badge Team
+                    </p>
+                    <span class="path">
+                    http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Apply-for-a-blue-badge.aspx
+                    </span>                    
+                 </li>
+                 <li class="search-results-item">
+                    <h2>
+                       <a title="Using your Blue Badge" href="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges-Old/Pages/Using-your-Blue-Badge.aspx" data-cludo-result="searchresult" data-cludo-index="4" data-cludo-url="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges-Old/Pages/Using-your-Blue-Badge.aspx" data-cludo-title="Using your Blue Badge" data-cludo-page="1">Using your <b>Blue</b> Badge</a>
+                    </h2>
+                    <p>
+                       <b>Blue</b> Badges Old...<b>Blue</b> Badges Old...Using your <b>Blue</b> Badge
+                    </p>
+                    <span class="path">
+                    http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges-Old/Pages/Using-your-Blue-Badge.aspx
+                    </span>                    
+                 </li>
+                 <li class="search-results-item">
+                    <h2>
+                       <a title="Pay for a Blue Badge" href="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Pay-for-a-Blue-Badge.aspx" data-cludo-result="searchresult" data-cludo-index="5" data-cludo-url="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Pay-for-a-Blue-Badge.aspx" data-cludo-title="Pay for a Blue Badge" data-cludo-page="1">Pay for a <b>Blue</b> Badge</a>
+                    </h2>
+                    <p>
+                       <b>Blue</b> Badges...<b>Blue</b> Badges...Pay for a <b>Blue</b> Badge
+                    </p>
+                    <span class="path">
+                    http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Pay-for-a-Blue-Badge.aspx
+                    </span>                    
+                 </li>
+                 <li class="search-results-item">
+                    <h2>
+                       <a title="Renew your Blue Badge" href="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Renew-your-blue-badge.aspx" data-cludo-result="searchresult" data-cludo-index="6" data-cludo-url="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Renew-your-blue-badge.aspx" data-cludo-title="Renew your Blue Badge" data-cludo-page="1">Renew your <b>Blue</b> Badge</a>
+                    </h2>
+                    <p>
+                       <b>Blue</b> Badges...<b>Blue</b> Badges...Renew <b>Blue</b> Badge
+                    </p>
+                    <span class="path">
+                    http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Renew-your-blue-badge.aspx
+                    </span>                    
+                 </li>
+                 <li class="search-results-item">
+                    <h2>
+                       <a title="Contact the Blue Badge Team" href="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Contact-the-Blue-Badge-Team.aspx" data-cludo-result="searchresult" data-cludo-index="7" data-cludo-url="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Contact-the-Blue-Badge-Team.aspx" data-cludo-title="Contact the Blue Badge Team" data-cludo-page="1">Contact the <b>Blue</b> Badge Team</a>
+                    </h2>
+                    <p>
+                       <b>Blue</b> Badges...<b>Blue</b> Badges...<b>Blue</b> Badge Team
+                    </p>
+                    <span class="path">
+                    http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges/Pages/Contact-the-Blue-Badge-Team.aspx
+                    </span>                    
+                 </li>
+                 <li class="search-results-item">
+                    <h2>
+                       <a title="Blue Badge service" href="http://www.essex.gov.uk/privacy-notices/People-Education-Services/Pages/Blue-Badge-service.aspx" data-cludo-result="searchresult" data-cludo-index="8" data-cludo-url="http://www.essex.gov.uk/privacy-notices/People-Education-Services/Pages/Blue-Badge-service.aspx" data-cludo-title="Blue Badge service" data-cludo-page="1"><b>Blue</b> Badge service</a>
+                    </h2>
+                    <p>
+                       <b>Blue</b> Badge service...<b>Blue</b> Badge service...<b>Blue</b> Badge service
+                    </p>
+                    <span class="path">
+                    http://www.essex.gov.uk/privacy-notices/People-Education-Services/Pages/Blue-Badge-service.aspx
+                    </span>                    
+                 </li>
+                 <li class="search-results-item">
+                    <h2>
+                       <a title="Basic computer coaching, Manningtree Library" href="https://libraries.essex.gov.uk/events/manningtree-library-events/basic-computer-coaching-manningtree-library/" data-cludo-result="searchresult" data-cludo-index="9" data-cludo-url="https://libraries.essex.gov.uk/events/manningtree-library-events/basic-computer-coaching-manningtree-library/" data-cludo-title="Basic computer coaching, Manningtree Library" data-cludo-page="1">Basic computer coaching, Manningtree Library</a>
+                    </h2>
+                    <p>
+                       Free Hints and tips on using computers and help with on-line services. ie: <b>Blue</b> Badge Applications, On Line Banking, Creating a CV.
+                    </p>
+                    <span class="path">
+                    https://libraries.essex.gov.uk/events/manningtree-library-events/basic-computer-coaching-manningtree-library/
+                    </span>                    
+                 </li>
+                 <li class="search-results-item">
+                    <h2>
+                       <a title="Organisation: Apply or renew" href="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges-Old/Pages/Organisations-Eligibility.aspx" data-cludo-result="searchresult" data-cludo-index="10" data-cludo-url="http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges-Old/Pages/Organisations-Eligibility.aspx" data-cludo-title="Organisation: Apply or renew" data-cludo-page="1">Organisation: Apply or renew</a>
+                    </h2>
+                    <p>
+                       <b>Blue</b> Badges Old...<b>Blue</b> Badges Old...The <b>Blue</b> Badge scheme: rights and responsibilities for organisations that have <b>Blue</b> Badges
+                    </p>
+                    <span class="path">
+                    http://www.essex.gov.uk/Health-Social-Care/Health-and-social-care-for-adults/Blue-Badges-Old/Pages/Organisations-Eligibility.aspx
+                    </span>                    
+                 </li>
+              </ul>
+              <!-- Search result paging -->
+              <nav aria-label="Page navigation" class="cludo-page-navigation">
+                 <ul class="search_page_list">
+                    <li class="active">1<span class="cludo-sr-only">(current)</span></li>
+                    <li><a href="" data-page="2">2</a></li>
+                    <li><a href="" data-page="3">3</a></li>
+                    <li><a href="" data-page="4">4</a></li>
+                    <li><a href="" data-page="5">5</a></li>
+                    <li class="next"><a href="" data-page="next" aria-label="Next">&gt;</a></li>
+                 </ul>
+                 <a class="powered-by-cludo" href="https://www.cludo.com" title="Cludo" target="_blank"></a>
+              </nav>
+              <!-- Search result paging -->
+           </div>
         </div>
       </div>
     </div>

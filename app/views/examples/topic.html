@@ -3,58 +3,54 @@
 {% block content %}
 
 <main id="content">
+  <div class="breadcrumbs">
+    <ol>
+      <li><a href="/">Home</a></li>
+      <li><a href="#">Social care and health</a></li>
+    </ol>
+  </div>
+  <div class="main only">
+    <section class="intro">
+      <h1>Social care and health</h1>
 
-  <div class="container">
-    <div class="breadcrumbs">
-      <ol>
-        <li><a href="/">Home</a></li>
-        <li><a href="#">Social care and health</a></li>
-      </ol>
-    </div>
-    <div class="main only">
-      <section class="intro">
-        <h1>Social care and health</h1>
+      {% block linkbox %}
+        {% include "includes/link-box.html" %}
+      {% endblock %}
+    </section>
 
-        {% block linkbox %}
-          {% include "includes/link-box.html" %}
-        {% endblock %}
-      </section>
-
-      <section class="content">
-        <div class="preview-list">
+    <section class="content">
+      <div class="preview-list">
+        <ul>
+          <li>
+              <a href="#">Support for carers</a>
+              <p>Information, support and guidance for people who look after someone</p>
+          </li>
+          <li>
+              <a href="#">Accessible transport and mobility</a>
+              <p>Includes Blue Badge, disabled parking bays, mobilty aids and accessible transport</p>
+          </li>
+          <li>
+              <a href="#">Advocacy</a>
+              <p>Find out why you may need an advocate, and whom to contact for advocacy services in Essex</p>
+          </li>
+        </ul>
+        <div class="js-hidden" id="tab-one" aria-hidden="true">
           <ul>
             <li>
-                <a href="#">Support for carers</a>
-                <p>Information, support and guidance for people who look after someone</p>
-            </li>
-            <li>
-                <a href="#">Accessible transport and mobility</a>
-                <p>Includes Blue Badge, disabled parking bays, mobilty aids and accessible transport</p>
-            </li>
-            <li>
-                <a href="#">Advocacy</a>
-                <p>Find out why you may need an advocate, and whom to contact for advocacy services in Essex</p>
+                <a href="#">Autism</a>
+                <p>Information to people of all ages affected by autism, either for themselves, a family member or a friend.</p>
             </li>
           </ul>
-          <div class="js-hidden" id="tab-one" aria-hidden="true">
-            <ul>
-              <li>
-                  <a href="#">Autism</a>
-                  <p>Information to people of all ages affected by autism, either for themselves, a family member or a friend.</p>
-              </li>
-            </ul>
-          </div>
-          <div data-target="tab-one">
-            <input class="checkbox" id="toggle-one" type="checkbox" aria-controls="tab-one" aria-expanded="false">
-            <label class="show" for="toggle-one">Show</label>
-            <label class="hide" for="toggle-one">Hide</label>
-          </div>
         </div>
-      </section>
+        <div data-target="tab-one">
+          <input class="checkbox" id="toggle-one" type="checkbox" aria-controls="tab-one" aria-expanded="false">
+          <label class="show" for="toggle-one">Show</label>
+          <label class="hide" for="toggle-one">Hide</label>
+        </div>
+      </div>
+    </section>
 
-    </div>
   </div>
-
 </main>
 
 {% endblock %}
