@@ -25,11 +25,6 @@
   }
 }
 
-// %grid-row {
-//   @extend %contain-floats;
-//   margin: 0 (-$gutter-half);
-// }
-
 %grid-row {
   @extend %contain-floats;
   @include media(mobile) {
@@ -73,11 +68,13 @@ main#content {
     .main {
       @extend %grid-row;
       .content, .intro, .function {
-        @include grid-column(1);
+        @include grid-column(9 / 12);
       }
-      // &.only {
-      //   @include grid-column-b(1);
-      // }
+      &.only {
+        .content, .intro, .function {
+          @include grid-column(1);
+        }
+      }
       // .content {
       //   @include media(mobile) {
       //     @include grid-column-b(1);

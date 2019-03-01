@@ -3,98 +3,99 @@
 {% block content %}
 
 <main id="content">
-  <div class="breadcrumbs">
-    <ol>
-      <li><a href="/docs/core/contents">Contents</a></li>
-      <li><a href="#">Information</a></li>
-    </ol>
-  </div>
-  <div class="main">
-    <h1>Page title</h1>
-    <nav class="contents" role="navigation" aria-label="pages-in-this-service">
-      <div class="heading">
-        <h2>Contents</h2>
-      </div>
-      <ol id="pages-in-this-service">
-        <li>Paying for care and support</li>
-        <li><a href="#">Financial assessment </a></li>
-        <li><a href="#">Personal budget</a></li>
-        <li><a href="#">Care charges</a></li>
-        <li><a href="#">Ways to pay for your care</a></li>
-        <li><a href="#">Paying for a residential home</a></li>
-        <li><a href="#">Deferred payment scheme</a></li>
-        <li><a href="#">Independent financial advice</a></li>
-        <li><a href="#">Direct payments</a></li>
-        <li><a href="#">Contact us</a></li>
-      </ol>
-    </nav>
-
-    <section class="content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mattis tortor orci. Morbi vestibulum tortor elit, ac semper ipsum cursus quis. Nam lacinia eget nulla vel scelerisque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies posuere dapibus. Quisque vel massa porttitor, bibendum orci id, hendrerit felis. Praesent consectetur ipsum maximus, condimentum enim eget, porttitor tortor. Proin sodales facilisis laoreet. Nam vitae pharetra metus, sit amet venenatis tortor.</p>
-      <ul>
-        <li>item number 1</li>
-        <li>item number 2</li>
-        <li>item number 3</li>
-      </ul>
+  <div class="container">
+    <div class="breadcrumbs">
       <ol>
-        <li>item number 1</li>
-        <li>item number 2</li>
-        <li>item number 3</li>
+        <li><a href="/docs/core/contents">Contents</a></li>
+        <li><a href="#">Information</a></li>
       </ol>
-      <p><a href="#">This is a link</a></p>
-      <h2>Heading 2</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mattis tortor orci. Morbi vestibulum tortor elit, ac semper ipsum cursus quis. Nam lacinia eget nulla vel scelerisque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum <a href="#">ultricies posuere</a> dapibus. Quisque vel massa porttitor, bibendum orci id, hendrerit felis.</p>
-      <div class="table">
-        <table>
-        <caption>2018 care charges</caption>
-          <thead>
-            <tr>
-              <th>Type of service</th>
-              <th>Frequency</th>
-              <th>Cost</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Home Support Services (normal hours) one-to-one</td>
-              <td>Hourly</td>
-              <td>£17.04</td>
-            </tr>
-            <tr>
-              <td>Day Care</td>
-              <td>Per session</td>
-              <td>£10.73</td>
-            </tr>
-            <tr>
-              <td>Day Care with transport</td>
-              <td>Per session</td>
-              <td>£12.20</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <h3>Heading 3</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mattis tortor orci. Morbi vestibulum tortor elit, ac semper ipsum cursus quis. Nam lacinia eget nulla vel scelerisque.</p>
-    </section>
+    </div>
+    <div class="main">
+      <section class="intro">
+        <h1>Page title</h1>
+        <nav class="contents" role="navigation" aria-label="pages-in-this-service">
+          <div class="heading">
+            <h2>Contents</h2>
+          </div>
+          <ol id="pages-in-this-service">
+            <li>Paying for care and support</li>
+            <li><a href="#">Financial assessment </a></li>
+            <li><a href="#">Personal budget</a></li>
+            <li><a href="#">Care charges</a></li>
+            <li><a href="#">Ways to pay for your care</a></li>
+            <li><a href="#">Paying for a residential home</a></li>
+            <li><a href="#">Deferred payment scheme</a></li>
+            <li><a href="#">Independent financial advice</a></li>
+            <li><a href="#">Direct payments</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ol>
+        </nav>
+      </section>
 
-    {% block pagination %}
-      {% include "includes/pagination.html" %}
-    {% endblock %}
+      <section class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mattis tortor orci. Morbi vestibulum tortor elit, ac semper ipsum cursus quis. Nam lacinia eget nulla vel scelerisque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies posuere dapibus. Quisque vel massa porttitor, bibendum orci id, hendrerit felis. Praesent consectetur ipsum maximus, condimentum enim eget, porttitor tortor. Proin sodales facilisis laoreet. Nam vitae pharetra metus, sit amet venenatis tortor.</p>
+        <ul>
+          <li>item number 1</li>
+          <li>item number 2</li>
+          <li>item number 3</li>
+        </ul>
+        <ol>
+          <li>item number 1</li>
+          <li>item number 2</li>
+          <li>item number 3</li>
+        </ol>
+        <p><a href="#">This is a link</a></p>
+        <h2>Heading 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mattis tortor orci. Morbi vestibulum tortor elit, ac semper ipsum cursus quis. Nam lacinia eget nulla vel scelerisque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum <a href="#">ultricies posuere</a> dapibus. Quisque vel massa porttitor, bibendum orci id, hendrerit felis.</p>
+        <div class="table">
+          <table>
+          <caption>2018 care charges</caption>
+            <thead>
+              <tr>
+                <th>Type of service</th>
+                <th>Frequency</th>
+                <th>Cost</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Home Support Services (normal hours) one-to-one</td>
+                <td>Hourly</td>
+                <td>£17.04</td>
+              </tr>
+              <tr>
+                <td>Day Care</td>
+                <td>Per session</td>
+                <td>£10.73</td>
+              </tr>
+              <tr>
+                <td>Day Care with transport</td>
+                <td>Per session</td>
+                <td>£12.20</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3>Heading 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mattis tortor orci. Morbi vestibulum tortor elit, ac semper ipsum cursus quis. Nam lacinia eget nulla vel scelerisque.</p>
+      </section>
 
-    {% block filelink %}
-      {% include "includes/file-download.html" %}
-    {% endblock %}
+      <section class="function">
 
-    {% block printlink %}
-      {% include "includes/print-link.html" %}
-    {% endblock %}
+        {% block pagination %}
+          {% include "includes/pagination.html" %}
+        {% endblock %}
+
+        {% block filelink %}
+          {% include "includes/file-download.html" %}
+        {% endblock %}
+
+        {% block printlink %}
+          {% include "includes/print-link.html" %}
+        {% endblock %}
+      </section>
+    </div>
   </div>
-
-  <aside class="side">
-    {% block sidenav %}
-      {% include "includes/sidenav.html" %}
-    {% endblock %}
-  </aside>
 </main>
 
 {% endblock %}

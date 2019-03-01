@@ -19,7 +19,7 @@
     .nav {
      @extend %grid-row;
       a.logo-text {
-        @include grid-column(1);
+        @include grid-column(1 / 2);
         display: inline-block;
         font-family: $stack-logo;
         font-size: $baseline;

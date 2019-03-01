@@ -3,73 +3,73 @@
 {% block content %}
 
 <main id="content">
-  <div class="breadcrumbs">
-    <ol>
-      <li><a href="/">Home</a></li>
-      <li><a href="examples/topic">Social care and health</a></li>
-      <li><a href="#">Report abuse or neglect: Report a concern about a child</a></li>
-    </ol>
-  </div>
-  <div class="main">
-    <h1>Report abuse or neglect</h1>
-    <nav class="contents">
-      <div class="heading">
-        <h2>Contents</h2>
-      </div>
+  <div class="container">
+    <div class="breadcrumbs">
       <ol>
-        <li>Report a concern about a child</li>
-        <li><a href="#">Report a concern about an adult</a></li>
-        <li><a href="#">Domestic abuse</a></li>
-        <li><a href="#">What is abuse? What is neglect?</a></li>
-        <li><a href="#">Deprivation of Liberty Safeguards (DoLS)</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="examples/topic">Social care and health</a></li>
+        <li><a href="#">Report abuse or neglect: Report a concern about a child</a></li>
       </ol>
-    </nav>
+    </div>
+    <div class="main">
+      <section class="intro">
+        <h1>Report abuse or neglect</h1>
+        <nav class="contents">
+          <div class="heading">
+            <h2>Contents</h2>
+          </div>
+          <ol>
+            <li>Report a concern about a child</li>
+            <li><a href="#">Report a concern about an adult</a></li>
+            <li><a href="#">Domestic abuse</a></li>
+            <li><a href="#">What is abuse? What is neglect?</a></li>
+            <li><a href="#">Deprivation of Liberty Safeguards (DoLS)</a></li>
+          </ol>
+        </nav>
+      </section>
 
-    <section class="content">
-      <h2>Report a concern about a child</h2>
-      <p>If you believe someone is in immediate danger, dial 999.</p>
-      <div class="inset">
-        <h3>Contact Essex Safeguarding Children Board</h3>
-        <p></p><p><a href="http://www.escb.co.uk/" title="Essex Safeguarding Children Board">www.escb.co.uk</a><br>
-          Telephone: 0345 603 7627<br>
-        Monday to Friday, 9:30am to 5:30pm</p>
-      </div>
-      <p>You may want to report a concern if you:</p>
-      <ul>
-        <li>are worried about the safety or wellbeing of a child</li>
-        <li>suspect neglect or abuse</li>
-        <li>would like to report an incident</li>
-      </ul>
-      <p>Visit the NSPCC to find out more about the signs of abuse and neglect.</p>
-      <p>Even if you are not sure whether we need to be aware, or whether it's serious or not, call us.</p>
-      <p>We are best placed to decide whether it warrants further investigation.</p>
-      <h3>For professionals</h3>
-      <p>Access<a href="#"> Essex Safeguarding Children Board guidance</a></p>
-    </section>
+      <section class="content">
+        <h2>Report a concern about a child</h2>
+        <p>If you believe someone is in immediate danger, dial 999.</p>
+        <div class="inset">
+          <h3>Contact Essex Safeguarding Children Board</h3>
+          <p></p><p><a href="http://www.escb.co.uk/" title="Essex Safeguarding Children Board">www.escb.co.uk</a><br>
+            Telephone: 0345 603 7627<br>
+          Monday to Friday, 9:30am to 5:30pm</p>
+        </div>
+        <p>You may want to report a concern if you:</p>
+        <ul>
+          <li>are worried about the safety or wellbeing of a child</li>
+          <li>suspect neglect or abuse</li>
+          <li>would like to report an incident</li>
+        </ul>
+        <p>Visit the NSPCC to find out more about the signs of abuse and neglect.</p>
+        <p>Even if you are not sure whether we need to be aware, or whether it's serious or not, call us.</p>
+        <p>We are best placed to decide whether it warrants further investigation.</p>
+        <h3>For professionals</h3>
+        <p>Access<a href="#"> Essex Safeguarding Children Board guidance</a></p>
+      </section>
 
-    <nav class="pagination">
-      <ul>
-        <li class="next">
-          <a href="#">
-            <span class="pagination-item">
-              <i class="fas fa-arrow-right"></i>Next
-            </span>
-            <span>Personal budget</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
+      <section class="function">
+        <nav class="pagination">
+          <ul>
+            <li class="next">
+              <a href="#">
+                <span class="pagination-item">
+                  <i class="fas fa-arrow-right"></i>Next
+                </span>
+                <span>Personal budget</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
 
-    {% block printlink %}
-      {% include "includes/print-link.html" %}
-    {% endblock %}
+        {% block printlink %}
+          {% include "includes/print-link.html" %}
+        {% endblock %}
+      </section>
+    </div>
   </div>
-
-  <aside class="side">
-    {% block sidenav %}
-      {% include "includes/sidenav.html" %}
-    {% endblock %}
-  </aside>
 </main>
 
 {% endblock %}

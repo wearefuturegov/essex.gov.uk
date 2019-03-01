@@ -3,114 +3,114 @@
 {% block content %}
 
 <main id="content">
-  <div class="breadcrumbs">
-    <ol>
-      <li><a href="/docs/core/contents">Contents</a></li>
-      <li><a href="#">Form</a></li>
-    </ol>
-  </div>
-  <div class="main only">
-    <section class="intro">
-      <h1>Page heading</h1>
-      <p class="lede">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <h2>Section heading</h2>
-      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <div class="inset">
-        <p>It can only be completed if you have already been assessed as needing care and support.</p>
-      </div>
-    </section>
-    <section class="content">
-      <a class="button button-start" href="#" role="button">Start now</a>
-      <h3>Content heading</h3>
-      <form class="form">
-        <div class="group">
-          <label for="name">Full name</label>
-          <span class="form-hint">As shown on your birth certificate or passport</span>
-          <input class="form-control" id="name" name="name" type="text">
+  <div class="container">
+    <div class="breadcrumbs">
+      <ol>
+        <li><a href="/docs/core/contents">Contents</a></li>
+        <li><a href="#">Form</a></li>
+      </ol>
+    </div>
+    <div class="main only">
+      <section class="intro">
+        <h1>Page heading</h1>
+        <p class="lede">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <h2>Section heading</h2>
+        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="inset">
+          <p>It can only be completed if you have already been assessed as needing care and support.</p>
         </div>
-        <div class="group">
-          <fieldset>
-            <legend>
-              <span class="form-hint">
-                What is your date of birth?
-              </span>
-              <span class="form-hint">
-                For example, 31 3 1980
-              </span>
-            </legend>
-            <div class="group day">
-              <label for="day">Day</label>
-              <input class="form-control" id="day" name="day" type="number">
-            </div>
-            <div class="group month">
-              <label for="month">Month</label>
-              <input class="form-control" id="month" name="month" type="number">
-            </div>
-            <div class="group year">
-              <label for="year">Year</label>
-              <input class="form-control" id="year" name="year" type="number">
-            </div>
-          </fieldset>
+      </section>
+      <section class="content">
+        <a class="button button-start" href="#" role="button">Start now</a>
+        <h3>Content heading</h3>
+        <form class="form">
+          <div class="group">
+            <label for="name">Full name</label>
+            <span class="form-hint">As shown on your birth certificate or passport</span>
+            <input class="form-control" id="name" name="name" type="text">
+          </div>
+          <div class="group">
+            <fieldset>
+              <legend>
+                <span class="form-hint">
+                  What is your date of birth?
+                </span>
+                <span class="form-hint">
+                  For example, 31 3 1980
+                </span>
+              </legend>
+              <div class="group day">
+                <label for="day">Day</label>
+                <input class="form-control" id="day" name="day" type="number">
+              </div>
+              <div class="group month">
+                <label for="month">Month</label>
+                <input class="form-control" id="month" name="month" type="number">
+              </div>
+              <div class="group year">
+                <label for="year">Year</label>
+                <input class="form-control" id="year" name="year" type="number">
+              </div>
+            </fieldset>
+          </div>
+          <input type="submit" class="button" value="Continue">
+        </form>
+        <h3>Content heading</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="form">
+          <div class="group">
+            <fieldset>
+              <legend>Asking your question?</legend>
+              <div class="multiple-choice">
+                <input id="selection-one" type="radio" name="radio" value="yes">
+                <label for="selection-one">Yes</label>
+              </div>
+              <div class="multiple-choice">
+                <input id="selection-two" type="radio" name="radio" value="no">
+                <label for="selection-two">No</label>
+              </div>
+              <div class="panel js-hidden" id="radio-selection">
+                  This panel is shown if selecting last radio
+              </div>
+            </fieldset>
+          </div>
+        </div>
+        <h3>Content heading</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="form">
+          <div class="group">
+            <fieldset>
+              <legend>Ask your question?</legend>
+              <div class="multiple-choice">
+                <input id="telephone" name="checkbox" type="checkbox" value="Telephone">
+                <label for="telephone">Telephone</label>
+              </div>
+              <div class="multiple-choice">
+                <input id="email" name="checkbox" type="checkbox" value="Email">
+                <label for="email">Email</label>
+              </div>
+              <div class="multiple-choice">
+                <input id="post" name="checkbox" type="checkbox" value="Post">
+                <label for="post">Post</label>
+              </div>
+              <div class="panel js-hidden" id="checkbox-selection">
+                  This panel is shown if selecting last checkbox
+              </div>
+            </fieldset>
+          </div>
         </div>
         <input type="submit" class="button" value="Continue">
-      </form>
-      <h3>Content heading</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.</p>
-      <div class="form">
-        <div class="group">
-          <fieldset>
-            <legend>Asking your question?</legend>
-            <div class="multiple-choice">
-              <input id="selection-one" type="radio" name="radio" value="yes">
-              <label for="selection-one">Yes</label>
-            </div>
-            <div class="multiple-choice">
-              <input id="selection-two" type="radio" name="radio" value="no">
-              <label for="selection-two">No</label>
-            </div>
-            <div class="panel js-hidden" id="radio-selection">
-                This panel is shown if selecting last radio
-            </div>
-          </fieldset>
+        <div class="highlight-box">
+          <h1>Financial checker complete</h1>
+          <p>Self funded care</p>
         </div>
-      </div>
-      <h3>Content heading</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.</p>
-      <div class="form">
-        <div class="group">
-          <fieldset>
-            <legend>Ask your question?</legend>
-            <div class="multiple-choice">
-              <input id="telephone" name="checkbox" type="checkbox" value="Telephone">
-              <label for="telephone">Telephone</label>
-            </div>
-            <div class="multiple-choice">
-              <input id="email" name="checkbox" type="checkbox" value="Email">
-              <label for="email">Email</label>
-            </div>
-            <div class="multiple-choice">
-              <input id="post" name="checkbox" type="checkbox" value="Post">
-              <label for="post">Post</label>
-            </div>
-            <div class="panel js-hidden" id="checkbox-selection">
-                This panel is shown if selecting last checkbox
-            </div>
-          </fieldset>
-        </div>
-      </div>
-    </section>
-    <input type="submit" class="button" value="Continue">
-    <section class="content">
-      <div class="highlight-box">
-        <h1>Financial checker complete</h1>
-        <p>Self funded care</p>
-      </div>
-      <p class="meta">Last updated: 25 June 2018</p>
-    </section>
+        <p class="meta">Last updated: 25 June 2018</p>
+      </section>
+    </div>
   </div>
 </main>
 
