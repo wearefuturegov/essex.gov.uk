@@ -1,5 +1,4 @@
 .breadcrumbs {
-  @include grid-column(1);
   @media print {
     display: none;
   }

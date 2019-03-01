@@ -1,3 +1,49 @@
+%site-width-container {
+  @include media(mobile) {
+    padding: 0 $outer-grid-margin*2;
+    // background: blue;
+  }
+  @include media(tablet) {
+    padding: 0 $outer-grid-margin*2;
+    // background: red;
+  }
+  @include media(desktop) {
+    padding: 0 $outer-grid-margin*2;
+    // background: green;
+    margin: 0 auto;
+    max-width: $site-width;
+  }
+}
+
+%outdent-to-full-width {
+  margin-left: -$gutter-half;
+  margin-right: -$gutter-half;
+
+  @include media(tablet) {
+    margin-left: -$gutter;
+    margin-right: -$gutter;
+  }
+}
+
+// %grid-row {
+//   @extend %contain-floats;
+//   margin: 0 (-$gutter-half);
+// }
+
+%grid-row {
+  @extend %contain-floats;
+  @include media(mobile) {
+    margin: 0 (-$gutter*0.5);
+  }
+  @include media(tablet) {
+    margin: 0 (-$gutter*0.5);
+  }
+  @include media(desktop) {
+    $gutter-half: 60px;
+    margin: 0 (-$gutter-half);
+  }
+}
+
 @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
   .container{
     margin: 0 auto $baseline*2 auto;
@@ -25,9 +71,9 @@ main#content {
     @extend %site-width-container;
     outline: none;
     .main {
-      @extend %grid-row-b;
-      .content {
-        @include grid-column-b(1);
+      @extend %grid-row;
+      .content, .intro, .function {
+        @include grid-column(1);
       }
       // &.only {
       //   @include grid-column-b(1);
@@ -71,23 +117,5 @@ main#content {
   }
   @include media(desktop) {
     @include grid-column(1 / 3);
-  }
-}
-
-.tight {
-  margin-bottom: $baseline;
-}
-
-.mid {
-  margin-bottom: $baseline*2;
-  @media print {
-    margin-bottom: $baseline;
-  }
-}
-
-.loose {
-  margin-bottom: $baseline*4;
-  @media print {
-    margin-bottom: $baseline;
   }
 }

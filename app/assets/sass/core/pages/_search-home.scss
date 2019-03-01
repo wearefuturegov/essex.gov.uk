@@ -5,6 +5,10 @@
   background-position-x: 0;
   background-position-y: 0;
   height: $baseline*14;
+  @include media(mobile) {
+    height: auto;
+    padding-bottom: $baseline;
+  }
   width: 100%;
   position: relative;
   .overlay {
@@ -15,10 +19,6 @@
     @extend %contain-floats;
     .search {
       @extend %grid-row;
-      @include media(mobile) {
-        width: 100%;
-        margin: 0;
-      }
       .search-buttons {
         display: none;
       }
