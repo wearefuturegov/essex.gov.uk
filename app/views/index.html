@@ -7,8 +7,7 @@
 {% endblock %}
 
 <main id="content">
-
-<!--   <div class="container"> -->
+  <div class="container">
     <div class="main only">
       <section class="content">
         <h1 class="h3">Essex County Council Services</h1>
@@ -60,14 +59,14 @@
             <p>Includes places to go, cultural events and activities, historical records and building conservation</p>
           </div>
         </div>
-      </section>
 
-      {% block impact %}
-        {% include "includes/impact.html" %}
-      {% endblock %}
+        {% block impact %}
+          {% include "includes/impact.html" %}
+        {% endblock %}
+      </section>
       
     </div>
-  <!-- </div> -->
+  </div>
 </main>
 
 {% block signupbig %}

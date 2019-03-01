@@ -76,7 +76,7 @@
 
 
 %grid-row {
-  // @extend %contain-floats;
+  @extend %contain-floats;
   margin: 0 (-$gutter-half);
 }
 
@@ -93,15 +93,6 @@
     margin: 0 (-$gutter-half);
   }
 }
-
-// #content .container {
-//   @extend %site-width-container;
-//   @extend %site-width-container;
-//   // @extend %contain-floats;
-//   // Pressing enter when focus is on the skiplink sets focus on the #content area
-//   // Remove the blue outline
-//   outline: none;
-// }
 
 %site-width-container {
   // max-width: $site-width;
@@ -124,13 +115,3 @@
   //   margin: 0 auto;
   // }
 }
-
-// %outdent-to-full-width {
-//   margin-left: -$gutter-half;
-//   margin-right: -$gutter-half;
-
-//   @include media(tablet) {
-//     margin-left: -$gutter;
-//     margin-right: -$gutter;
-//   }
-// }

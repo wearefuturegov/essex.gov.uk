@@ -1,5 +1,5 @@
 .breadcrumbs {
-  @extend %site-width-container;
+  @include grid-column(1);
   @media print {
     display: none;
   }
@@ -49,7 +49,7 @@
   }
 }
 
-.container > .breadcrumbs {
-  margin-left: $gutter*0.5;
-  margin-right: $gutter*0.5;
-}
+// .container > .breadcrumbs {
+//   margin-left: $gutter*0.5;
+//   margin-right: $gutter*0.5;
+// }
