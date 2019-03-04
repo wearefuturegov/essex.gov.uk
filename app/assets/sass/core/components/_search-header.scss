@@ -1,19 +1,15 @@
 .header {
   position: relative;
-  .nav {
-    padding-right: $gutter*3;
-  }
   .search {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
+    @include grid-column(1 / 2);
+    position: relative;
     height: $baseline;
     .form {
       .group {
+        float: right;
         margin-top: $baseline*0.75;
         margin-bottom: $baseline*0.75;
-        width: $gutter*5;
+        width: $gutter*4;
         @include media(mobile) {
           margin-top: 0;
           margin-bottom: 0;

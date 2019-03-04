@@ -32,7 +32,6 @@
   <li><a href="elements/dropdown">Dropdown</a></li>
   <li><a href="elements/form">Form</a></li>
   <li><a href="elements/headings">Headings</a></li>
-  <li><a href="elements/hero">Hero</a></li>
   <li><a href="elements/icon">Icon</a></li>
   <li><a href="elements/inputs">Inputs</a></li>
   <li><a href="elements/list">List</a></li>

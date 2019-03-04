@@ -10,7 +10,7 @@
 <header class="header-background" role="banner">
   <div class="header">
     <nav class="nav">
-      <a href="/" class="logo-text">Essex.gov.uk</a><span>Beta</span>
+      <a href="/" class="logo-text">Essex.gov.uk<span>Beta</span></a>
       <div class="search" role="search">
         <div class="search-input">
           <form action="/search" method="get" role="search" class="form">
@@ -30,7 +30,7 @@
     <header class="header-background" role="banner">
       <div class="header">
         <nav class="nav">
-          <a href="/" class="logo-text">Essex.gov.uk</a><span>Beta</span>
+          <a href="/" class="logo-text">Essex.gov.uk<span>Beta</span></a>
           <div class="search" role="search">
             <div class="search-input">
               <form action="/search" method="get" role="search" class="form">

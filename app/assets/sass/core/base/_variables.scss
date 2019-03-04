@@ -1,6 +1,3 @@
-// need to refer to govuk_modules/govuk_frontend_toolkit/stylesheets/_typography.scss
-// once we have fonts decided
-
 // font stack
 $stack: 'Open Sans', sans-serif;
 $stack-logo: 'Roboto', sans-serif;
@@ -79,7 +76,7 @@ $linkbox: #0072C6; // Linking to external sites
 
 $error: #b10e1e;
 $warning: $focus-colour;
-$info: $grey; 
+$info: $grey;
 
 $highlight-box: $link;
 $highlight-box-light: #dfeeff;

@@ -27,6 +27,9 @@
     margin: $baseline 0;
     code {
       @include wrap;
+      @include box-sizing(border-box);
+      float: left;
+      width: 100%;
       display: block;
       margin: $baseline 0;
       padding: $baseline;
