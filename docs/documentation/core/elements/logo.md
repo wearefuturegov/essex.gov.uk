@@ -9,4 +9,4 @@
 
 <a href="/" class="logo-text">Essex.gov.uk<span>Beta</span></a>
 
-<a href="/" class="logo-text">Essex.gov.uk<span>Beta</span></a>
+	<a href="/" class="logo-text">Essex.gov.uk<span>Beta</span></a>
