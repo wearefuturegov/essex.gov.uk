@@ -10,5 +10,12 @@
   }
   &.campaign {
     background-image: file-url("/img/impact.jpg");
+    @include media(mobile) {
+      background: none;
+      margin-bottom: $baseline;
+      .overlay {
+        background: none;
+      }
+    }
   }
 }
