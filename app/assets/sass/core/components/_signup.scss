@@ -86,16 +86,24 @@
             text-indent: -5000px;
             background: transparent;
             position: absolute;
-            left: $border-thick*10 + $border-thick;
+            left: $gutter;
             top: 0;
             height: 60px;
-            width: calc(100% - #{$gutter});
+            width: calc(100% - #{$gutter*2});
             &:focus {
-              left: $border-thick*10;
+              left: $gutter;
               text-indent: 0;
               background: #fff;
               outline-offset: 0;
               padding: $form-padding*2;
+            }
+            @include media(mobile) {
+              left: $gutter*0.5;
+              width: calc(100% - #{$gutter});
+              &:focus {
+                left: $gutter*0.5;
+                width: calc(100% - #{$gutter});
+              }
             }
           }
         }
