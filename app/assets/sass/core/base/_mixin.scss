@@ -1,3 +1,32 @@
+@mixin grid-column($width, $full-width: tablet, $float: left) {
+
+  @include media($full-width) {
+    float: $float;
+    width: percentage($width);
+  }
+
+  $gutter-half: 60px;
+  padding: 0 $gutter-half;
+  @include box-sizing(border-box);
+
+  @include media(mobile) {
+    padding-left: $gutter*0.5;
+    padding-right: $gutter*0.5;
+  }
+
+  @include media(tablet) {
+    padding-left: $gutter*0.5;
+    padding-right: $gutter*0.5;
+  }
+
+  @include media(desktop) {
+    padding-left: $gutter;
+    padding-right: $gutter;
+  }
+}
+
+
+// general mixins
 @mixin no-placeholder {
   ::-webkit-input-placeholder { /* WebKit browsers */
       color: transparent;

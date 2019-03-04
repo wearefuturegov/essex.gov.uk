@@ -2,17 +2,16 @@
   @media print {
     display: none;
   }
-  .footer-top {
+  .footer-top, .footer-bottom {
     background-color: $very-black;
-    padding-top: $baseline;
     padding-bottom: $baseline;
     font-size: $smaller;
   }
+  .footer-top {
+    padding-top: $baseline;
+  }
   .footer-bottom {
-    background-color: $very-black;
     padding-top: 0;
-    padding-bottom: $baseline;
-    font-size: $smaller;
   }
   .footer {
     @extend %site-width-container;

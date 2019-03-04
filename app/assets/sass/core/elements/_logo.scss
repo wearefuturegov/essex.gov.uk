@@ -7,3 +7,40 @@
     display: block;
   }
 }
+
+a.logo-text {
+  display: inline-block;
+  font-family: $stack-logo;
+  font-size: $baseline;
+  margin-top: $nav-height*0.25;
+  margin-bottom: $nav-height*0.25;
+  text-transform: uppercase;
+  color: $black;
+  line-height: $logo-height;
+  text-decoration: none;
+  @include media(mobile) {
+    margin-top: $nav-height*0.125;
+    margin-bottom: $nav-height*0.125;
+  }
+  &:hover {
+    text-decoration: underline;
+  }
+  &:focus {
+    background-color: $brand;
+    outline: $border-thick solid $focus-colour;
+  }
+  @media print {
+    color: $black;
+    font-weight: 700;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  span {
+    font-size: $smaller;
+    font-weight: $light;
+    text-transform: capitalize;
+    color: $black;
+    margin-left: $gutter*0.125;
+  }
+}

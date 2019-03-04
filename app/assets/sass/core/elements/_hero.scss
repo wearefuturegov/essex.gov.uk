@@ -4,12 +4,18 @@
   background-size: cover;
   background-position-x: 0;
   background-position-y: 0;
-  height: $baseline*14;
   width: 100%;
   &.tree {
     background-image: file-url("/main-hero.jpg");
   }
   &.campaign {
     background-image: file-url("/img/impact.jpg");
+    @include media(mobile) {
+      background: none;
+      margin-bottom: $baseline;
+      .overlay {
+        background: none;
+      }
+    }
   }
 }

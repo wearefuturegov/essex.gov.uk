@@ -3,7 +3,6 @@
 {% block content %}
 
 <main id="content">
-
   <div class="container">
     <div class="breadcrumbs">
       <ol>
@@ -13,19 +12,21 @@
       </ol>
     </div>
     <div class="main">
-      <h1>Report abuse or neglect</h1>
-      <nav class="contents">
-        <div class="heading">
-          <h2>Contents</h2>
-        </div>
-        <ol>
-          <li>Report a concern about a child</li>
-          <li><a href="#">Report a concern about an adult</a></li>
-          <li><a href="#">Domestic abuse</a></li>
-          <li><a href="#">What is abuse? What is neglect?</a></li>
-          <li><a href="#">Deprivation of Liberty Safeguards (DoLS)</a></li>
-        </ol>
-      </nav>
+      <section class="intro">
+        <h1>Report abuse or neglect</h1>
+        <nav class="contents">
+          <div class="heading">
+            <h2>Contents</h2>
+          </div>
+          <ol>
+            <li>Report a concern about a child</li>
+            <li><a href="#">Report a concern about an adult</a></li>
+            <li><a href="#">Domestic abuse</a></li>
+            <li><a href="#">What is abuse? What is neglect?</a></li>
+            <li><a href="#">Deprivation of Liberty Safeguards (DoLS)</a></li>
+          </ol>
+        </nav>
+      </section>
 
       <section class="content">
         <h2>Report a concern about a child</h2>
@@ -49,29 +50,25 @@
         <p>Access<a href="#"> Essex Safeguarding Children Board guidance</a></p>
       </section>
 
-      <nav class="pagination">
-        <ul>
-          <li class="next">
-            <a href="#">
-              <span class="pagination-item">
-                <i class="fas fa-arrow-right"></i>Next
-              </span>
-              <span>Personal budget</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <section class="function">
+        <nav class="pagination">
+          <ul>
+            <li class="next">
+              <a href="#">
+                <span class="pagination-item">
+                  <i class="fas fa-arrow-right"></i>Next
+                </span>
+                <span>Personal budget</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
 
-      {% block printlink %}
-        {% include "includes/print-link.html" %}
-      {% endblock %}
+        {% block printlink %}
+          {% include "includes/print-link.html" %}
+        {% endblock %}
+      </section>
     </div>
-
-    <aside class="side">
-      {% block sidenav %}
-        {% include "includes/sidenav.html" %}
-      {% endblock %}
-    </aside>
   </div>
 </main>
 

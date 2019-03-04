@@ -10,7 +10,7 @@
 <header class="header-background" role="banner">
   <div class="header">
     <nav class="nav">
-      <a href="/" class="logo-text">Essex.gov.uk</a><span>Beta</span>
+      <a href="/" class="logo-text">Essex.gov.uk<span>Beta</span></a>
     </nav>
   </div>
 </header>
@@ -18,7 +18,7 @@
     <header class="header-background" role="banner">
       <div class="header">
         <nav class="nav">
-          <a href="/" class="logo-text">Essex.gov.uk</a><span>Beta</span>
+          <a href="/" class="logo-text">Essex.gov.uk<span>Beta</span></a>
         </nav>
       </div>
     </header>
