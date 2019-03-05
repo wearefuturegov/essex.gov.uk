@@ -9,7 +9,7 @@
 
 <div class="search-background" role="search">
   <div class="overlay"></div>
-  <div class="hero">
+  <div class="search-container">
     <div class="search">
       <div class="greeting">
         <h1>Welcome to Essex</h1>
@@ -30,7 +30,7 @@
 
     <div class="search-background" role="search">
       <div class="overlay"></div>
-      <div class="hero">
+      <div class="search-container">
         <div class="search">
           <div class="greeting">
             <h1>Welcome to Essex</h1>
