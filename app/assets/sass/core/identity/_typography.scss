@@ -23,6 +23,9 @@ h1, h2, h3, h4 {
   text-transform: none;
   margin-top: calc(#{$h1} * 0.5);
   margin-bottom: calc(#{$h1} * 1);
+  @include media(mobile) {
+    font-size: $h1*0.9;
+  }
 }
 
 @mixin h2 {
@@ -32,6 +35,9 @@ h1, h2, h3, h4 {
   text-transform: none;
   margin-top: calc(#{$h2} * 1.25);
   margin-bottom: calc(#{$h2} * 0.55556);
+  @include media(mobile) {
+    font-size: $h2*0.9;
+  }
 }
 
 @mixin h3 {
@@ -41,6 +47,9 @@ h1, h2, h3, h4 {
   text-transform: none;
   margin-top: calc(#{$h3} * 1.5);
   margin-bottom: calc(#{$h3} * 1);
+  @include media(mobile) {
+    font-size: $h3*0.9;
+  }
 }
 
 @mixin h4 {
@@ -50,6 +59,9 @@ h1, h2, h3, h4 {
   text-transform: none;
   margin-top: calc(#{$h4} * 1);
   margin-bottom: calc(#{$h4} * 1);
+  @include media(mobile) {
+    font-size: $h4*0.9;
+  }
 }
 
 // page-heading is used at the top of each page

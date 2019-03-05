@@ -16,52 +16,47 @@
   }
   .search-container {
     @extend %site-width-container;
-    @extend %contain-floats;
-    .search {
-      @extend %grid-row;
-      .search-buttons {
-        display: none;
+    .greeting, .search-input {
+      @include border-radius($border-radius);
+      position: relative;;
+      @include media(mobile) {
+        margin: 0;
       }
-      .greeting, .search-input {
-        @include grid-column(2 / 3);
-        @include border-radius($border-radius);
-        position: relative;;
-        @include media(mobile) {
-          margin: 0;
-        }
+    }
+    .greeting {
+      padding-top: $baseline*3;
+      @include media(mobile) {
+        margin-top: 0;
+        padding-top: $baseline;
       }
-      .greeting {
-        margin-top: $baseline*3;
-        width: auto;
-        @include media(mobile) {
-          margin-top: 0;
-          padding-top: $baseline;
-        }
-        h1 {
-          padding: $form-padding*2;
-          background: $white;
-          margin-top: 0;
-          margin-bottom: $border-thick;
-        }
+      h1 {
+        display: inline-block;
+        padding: $form-padding*2;
+        background: $white;
+        margin-top: 0;
+        margin-bottom: $border-thick;
       }
-      .form {
-        .group {
-          margin-bottom: 0;
-          input, label {
-            border: none;
+    }
+    .form {
+      .group.search {
+        margin-bottom: 0;
+        input, label {
+          border: none;
+        }
+        .search-input {
+          width: calc(60% - #{$gutter});
+          @include media(mobile) {
+            width: 100%;
           }
-          input {
-            width: calc(100% - #{$gutter});
-          }       
-          .fa-search.search-icon-position  {
-            font-size: $icon*0.5;
-            line-height: $baseline*1.25;
-            padding: 10px;
-            background: $white;
-            color: $search;
-              &:hover {
-              color: $search-hover;
-            }
+        }       
+        .fa-search.search-icon-position  {
+          font-size: $icon*0.5;
+          line-height: $baseline*1.25;
+          padding: 10px;
+          background: $white;
+          color: $search;
+            &:hover {
+            color: $search-hover;
           }
         }
       }

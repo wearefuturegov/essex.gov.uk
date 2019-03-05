@@ -2,6 +2,11 @@
   position: relative;
   .form {
     @include grid-column(1 / 2);
+    @include media(mobile) {
+      float: left;
+      width: 100%;
+      margin-bottom: $baseline;
+    }
     .group.search {
       @media print {
         display: none;
@@ -12,26 +17,23 @@
       margin-bottom: $baseline*0.75;
       width: $gutter*4;
       @include media(mobile) {
-        margin-top: 0;
+        float: left;
         width: 100%;
         position: relative;
-        display: inline-block;
-        width: 100%;
-        margin-bottom: $baseline*0.5;
-        @include grid-column(1);
+        margin-bottom: $baseline*2;
       }
       input {
         margin-top: 0;
       }
       label, input {
-        border: none;
         line-height: $baseline;
         height: $form-padding*6;
         padding: $form-padding + $border-thick;
         position: absolute;
         left: 0;
         width: calc(100% - #{$gutter*0.75});
-        @include media(mobile) {
+        @include media(desktop) {
+          border: none;
         }
       }
       #search {
@@ -42,13 +44,17 @@
         top: 0;
         right: 0;
         bottom: 0;
-        background: none;
-        border: none;
+        background: $white;
+        padding: 10px;
         font-size: $icon*0.4;
-        color: $black;
+        color: $brand;
         width: $gutter*0.75;
         height: $form-padding*6;
-        background: $white;
+        @include media(mobile) {
+          color: $white;
+          background: $brand;
+          @include box-sizing(border-box);
+        }
       }
     }
   }
