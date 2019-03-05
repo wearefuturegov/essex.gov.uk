@@ -1,40 +1,37 @@
 .header {
   position: relative;
-  .search {
+  .form {
     @include grid-column(1 / 2);
-    position: relative;
-    height: $baseline;
-    .form {
-      .group {
-        float: right;
-        margin-top: $baseline*0.75;
-        margin-bottom: $baseline*0.75;
-        width: $gutter*4;
-        @include media(mobile) {
-          margin-top: 0;
-          margin-bottom: 0;
-          width: 100%;
-        }
-        label, input {
-          border: none;
-          line-height: $baseline;
-          height: $form-padding*6;
-          padding: $form-padding + $border-thick;
-        }
-        #search {
-          width: calc(100% - #{$gutter*0.75});
-        }
-        .fas.fa-search.search-icon-position {
-          position: absolute;
-          top: 0;
-          right: 0;
-          bottom: 0;
-          background: none;
-          border: none;
-          font-size: $icon*0.4;
-          color: $black;
-          width: $gutter*0.75;
-        }
+    .group.search {
+      position: relative;
+      float: right;
+      margin-top: $baseline*0.75;
+      margin-bottom: $baseline*0.75;
+      width: $gutter*4;
+      @include media(mobile) {
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 100%;
+      }
+      label, input {
+        border: none;
+        line-height: $baseline;
+        height: $form-padding*6;
+        padding: $form-padding + $border-thick;
+      }
+      #search {
+        width: calc(100% - #{$gutter*0.75});
+      }
+      .fas.fa-search.search-icon-position {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: none;
+        border: none;
+        font-size: $icon*0.4;
+        color: $black;
+        width: $gutter*0.75;
       }
     }
   }
