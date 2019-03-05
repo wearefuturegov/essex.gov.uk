@@ -11,7 +11,7 @@
   <div class="header">
     <nav class="nav">
       <a href="/" class="logo-text">Essex.gov.uk<span>Beta</span></a>
-      <form action="/search" method="get" class="form search">
+      <form action="/search" method="get" class="form">
         <div class="group search" role="search">
           <div class="search-input">
             <label for="search">Search</label>
@@ -29,7 +29,7 @@
       <div class="header">
         <nav class="nav">
           <a href="/" class="logo-text">Essex.gov.uk<span>Beta</span></a>
-          <form action="/search" method="get" class="form search">
+          <form action="/search" method="get" class="form">
             <div class="group search" role="search">
               <div class="search-input">
                 <label for="search">Search</label>

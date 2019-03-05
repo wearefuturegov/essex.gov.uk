@@ -3,6 +3,9 @@
   .form {
     @include grid-column(1 / 2);
     .group.search {
+      @media print {
+        display: none;
+      }
       position: relative;
       float: right;
       margin-top: $baseline*0.75;
@@ -10,14 +13,26 @@
       width: $gutter*4;
       @include media(mobile) {
         margin-top: 0;
-        margin-bottom: 0;
         width: 100%;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: $baseline*0.5;
+        @include grid-column(1);
+      }
+      input {
+        margin-top: 0;
       }
       label, input {
         border: none;
         line-height: $baseline;
         height: $form-padding*6;
         padding: $form-padding + $border-thick;
+        position: absolute;
+        left: 0;
+        width: calc(100% - #{$gutter*0.75});
+        @include media(mobile) {
+        }
       }
       #search {
         width: calc(100% - #{$gutter*0.75});
@@ -32,31 +47,8 @@
         font-size: $icon*0.4;
         color: $black;
         width: $gutter*0.75;
-      }
-    }
-  }
-  @include media(mobile) {
-    .nav {
-      padding-right: 0;
-      .logo {
-        margin-bottom: $baseline*0.25;
-      }
-    }
-    .search {
-      @media print {
-        display: none;
-      }
-      position: relative;
-      display: inline-block;
-      height: $form-padding*8;
-      width: 100%;
-      @include grid-column(1);
-      padding: 0;
-      .form .group {
-        margin-bottom: $baseline*0.5;
-        input {
-          margin-top: 0;
-        }
+        height: $form-padding*6;
+        background: $white;
       }
     }
   }
