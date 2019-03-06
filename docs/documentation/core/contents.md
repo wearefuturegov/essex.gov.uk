@@ -20,6 +20,7 @@
 <h3>iframe applications</h3>
 <ul>
   <li><a href="/iframe-app/freedom-of-information">Freedom of Information Search</a></li>
+  <li><a href="/iframe-app/emergency-school-closures">Emergency School Closures</a></li>
 </ul>
 
 <h3>Design</h3>
