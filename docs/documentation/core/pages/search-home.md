@@ -10,42 +10,38 @@
 <div class="search-background" role="search">
   <div class="overlay"></div>
   <div class="search-container">
-    <div class="search">
-      <div class="greeting">
-        <h1>Welcome to Essex</h1>
-      </div>
-      <div class="search-input">
-        <form action="/search" method="get" role="search" class="form">
-          <div class="group">
-            <label for="search">Search essex.gov.uk</label>
-            <input type="text" id="search" name="search">
-            <input type="submit" value="search" class="visually-hidden">
-            <i class="fas fa-search search-icon-position"></i>
-          </div>
-        </form>
-      </div>
+    <div class="greeting">
+      <h1>Welcome to Essex</h1>
     </div>
+    <form action="/search" method="get" role="search" class="form">
+      <div class="group search">
+        <div class="search-input">
+          <label for="search">Search essex.gov.uk</label>
+          <input type="text" id="search" name="search">
+          <input type="submit" value="search" class="visually-hidden">
+          <i class="fas fa-search search-icon-position"></i>
+        </div>
+      </div>
+    </form>
   </div>
 </div>
 
     <div class="search-background" role="search">
       <div class="overlay"></div>
       <div class="search-container">
-        <div class="search">
-          <div class="greeting">
-            <h1>Welcome to Essex</h1>
-          </div>
-          <div class="search-input">
-            <form action="/search" method="get" role="search" class="form">
-              <div class="group">
-                <label for="search">Search essex.gov.uk</label>
-                <input type="text" id="search" name="search">
-                <input type="submit" value="search" class="visually-hidden">
-                <i class="fas fa-search search-icon-position"></i>
-              </div>
-            </form>
-          </div>
+        <div class="greeting">
+          <h1>Welcome to Essex</h1>
         </div>
+        <form action="/search" method="get" role="search" class="form">
+          <div class="group search">
+            <div class="search-input">
+              <label for="search">Search essex.gov.uk</label>
+              <input type="text" id="search" name="search">
+              <input type="submit" value="search" class="visually-hidden">
+              <i class="fas fa-search search-icon-position"></i>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
 
