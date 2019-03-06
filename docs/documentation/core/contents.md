@@ -17,6 +17,11 @@
   <li><a href="/examples/cludo">Cludo Search</a></li>
 </ul>
 
+<h3>iframe applications</h3>
+<ul>
+  <li><a href="/iframe-app/freedom-of-information">Freedom of Information Search</a></li>
+</ul>
+
 <h3>Design</h3>
 <ul>
   <li><a href="/docs/core/styles-guide">Styles guide</a></li>

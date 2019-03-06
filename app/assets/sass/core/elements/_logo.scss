@@ -18,10 +18,6 @@ a.logo-text {
   color: $black;
   line-height: $logo-height;
   text-decoration: none;
-  @include media(mobile) {
-    margin-top: $nav-height*0.125;
-    margin-bottom: $nav-height*0.125;
-  }
   &:hover {
     text-decoration: underline;
   }
