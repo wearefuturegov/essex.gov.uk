@@ -1,6 +1,5 @@
-.freedom-of-information {
+#freedom-of-information {
 	.date-from, .date-to {
-		// float: left;
 		width: 40%;
 		#from-date, #to-date {
 			width: 100%;
@@ -12,6 +11,18 @@
     list-style: none;
     li {
       padding-left: 0;
+    }
+  }
+  ul.data {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+    li {
+      padding-left: 0;
+      span {
+        margin-right: $gutter*0.125;
+        font-weight: $bold;
+      }
     }
   }
 }
