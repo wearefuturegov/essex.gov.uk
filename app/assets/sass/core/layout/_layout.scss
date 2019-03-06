@@ -1,6 +1,6 @@
 %site-width-container {
   @include media(mobile) {
-    padding: 0 $outer-grid-margin*2;
+    padding: 0 $outer-grid-margin;
     // background: blue;
   }
   @include media(tablet) {
