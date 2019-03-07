@@ -19,13 +19,6 @@
             <a href="#">Terms & Conditions</a></li><li>
             <a href="#">Feedback</a></li>
         </ul>
-        <ul class="social">
-          <li>
-            <a href="#"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li><li>
-            <a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a></li><li>
-            <a href="#"><i class="fab fa-youtube"></i><span>Youtube</span></a></li><li>
-            <a href="#"><i class="fab fa-flickr"></i><span>Flickr</span></a></li>
-        </ul>
       </div>
     </div>
   </div>
@@ -33,6 +26,13 @@
     <div class="footer">
       <nav class="nav">
         <a href="/docs/core/essex-design-system" class="design-link">Built by the Service Design Team</a>
+        <ul class="social">
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li><li>
+            <a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a></li><li>
+            <a href="#"><i class="fab fa-youtube"></i><span>Youtube</span></a></li><li>
+            <a href="#"><i class="fab fa-flickr"></i><span>Flickr</span></a></li>
+        </ul>
       </nav>
     </div>
   </div>
@@ -50,13 +50,6 @@
                 <a href="#">Terms & Conditions</a></li><li>
                 <a href="#">Feedback</a></li>
             </ul>
-            <ul class="social">
-              <li>
-                <a href="#"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li><li>
-                <a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a></li><li>
-                <a href="#"><i class="fab fa-youtube"></i><span>Youtube</span></a></li><li>
-                <a href="#"><i class="fab fa-flickr"></i><span>Flickr</span></a></li>
-            </ul>
           </div>
         </div>
       </div>
@@ -64,6 +57,13 @@
         <div class="footer">
           <nav class="nav">
             <a href="/docs/core/essex-design-system" class="design-link">Built by the Service Design Team</a>
+            <ul class="social">
+              <li>
+                <a href="#"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li><li>
+                <a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a></li><li>
+                <a href="#"><i class="fab fa-youtube"></i><span>Youtube</span></a></li><li>
+                <a href="#"><i class="fab fa-flickr"></i><span>Flickr</span></a></li>
+            </ul>
           </nav>
         </div>
       </div>
