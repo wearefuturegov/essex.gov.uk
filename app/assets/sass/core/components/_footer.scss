@@ -19,7 +19,7 @@
     .nav {
       @extend %grid-row;
       .nav-links {
-        @include grid-column(3 / 4);
+        @include grid-column(1);
         margin-left: 0;
         margin-top: 0;
         margin-bottom: 0;
@@ -39,8 +39,15 @@
           }
         }
       }
+      .design-link {
+        @include grid-column(2 / 4);
+        @include media(mobile) {
+          display: block;
+          margin-bottom: $baseline;
+        }
+      }
       .social {
-        @include grid-column(1 / 4);
+        @include grid-column(2 / 4);
         text-align: left;
         margin-top: 0;
         margin-bottom: 0;
@@ -68,9 +75,6 @@
             color: $white-on-black-hover;
           }
         }
-      }
-      .design-link {
-        @include grid-column(1 / 1);
       }
     }
   }
