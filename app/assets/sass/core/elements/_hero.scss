@@ -11,7 +11,7 @@
   &.campaign {
     background-image: file-url("/img/impact.jpg");
     @include media(mobile) {
-      background: none;
+      background: none !important;
       margin-bottom: $baseline;
       .overlay {
         background: none;
