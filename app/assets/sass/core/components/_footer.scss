@@ -4,7 +4,6 @@
   }
   .footer-top, .footer-bottom {
     padding-top: $baseline;
-    padding-bottom: $baseline;
     font-size: $smaller;
   }
   .footer-top {
@@ -12,6 +11,7 @@
   }
   .footer-bottom {
     background-color: $brand4;
+    padding-bottom: $baseline;
   }
   .footer {
     @extend %site-width-container;
@@ -19,16 +19,13 @@
     .nav {
       @extend %grid-row;
       .nav-links {
-        @include grid-column(1);
-        margin-left: 0;
+        @include grid-column(7 / 12);
         margin-top: 0;
         margin-bottom: 0;
         li {
           display: inline-block;
           padding-left: 0;
-          @include media(mobile) {
-            margin-bottom: $baseline;
-          }
+          margin-bottom: $baseline;
           a {
             color: $white;
             line-height: $baseline;
@@ -39,18 +36,15 @@
           }
         }
       }
-      .design-link {
-        @include grid-column(2 / 4);
-        @include media(mobile) {
-          display: block;
-          margin-bottom: $baseline;
-        }
-      }
       .social {
-        @include grid-column(2 / 4);
-        text-align: left;
+        @include grid-column(5 / 12);
+        text-align: right;
         margin-top: 0;
         margin-bottom: 0;
+        padding-bottom: $baseline;
+        @include media(mobile) {
+          text-align: left;
+        }
         li {
           padding: 0 $gutter*0.05 0 $gutter*0.05;
           a {
@@ -61,14 +55,36 @@
             }
           }
         }
-        @include media(tablet) {
-          text-align: right;
+      }
+    }
+    ul.credits {
+      @extend %grid-row;
+      list-style: none;
+      padding-left: 0;
+      li {
+        padding-left: 0;
+        display: inline;
+      }
+      .design-link {
+        a {
+          float: right;
+        }
+        @include media(mobile) {
+          display: block;
+          a {
+            float: left;
+          }
         }
       }
       .copyright, .design-link {
-        text-align: left;
+        @include grid-column(6 / 12);
+        display: block;
         color: $white;
         line-height: $baseline*1.25;
+        text-align: left;
+        @include media(mobile) {
+          margin-bottom: $baseline;
+        }
         a {
           color: $white;
           &:hover {
