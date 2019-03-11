@@ -17,6 +17,11 @@
   <li><a href="/examples/cludo">Cludo Search</a></li>
 </ul>
 
+<h3>iframe applications</h3>
+<ul>
+  <li><a href="/iframe-app/freedom-of-information">Freedom of Information Search</a></li>
+</ul>
+
 <h3>Design</h3>
 <ul>
   <li><a href="/docs/core/styles-guide">Styles guide</a></li>
@@ -32,7 +37,6 @@
   <li><a href="elements/dropdown">Dropdown</a></li>
   <li><a href="elements/form">Form</a></li>
   <li><a href="elements/headings">Headings</a></li>
-  <li><a href="elements/hero">Hero</a></li>
   <li><a href="elements/icon">Icon</a></li>
   <li><a href="elements/inputs">Inputs</a></li>
   <li><a href="elements/list">List</a></li>

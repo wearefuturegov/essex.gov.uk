@@ -1,20 +1,16 @@
 .overlay {
   background: $overlay;
   width: 100%;
-  padding-top: $baseline;
-  padding-bottom: $baseline;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   .overlay-box {
-    @extend %site-width-container;
     @include media(tablet) {
       margin: 0 auto;
     }
     .overlay-content {
-      @extend %grid-row;
       h2, p {
         padding-left: $gutter*0.5;
         padding-right: $gutter*0.5;

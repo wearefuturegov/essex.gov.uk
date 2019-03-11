@@ -1,4 +1,7 @@
 // all styles are based on main class "markdown" for viewing purposes in core documentation
+.header-background.markdown {
+  height: $nav-height;
+}
 .markdown {
   h1, h2, h3, h4 {
     span {
@@ -27,6 +30,9 @@
     margin: $baseline 0;
     code {
       @include wrap;
+      @include box-sizing(border-box);
+      float: left;
+      width: 100%;
       display: block;
       margin: $baseline 0;
       padding: $baseline;

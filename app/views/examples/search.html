@@ -3,26 +3,22 @@
 {% block content %}
 
 <main id="content">
-
-  <div class="container">
-    <div class="main only">
-      <section class="loose">
-        <h1>Search</h1>
-          {% block search %}
-            {% include "includes/search.html" %}
-          {% endblock %}
-        <h2>Results for …</h2>
-          <ul>
-            <li><a href="">Result one</a></li>
-            <li><a href="">Result two</a></li>
-            <li><a href="">Result three</a></li>
-            <li><a href="">Result four</a></li>
-            <li><a href="">Result five</a></li>
-          </ul>
-      </section>
-    </div>
+  <div class="main only">
+    <section class="loose">
+      <h1>Search</h1>
+        {% block search %}
+          {% include "includes/search.html" %}
+        {% endblock %}
+      <h2>Results for …</h2>
+        <ul>
+          <li><a href="">Result one</a></li>
+          <li><a href="">Result two</a></li>
+          <li><a href="">Result three</a></li>
+          <li><a href="">Result four</a></li>
+          <li><a href="">Result five</a></li>
+        </ul>
+    </section>
   </div>
-
 </main>
 
 {% endblock %}

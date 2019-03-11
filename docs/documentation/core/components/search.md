@@ -7,32 +7,27 @@
 
 # Search
 
+<form action="/search" method="get" role="search" class="form">
+  <div class="group search" role="search">
+    <div class="search-input">
+      <label for="search">Search</label>
+      <input type="text" id="search" name="search">
+      <input type="submit" value="search" title="search" class="visually-hidden">
+      <i class="fas fa-search search-icon-position"></i>
+    </div>
+  </div>
+</form>
 
-<div class="search" role="search">
-  <div class="search-input">
     <form action="/search" method="get" role="search" class="form">
-      <div class="group">
-        <label for="search">Search</label>
-        <input type="text" id="search" name="search">
-        <input type="submit" value="search" title="search" class="visually-hidden">
-        <i class="fas fa-search search-icon-position"></i>
+      <div class="group search" role="search">
+        <div class="search-input">
+          <label for="search">Search</label>
+          <input type="text" id="search" name="search">
+          <input type="submit" value="search" title="search" class="visually-hidden">
+          <i class="fas fa-search search-icon-position"></i>
+        </div>
       </div>
     </form>
-  </div>
-</div>
-
-    <div class="search" role="search">
-      <div class="search-input">
-        <form action="/search" method="get" role="search" class="form">
-          <div class="group">
-            <label for="search">Search</label>
-            <input type="text" id="search" name="search">
-            <input type="submit" value="search" title="search" class="visually-hidden">
-            <i class="fas fa-search search-icon-position"></i>
-          </div>
-        </form>
-      </div>
-    </div>
 
 
 ## Using search

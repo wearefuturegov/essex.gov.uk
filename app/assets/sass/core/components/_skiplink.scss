@@ -20,9 +20,8 @@
 }
 
 #skiplink-container div {
+  @extend %site-width-container;
   text-align: left;
-  margin: 0 auto;
-  max-width: 960px;
 }
 
 #skiplink-container .skiplink {

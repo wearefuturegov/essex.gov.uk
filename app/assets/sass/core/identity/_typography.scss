@@ -19,56 +19,82 @@ p {
   }
 }
 
+$h1: 48px;
+$h2: 30px;
+$h3: 24px;
+$h4: 20px;
+
 h1, h2, h3, h4 {
   letter-spacing: -1px;
 }
 
 @mixin h1 {
+  font-family: $stack;
   font-size: $h1;
   line-height: 1.04167;
   font-weight: $bold;
   text-transform: none;
   margin-top: calc(#{$h1} * 0.5);
   margin-bottom: calc(#{$h1} * 1);
+  @include media(mobile) {
+    font-size: $h1*0.9;
+  }
+  @media print {
+    font-size: $h1;
+  }
 }
 
 @mixin h2 {
+  font-family: $stack;
   font-size: $h2;
   line-height: 1.3;
   font-weight: $bold;
   text-transform: none;
   margin-top: calc(#{$h2} * 1.25);
   margin-bottom: calc(#{$h2} * 0.55556);
+  @include media(mobile) {
+    font-size: $h2*0.9;
+  }
+  @media print {
+    font-size: $h2;
+  }
 }
 
 @mixin h3 {
+  font-family: $stack;
   font-size: $h3;
   line-height: 1.25;
   font-weight: $bold;
   text-transform: none;
   margin-top: calc(#{$h3} * 1.5);
   margin-bottom: calc(#{$h3} * 1);
+  @include media(mobile) {
+    font-size: $h3*0.9;
+  }
+  @media print {
+    font-size: $h3;
+  }
 }
 
 @mixin h4 {
+  font-family: $stack;
   font-size: $h4;
   font-weight: $bold;
   line-height: 1.31579;
   text-transform: none;
   margin-top: calc(#{$h4} * 1);
   margin-bottom: calc(#{$h4} * 1);
+  @include media(mobile) {
+    font-size: $h4*0.9;
+  }
+  @media print {
+    font-size: $h4;
+  }
 }
 
 // page-heading is used at the top of each page
 h1, .h1, .page-heading {
   @include h1;
-}
-
-@media print {
-  h1, .h1, .page-heading {
-    @include h2;
-    margin-top: $h2;
-  }
 }
 
 // content-heading is used for each new and unlreated piece of content within a page.
@@ -148,7 +174,7 @@ ol,
 ul {
   list-style-position: outside;
   padding-left:10px;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-top: $baseline*0.5;
   margin-bottom: $baseline;
   li {
