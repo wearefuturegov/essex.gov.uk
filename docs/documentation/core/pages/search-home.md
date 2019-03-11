@@ -14,12 +14,12 @@
       <h1>Welcome to Essex</h1>
     </div>
     <form action="/search" method="get" role="search" class="form">
-      <div class="group search">
+      <div class="group search" role="search">
         <div class="search-input">
-          <label for="search">Search essex.gov.uk</label>
+          <label for="search">Search</label>
           <input type="text" id="search" name="search">
-          <input type="submit" value="search" class="visually-hidden">
-          <i class="fas fa-search search-icon-position"></i>
+          <input type="submit" value="search" title="search" class="visually-hidden">
+          <button class="fas fa-search search-icon-position"></button>
         </div>
       </div>
     </form>
@@ -33,12 +33,12 @@
           <h1>Welcome to Essex</h1>
         </div>
         <form action="/search" method="get" role="search" class="form">
-          <div class="group search">
+          <div class="group search" role="search">
             <div class="search-input">
-              <label for="search">Search essex.gov.uk</label>
+              <label for="search">Search</label>
               <input type="text" id="search" name="search">
-              <input type="submit" value="search" class="visually-hidden">
-              <i class="fas fa-search search-icon-position"></i>
+              <input type="submit" value="search" title="search" class="visually-hidden">
+              <button class="fas fa-search search-icon-position"></button>
             </div>
           </div>
         </form>
