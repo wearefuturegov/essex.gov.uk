@@ -7,10 +7,10 @@ body {
   color: $text-colour;
 }
 
-$h1: 46px;
-$h2: 36px;
-$h3: 28px;
-$h4: 22px;
+$h1: 48px;
+$h2: 30px;
+$h3: 24px;
+$h4: 20px;
 
 h1, h2, h3, h4 {
   letter-spacing: -1px;
@@ -27,6 +27,9 @@ h1, h2, h3, h4 {
   @include media(mobile) {
     font-size: $h1*0.9;
   }
+  @media print {
+    font-size: $h1;
+  }
 }
 
 @mixin h2 {
@@ -39,6 +42,9 @@ h1, h2, h3, h4 {
   margin-bottom: calc(#{$h2} * 0.55556);
   @include media(mobile) {
     font-size: $h2*0.9;
+  }
+  @media print {
+    font-size: $h2;
   }
 }
 
@@ -53,6 +59,9 @@ h1, h2, h3, h4 {
   @include media(mobile) {
     font-size: $h3*0.9;
   }
+  @media print {
+    font-size: $h3;
+  }
 }
 
 @mixin h4 {
@@ -66,18 +75,14 @@ h1, h2, h3, h4 {
   @include media(mobile) {
     font-size: $h4*0.9;
   }
+  @media print {
+    font-size: $h4;
+  }
 }
 
 // page-heading is used at the top of each page
 h1, .h1, .page-heading {
   @include h1;
-}
-
-@media print {
-  h1, .h1, .page-heading {
-    @include h2;
-    margin-top: $h2;
-  }
 }
 
 // content-heading is used for each new and unlreated piece of content within a page.

@@ -1,5 +1,8 @@
 .contents {
   @extend %grid-row;
+  @media print {
+    display: none;
+  }
   .heading, ol, ul {
     @include grid-column(1 / 1);
   }

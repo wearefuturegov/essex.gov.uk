@@ -7,21 +7,29 @@
   height: $nav-height;
   @media print {
     height: auto;
+    @include box-shadow(none);
   }
   .header {
     @extend %site-width-container;
     @extend %contain-floats;
     @media print {
-      margin: 0 $gutter;
+      margin: 0;
     }
     .nav {
     @extend %grid-row;
       a.logo-text {
         @include grid-column(1 / 2);
         color: $white;
+        @media print {
+          color: $black;
+          font-size: $small;
+        }
       }
       span {
         color: $white;
+        @media print {
+          color: $black;
+        }
       }
     }
   }
