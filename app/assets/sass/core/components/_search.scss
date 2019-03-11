@@ -13,7 +13,7 @@
     margin-bottom: $baseline;
     label, input {
       @include box-sizing(border-box);
-      line-height: $baseline;
+      // line-height: $baseline;
       padding: $form-padding*2 + $border-thick;
       width: calc(100% - #{$gutter - $border-normal});
     }
