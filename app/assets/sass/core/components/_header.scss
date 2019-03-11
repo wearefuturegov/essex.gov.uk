@@ -3,8 +3,8 @@
   height: auto;
   position: relative;
   z-index: 100;
+  height: $nav-height*1.5;
   @include box-shadow(0px 1px 1px 0px $black);
-  height: $nav-height;
   @media print {
     height: auto;
     @include box-shadow(none);

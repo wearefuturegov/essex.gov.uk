@@ -11,9 +11,9 @@
 a.logo-text {
   display: inline-block;
   font-family: $stack-logo;
-  font-size: $baseline;
-  margin-top: $nav-height*0.25;
-  margin-bottom: $nav-height*0.25;
+  font-size: $logo-height;
+  margin-top: $nav-height*0.5;
+  margin-bottom: $nav-height*0.5;
   text-transform: uppercase;
   color: $black;
   line-height: $logo-height;
