@@ -13,7 +13,7 @@
       <label for="search">Search</label>
       <input type="text" id="search" name="search">
       <input type="submit" value="search" title="search" class="visually-hidden">
-      <i class="fas fa-search search-icon-position"></i>
+      <button class="fas fa-search search-icon-position"></button>
     </div>
   </div>
 </form>
@@ -24,7 +24,7 @@
           <label for="search">Search</label>
           <input type="text" id="search" name="search">
           <input type="submit" value="search" title="search" class="visually-hidden">
-          <i class="fas fa-search search-icon-position"></i>
+          <button class="fas fa-search search-icon-position"></button>
         </div>
       </div>
     </form>
