@@ -36,6 +36,9 @@
         background: $white;
         margin-top: 0;
         margin-bottom: $border-thick;
+        @media print {
+          padding: 0;
+        }
       }
     }
     .form {
