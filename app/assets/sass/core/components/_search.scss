@@ -48,6 +48,7 @@
     }
     .fas.fa-search.search-icon-position {
       @include box-sizing(border-box);
+      border: none;
       font-size: $icon*0.5;
       line-height: $icon*0.5;
       color: $white;
