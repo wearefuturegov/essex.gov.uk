@@ -19,7 +19,7 @@
     .nav {
       @extend %grid-row;
       .nav-links {
-        @include grid-column(7 / 12);
+        @include grid-column(8 / 12);
         margin-top: 0;
         margin-bottom: 0;
         li {
@@ -37,7 +37,7 @@
         }
       }
       .social {
-        @include grid-column(5 / 12);
+        @include grid-column(4 / 12);
         text-align: right;
         margin-top: 0;
         margin-bottom: 0;
@@ -46,7 +46,8 @@
           text-align: left;
         }
         li {
-          padding: 0 $gutter*0.05 0 $gutter*0.05;
+          // padding: 0 $gutter*0.05 0 $gutter*0.05;
+          margin-left: $padding-thin;
           a {
             font-size: $body;
             color: $white;
