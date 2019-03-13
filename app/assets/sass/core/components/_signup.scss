@@ -21,8 +21,8 @@
         }
         label, input {
           @include box-sizing(border-box);
+          @include form-padding;
           line-height: $baseline;
-          padding: $form-padding*2 + $border-thick;
         }
         input {
           text-transform: none;
@@ -31,7 +31,7 @@
           position: absolute;
           left: $gutter;
           top: 0;
-          height: 60px;
+          height: $form-height;
           width: calc(100% - #{$gutter*2});
           &:focus {
             left: $gutter;
@@ -53,13 +53,14 @@
       .signup-button {
         @include grid-column(4 / 12);
         input.button.subscribe {
+          @include form-padding;
           color: $white;
           background-color: $brand;
           font-weight: 600;
           border: $border-normal $brand solid;
           line-height: $baseline;
-          height: $form-padding*8;
-          padding: $form-padding*2 + $border-thick;
+          height: $button-height;
+          // padding: $form-padding*2 + $border-thick;
           width: 100%;
           &:hover {
             background-color: $brand-hover-darken;
@@ -87,7 +88,7 @@
       .group {
         .signup-input {
           label, input {
-            padding: $form-padding*2 + $border-thick;
+            @include form-padding;
           }
           input {
             border: none;
@@ -97,14 +98,14 @@
             position: absolute;
             left: $gutter;
             top: 0;
-            height: 60px;
+            height: $form-height;
             width: calc(100% - #{$gutter*2});
             &:focus {
               left: $gutter;
               text-indent: 0;
               background: #fff;
               outline-offset: 0;
-              padding: $form-padding*2;
+              height: $form-height;
             }
             @include media(mobile) {
               left: $gutter*0.5;
