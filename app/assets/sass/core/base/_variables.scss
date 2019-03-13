@@ -107,7 +107,7 @@ $border-thicker: 5px;
 $border-very-thick: $border-thick*4;
 
 // padding
-$padding-thin: $baseline;
+$padding-thin: $baseline*0.5;
 $padding-thinner: $baseline*0.25;
 
 // border radius
@@ -123,8 +123,7 @@ $nav-height: $logo-height*2;
 
 // grid measreuments
 $gutter: 60px;
-
-$site-width: 960px;
+$site-width: $gutter*17;
 $outer-grid-margin: $gutter*0.5;
 
 $form-padding: $gutter*0.125;
