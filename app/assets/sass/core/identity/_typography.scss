@@ -92,7 +92,7 @@ h1, .h1, .page-heading {
 
 // content-heading is used for each new and unlreated piece of content within a page.
 h2, .h2, .content-heading {
-  @include h2;
+  @include h4;
 }
 
 // section-heading is used for each section within content on a page.

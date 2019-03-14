@@ -15,8 +15,6 @@
       @include box-sizing(border-box);
       @include form-padding;
       height: $baseline*4;
-      width: calc(100% - #{$gutter - $border-normal});
-      width: 100%;
     }
     label {
       $color: $body-text-colour;
@@ -37,7 +35,6 @@
       left: 0;
       top: 0;
       height: $baseline*4;
-      width: calc(100% - #{$gutter - $border-normal});
       width: calc(100% - #{$form-height;});
       &:focus {
         height: $baseline*4;

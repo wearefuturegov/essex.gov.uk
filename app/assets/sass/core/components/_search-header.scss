@@ -5,6 +5,7 @@
     @include media(mobile) {
       float: left;
       width: 100%;
+      margin-top: $baseline;
       margin-bottom: $baseline;
     }
     .group.search {
@@ -20,7 +21,9 @@
         float: left;
         width: 100%;
         position: relative;
-        margin-bottom: $baseline*2;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: $form-height*0.75;
       }
       input {
         margin-top: 0;
@@ -29,7 +32,7 @@
         @include box-sizing(border-box);
         padding: $baseline;
         line-height: $baseline;
-        height: $baseline*3;
+        height: $form-height*0.75;
         position: absolute;
         left: 0;
         width: calc(100% - #{$form-height*0.75;});
@@ -38,6 +41,7 @@
         }
       }
       .fas.fa-search.search-icon-position {
+        padding: $baseline*0.75;
         position: absolute;
         top: 0;
         right: 0;
