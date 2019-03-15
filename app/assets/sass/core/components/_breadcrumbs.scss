@@ -3,7 +3,7 @@
     display: none;
   }
   padding-top: $baseline;
-  padding-bottom: $baseline;
+  padding-bottom: calc(#{$baseline} - 1rem);
   ol {
     margin-left: 0;
     padding-left: 0;
@@ -24,6 +24,7 @@
     list-style: none;
     margin-right: 0.6em;
     padding-left: 0.9em;
+    margin-bottom: 1em;
     &:first-child {
       background-image: none;
       margin-left: 0;

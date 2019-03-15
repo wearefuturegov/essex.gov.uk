@@ -15,13 +15,14 @@ $modularscale: (
 }
 
 p {
+  $margin: 1.625em;
   font-size: $body;
   font-size: ms(0);
   line-height: $line-height;
+  margin-top: 0;
+  margin-bottom: $margin;
   color: $body-text-colour;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: $baseline*0.75;
   @include word-break;
   &.lede {
     font-size: ms(1);

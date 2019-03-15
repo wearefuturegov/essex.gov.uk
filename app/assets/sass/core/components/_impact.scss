@@ -1,8 +1,14 @@
 .impact {
   position: relative;
   .hero {
-    background-position-x: center;
-    background-position-y: center;
+    @include media(tablet) {
+      background-position-x: center;
+      background-position-y: center;
+    }
+    @include media(desktop) {
+      background-position-x: 0;
+      background-position-y: 0;
+    }
   }
   .overlay {
     position: absolute;
@@ -25,7 +31,7 @@
     margin: $gutter*0.5;
     padding: $gutter*0.5 !important;
     @include media(mobile) {
-      padding: 0;
+      padding: 0 !important;
       margin: 0;
     }
     .overlay-content {

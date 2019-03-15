@@ -41,8 +41,8 @@ $bold: 700;
 $icon: 2.5rem;
 
 // button
-$button-height: 6rem;
-$form-height: 6rem;
+$button-height: 6.5rem;
+$form-height: 6.5rem;
 $form-padding: $gutter*0.25; //15px
 
 // greyscale
@@ -124,7 +124,7 @@ $border-radius: 3px;
 // logo dimensions
 $logo-width: 300px;
 $logo-height: 40px;
-$logo-height: $baseline*2;
+$logo-height: 1.602em;
 
 // header dimensions, based on logo
-$nav-height: $logo-height*2;
+$nav-height: $logo-height*3;

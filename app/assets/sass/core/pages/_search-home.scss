@@ -30,7 +30,7 @@
         padding-top: $baseline;
       }
       h1 {
-        @include form-padding;
+        padding: 0.56521739em*0.5;
         display: inline-block;
         background: $white;
         margin-top: 0;
@@ -53,8 +53,6 @@
           }
         }       
         .fa-search.search-icon-position  {
-          font-size: $icon*0.75;
-          line-height: $icon*0.75;
           background: $white;
           color: $search;
             &:hover {
