@@ -19,11 +19,11 @@
     background: $overlay-brand;
   }
   .overlay-box {
+    @include grid-column(1 / 2);
     position: relative;
     background: $white;
     margin: $gutter*0.5;
-    @include grid-column(1 / 2);
-    padding: $gutter*0.5;
+    padding: $gutter*0.5 !important;
     @include media(mobile) {
       padding: 0;
       margin: 0;

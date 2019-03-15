@@ -28,6 +28,9 @@
       padding-bottom: 0;
       margin-bottom: $baseline*2;
     }
+    h2 {
+      @include h3;
+    }
     img {
       margin-top: $baseline;
       width: 100%;
@@ -36,7 +39,7 @@
       }
     }
     .sub-section-heading {
-      min-height: $h4 * 2.5;
+      min-height: $baseline*2;
       @include media(mobile) {
         min-height: initial;
         margin-bottom: $baseline*0.25;

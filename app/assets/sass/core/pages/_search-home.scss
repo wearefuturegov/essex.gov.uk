@@ -31,7 +31,6 @@
       }
       h1 {
         @include form-padding;
-        font-family: $stack;
         display: inline-block;
         background: $white;
         margin-top: 0;

@@ -60,7 +60,7 @@
     // background: $highlight-box-light;
     color: $black;
     h2 {
-      margin-bottom: calc(#{$h3} * 0.83333);
+      margin-bottom: $baseline;
     }
     a {
       color: $link;
@@ -87,7 +87,7 @@
   aside.side {
     display: none;
     float: right;
-    margin-top: calc(#{$h3} * 1.875);
+    margin-top: $baseline;
     margin-bottom: $baseline;
     font-size: $small;
     @include media (mobile) {
