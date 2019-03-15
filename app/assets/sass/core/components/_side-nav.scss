@@ -17,8 +17,7 @@
     margin-bottom: 0;
   }
   li {
-    @include default-type;
-    font-size: $small;
+    @include small;
     padding-bottom: $baseline*0.5;
     padding-top: $baseline*0.5;
     padding-left: 0;

@@ -20,7 +20,7 @@
         margin-top: $baseline*0.5;
       }
       p {
-        font-size: $small;
+        @include small;
         font-weight: $normal;
         color: $text-colour;
       }

@@ -2,7 +2,8 @@
   @media print {
     display: none;
   }
-  padding-top: $baseline*0.75;
+  padding-top: $baseline;
+  padding-bottom: $baseline;
   ol {
     margin-left: 0;
     padding-left: 0;
@@ -11,7 +12,7 @@
     @extend %contain-floats;
   }
   li {
-    font-size: $smaller;
+    @include small;
     float: left;
     background-image: file-url("/icon/separator.png");
     @include device-pixel-ratio() {
@@ -40,7 +41,7 @@
       } 
     }
     @include media (mobile) {
-      font-size: $smaller;
+      @include small;
     }
   }
   a {

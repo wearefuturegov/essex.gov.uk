@@ -28,7 +28,7 @@
         }
       }
       span {
-        font-size: $smaller;
+        @include small;
         color: $white;
         @media print {
           color: $black;

@@ -49,7 +49,7 @@
       margin-top: 0;
     }
     .meta {
-      font-size: $smaller;
+      @include small;
       margin-top: $baseline*0.125;
       margin-bottom: $baseline*0.25;
       + .sub-section-heading {

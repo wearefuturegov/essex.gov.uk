@@ -28,46 +28,55 @@ p {
   }
 }
 
+@mixin small {
+  font-size: 0.889em;
+  line-height: 1.111em;
+}
+
 h1, h2, h3, h4 {
   letter-spacing: -1.5px;
 }
 
 @mixin h1 {
+  $margin: 0.56521739em;
   font-family: $stack;
   font-size: ms(9);
   line-height: 1.13043478em;
-  margin-top: 0.56521739em;
-  margin-bottom: 0.56521739em;
+  margin-top: $margin*2;
+  margin-bottom: $margin*2;
   font-weight: $bold;
   text-transform: none;
 }
 
 @mixin h2 {
+  $margin: 0.8125em;
   font-family: $stack;
   font-size: ms(6);
   line-height: 1.625em;
-  margin-top: 0.8125em;
-  margin-bottom: 0.8125em;
+  margin-top: $margin;
+  margin-bottom: $margin;
   font-weight: $bold;
   text-transform: none;
 }
 
 @mixin h3 {
+  $margin: 1.13043478em;
   font-family: $stack;
   font-size: ms(3);
   line-height: 1.13043478em;
-  margin-top: 1.13043478em;
-  margin-bottom: 1.13043478em;
+  margin-top: $margin;
+  margin-bottom: $margin;
   font-weight: $bold;
   text-transform: none;
 }
 
 @mixin h4 {
+  $margin: 1.44444444em;
   font-family: $stack;
   font-size: ms(1);
   line-height: 1.44444444em;
-  margin-top: 1.44444444em;
-  margin-bottom: 1.44444444em;
+  margin-top: $margin;
+  margin-bottom: $margin;
   font-weight: $bold;
   text-transform: none;
 }
@@ -181,8 +190,7 @@ ul {
 // Meta
 
 .meta {
-  font-size: $small;
-  line-height: $baseline;
+  @include small;
   color: $grey;
   margin-top: $baseline*0.5;
   margin-bottom: $baseline;

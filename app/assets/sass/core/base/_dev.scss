@@ -20,9 +20,9 @@
     font-weight: 700;
   }
   pre {
+    @include small;
     position: relative;
     font-family: monospace;
-    font-size: $smaller;
     white-space: pre;
     margin: $baseline 0;
     code {

@@ -8,18 +8,16 @@
   }
   .heading h2 {
     font-size: $body;
-    margin-top: 0;
-    margin-bottom: $baseline*0.5;
     letter-spacing: 0;
   }
   ol, ul {
+    @include small;
     margin: 0;
-    font-size: $smaller;
     list-style-position: inside;
     list-style: none;
     li {
       padding-left: 0;
-      margin-bottom: $baseline*0.25;
+      margin-bottom: $baseline*0.75;
       &:before {
         content: "\2014 ";
         margin-right: 5px;
@@ -31,7 +29,7 @@
       }
       &:last-child {
         padding-bottom: $baseline*2;
-        margin-bottom: $baseline;
+        margin-bottom: calc($baseline - #{$border-thin});
         border-bottom: $border-thin $grey solid;
       }
     }

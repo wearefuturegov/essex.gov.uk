@@ -11,7 +11,6 @@
   padding-top: $baseline*0.5;
   padding-bottom: $baseline*0.5;
   p {
-    font-size: $small;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -37,7 +36,7 @@
 }
 
 .phase-text {
-  font-size: $smaller;
+  @include small;
   @include media(mobile) {
     display: table-cell;
     vertical-align: baseline;
