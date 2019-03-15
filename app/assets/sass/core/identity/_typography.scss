@@ -35,41 +35,41 @@ h1, h2, h3, h4 {
 @mixin h1 {
   font-family: $stack;
   font-size: ms(9);
-  line-height: $line-height * 0.75;
+  line-height: 1.13043478em;
+  margin-top: 0.56521739em;
+  margin-bottom: 0.56521739em;
   font-weight: $bold;
   text-transform: none;
-  margin-top: calc(#{ms(9)} * 0.5);
-  margin-bottom: calc(#{ms(9)} * 0.5);
 }
 
 @mixin h2 {
   font-family: $stack;
   font-size: ms(6);
-  line-height: $line-height * 0.75;
+  line-height: 1.625em;
+  margin-top: 0.8125em;
+  margin-bottom: 0.8125em;
   font-weight: $bold;
   text-transform: none;
-  margin-top: calc(#{ms(6)} * 0.5);
-  margin-bottom: calc(#{ms(6)} * 0.5);
 }
 
 @mixin h3 {
   font-family: $stack;
   font-size: ms(3);
-  line-height: $line-height * 0.75;
+  line-height: 1.13043478em;
+  margin-top: 1.13043478em;
+  margin-bottom: 1.13043478em;
   font-weight: $bold;
   text-transform: none;
-  margin-top: calc(#{ms(3)} * 0.5);
-  margin-bottom: calc(#{ms(3)} * 0.5);
 }
 
 @mixin h4 {
   font-family: $stack;
   font-size: ms(1);
-  line-height: $line-height * 0.75;
+  line-height: 1.44444444em;
+  margin-top: 1.44444444em;
+  margin-bottom: 1.44444444em;
   font-weight: $bold;
   text-transform: none;
-  margin-top: calc(#{ms(1)} * 0.5);
-  margin-bottom: calc(#{ms(1)} * 0.5);
 }
 
 // page-heading is used at the top of each page
