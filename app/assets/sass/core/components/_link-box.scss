@@ -46,8 +46,8 @@ ul.link-boxes {
         padding: 0;
       }
       h2 {
+        @include h4;
         margin-top: 0;
-        font-size: $body;
         text-decoration: underline;
         letter-spacing: 0;
       }

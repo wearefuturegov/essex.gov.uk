@@ -2,27 +2,48 @@
 $stack: 'Open Sans', sans-serif;
 $stack-logo: 'Roboto', sans-serif;
 
-// typography measurements
-$h1: 48px;
-$h2: 36px;
-$h3: 24px;
-$h4: 19px;
-$body: 16px;
-$baseline: 1.5em; //28.5
+// grid measreuments
+$gutter: 60px;
+$site-width: $gutter*17;
+$outer-grid-margin: $gutter*0.5;
+
+$full-width: 100%;
+$one-quarter: $full-width / 4;
+$one-third: $full-width / 3;
+$half: $full-width / 2;
+$two-thirds: ($full-width) - ($one-third);
+$three-quarters: ($full-width) - ($one-quarter);
+
+// gutter dimensions
+$gutter-one-quarter: $gutter / 4;
+$gutter-one-third: $gutter / 3;
+$gutter-half: $gutter / 2;
+$gutter-two-thirds: $gutter - $gutter-one-third;
+
+$body: 1.6rem;
+$line-height: 2.6rem;
+$baseline: 1.625rem;
 
 // rough sizes for p tag
-$smaller: 14px;
-$small: 16px;
-$medium: 26px;
-$large: 30px;
-$larger: 34px;
+// modularscale.com
+$small: 0.889em; // -1
+$medium: 1.125rem; // 1
+$large: 1.266rem; // 2
+$larger: 1.424rem; // 3
 
 $light: 300;
 $normal: 400;
 $regular: $normal;
 $semi: 600;
 $bold: 700;
-$icon: 3em;
+
+// icon
+$icon: 2.5rem;
+
+// button
+$button-height: 6.5rem;
+$form-height: 6.5rem;
+$form-padding: $gutter*0.25; //15px
 
 // greyscale
 $grey-lighter: #f5f5f5;
@@ -103,26 +124,7 @@ $border-radius: 3px;
 // logo dimensions
 $logo-width: 300px;
 $logo-height: 40px;
+$logo-height: 1.602em;
 
 // header dimensions, based on logo
-$nav-height: $logo-height*2;
-
-// grid measreuments
-$gutter: 60px;
-$site-width: $gutter*17;
-$outer-grid-margin: $gutter*0.5;
-
-$form-padding: $gutter*0.125;
-
-$full-width: 100%;
-$one-quarter: $full-width / 4;
-$one-third: $full-width / 3;
-$half: $full-width / 2;
-$two-thirds: ($full-width) - ($one-third);
-$three-quarters: ($full-width) - ($one-quarter);
-
-// gutter dimensions
-$gutter-one-quarter: $gutter / 4;
-$gutter-one-third: $gutter / 3;
-$gutter-half: $gutter / 2;
-$gutter-two-thirds: $gutter - $gutter-one-third;
+$nav-height: $logo-height*3;

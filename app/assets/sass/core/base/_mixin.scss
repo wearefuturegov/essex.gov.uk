@@ -79,6 +79,16 @@
   margin: -1px; padding: 0; border: 0; 
 }
 
+@mixin form-padding {
+  padding: $baseline*1.5 $gutter*0.25;
+  padding: $baseline*1.5;
+}
+
+@mixin form-padding-small {
+  padding: $baseline $gutter*0.25;
+  padding: $baseline;
+}
+
 
 // CSS 3 mixins
 

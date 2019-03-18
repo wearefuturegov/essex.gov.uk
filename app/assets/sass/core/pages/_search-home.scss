@@ -4,7 +4,6 @@
   background-size: cover;
   background-position-x: 0;
   background-position-y: 0;
-  height: $baseline*14;
   @include media(mobile) {
     height: auto;
     padding-bottom: $baseline;
@@ -16,6 +15,8 @@
   }
   .search-container {
     @extend %site-width-container;
+    padding-top: $baseline*5;
+    padding-bottom: $baseline*5;
     .greeting, .search-input {
       @include border-radius($border-radius);
       position: relative;;
@@ -24,15 +25,13 @@
       }
     }
     .greeting {
-      padding-top: $baseline*3;
       @include media(mobile) {
         margin-top: 0;
         padding-top: $baseline;
       }
       h1 {
-        font-family: $stack;
+        padding: 0.56521739em*0.5;
         display: inline-block;
-        padding: $form-padding*2;
         background: $white;
         margin-top: 0;
         margin-bottom: $border-thick;
@@ -42,21 +41,18 @@
       }
     }
     .form {
+      width: 60%;
       .group.search {
         margin-bottom: 0;
         input, label {
           border: none;
         }
         .search-input {
-          width: calc(60% - #{$gutter});
           @include media(mobile) {
             width: 100%;
           }
         }       
         .fa-search.search-icon-position  {
-          font-size: $icon*0.5;
-          line-height: $baseline*1.25;
-          padding: 10px;
           background: $white;
           color: $search;
             &:hover {

@@ -15,9 +15,9 @@
     }
     th,
     td {
+      @include form-padding;
       font-size: $body;
       line-height: $baseline;
-      padding: $baseline*0.25 $gutter*0.25;
       text-align: left;
       border-bottom: 1px solid $black;
     }

@@ -4,7 +4,9 @@
   position: relative;
   z-index: 100;
   @include box-shadow(0px 1px 1px 0px $black);
-  height: $nav-height;
+  @include media(mobile) {
+    height: $nav-height;
+  }
   @media print {
     height: auto;
     @include box-shadow(none);
@@ -26,6 +28,8 @@
         }
       }
       span {
+        @include small;
+        font-size: 0.5em;
         color: $white;
         @media print {
           color: $black;

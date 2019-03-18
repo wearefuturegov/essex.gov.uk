@@ -13,9 +13,8 @@
     margin-bottom: $baseline;
     label, input {
       @include box-sizing(border-box);
-      line-height: $baseline;
-      padding: $form-padding*2 + $border-thick;
-      width: calc(100% - #{$gutter - $border-normal});
+      @include form-padding;
+      height: $baseline*4;
     }
     label {
       $color: $body-text-colour;
@@ -35,32 +34,34 @@
       position: absolute;
       left: 0;
       top: 0;
-      height: 60px;
-      width: calc(100% - #{$gutter - $border-normal});
+      height: $baseline*4;
+      width: calc(100% - #{$form-height;});
       &:focus {
+        height: $baseline*4;
         left: 0;
         text-indent: 0;
         background: #fff;
         outline-offset: 0;
-        padding: $form-padding*2;
+        padding: $gutter*0.25;
         z-index: 10;
       }
     }
     .fas.fa-search.search-icon-position {
       @include box-sizing(border-box);
+      @include form-padding-small;
       border: none;
-      font-size: $icon*0.5;
-      line-height: $icon*0.5;
+      font-size: $icon;
+      line-height: $icon;
       color: $white;
       text-align: center;
       position: absolute;
       top: 0;
       right: 0;
       bottom: 0;
-      padding: 12px;
       background: $brand;
-      width: $gutter;
       z-index: 100;
+      height: $form-height;
+      width: $form-height;
       &:hover {
         cursor: pointer;
         color: $white-hover;

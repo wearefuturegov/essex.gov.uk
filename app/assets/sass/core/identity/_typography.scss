@@ -1,83 +1,85 @@
-body {
-  font-family: $stack;
+$modularscale: (
+  base: $ms-base,
+  ratio: $major-second
+);
+
+#skiplink-container, 
+.phase-banner-background, 
+.header-background, 
+.search-background, 
+#content, 
+.signup-background,
+.footer-container {
   font-size: $body;
-  line-height: $baseline;
-  -webkit-font-smoothing: antialiased;
-  background: $white;
-  color: $text-colour;
+  line-height: $line-height;
 }
 
-$h1: 48px;
-$h2: 30px;
-$h3: 24px;
-$h4: 20px;
+p {
+  $margin: 1.625em;
+  font-size: $body;
+  font-size: ms(0);
+  line-height: $line-height;
+  margin-top: 0;
+  margin-bottom: $margin;
+  color: $body-text-colour;
+  text-transform: none;
+  @include word-break;
+  &.lede {
+    font-size: ms(1);
+  }
+}
+
+@mixin small {
+  font-size: 0.889em;
+  line-height: 1.111em;
+}
 
 h1, h2, h3, h4 {
-  letter-spacing: -1px;
+  letter-spacing: -1.5px;
 }
 
 @mixin h1 {
+  $margin: 0.56521739em;
   font-family: $stack;
-  font-size: $h1;
-  line-height: 1.04167;
+  font-size: ms(9);
+  line-height: 1.13043478em;
+  margin-top: $margin*2;
+  margin-bottom: $margin*2;
   font-weight: $bold;
   text-transform: none;
-  margin-top: calc(#{$h1} * 0.5);
-  margin-bottom: calc(#{$h1} * 1);
-  @include media(mobile) {
-    font-size: $h1*0.9;
-  }
-  @media print {
-    font-size: $h1;
-  }
 }
 
 @mixin h2 {
+  $margin: 0.8125em;
   font-family: $stack;
-  font-size: $h2;
-  line-height: 1.3;
+  font-size: ms(6);
+  line-height: 1.625em * 0.75;
+  margin-top: $margin;
+  margin-bottom: $margin;
   font-weight: $bold;
   text-transform: none;
-  margin-top: calc(#{$h2} * 1.25);
-  margin-bottom: calc(#{$h2} * 0.55556);
-  @include media(mobile) {
-    font-size: $h2*0.9;
-  }
-  @media print {
-    font-size: $h2;
-  }
 }
 
 @mixin h3 {
+  $margin: 1.13043478em;
   font-family: $stack;
-  font-size: $h3;
-  line-height: 1.25;
+  font-size: ms(3);
+  line-height: 1.13043478em * 1.25;
+  margin-top: $margin;
+  margin-bottom: $margin;
   font-weight: $bold;
   text-transform: none;
-  margin-top: calc(#{$h3} * 1.5);
-  margin-bottom: calc(#{$h3} * 1);
-  @include media(mobile) {
-    font-size: $h3*0.9;
-  }
-  @media print {
-    font-size: $h3;
-  }
 }
 
 @mixin h4 {
+  $margin: 1.44444444em;
   font-family: $stack;
-  font-size: $h4;
+  font-size: ms(1);
+  line-height: 1.44444444em;
+  margin-top: $margin;
+  margin-bottom: $margin;
   font-weight: $bold;
-  line-height: 1.31579;
   text-transform: none;
-  margin-top: calc(#{$h4} * 1);
-  margin-bottom: calc(#{$h4} * 1);
-  @include media(mobile) {
-    font-size: $h4*0.9;
-  }
-  @media print {
-    font-size: $h4;
-  }
 }
 
 // page-heading is used at the top of each page
@@ -102,20 +104,8 @@ h4, .h4, .sub-section-heading {
   @include h4;
 }
 
-p {
-  color: $body-text-colour;
-  text-transform: none;
-  margin-top: 0;
-  margin-bottom: $baseline*0.75;
-  @include word-break;
-  &.lede {
-    font-size: 24px;
-    line-height: $baseline*0.84;
-  }
-}
-
 strong {
-  font-weight: 700;
+  font-weight: $bold;
 }
 
 em, i {
@@ -201,8 +191,7 @@ ul {
 // Meta
 
 .meta {
-  font-size: $small;
-  line-height: $baseline;
+  @include small;
   color: $grey;
   margin-top: $baseline*0.5;
   margin-bottom: $baseline;

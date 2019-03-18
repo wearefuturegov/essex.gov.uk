@@ -17,8 +17,8 @@
     }
   }
   p span {
+    @include small;
     display: block;
-    font-size: $smaller;
     margin: $baseline*0.25 0;
   }
 }

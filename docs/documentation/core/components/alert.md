@@ -115,7 +115,7 @@ Information alerts are used to direct a user's attention to important informatio
 
 ## When to use Warning alerts
 
-Warning alerts are used to prepare users for a variety of real life issues. This could incude:
+Warning alerts are used to prepare users for a variety of real life issues. This could include:
 <ul>
   <li>adverse weather information</li>
 </ul>

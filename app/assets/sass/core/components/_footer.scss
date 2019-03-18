@@ -3,8 +3,8 @@
     display: none;
   }
   .footer-top, .footer-bottom {
+    @include small;
     padding-top: $baseline;
-    font-size: $smaller;
   }
   .footer-top {
     background-color: $brand3;
