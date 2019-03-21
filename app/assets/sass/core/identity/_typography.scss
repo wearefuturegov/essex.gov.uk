@@ -31,7 +31,7 @@ p {
 
 @mixin small {
   font-size: 0.889em;
-  line-height: 1.111em;
+  line-height: 0.889em + 0.889em*0.5;
 }
 
 h1, h2, h3, h4 {
