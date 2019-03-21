@@ -27,6 +27,10 @@
       }
       input {
         margin-top: 0;
+        border-color: $white;
+        @include media(mobile) {
+          border-color: $black;
+        }
       }
       label, input {
         @include box-sizing(border-box);
@@ -44,7 +48,6 @@
         padding: $baseline*0.75;
         position: absolute;
         top: 0;
-        right: 0;
         bottom: 0;
         background: $white;
         font-size: $icon*0.75;
