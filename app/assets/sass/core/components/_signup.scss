@@ -95,12 +95,9 @@
             text-indent: -5000px;
             background: transparent;
             position: absolute;
-            left: $gutter;
             top: 0;
             height: $form-height;
-            width: calc(100% - #{$gutter*2});
             &:focus {
-              left: $gutter;
               text-indent: 0;
               background: #fff;
               outline-offset: 0;
@@ -112,6 +109,22 @@
               &:focus {
                 left: $gutter*0.5;
                 width: calc(100% - #{$gutter});
+              }
+            }
+            @include media(tablet) {
+              left: $gutter*0.5;
+              width: calc(100% - #{$gutter});
+              &:focus {
+                left: $gutter*0.5;
+                width: calc(100% - #{$gutter});
+              }
+            }
+            @include media(desktop) {
+              left: $gutter;
+              width: calc(100% - #{$gutter*2});
+              &:focus {
+                left: $gutter;
+                width: calc(100% - #{$gutter*2});
               }
             }
           }
