@@ -22,12 +22,12 @@ p {
 
 @mixin small {
   font-size: ms(-1);
-  line-height: 1.5714286rem;
+  line-height: 1.6153846rem;
 }
 
 @mixin smaller {
   font-size: ms(-2);
-  line-height: 1.5833333rem;
+  line-height: 1.5714286rem;
 }
 
 h1, h2, h3, h4 {
@@ -94,6 +94,10 @@ h2, .h2, .content-heading {
 // section-heading is used for each section within content on a page.
 h3, .h3, .section-heading {
   @include h3;
+}
+
+.content > h1.h3 {
+  margin-bottom: $baseline*1.5;
 }
 
 // sub-section-heading is used for those occasional

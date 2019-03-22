@@ -15,8 +15,8 @@
   }
   .search-container {
     @extend %site-width-container;
-    padding-top: $baseline*5;
-    padding-bottom: $baseline*5;
+    padding-top: $baseline;
+    padding-bottom: $baseline;
     .greeting, .search-input {
       @include border-radius($border-radius);
       position: relative;;

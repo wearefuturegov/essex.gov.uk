@@ -1,6 +1,6 @@
 .previews {
-  margin-top: $baseline*1.5;
-  margin-bottom: $baseline*1.5;
+  margin-top: $baseline;
+  margin-bottom: $baseline;
   @extend %grid-row;
   &.news {
     margin-top: $baseline*2;
@@ -30,6 +30,7 @@
     }
     h2 {
       @include h3;
+      margin-top: 0;
     }
     img {
       margin-top: $baseline;
