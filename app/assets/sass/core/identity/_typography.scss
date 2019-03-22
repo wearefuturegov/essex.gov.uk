@@ -4,17 +4,19 @@ $modularscale: (
 );
 
 p {
-  $margin: 1.625em;
   font-size: $body;
   font-size: ms(0);
-  line-height: $line-height;
+  line-height: $baseline;
   margin-top: 0;
-  margin-bottom: $margin;
+  margin-bottom: $baseline;
   color: $body-text-colour;
   text-transform: none;
   @include word-break;
   &.lede {
     font-size: ms(1);
+  }
+  & + ul, ol {
+    margin-top: 0;
   }
 }
 
@@ -37,23 +39,21 @@ h1, h2, h3, h4 {
   font-size: ms(9);
   font-weight: $bold;
   text-transform: none;
-  // line-height: 1.13043478em;
   line-height: $baseline*2;
   margin-top: $baseline*2;
   margin-bottom: $baseline*2;
   @include media(mobile) {
     font-size: ms(6);
-    // line-height: 1.44444444em;
-    line-height: $baseline;
+    line-height: $baseline*1.5;
     margin-top: $baseline*0.5;
-    margin-bottom: $baseline*0.5;
+    margin-bottom: $baseline*1.5;
   }
 }
 
 @mixin h2 {
   font-family: $stack;
   font-size: ms(6);
-  line-height: 1.625em * 0.75;
+  line-height: $baseline*1.5;
   margin-top: $baseline;
   margin-bottom: $baseline;
   font-weight: $bold;
@@ -63,9 +63,9 @@ h1, h2, h3, h4 {
 @mixin h3 {
   font-family: $stack;
   font-size: ms(3);
-  line-height: 1.13043478em * 1.25;
-  margin-top: $baseline;
-  margin-bottom: $baseline;
+  line-height: $baseline;
+  margin-top: $baseline*1.5;
+  margin-bottom: $baseline*0.5;
   font-weight: $bold;
   text-transform: none;
 }
@@ -73,9 +73,10 @@ h1, h2, h3, h4 {
 @mixin h4 {
   font-family: $stack;
   font-size: ms(1);
-  line-height: 1.44444444em;
-  margin-top: $baseline;
-  margin-bottom: $baseline;
+  // line-height: 1.44444444em;
+  line-height: $baseline;
+  margin-top: $baseline*1.5;
+  margin-bottom: $baseline*0.5;
   font-weight: $bold;
   text-transform: none;
 }
@@ -163,10 +164,12 @@ ul {
   list-style-position: outside;
   padding-left:10px;
   margin-left: 20px;
-  margin-top: $baseline*0.5;
+  margin-top: $baseline;
   margin-bottom: $baseline;
   li {
     padding-left: 10px;
+    margin-bottom: 0;
+    line-height: $baseline;
   }
 }
 

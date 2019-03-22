@@ -20,7 +20,7 @@
     list-style: none;
     li {
       padding-left: 0;
-      margin-bottom: $baseline*0.75;
+      margin-bottom: $baseline*0.25;
       &:before {
         content: "\2014 ";
         margin-right: 5px;
@@ -31,8 +31,7 @@
         }
       }
       &:last-child {
-        padding-bottom: $baseline*2;
-        margin-bottom: calc($baseline - #{$border-thin});
+        padding-bottom: $baseline;
         border-bottom: $border-thin $grey solid;
       }
     }

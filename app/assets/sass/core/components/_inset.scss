@@ -7,6 +7,9 @@
   border-left: $border-very-thick solid $grey-light;
   padding: $baseline $gutter*0.25;
   margin-bottom: $baseline;
+  h3 {
+    margin-top: 0;
+  }
   p:last-child {
   	margin-bottom: 0;
   }

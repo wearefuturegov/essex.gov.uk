@@ -30,11 +30,15 @@
         padding-top: $baseline;
       }
       h1 {
-        padding: 0.56521739em*0.5;
+        @include box-sizing(border-box);
+        padding: $baseline*0.5;
         display: inline-block;
         background: $white;
         margin-top: 0;
         margin-bottom: $border-thick;
+        @include media(mobile){
+          width: 100%;
+        }
         @media print {
           padding: 0;
         }
@@ -42,16 +46,15 @@
     }
     .form {
       width: 60%;
+      @include media(mobile) {
+        overflow: hidden;
+        width: 100%;
+      }
       .group.search {
         margin-bottom: 0;
         input, label {
           border: none;
-        }
-        .search-input {
-          @include media(mobile) {
-            width: 100%;
-          }
-        }       
+        }     
         .fa-search.search-icon-position  {
           background: $white;
           color: $search;
