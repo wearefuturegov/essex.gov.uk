@@ -39,45 +39,47 @@ h1, h2, h3, h4 {
 }
 
 @mixin h1 {
-  $margin: 0.56521739em;
   font-family: $stack;
   font-size: ms(9);
-  line-height: 1.13043478em;
-  margin-top: $margin*2;
-  margin-bottom: $margin*2;
   font-weight: $bold;
   text-transform: none;
+  line-height: 1.13043478em;
+  margin-top: $baseline*2;
+  margin-bottom: $baseline*2;
+  @include media(mobile) {
+    font-size: ms(7);
+    line-height: 1.44444444em;
+    margin-top: $baseline*0.5;
+    margin-bottom: $baseline*0.5;
+  }
 }
 
 @mixin h2 {
-  $margin: 0.8125em;
   font-family: $stack;
   font-size: ms(6);
   line-height: 1.625em * 0.75;
-  margin-top: $margin;
-  margin-bottom: $margin;
+  margin-top: $baseline;
+  margin-bottom: $baseline;
   font-weight: $bold;
   text-transform: none;
 }
 
 @mixin h3 {
-  $margin: 1.13043478em;
   font-family: $stack;
   font-size: ms(3);
   line-height: 1.13043478em * 1.25;
-  margin-top: $margin;
-  margin-bottom: $margin;
+  margin-top: $baseline;
+  margin-bottom: $baseline;
   font-weight: $bold;
   text-transform: none;
 }
 
 @mixin h4 {
-  $margin: 1.44444444em;
   font-family: $stack;
   font-size: ms(1);
   line-height: 1.44444444em;
-  margin-top: $margin;
-  margin-bottom: $margin;
+  margin-top: $baseline;
+  margin-bottom: $baseline;
   font-weight: $bold;
   text-transform: none;
 }
