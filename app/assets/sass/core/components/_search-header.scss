@@ -15,8 +15,8 @@
       position: relative;
       float: right;
       width: $gutter*4;
-      margin-top: $baseline;
-      margin-bottom: $baseline;
+      margin-top: $baseline*0.5;
+      margin-bottom: $baseline*0.5;
       @include media(mobile) {
         float: left;
         width: 100%;
@@ -27,6 +27,7 @@
       }
       input {
         margin-top: 0;
+        margin-bottom: 0;
         border-color: $white;
         @include media(mobile) {
           border-color: $black;
@@ -34,9 +35,10 @@
       }
       label, input {
         @include box-sizing(border-box);
-        padding: 1.6rem;
+        font-size: ms(1);
+        padding: $baseline*0.5;
         line-height: $baseline;
-        height: $form-height*0.75;
+        height: $form-height;
         position: absolute;
         left: 0;
         width: calc(100% - #{$form-height*0.75;});
@@ -50,10 +52,10 @@
         top: 0;
         bottom: 0;
         background: $white;
-        font-size: $icon*0.75;
+        font-size: ms(2);
         color: $brand;
-        height: $form-height*0.75;
-        width: $form-height*0.75;
+        height: $form-height;
+        width: $form-height;
         @include media(mobile) {
           color: $white;
           background: $brand;

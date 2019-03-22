@@ -7,7 +7,10 @@
     @include grid-column(1 / 1);
   }
   .heading h2 {
-    font-size: $body;
+    @include small;
+    font-weight: $regular;
+    margin-top: 0;
+    margin-bottom: $baseline*0.5;
     letter-spacing: 0;
   }
   ol, ul {

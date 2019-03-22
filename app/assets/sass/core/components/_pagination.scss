@@ -45,10 +45,10 @@
         margin-bottom: 0;
         display: block;
         .fas {
-          font-size: $icon*0.5;
-          margin-right: $gutter*0.5;
+          margin-right: $gutter*0.25;
         }
         & + span {
+          @include small;
           display: block;
           text-decoration: underline;
         }

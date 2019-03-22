@@ -26,6 +26,7 @@ $baseline: 1.625rem;
 
 // rough sizes for p tag
 // modularscale.com
+$smaller: 0.79em; // -2
 $small: 0.889em; // -1
 $medium: 1.125rem; // 1
 $large: 1.266rem; // 2
@@ -38,11 +39,11 @@ $semi: 600;
 $bold: 700;
 
 // icon
-$icon: 2.5rem;
+$icon: 1rem;
 
 // button
-$button-height: 6.5rem;
-$form-height: 6.5rem;
+$button-height: $baseline*2;
+$form-height: $baseline*2;
 $form-padding: $gutter*0.25; //15px
 
 // greyscale
