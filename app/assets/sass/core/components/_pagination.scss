@@ -50,7 +50,11 @@
         padding: $baseline*0.5 $gutter*0.5;
       }
       &:hover {
+        color: $link;
         background: $grey-lighter;
+      }
+      &:visited {
+        color: $link;
       }
       span.pagination-item {
         @include h3;
@@ -59,9 +63,14 @@
         display: block;
         .fas {
           margin-right: $gutter*0.25;
+          &:before {
+            display: inline-block;
+            width: $icon-width;
+          }
         }
         & + span {
           @include small;
+          margin-left: $gutter*0.5; 
           display: block;
           text-decoration: underline;
         }

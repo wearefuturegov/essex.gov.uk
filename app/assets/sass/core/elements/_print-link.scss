@@ -13,5 +13,7 @@ a.print-link {
     @include font-awesome;
     content: "\f02f";
     margin-right: $gutter*0.25;
+    display: inline-block;
+    width: $icon-width;
   }
 }
