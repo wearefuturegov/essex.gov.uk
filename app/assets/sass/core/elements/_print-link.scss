@@ -4,8 +4,8 @@ a.print-link {
   @media print {
     display: none;
   }
-  margin-top: $baseline*1.5;
-  margin-bottom: $baseline*1.5;
+  margin-top: $baseline;
+  margin-bottom: $baseline;
   color: $link;
   cursor: pointer;
   text-decoration: underline;

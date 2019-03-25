@@ -57,14 +57,15 @@
           font-size: ms(1);
           line-height: $baseline;
           padding: 0;
-          color: $white;
-          background-color: $brand;
+          color: $brand;
+          background-color: transparent;
           font-weight: 600;
           border: $border-normal $brand solid;
           height: $form-height;
           width: 100%;
           &:hover {
-            background-color: $brand-hover-darken;
+            background-color: $brand;
+            color: $white;
           }
         }
       }
@@ -128,13 +129,12 @@
         }
         .signup-button {
           input.button.subscribe {
-            color: $brand;
-            background-color: $white;
+            color: $white;
+            background-color: transparent;
             border: $border-normal $white solid;
             &:hover {
               color: $brand;
-              background-color: $white-hover;
-              border-color: $white-hover;
+              background-color: $white;
             }
           }
         }
