@@ -24,11 +24,6 @@
       margin-right: 0;
     }
     input {
-      &::-ms-clear {
-        display: none;
-      }
-    }
-    input {
       font-size: ms(1);
       text-transform: none;
       text-indent: -5000px;
@@ -38,6 +33,9 @@
       top: 0;
       height: $form-height;
       width: calc(100% - #{$form-height;});
+      &::-ms-clear {
+        display: none;
+      }
       &:focus {
         height: $form-height;
         left: 0;
