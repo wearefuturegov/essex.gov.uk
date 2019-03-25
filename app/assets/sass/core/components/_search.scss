@@ -15,6 +15,7 @@
       @include box-sizing(border-box);
       padding: $baseline*0.5;
       height: $form-height;
+      width: calc(100% - #{$form-height;});
     }
     label {
       $color: $body-text-colour;
@@ -32,7 +33,6 @@
       left: 0;
       top: 0;
       height: $form-height;
-      width: calc(100% - #{$form-height;});
       &::-ms-clear {
         display: none;
       }
