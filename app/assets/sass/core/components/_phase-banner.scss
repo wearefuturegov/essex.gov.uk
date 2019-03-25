@@ -6,8 +6,8 @@
     @media print {
       display: none;
     }
-    padding-top: $baseline*0.5;
-    padding-bottom: $baseline*0.5;
+    padding-top: $baseline*0.25;
+    padding-bottom: $baseline*0.25;
     @include media(mobile) {
       // padding-bottom: 0;
     }
@@ -26,11 +26,7 @@
         background-color: $brand;
         display: inline-block;
         padding: $baseline*0.125 $baseline*0.25;
-        margin-bottom: $baseline*0.25;
         margin-right: $gutter*0.25;
-        @include media(mobile) {
-          margin-bottom: 0;
-        }
       }
     }
   }
