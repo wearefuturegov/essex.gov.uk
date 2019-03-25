@@ -26,10 +26,9 @@
     @include media(mobile) {
       padding-top: 0;
       padding-bottom: 0;
-      margin-bottom: $baseline*2;
     }
     h2 {
-      @include h3;
+      @include h4;
       margin-top: 0;
     }
     img {
