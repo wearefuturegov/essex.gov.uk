@@ -41,13 +41,13 @@
         height: $form-height;
         position: absolute;
         left: 0;
-        width: calc(100% - #{$form-height*0.75;});
+        width: calc(100% - #{$form-height;});
         @include media(desktop) {
           border: none;
         }
       }
       .fas.fa-search.search-icon-position {
-        padding: $baseline*0.75;
+        padding: $baseline*0.5;
         position: absolute;
         top: 0;
         bottom: 0;
