@@ -28,7 +28,10 @@
       padding-bottom: 0;
     }
     h2 {
-      @include h4;
+      @include h3;
+      @include media(mobile) {
+        @include h4;
+      }
       margin-top: 0;
     }
     img {
