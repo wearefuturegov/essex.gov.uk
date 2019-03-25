@@ -148,6 +148,7 @@ a {
 }
 
 a:focus {
+  color: $black;
   background-color: $focus-colour;
   outline: $border-thick solid $focus-colour;
 }

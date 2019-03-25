@@ -40,11 +40,19 @@ $bold: 700;
 
 // icon
 $icon: 1rem;
+$icon-width: $gutter*0.25;
 
 // button
 $button-height: $baseline*2;
 $form-height: $baseline*2;
 $form-padding: $gutter*0.25; //15px
+
+// brand colors
+// $brand: #e40037; // AAA fail. http://accessible-colors.com/ recommend #B4002C 
+$brand: #682558; // AAA complient
+$brand2: #d5ebf0; // ice blue
+$brand3: #213348; // used for footer top
+$brand4: #051a31; // used for footer bottom
 
 // greyscale
 $grey-lighter: #f5f5f5;
@@ -55,26 +63,23 @@ $grey-darker: #111111;
 
 // This black is a very dark purple based on our brand colour. 
 // We also use this for our text-colour
-$black: #190119;
+$black: #040103; // 
 $very-black: #000;
 
-// brand colors
-// $brand: #e40037; // AAA fail. http://accessible-colors.com/ recommend #B4002C 
-$brand: #682558; // AAA complient
-$brand2: #d5ebf0; // ice blue
-$brand3: #213348; // used for footer top
-$brand4: #051a31; // used for footer bottom
-
 // text colour
-$text-colour: #190119; // $black
-$body-text-colour: #444444; // $grey-dark
+$text-colour: $black; // Text that isn't in the main body
+$body-text-colour: #1a191a; // Only main body text
 $white: #fff;
 
 // link colour
 $link: #192A66; // AAA complient
+$link: #0043af;
 $hover: #92006D; // AAA complient (even with background grey on pagination)
+$hover: #4c89cc;
+$focus: $black;
 $visited: #682558; // AAA complient
-$active: #000;
+$visited: #86276e;
+$active: $hover;
 
 // hover colors
 $brand-hover-darken: #541946;
