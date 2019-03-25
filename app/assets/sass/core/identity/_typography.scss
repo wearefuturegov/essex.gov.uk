@@ -73,7 +73,6 @@ h1, h2, h3, h4 {
 @mixin h4 {
   font-family: $stack;
   font-size: ms(1);
-  // line-height: 1.44444444em;
   line-height: $baseline;
   margin-top: $baseline*1.5;
   margin-bottom: $baseline*0.5;

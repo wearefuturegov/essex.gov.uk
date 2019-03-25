@@ -49,7 +49,11 @@
           text-align: left;
         }
         li {
-          margin-left: $padding-thin;
+          margin-left: $baseline*0.5;
+          @include media(mobile) {
+            margin-left: 0;
+            margin-right: $baseline*0.5;
+          }
           a {
             font-size: $body;
             color: $white;

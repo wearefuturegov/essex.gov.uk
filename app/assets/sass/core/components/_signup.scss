@@ -79,6 +79,10 @@
     @extend %site-width-container;
     padding-top: $baseline*2;
     padding-bottom: $baseline*2;
+    @include media(mobile) {
+      padding-top: $baseline;
+      padding-bottom: $baseline;
+    }
     h3 {
       font-weight: 400;
     }
@@ -132,6 +136,9 @@
             color: $white;
             background-color: transparent;
             border: $border-normal $white solid;
+            @include media(mobile) {
+              margin-bottom: 0;
+            }
             &:hover {
               color: $brand;
               background-color: $white;

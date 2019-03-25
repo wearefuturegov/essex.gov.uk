@@ -5,7 +5,7 @@
   @include box-sizing(border-box);
   position: relative;
   text-align: left;
-  padding: $padding-thin;
+  padding: $baseline*0.5;
   margin-top: $baseline;
   margin-bottom: $baseline;
   display: table;
@@ -66,7 +66,7 @@
   label.close {
     position: absolute;
     top: $baseline*0.25;
-    right: $padding-thin;
+    right: $baseline*0.5;
     cursor: pointer;
     color: $black;
     .fa-times {
