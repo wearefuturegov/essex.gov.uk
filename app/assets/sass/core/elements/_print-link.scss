@@ -1,12 +1,11 @@
 a.print-link {
   @include small;
-  display: block;
+  display: inline-block;
   @media print {
     display: none;
   }
   margin-top: $baseline;
   margin-bottom: $baseline;
-  color: $link;
   cursor: pointer;
   text-decoration: underline;
   &:before {
@@ -14,6 +13,6 @@ a.print-link {
     content: "\f02f";
     margin-right: $gutter*0.25;
     display: inline-block;
-    width: $icon-width;
+    width: $icon-width - 2px;
   }
 }

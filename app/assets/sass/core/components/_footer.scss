@@ -49,13 +49,15 @@
           text-align: left;
         }
         li {
-          // padding: 0 $gutter*0.05 0 $gutter*0.05;
           margin-left: $padding-thin;
           a {
             font-size: $body;
             color: $white;
             &:hover {
               color: $white-on-black-hover;
+            }
+            &:focus {
+              color: $black;
             }
           }
         }

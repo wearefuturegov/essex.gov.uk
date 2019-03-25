@@ -56,6 +56,9 @@
       &:visited {
         color: $link;
       }
+      &:focus {
+        color: $black;
+      }
       span.pagination-item {
         @include h3;
         margin-top: 0;
