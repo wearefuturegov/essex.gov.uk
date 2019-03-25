@@ -5,7 +5,7 @@
   .form {
     .group {
       @extend %grid-row;
-      margin-bottom: $baseline;
+      margin-bottom: 0;
       label {
         $color: $body-text-colour;
         background: $white;
@@ -77,8 +77,8 @@
   background-color: $brand;
   .signup {
     @extend %site-width-container;
-    padding-top: $baseline*2;
-    padding-bottom: $baseline*2;
+    padding-top: $baseline;
+    padding-bottom: $baseline;
     @include media(mobile) {
       padding-top: $baseline;
       padding-bottom: $baseline;
