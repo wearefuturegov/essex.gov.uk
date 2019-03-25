@@ -19,12 +19,14 @@
     }
     .nav {
     @extend %grid-row;
-      a.logo-text {
+      .logo-text {
         @include grid-column(1 / 2);
-        color: $white;
-        @media print {
-          color: $black;
-          font-size: $small;
+        a {
+          color: $white;
+          @media print {
+            color: $black;
+            font-size: $small;
+          }
         }
       }
       span {
