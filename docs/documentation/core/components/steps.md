@@ -10,7 +10,7 @@
 <div class="preview-list steps">
   <div class="step">
     <h3>1. Check what help is available</h3>
-    <div class="content js-hidden" id="tab-one" aria-hidden="true">
+    <div class="step-list js-hidden" id="tab-one" aria-hidden="true">
       <ul>
         <li><a href="#">Linkable content</a></li>
         <li><a href="#">Linkable content</a></li>
@@ -26,7 +26,7 @@
   </div>
   <div class="step">
     <h3>2. Get an assessment of care needs</h3>
-    <div class="content js-hidden" id="tab-two" aria-hidden="true">
+    <div class="step-list js-hidden" id="tab-two" aria-hidden="true">
       <ul>
         <li><a href="#">Linkable content</a></li>
         <li><a href="#">Linkable content</a></li>
@@ -42,7 +42,7 @@
   </div>
   <div class="step">
     <h3>3. Care and support plan</h3>
-    <div class="content js-hidden" id="tab-three" aria-hidden="true">
+    <div class="step-list js-hidden" id="tab-three" aria-hidden="true">
       <ul>
         <li><a href="#">Linkable content</a></li>
         <li><a href="#">Linkable content</a></li>
@@ -61,7 +61,7 @@
     <div class="preview-list steps">
       <div class="step">
         <h3>1. Check what help is available</h3>
-        <div class="content js-hidden" id="tab-one" aria-hidden="true">
+        <div class="step-list js-hidden" id="tab-one" aria-hidden="true">
           <ul>
             <li><a href="#">Linkable content</a></li>
             <li><a href="#">Linkable content</a></li>
@@ -77,7 +77,7 @@
       </div>
       <div class="step">
         <h3>2. Get an assessment of care needs</h3>
-        <div class="content js-hidden" id="tab-two" aria-hidden="true">
+        <div class="step-list js-hidden" id="tab-two" aria-hidden="true">
           <ul>
             <li><a href="#">Linkable content</a></li>
             <li><a href="#">Linkable content</a></li>
@@ -93,7 +93,7 @@
       </div>
       <div class="step">
         <h3>3. Care and support plan</h3>
-        <div class="content js-hidden" id="tab-three" aria-hidden="true">
+        <div class="step-list js-hidden" id="tab-three" aria-hidden="true">
           <ul>
             <li><a href="#">Linkable content</a></li>
             <li><a href="#">Linkable content</a></li>
