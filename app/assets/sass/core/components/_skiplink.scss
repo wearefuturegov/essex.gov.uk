@@ -10,9 +10,9 @@
 
 .skiplink:focus {
   display: inline-block;
-  top: $baseline*0.5;
-  left: $gutter*0.25;
-  z-index: 1;
+  top: $baseline*0.75;
+  left: $baseline*0.75;
+  z-index: 40;
   position: static;
   position: absolute;
 }
@@ -30,8 +30,8 @@
 #skiplink-container .skiplink {
   display: -moz-inline-stack;
   display: inline-block;
-  padding: $baseline*0.25;
-  margin: 0 $gutter;
+  padding: $baseline*0.5;
+  margin: 0 $gutter*0.5;
   @include media (desktop) {
     margin: 0;
   }
