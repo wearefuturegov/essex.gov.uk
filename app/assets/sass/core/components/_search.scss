@@ -15,7 +15,7 @@
       @include box-sizing(border-box);
       padding: $baseline*0.5;
       height: $form-height;
-      width: calc(100% - #{$form-height;});
+      width: calc(100% - #{$form-height} - #{$border-thick});
     }
     label {
       $color: $body-text-colour;
@@ -56,7 +56,7 @@
       text-align: center;
       position: absolute;
       top: 0;
-      right: -$border-thick;
+      right: 0;
       bottom: 0;
       background: $brand;
       z-index: 100;

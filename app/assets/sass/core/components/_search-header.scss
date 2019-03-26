@@ -41,7 +41,7 @@
         height: $form-height*0.75;
         position: absolute;
         left: 0;
-        width: calc(100% - #{$form-height*0.75;});
+        width: calc(100% - #{$form-height*0.75} - #{$border-thick});
         @include media(desktop) {
           border: none;
         }

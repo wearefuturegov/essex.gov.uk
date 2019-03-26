@@ -61,7 +61,6 @@
     .form {
       width: 60%;
       @include media(mobile) {
-        overflow: hidden;
         width: 100%;
       }
       .group.search {
