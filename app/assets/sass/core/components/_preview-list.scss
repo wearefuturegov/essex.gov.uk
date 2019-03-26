@@ -17,6 +17,9 @@
     a {
       font-weight: $bold;
     }
+    p {
+      margin-bottom: 0;
+    }
   }
   input.checkbox, .hide {
     display: none;
