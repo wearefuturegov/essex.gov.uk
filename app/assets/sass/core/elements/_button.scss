@@ -135,7 +135,7 @@
   background-image: file-url("/icon/icon-pointers.png");
   background-repeat: no-repeat;
   background-position: 100% 50%;
-  padding: $baseline*0.25 $gutter $baseline*0.25 $gutter*0.25;
+  padding: $baseline*0.5 $gutter $baseline*0.5 $gutter*0.25;
   @include device-pixel-ratio {
     background-image: file-url("/icon/icon-pointer-2x.png");
     background-size: 30px 19px;
