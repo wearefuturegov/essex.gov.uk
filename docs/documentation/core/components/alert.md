@@ -7,7 +7,7 @@
 
 # Alert
 
-## Error alert
+## Error
 
 <div class="alert error js-hidden" id="tab-one" aria-hidden="true">
   <div class="alert-icon">
@@ -37,7 +37,7 @@
       </div>
     </div>
 
-## Information alert
+## Information
 
 <div class="alert info js-hidden" id="tab-two" aria-hidden="true">
   <div class="alert-icon">
@@ -50,6 +50,22 @@
   <div data-target="tab-two">
     <input class="checkbox" id="hide-two" type="checkbox" aria-controls="tab-two" aria-expanded="false">
     <label class="close" for="hide-two"><i class="fas fa-times"></i></label>
+  </div>
+</div>
+
+### Browser
+
+<div class="alert info js-hidden" id="tab-three" aria-hidden="true">
+  <div class="alert-icon">
+    <i class="fas fa-info-circle"></i>
+  </div>
+  <div class="alert-text">
+    <h2>Browser support</h2>
+    <p>We have noticed you are using an older browser. We are currently only supporting modern browsers so can't garuntee your expeirence will be as perfect as we would like.</p>
+  </div>
+  <div data-target="tab-three">
+    <input class="checkbox" id="hide-three" type="checkbox" aria-controls="tab-three" aria-expanded="false">
+    <label class="close" for="hide-three"><i class="fas fa-times"></i></label>
   </div>
 </div>
 
@@ -67,7 +83,7 @@
       </div>
     </div>
 
-## Warning alert
+## Warning
 
 <div class="alert warning js-hidden" id="tab-three" aria-hidden="true">
   <div class="alert-icon">
@@ -97,6 +113,7 @@
       </div>
     </div>
 
+
 ## When to use Error alerts
 
 Error alerts are used to direct a user's attention to important system errors. This could include:
@@ -125,4 +142,3 @@ Warning alerts are used to prepare users for a variety of real life issues. This
 An alert can be displayed on the homepage or on lower level pages, depending on the topic and severity. They should always be clear and concise and link to another page with further information if necessary.
 
 They shouldn't be used within paragraphs of text.
-
