@@ -2,7 +2,6 @@ input {
   @include box-sizing(border-box);
   font-weight: $normal;
   text-transform: none;
-  font-size: $body;
   padding: $baseline*0.125 $gutter*0.25;
   border-width: $border-normal;
   border-style: solid;

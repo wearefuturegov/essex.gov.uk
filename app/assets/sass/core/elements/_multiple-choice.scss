@@ -5,8 +5,8 @@
 
 // By default, multiple choice inputs stack vertically
 .multiple-choice {
-  display: block;
-  float: none;
+  display: inline-block;
+  float: left;
   clear: left;
   position: relative;
   padding: 0 0 0 38px;
