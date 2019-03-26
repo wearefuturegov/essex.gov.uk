@@ -18,7 +18,6 @@
 }
 // Error messages should be red and bold
 .error-message {
-  font-size: $body;
   font-weight: $bold;
   line-height: $baseline;
   color: $error;
@@ -38,13 +37,13 @@
   border: $border-thicker solid $error;
   margin-top: $gutter-half;
   margin-bottom: $gutter-half;
-  padding: $gutter-half 10px;
-  @include media(tablet) {
-    border: $border-thicker solid $error;
-    margin-top: $gutter;
-    margin-bottom: $gutter;
-    padding: $gutter-two-thirds $gutter-half $gutter-half;
-  }
+  padding: $gutter*0.5;
+  // @include media(tablet) {
+  //   border: $border-thicker solid $error;
+  //   margin-top: $gutter;
+  //   margin-bottom: $gutter;
+  //   padding: $gutter-two-thirds $gutter-half $gutter-half;
+  // }
   @include ie-lte(6) {
     zoom: 1;
   }
@@ -53,6 +52,7 @@
     outline: 3px solid $focus-colour;
   }
   .error-summary-heading {
+    @include h3;
     margin-top: 0;
   }
   p {
@@ -62,6 +62,7 @@
     padding-left: 0;
     list-style: none;
     margin-left: 0;
+    margin-bottom: 0;
     li {
       @include media(tablet) {
         margin-bottom: 5px;

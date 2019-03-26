@@ -4,15 +4,15 @@ html {
 }
 
 html, body {
-	font-size: 62.5%;
-	// font-size: 80%;
+	// font-size: 62.5%;
+	font-size: $ms-base;
 }
 
 body {
   font-family: $stack;
   -webkit-font-smoothing: antialiased;
   background: $white;
-  color: $text-colour;
+  color: $body-text-colour;
 }
 
 .hidden,

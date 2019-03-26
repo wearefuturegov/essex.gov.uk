@@ -22,6 +22,8 @@
   pre {
     position: relative;
     font-family: monospace;
+    font-size: ms(0);
+    line-height: $baseline*0.75;
     white-space: pre;
     margin: $baseline 0;
     code {
@@ -61,5 +63,8 @@
   }
   .cookies {
     position: relative;
+  }
+  .fa, .far, .fas, .fab {
+    font-size: ms(10);
   }
 }

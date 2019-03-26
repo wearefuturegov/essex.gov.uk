@@ -7,11 +7,11 @@
 
 # Alert
 
-## Error alert
+## Error
 
 <div class="alert error js-hidden" id="tab-one" aria-hidden="true">
   <div class="alert-icon">
-    <i class="fas fa-exclamation-circle alert-icon"></i>
+    <i class="fas fa-exclamation-circle"></i>
   </div>
   <div class="alert-text">
     <h2>We are updating our system</h2>
@@ -25,7 +25,7 @@
 
     <div class="alert error js-hidden" id="tab-one" aria-hidden="true">
       <div class="alert-icon">
-        <i class="fas fa-exclamation-circle alert-icon"></i>
+        <i class="fas fa-exclamation-circle"></i>
       </div>
       <div class="alert-text">
         <h2>We are updating our system</h2>
@@ -37,11 +37,11 @@
       </div>
     </div>
 
-## Information alert
+## Information
 
 <div class="alert info js-hidden" id="tab-two" aria-hidden="true">
   <div class="alert-icon">
-    <i class="fas fa-info-circle alert-icon"></i>
+    <i class="fas fa-info-circle"></i>
   </div>
   <div class="alert-text">
     <h2>We are updating this service</h2>
@@ -53,9 +53,25 @@
   </div>
 </div>
 
+### Browser
+
+<div class="alert info js-hidden" id="tab-three" aria-hidden="true">
+  <div class="alert-icon">
+    <i class="fas fa-info-circle"></i>
+  </div>
+  <div class="alert-text">
+    <h2>Browser support</h2>
+    <p>We have noticed you are using an older browser. We are currently only supporting modern browsers so can't garuntee your expeirence will be as perfect as we would like.</p>
+  </div>
+  <div data-target="tab-three">
+    <input class="checkbox" id="hide-three" type="checkbox" aria-controls="tab-three" aria-expanded="false">
+    <label class="close" for="hide-three"><i class="fas fa-times"></i></label>
+  </div>
+</div>
+
     <div class="alert info js-hidden" id="tab-two" aria-hidden="true">
       <div class="alert-icon">
-        <i class="fas fa-info-circle alert-icon"></i>
+        <i class="fas fa-info-circle"></i>
       </div>
       <div class="alert-text">
         <h2>We are updating this service</h2>
@@ -67,11 +83,11 @@
       </div>
     </div>
 
-## Warning alert
+## Warning
 
 <div class="alert warning js-hidden" id="tab-three" aria-hidden="true">
   <div class="alert-icon">
-    <i class="fas fa-exclamation-triangle alert-icon"></i>
+    <i class="fas fa-exclamation-triangle"></i>
   </div>
   <div class="alert-text">
     <h2>School closures</h2>
@@ -85,7 +101,7 @@
 
     <div class="alert warning js-hidden" id="tab-three" aria-hidden="true">
       <div class="alert-icon">
-        <i class="fas fa-exclamation-triangle alert-icon"></i>
+        <i class="fas fa-exclamation-triangle"></i>
       </div>
       <div class="alert-text">
         <h2>School closures</h2>
@@ -96,6 +112,7 @@
         <label class="close" for="hide-three"><i class="fas fa-times"></i></label>
       </div>
     </div>
+
 
 ## When to use Error alerts
 
@@ -125,4 +142,3 @@ Warning alerts are used to prepare users for a variety of real life issues. This
 An alert can be displayed on the homepage or on lower level pages, depending on the topic and severity. They should always be clear and concise and link to another page with further information if necessary.
 
 They shouldn't be used within paragraphs of text.
-

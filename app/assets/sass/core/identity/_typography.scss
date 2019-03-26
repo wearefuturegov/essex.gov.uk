@@ -3,35 +3,31 @@ $modularscale: (
   ratio: $major-second
 );
 
-#skiplink-container, 
-.phase-banner-background, 
-.header-background, 
-.search-background, 
-#content, 
-.signup-background,
-.footer-container {
-  font-size: $body;
-  line-height: $line-height;
-}
-
 p {
-  $margin: 1.625em;
   font-size: $body;
   font-size: ms(0);
-  line-height: $line-height;
+  line-height: $baseline;
   margin-top: 0;
-  margin-bottom: $margin;
+  margin-bottom: $baseline;
   color: $body-text-colour;
   text-transform: none;
   @include word-break;
   &.lede {
     font-size: ms(1);
   }
+  & + ul, ol {
+    margin-top: 0;
+  }
 }
 
 @mixin small {
-  font-size: 0.889em;
-  line-height: 0.889em + 0.889em*0.5;
+  font-size: ms(-1);
+  line-height: 1.6153846rem;
+}
+
+@mixin smaller {
+  font-size: ms(-2);
+  line-height: 1.5714286rem;
 }
 
 h1, h2, h3, h4 {
@@ -39,45 +35,47 @@ h1, h2, h3, h4 {
 }
 
 @mixin h1 {
-  $margin: 0.56521739em;
   font-family: $stack;
   font-size: ms(9);
-  line-height: 1.13043478em;
-  margin-top: $margin*2;
-  margin-bottom: $margin*2;
   font-weight: $bold;
   text-transform: none;
+  line-height: $baseline*2;
+  margin-top: $baseline*2;
+  margin-bottom: $baseline*2;
+  @include media(mobile) {
+    font-size: ms(6);
+    line-height: $baseline*1.5;
+    margin-top: $baseline*0.5;
+    margin-bottom: $baseline*1.5;
+  }
 }
 
 @mixin h2 {
-  $margin: 0.8125em;
   font-family: $stack;
   font-size: ms(6);
-  line-height: 1.625em * 0.75;
-  margin-top: $margin;
-  margin-bottom: $margin;
+  line-height: $baseline*1.5;
+  margin-top: $baseline;
+  margin-bottom: $baseline;
   font-weight: $bold;
   text-transform: none;
 }
 
 @mixin h3 {
-  $margin: 1.13043478em;
   font-family: $stack;
   font-size: ms(3);
-  line-height: 1.13043478em * 1.25;
-  margin-top: $margin;
-  margin-bottom: $margin;
+  line-height: $baseline;
+  margin-top: $baseline*1.5;
+  margin-bottom: $baseline*0.5;
   font-weight: $bold;
   text-transform: none;
 }
 
 @mixin h4 {
-  $margin: 1.44444444em;
   font-family: $stack;
   font-size: ms(1);
-  line-height: 1.44444444em;
-  margin-top: $margin;
-  margin-bottom: $margin;
+  line-height: $baseline;
+  margin-top: $baseline*1.5;
+  margin-bottom: $baseline*0.5;
   font-weight: $bold;
   text-transform: none;
 }
@@ -95,6 +93,10 @@ h2, .h2, .content-heading {
 // section-heading is used for each section within content on a page.
 h3, .h3, .section-heading {
   @include h3;
+}
+
+.content > h1.h3 {
+  margin-bottom: $baseline*1.5;
 }
 
 // sub-section-heading is used for those occasional
@@ -145,6 +147,7 @@ a {
 }
 
 a:focus {
+  color: $black;
   background-color: $focus-colour;
   outline: $border-thick solid $focus-colour;
 }
@@ -165,10 +168,12 @@ ul {
   list-style-position: outside;
   padding-left:10px;
   margin-left: 20px;
-  margin-top: $baseline*0.5;
+  margin-top: $baseline;
   margin-bottom: $baseline;
   li {
     padding-left: 10px;
+    margin-bottom: 0;
+    line-height: $baseline;
   }
 }
 
@@ -185,14 +190,4 @@ ol {
 
 ul {
   list-style-type: disc;
-}
-
-
-// Meta
-
-.meta {
-  @include small;
-  color: $grey;
-  margin-top: $baseline*0.5;
-  margin-bottom: $baseline;
 }

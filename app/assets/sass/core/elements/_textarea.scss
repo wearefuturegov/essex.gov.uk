@@ -3,8 +3,7 @@ textarea {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: $normal;
-  font-size: $body;
-  line-height: $baseline;
+  font-size: ms(0);
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: block;

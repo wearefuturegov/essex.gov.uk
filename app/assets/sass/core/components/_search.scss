@@ -13,31 +13,33 @@
     margin-bottom: $baseline;
     label, input {
       @include box-sizing(border-box);
-      @include form-padding;
-      height: $baseline*4;
+      padding: $baseline*0.5;
+      height: $form-height;
+      width: calc(100% - #{$form-height} - #{$border-thick});
     }
     label {
       $color: $body-text-colour;
+      font-size: ms(1);
       background: $white;
       z-index: 0;
       margin-right: 0;
+      margin-top: 0;
+      margin-bottom: 0;
     }
     input {
-      &::-ms-clear {
-        display: none;
-      }
-    }
-    input {
+      font-size: ms(1);
       text-transform: none;
       text-indent: -5000px;
       background: transparent;
       position: absolute;
       left: 0;
       top: 0;
-      height: $baseline*4;
-      width: calc(100% - #{$form-height;});
+      height: $form-height;
+      &::-ms-clear {
+        display: none;
+      }
       &:focus {
-        height: $baseline*4;
+        height: $form-height;
         left: 0;
         text-indent: 0;
         background: #fff;
@@ -48,15 +50,15 @@
     }
     .fas.fa-search.search-icon-position {
       @include box-sizing(border-box);
-      @include form-padding-small;
       border: none;
-      font-size: $icon;
+      padding: 0;
+      font-size: ms(2);
       line-height: $icon;
       color: $white;
       text-align: center;
       position: absolute;
       top: 0;
-      right: -$border-thick;
+      right: 0;
       bottom: 0;
       background: $brand;
       z-index: 100;

@@ -5,7 +5,7 @@
   .form {
     .group {
       @extend %grid-row;
-      margin-bottom: $baseline;
+      margin-bottom: 0;
       label {
         $color: $body-text-colour;
         background: $white;
@@ -20,8 +20,13 @@
         }
         label, input {
           @include box-sizing(border-box);
-          @include form-padding;
+          padding: $baseline*0.5;
+          font-size: ms(1);
           line-height: $baseline;
+        }
+        label {
+          margin-top: 0;
+          margin-bottom: 0;
         }
         input {
           text-transform: none;
@@ -37,7 +42,7 @@
             text-indent: 0;
             background: #fff;
             outline-offset: 0;
-            padding: $form-padding*2;
+            padding: $baseline;
           }
           @include media(mobile) {
             left: $gutter*0.5;
@@ -52,17 +57,19 @@
       .signup-button {
         @include grid-column(4 / 12);
         input.button.subscribe {
-          @include form-padding;
+          @include box-sizing(border-box);
+          font-size: ms(1);
+          line-height: $baseline;
+          padding: 0;
           color: $white;
           background-color: $brand;
           font-weight: 600;
-          border: $border-normal $brand solid;
-          line-height: $baseline;
-          height: $button-height;
-          // padding: $form-padding*2 + $border-thick;
+          border: $border-thick $brand solid;
+          height: $form-height;
           width: 100%;
           &:hover {
             background-color: $brand-hover-darken;
+            border-color: $brand-hover-darken;
           }
         }
       }
@@ -74,8 +81,12 @@
   background-color: $brand;
   .signup {
     @extend %site-width-container;
-    padding-top: $baseline*2;
-    padding-bottom: $baseline*2;
+    padding-top: $baseline;
+    padding-bottom: $baseline;
+    @include media(mobile) {
+      padding-top: $baseline;
+      padding-bottom: $baseline;
+    }
     h3 {
       font-weight: 400;
     }
@@ -86,9 +97,6 @@
     .form {
       .group {
         .signup-input {
-          label, input {
-            @include form-padding;
-          }
           input {
             border: none;
             text-transform: none;
@@ -96,12 +104,10 @@
             background: transparent;
             position: absolute;
             top: 0;
-            height: $form-height;
             &:focus {
               text-indent: 0;
               background: #fff;
               outline-offset: 0;
-              height: $form-height;
             }
             @include media(mobile) {
               left: $gutter*0.5;
@@ -131,13 +137,15 @@
         }
         .signup-button {
           input.button.subscribe {
-            color: $brand;
-            background-color: $white;
+            color: $white;
+            background-color: transparent;
             border: $border-normal $white solid;
+            @include media(mobile) {
+              margin-bottom: 0;
+            }
             &:hover {
               color: $brand;
-              background-color: $white-hover;
-              border-color: $white-hover;
+              background-color: $white;
             }
           }
         }

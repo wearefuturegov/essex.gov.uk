@@ -33,6 +33,9 @@
             &:hover, &:active, &:visited {
               color: $white-on-black-hover;
             }
+            &:focus {
+              color: $black;
+            }
           }
         }
       }
@@ -46,13 +49,19 @@
           text-align: left;
         }
         li {
-          // padding: 0 $gutter*0.05 0 $gutter*0.05;
-          margin-left: $padding-thin;
+          margin-left: $baseline*0.5;
+          @include media(mobile) {
+            margin-left: 0;
+            margin-right: $baseline*0.5;
+          }
           a {
             font-size: $body;
             color: $white;
             &:hover {
               color: $white-on-black-hover;
+            }
+            &:focus {
+              color: $black;
             }
           }
         }
@@ -62,6 +71,8 @@
       @extend %grid-row;
       list-style: none;
       padding-left: 0;
+      margin-top: 0;
+      margin-bottom: 0;
       li {
         padding-left: 0;
         display: inline;
@@ -90,6 +101,9 @@
           color: $white;
           &:hover {
             color: $white-on-black-hover;
+          }
+          &:focus {
+            color: $black;
           }
         }
       }

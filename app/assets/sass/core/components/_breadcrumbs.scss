@@ -2,8 +2,8 @@
   @media print {
     display: none;
   }
-  padding-top: $baseline;
-  padding-bottom: calc(#{$baseline} - 1rem);
+  margin-top: $baseline*0.5;
+  margin-bottom: $baseline*0.25;
   ol {
     margin-left: 0;
     padding-left: 0;
@@ -13,6 +13,10 @@
   }
   li {
     @include small;
+    list-style: none;
+    margin-right: 0.6em;
+    padding-left: 0.9em;
+    margin-bottom: 0;
     float: left;
     background-image: file-url("/icon/separator.png");
     @include device-pixel-ratio() {
@@ -21,10 +25,10 @@
     }
     background-position: 0% 50%;
     background-repeat: no-repeat;
-    list-style: none;
-    margin-right: 0.6em;
-    padding-left: 0.9em;
-    margin-bottom: 1em;
+    @include media (mobile) {
+      @include smaller;
+      margin-bottom: $baseline*0.5;
+    }
     &:first-child {
       background-image: none;
       margin-left: 0;
@@ -40,9 +44,6 @@
           cursor: default;
         }
       } 
-    }
-    @include media (mobile) {
-      @include small;
     }
   }
   a {

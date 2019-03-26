@@ -1,51 +1,33 @@
 // Banner
 .phase-banner-background {
   background-color: $white;
-}
-
-.phase-banner {
-  @extend %site-width-container;
-  @media print {
-    display: none;
-  }
-  padding-top: $baseline*0.5;
-  padding-bottom: $baseline*0.5;
-  p {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-}
-
-.phase-tag {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: $bold;
-  line-height: 1em;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: $white;
-  background-color: $brand;
-  display: inline-block;
-  padding: $baseline*0.125 $baseline*0.25;
-  margin-right: $gutter*0.25;
-  outline: 2px solid transparent;
-  outline-offset: -2px;
-  @include media(mobile) {
-    margin-bottom: $baseline*0.25;
-  }
-}
-
-.phase-text {
-  @include small;
-  @include media(mobile) {
-    display: table-cell;
-    vertical-align: baseline;
-  }
-}
-
-@include media(mobile) {
-  .phase-text {
-    display: table-cell;
-    vertical-align: baseline;
+  .phase-banner {
+    @extend %site-width-container;
+    @media print {
+      display: none;
+    }
+    padding-top: $baseline*0.25;
+    padding-bottom: $baseline*0.25;
+    @include media(mobile) {
+      // padding-bottom: 0;
+    }
+    .phase-content {
+      @include small;
+      margin-top: 0;
+      margin-bottom: 0;
+      @include media(mobile) {
+        @include smaller;
+      }
+      .phase-tag {
+        font-weight: $bold;
+        line-height: 1em;
+        text-transform: uppercase;
+        color: $white;
+        background-color: $brand;
+        display: inline-block;
+        padding: $baseline*0.125 $baseline*0.25;
+        margin-right: $gutter*0.25;
+      }
+    }
   }
 }
