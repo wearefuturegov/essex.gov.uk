@@ -250,8 +250,15 @@ select:focus::-ms-value {
       text-transform: none;
       display: block;
     }
+    label {
+      display: block;
+      margin-top: $baseline*0.25;
+      margin-bottom: $baseline*0.25;
+    }
     .form-hint {
-      color: $grey-dark;
+      display: block;
+      margin-top: $baseline*0.25;
+      margin-bottom: $baseline*0.25;
     }
     select, input, textarea {
       width: 100%;
