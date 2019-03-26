@@ -11,7 +11,7 @@
 
 <div class="alert error js-hidden" id="tab-one" aria-hidden="true">
   <div class="alert-icon">
-    <i class="fas fa-exclamation-circle alert-icon"></i>
+    <i class="fas fa-exclamation-circle"></i>
   </div>
   <div class="alert-text">
     <h2>We are updating our system</h2>
@@ -25,7 +25,7 @@
 
     <div class="alert error js-hidden" id="tab-one" aria-hidden="true">
       <div class="alert-icon">
-        <i class="fas fa-exclamation-circle alert-icon"></i>
+        <i class="fas fa-exclamation-circle"></i>
       </div>
       <div class="alert-text">
         <h2>We are updating our system</h2>
@@ -41,7 +41,7 @@
 
 <div class="alert info js-hidden" id="tab-two" aria-hidden="true">
   <div class="alert-icon">
-    <i class="fas fa-info-circle alert-icon"></i>
+    <i class="fas fa-info-circle"></i>
   </div>
   <div class="alert-text">
     <h2>We are updating this service</h2>
@@ -55,7 +55,7 @@
 
     <div class="alert info js-hidden" id="tab-two" aria-hidden="true">
       <div class="alert-icon">
-        <i class="fas fa-info-circle alert-icon"></i>
+        <i class="fas fa-info-circle"></i>
       </div>
       <div class="alert-text">
         <h2>We are updating this service</h2>
@@ -71,7 +71,7 @@
 
 <div class="alert warning js-hidden" id="tab-three" aria-hidden="true">
   <div class="alert-icon">
-    <i class="fas fa-exclamation-triangle alert-icon"></i>
+    <i class="fas fa-exclamation-triangle"></i>
   </div>
   <div class="alert-text">
     <h2>School closures</h2>
@@ -85,7 +85,7 @@
 
     <div class="alert warning js-hidden" id="tab-three" aria-hidden="true">
       <div class="alert-icon">
-        <i class="fas fa-exclamation-triangle alert-icon"></i>
+        <i class="fas fa-exclamation-triangle"></i>
       </div>
       <div class="alert-text">
         <h2>School closures</h2>

@@ -34,9 +34,9 @@
       display: block;
       width: 100%;
     }
-    display: table-cell;
-    vertical-align: middle;
-    padding: $baseline*0.25;
+    display: inline-block;
+    float: left;
+    padding: $baseline*0.5;
     .fa-exclamation-triangle,
     .fa-exclamation-circle,
     .fa-info-circle {
@@ -50,9 +50,11 @@
       display: block;
       width: 100%;
     }
+    float: left;
+    width: auto;
     padding: 0 $gutter*0.25;
     h2 {
-      font-size: $medium;
+      @include h4;
       margin-top: 0;
       margin-bottom: $baseline*0.25;
     }
@@ -65,10 +67,11 @@
   }
   label.close {
     position: absolute;
-    top: $baseline*0.25;
+    top: $baseline*0.5;
     right: $baseline*0.5;
     cursor: pointer;
     color: $black;
+    line-height: 0;
     .fa-times {
       font-size: $small;
       &:hover {
