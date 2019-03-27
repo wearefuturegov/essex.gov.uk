@@ -1,8 +1,14 @@
 .impact {
   position: relative;
   .hero {
-    background-position-x: center;
-    background-position-y: center;
+    @include media(tablet) {
+      background-position-x: center;
+      background-position-y: center;
+    }
+    @include media(desktop) {
+      background-position-x: 0;
+      background-position-y: 0;
+    }
   }
   .overlay {
     position: absolute;
@@ -19,25 +25,34 @@
     background: $overlay-brand;
   }
   .overlay-box {
+    @include grid-column(1 / 2);
     position: relative;
     background: $white;
     margin: $gutter*0.5;
-    @include grid-column(1 / 2);
-    padding: $gutter*0.5;
+    padding: $gutter*0.5 !important;
     @include media(mobile) {
-      padding: 0;
+      padding: 0 !important;
       margin: 0;
     }
     .overlay-content {
       @include media(mobile) {
         padding: 0;
         h2 {
-          font-size: 30px;
+          font-size: ms(6);
+          line-height: $baseline*1.5;
+          padding: $baseline $gutter*0.25;
+          background: $highlight-box;
+          margin-bottom: $baseline*0.5;
+          a {
+            color: $white;
+          }
         }
-      }
-      h2, p {
-        padding-left: 0;
-        padding-right: 0;
+        p {
+          padding-left: 0;
+          padding-right: 0;
+          padding-bottom: $baseline;
+          border-bottom: $border-normal $link solid;
+        }
       }
       h2, h3 {
         margin-top: 0;

@@ -7,6 +7,10 @@
 
 # Logo
 
-<a href="/" class="logo-text">Essex.gov.uk<span>Beta</span></a>
+<div class="logo-text">
+	<a href="/">Essex.gov.uk<span>Beta</span></a>
+</div>
 
-	<a href="/" class="logo-text">Essex.gov.uk<span>Beta</span></a>
+	<div class="logo-text">
+		<a href="/">Essex.gov.uk<span>Beta</span></a>
+	</div>

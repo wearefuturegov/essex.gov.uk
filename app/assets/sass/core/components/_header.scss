@@ -2,26 +2,40 @@
   background-color: $brand;
   height: auto;
   position: relative;
-  z-index: 100;
+  z-index: 20;
   @include box-shadow(0px 1px 1px 0px $black);
-  height: $nav-height;
+  @include media(mobile) {
+    height: $nav-height;
+  }
   @media print {
     height: auto;
+    @include box-shadow(none);
   }
   .header {
     @extend %site-width-container;
     @extend %contain-floats;
     @media print {
-      margin: 0 $gutter;
+      margin: 0;
     }
     .nav {
     @extend %grid-row;
-      a.logo-text {
+      .logo-text {
         @include grid-column(1 / 2);
-        color: $white;
+        a {
+          color: $white;
+          @media print {
+            color: $black;
+            font-size: $small;
+          }
+        }
       }
       span {
+        @include small;
+        font-size: 0.5em;
         color: $white;
+        @media print {
+          color: $black;
+        }
       }
     }
   }

@@ -7,12 +7,19 @@
     list-style-type: none;
     padding-left: 0;
     margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   li {
-    border-bottom: $border-thin solid $grey-light;
     margin-top: $baseline*0.5;
     margin-bottom: $baseline*0.5;
     padding-left: 0;
+    a {
+      font-weight: $bold;
+    }
+    p {
+      margin-bottom: 0;
+    }
   }
   input.checkbox, .hide {
     display: none;

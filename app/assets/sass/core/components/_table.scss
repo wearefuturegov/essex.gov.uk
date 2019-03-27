@@ -15,9 +15,7 @@
     }
     th,
     td {
-      font-size: $body;
-      line-height: $baseline;
-      padding: $baseline*0.25 $gutter*0.25;
+      padding: $baseline $baseline $baseline 0;
       text-align: left;
       border-bottom: 1px solid $black;
     }
@@ -46,7 +44,6 @@
     caption {
       text-align: left;
       font-weight: 700;
-      padding: $baseline*0.25 $gutter*0.25;
     }
   }
 }

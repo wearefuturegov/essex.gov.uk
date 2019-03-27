@@ -8,18 +8,16 @@
     padding-left: 0;
     font-size: $baseline;
     display: inline-block;
-    margin-right: $padding-thinner;
     a {
       color: $link;
       &:hover {
         color: $hover;
       }
       &:focus {
-         background-color: $black;
          outline: $border-thick solid $focus-colour;
        }
       .fab {
-        font-size: $icon*0.5;
+        font-size: ms(4);
       }
     }
   }

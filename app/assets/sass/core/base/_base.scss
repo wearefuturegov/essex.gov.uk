@@ -1,11 +1,18 @@
 // so footer looks like it isn't floating
 html {
-  background-color: $black;
+  background-color: $brand4;
 }
 
-// so everything isn't black
+html, body {
+	// font-size: 62.5%;
+	font-size: $ms-base;
+}
+
 body {
-  background-color: $white;
+  font-family: $stack;
+  -webkit-font-smoothing: antialiased;
+  background: $white;
+  color: $body-text-colour;
 }
 
 .hidden,

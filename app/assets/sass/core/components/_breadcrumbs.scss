@@ -2,7 +2,8 @@
   @media print {
     display: none;
   }
-  padding-top: $baseline*0.75;
+  margin-top: $baseline*0.5;
+  margin-bottom: $baseline*0.25;
   ol {
     margin-left: 0;
     padding-left: 0;
@@ -11,7 +12,11 @@
     @extend %contain-floats;
   }
   li {
-    font-size: $smaller;
+    @include small;
+    list-style: none;
+    margin-right: 0.6em;
+    padding-left: 0.9em;
+    margin-bottom: 0;
     float: left;
     background-image: file-url("/icon/separator.png");
     @include device-pixel-ratio() {
@@ -20,9 +25,10 @@
     }
     background-position: 0% 50%;
     background-repeat: no-repeat;
-    list-style: none;
-    margin-right: 0.6em;
-    padding-left: 0.9em;
+    @include media (mobile) {
+      @include smaller;
+      margin-bottom: $baseline*0.5;
+    }
     &:first-child {
       background-image: none;
       margin-left: 0;
@@ -39,16 +45,8 @@
         }
       } 
     }
-    @include media (mobile) {
-      font-size: $smaller;
-    }
   }
   a {
     color: $text-colour;
   }
 }
-
-// .container > .breadcrumbs {
-//   margin-left: $gutter*0.5;
-//   margin-right: $gutter*0.5;
-// }

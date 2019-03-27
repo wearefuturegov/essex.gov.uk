@@ -1,12 +1,11 @@
 .signup {
-  
   @media print {
     display: none;
   }
   .form {
     .group {
       @extend %grid-row;
-      margin-bottom: $baseline;
+      margin-bottom: 0;
       label {
         $color: $body-text-colour;
         background: $white;
@@ -21,8 +20,13 @@
         }
         label, input {
           @include box-sizing(border-box);
+          padding: $baseline*0.5;
+          font-size: ms(1);
           line-height: $baseline;
-          padding: $form-padding*2 + $border-thick;
+        }
+        label {
+          margin-top: 0;
+          margin-bottom: 0;
         }
         input {
           text-transform: none;
@@ -31,14 +35,14 @@
           position: absolute;
           left: $gutter;
           top: 0;
-          height: 60px;
+          height: $form-height;
           width: calc(100% - #{$gutter*2});
           &:focus {
             left: $gutter;
             text-indent: 0;
             background: #fff;
             outline-offset: 0;
-            padding: $form-padding*2;
+            padding: $baseline;
           }
           @include media(mobile) {
             left: $gutter*0.5;
@@ -53,16 +57,19 @@
       .signup-button {
         @include grid-column(4 / 12);
         input.button.subscribe {
+          @include box-sizing(border-box);
+          font-size: ms(1);
+          line-height: $baseline;
+          padding: 0;
           color: $white;
           background-color: $brand;
           font-weight: 600;
-          border: $border-normal $brand solid;
-          line-height: $baseline;
-          height: $form-padding*8;
-          padding: $form-padding*2 + $border-thick;
+          border: $border-thick $brand solid;
+          height: $form-height;
           width: 100%;
           &:hover {
             background-color: $brand-hover-darken;
+            border-color: $brand-hover-darken;
           }
         }
       }
@@ -74,8 +81,12 @@
   background-color: $brand;
   .signup {
     @extend %site-width-container;
-    padding-top: $baseline*2;
-    padding-bottom: $baseline*2;
+    padding-top: $baseline;
+    padding-bottom: $baseline;
+    @include media(mobile) {
+      padding-top: $baseline;
+      padding-bottom: $baseline;
+    }
     h3 {
       font-weight: 400;
     }
@@ -86,25 +97,17 @@
     .form {
       .group {
         .signup-input {
-          label, input {
-            padding: $form-padding*2 + $border-thick;
-          }
           input {
             border: none;
             text-transform: none;
             text-indent: -5000px;
             background: transparent;
             position: absolute;
-            left: $gutter;
             top: 0;
-            height: 60px;
-            width: calc(100% - #{$gutter*2});
             &:focus {
-              left: $gutter;
               text-indent: 0;
               background: #fff;
               outline-offset: 0;
-              padding: $form-padding*2;
             }
             @include media(mobile) {
               left: $gutter*0.5;
@@ -114,17 +117,35 @@
                 width: calc(100% - #{$gutter});
               }
             }
+            @include media(tablet) {
+              left: $gutter*0.5;
+              width: calc(100% - #{$gutter});
+              &:focus {
+                left: $gutter*0.5;
+                width: calc(100% - #{$gutter});
+              }
+            }
+            @include media(desktop) {
+              left: $gutter;
+              width: calc(100% - #{$gutter*2});
+              &:focus {
+                left: $gutter;
+                width: calc(100% - #{$gutter*2});
+              }
+            }
           }
         }
         .signup-button {
           input.button.subscribe {
-            color: $brand;
-            background-color: $white;
+            color: $white;
+            background-color: transparent;
             border: $border-normal $white solid;
+            @include media(mobile) {
+              margin-bottom: 0;
+            }
             &:hover {
               color: $brand;
-              background-color: $white-hover;
-              border-color: $white-hover;
+              background-color: $white;
             }
           }
         }

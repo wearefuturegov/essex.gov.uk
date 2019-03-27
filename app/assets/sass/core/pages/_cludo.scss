@@ -41,7 +41,7 @@
       margin-bottom: $baseline*0.5;
     }
     .path {
-      font-size: $smaller;
+      @include small;
     }
     // &:hover {
     //   background: $grey-lighter;
@@ -60,7 +60,7 @@
     // background: $highlight-box-light;
     color: $black;
     h2 {
-      margin-bottom: calc(#{$h3} * 0.83333);
+      margin-bottom: $baseline;
     }
     a {
       color: $link;
@@ -85,11 +85,11 @@
     // }
   }
   aside.side {
+    @include small;
     display: none;
     float: right;
-    margin-top: calc(#{$h3} * 1.875);
+    margin-top: $baseline;
     margin-bottom: $baseline;
-    font-size: $small;
     @include media (mobile) {
       display: none;
     }

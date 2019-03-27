@@ -5,10 +5,10 @@
   @include box-sizing(border-box);
   position: relative;
   text-align: left;
-  padding: $padding-thin;
+  padding: $baseline*0.5;
   margin-top: $baseline;
   margin-bottom: $baseline;
-  display: table;
+  display: block;
   width: 100%;
   &.warning {
     border: $border-thick solid $warning;
@@ -34,9 +34,8 @@
       display: block;
       width: 100%;
     }
-    display: table-cell;
-    vertical-align: middle;
-    padding: $baseline*0.25;
+    float: left;
+    padding: $baseline*0.5 $baseline $baseline*0.5 $baseline*0.5;
     .fa-exclamation-triangle,
     .fa-exclamation-circle,
     .fa-info-circle {
@@ -52,7 +51,7 @@
     }
     padding: 0 $gutter*0.25;
     h2 {
-      font-size: $medium;
+      @include h4;
       margin-top: 0;
       margin-bottom: $baseline*0.25;
     }
@@ -65,10 +64,11 @@
   }
   label.close {
     position: absolute;
-    top: $baseline*0.25;
-    right: $padding-thin;
+    top: $baseline*0.5;
+    right: $baseline*0.5;
     cursor: pointer;
     color: $black;
+    line-height: 0;
     .fa-times {
       font-size: $small;
       &:hover {

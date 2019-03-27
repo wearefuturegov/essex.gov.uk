@@ -12,8 +12,7 @@
     <div class="footer">
       <div class="nav">
         <ul class="nav-links">
-          <li class="copyright">© 2019 Essex County Council</li><li>
-            <a href="#">About</a></li><li>
+          <li><a href="#">About</a></li><li>
             <a href="#">Contact us</a></li><li>
             <a href="#">Privacy & Cookies</a></li><li>
             <a href="#">Terms & Conditions</a></li><li>
@@ -31,9 +30,10 @@
   </div>
   <div class="footer-bottom">
     <div class="footer">
-      <nav class="nav">
-        <a href="/docs/core/essex-design-system" class="design-link">Built by the Service Design Team</a>
-      </nav>
+      <ul class="credits">
+        <li class="copyright">© 2019 Essex County Council</li>
+        <li class="design-link"><a href="/docs/core/essex-design-system">Built by the Service Design Team</a></li>
+      </ul>
     </div>
   </div>
 </footer>
@@ -43,8 +43,7 @@
         <div class="footer">
           <div class="nav">
             <ul class="nav-links">
-              <li class="copyright">© 2019 Essex County Council</li><li>
-                <a href="#">About</a></li><li>
+              <li><a href="#">About</a></li><li>
                 <a href="#">Contact us</a></li><li>
                 <a href="#">Privacy & Cookies</a></li><li>
                 <a href="#">Terms & Conditions</a></li><li>
@@ -62,9 +61,10 @@
       </div>
       <div class="footer-bottom">
         <div class="footer">
-          <nav class="nav">
-            <a href="/docs/core/essex-design-system" class="design-link">Built by the Service Design Team</a>
-          </nav>
+          <ul class="credits">
+            <li class="copyright">© 2019 Essex County Council</li>
+            <li class="design-link"><a href="/docs/core/essex-design-system">Built by the Service Design Team</a></li>
+          </ul>
         </div>
       </div>
     </footer>

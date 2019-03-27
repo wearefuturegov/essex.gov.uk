@@ -1,9 +1,6 @@
 .link-back {
   @include inline-block;
   position: relative;
-  @include default-type;
-  margin-top: $gutter-half;
-  margin-bottom: $gutter-half;
   padding-left: 14px;
   color: $black;
   &:link,
@@ -21,11 +18,9 @@
     display: block;
     width: 0;
     height: 0;
-
     border-top: 5px solid transparent;
     border-right: 6px solid $text-colour;
     border-bottom: 5px solid transparent;
-
     position: absolute;
     left: 0;
     top: 50%;

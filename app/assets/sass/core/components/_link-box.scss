@@ -42,9 +42,12 @@ ul.link-boxes {
       @include box-sizing(border-box);
       @include border-radius($border-radius);
       padding: $baseline $gutter*0.25;
+      @media print {
+        padding: 0;
+      }
       h2 {
+        @include h4;
         margin-top: 0;
-        font-size: $body;
         text-decoration: underline;
         letter-spacing: 0;
       }

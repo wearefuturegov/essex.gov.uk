@@ -8,22 +8,27 @@
   }
 }
 
-a.logo-text {
+.logo-text {
   display: inline-block;
-  font-family: $stack-logo;
-  font-size: $baseline;
-  margin-top: $nav-height*0.25;
-  margin-bottom: $nav-height*0.25;
-  text-transform: uppercase;
-  color: $black;
-  line-height: $logo-height;
-  text-decoration: none;
-  &:hover {
-    text-decoration: underline;
-  }
-  &:focus {
-    background-color: $brand;
-    outline: $border-thick solid $focus-colour;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  a {
+    font-family: $stack-logo;
+    font-size: ms(4);
+    line-height: 1em;
+    color: $black;
+    text-transform: uppercase;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+      span {
+        text-decoration: none;
+      }
+    }
+    &:focus {
+      background-color: $brand;
+      outline: $border-thick solid $focus-colour;
+    }
   }
   @media print {
     color: $black;
@@ -33,7 +38,7 @@ a.logo-text {
     margin-bottom: 0;
   }
   span {
-    font-size: $smaller;
+    @include small;
     font-weight: $light;
     text-transform: capitalize;
     color: $black;

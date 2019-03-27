@@ -5,6 +5,7 @@
     @include media(mobile) {
       float: left;
       width: 100%;
+      margin-top: $baseline;
       margin-bottom: $baseline;
     }
     .group.search {
@@ -13,43 +14,48 @@
       }
       position: relative;
       float: right;
-      margin-top: $baseline*0.75;
-      margin-bottom: $baseline*0.75;
       width: $gutter*4;
+      margin-top: $baseline*0.5;
+      margin-bottom: $baseline*0.5;
       @include media(mobile) {
         float: left;
         width: 100%;
         position: relative;
-        margin-bottom: $baseline*2;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: $form-height*0.75;
       }
       input {
         margin-top: 0;
+        margin-bottom: 0;
+        border-color: $white;
+        @include media(mobile) {
+          border-color: $black;
+        }
       }
       label, input {
+        @include box-sizing(border-box);
+        font-size: ms(0);
+        padding: $baseline*0.25;
         line-height: $baseline;
-        height: $form-padding*6;
-        padding: $form-padding + $border-thick;
+        height: $form-height*0.75;
         position: absolute;
         left: 0;
-        width: calc(100% - #{$gutter*0.75});
+        width: calc(100% - #{$form-height*0.75} - #{$border-thick});
         @include media(desktop) {
           border: none;
         }
       }
-      #search {
-        width: calc(100% - #{$gutter*0.75});
-      }
       .fas.fa-search.search-icon-position {
+        padding: $baseline*0.25;
         position: absolute;
         top: 0;
-        right: 0;
         bottom: 0;
         background: $white;
-        padding: 10px;
-        font-size: $icon*0.4;
+        font-size: ms(1);
         color: $brand;
-        width: $gutter*0.75;
-        height: $form-padding*6;
+        height: $form-height*0.75;
+        width: $form-height*0.75;
         @include media(mobile) {
           color: $white;
           background: $brand;

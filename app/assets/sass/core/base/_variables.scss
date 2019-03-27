@@ -2,27 +2,57 @@
 $stack: 'Open Sans', sans-serif;
 $stack-logo: 'Roboto', sans-serif;
 
-// typography measurements
-$h1: 48px;
-$h2: 36px;
-$h3: 24px;
-$h4: 19px;
-$body: 16px;
-$baseline: 1.5em; //28.5
+// grid measreuments
+$gutter: 60px;
+$site-width: $gutter*17;
+$outer-grid-margin: $gutter*0.5;
+
+$full-width: 100%;
+$one-quarter: $full-width / 4;
+$one-third: $full-width / 3;
+$half: $full-width / 2;
+$two-thirds: ($full-width) - ($one-third);
+$three-quarters: ($full-width) - ($one-quarter);
+
+// gutter dimensions
+$gutter-one-quarter: $gutter / 4;
+$gutter-one-third: $gutter / 3;
+$gutter-half: $gutter / 2;
+$gutter-two-thirds: $gutter - $gutter-one-third;
+
+$body: 1.6rem;
+$line-height: 1.625em;
+$baseline: 1.625rem;
 
 // rough sizes for p tag
-$smaller: 14px;
-$small: 16px;
-$medium: 26px;
-$large: 30px;
-$larger: 34px;
+// modularscale.com
+$smaller: 0.79em; // -2
+$small: 0.889em; // -1
+$medium: 1.125rem; // 1
+$large: 1.266rem; // 2
+$larger: 1.424rem; // 3
 
 $light: 300;
 $normal: 400;
 $regular: $normal;
 $semi: 600;
 $bold: 700;
-$icon: 3em;
+
+// icon
+$icon: 1rem;
+$icon-width: $gutter*0.25;
+
+// button
+$button-height: $baseline*2;
+$form-height: $baseline*2;
+$form-padding: $gutter*0.25; //15px
+
+// brand colors
+// $brand: #e40037; // AAA fail. http://accessible-colors.com/ recommend #B4002C 
+$brand: #682558; // AAA complient
+$brand2: #d5ebf0; // ice blue
+$brand3: #213348; // used for footer top
+$brand4: #051a31; // used for footer bottom
 
 // greyscale
 $grey-lighter: #f5f5f5;
@@ -33,27 +63,26 @@ $grey-darker: #111111;
 
 // This black is a very dark purple based on our brand colour. 
 // We also use this for our text-colour
-$black: #190119;
+$black: #040103; // 
 $very-black: #000;
 
-// brand colors
-// $brand: #e40037; // AAA fail. http://accessible-colors.com/ recommend #B4002C 
-$brand: #682558; // AAA complient
-$brand2: #d5ebf0; // ice blue
-
 // text colour
-$text-colour: #190119; // $black
-$body-text-colour: #444444; // $grey-dark
+$text-colour: $black; // Text that isn't in the main body
+$body-text-colour: #1a191a; // Only main body text
 $white: #fff;
 
 // link colour
 $link: #192A66; // AAA complient
+$link: #0043af;
 $hover: #92006D; // AAA complient (even with background grey on pagination)
+$hover: #4c89cc;
+$focus: $black;
 $visited: #682558; // AAA complient
-$active: #000;
+$visited: #86276e;
+$active: $hover;
 
 // hover colors
-$brand-hover-darken: #541946;
+$brand-hover-darken: #4b1b40;
 $button-hover-darken: #00692f;
 $white-hover: #e8e8e8;
 
@@ -92,7 +121,7 @@ $border-thicker: 5px;
 $border-very-thick: $border-thick*4;
 
 // padding
-$padding-thin: $baseline;
+$padding-thin: $baseline*0.5;
 $padding-thinner: $baseline*0.25;
 
 // border radius
@@ -101,27 +130,7 @@ $border-radius: 3px;
 // logo dimensions
 $logo-width: 300px;
 $logo-height: 40px;
+$logo-height: 1.602em;
 
 // header dimensions, based on logo
-$nav-height: $logo-height*2;
-
-// grid measreuments
-$gutter: 60px;
-
-$site-width: 960px;
-$outer-grid-margin: $gutter*0.5;
-
-$form-padding: $gutter*0.125;
-
-$full-width: 100%;
-$one-quarter: $full-width / 4;
-$one-third: $full-width / 3;
-$half: $full-width / 2;
-$two-thirds: ($full-width) - ($one-third);
-$three-quarters: ($full-width) - ($one-quarter);
-
-// gutter dimensions
-$gutter-one-quarter: $gutter / 4;
-$gutter-one-third: $gutter / 3;
-$gutter-half: $gutter / 2;
-$gutter-two-thirds: $gutter - $gutter-one-third;
+$nav-height: $logo-height*2.5;

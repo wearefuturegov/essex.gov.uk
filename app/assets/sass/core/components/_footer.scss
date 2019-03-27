@@ -3,15 +3,15 @@
     display: none;
   }
   .footer-top, .footer-bottom {
-    background-color: $very-black;
-    padding-bottom: $baseline;
-    font-size: $smaller;
-  }
-  .footer-top {
+    @include small;
     padding-top: $baseline;
   }
+  .footer-top {
+    background-color: $brand3;
+  }
   .footer-bottom {
-    padding-top: 0;
+    background-color: $brand4;
+    padding-bottom: $baseline;
   }
   .footer {
     @extend %site-width-container;
@@ -19,16 +19,13 @@
     .nav {
       @extend %grid-row;
       .nav-links {
-        @include grid-column(3 / 4);
-        margin-left: 0;
+        @include grid-column(8 / 12);
         margin-top: 0;
         margin-bottom: 0;
-        @include media(mobile) {
-          margin-bottom: $baseline;
-        }
         li {
+          display: inline-block;
           padding-left: 0;
-          display: inline;
+          margin-bottom: $baseline;
           a {
             color: $white;
             line-height: $baseline;
@@ -36,41 +33,79 @@
             &:hover, &:active, &:visited {
               color: $white-on-black-hover;
             }
+            &:focus {
+              color: $black;
+            }
           }
         }
       }
       .social {
-        @include grid-column(1 / 4);
-        text-align: left;
+        @include grid-column(4 / 12);
+        text-align: right;
         margin-top: 0;
         margin-bottom: 0;
+        padding-bottom: $baseline;
+        @include media(mobile) {
+          text-align: left;
+        }
         li {
-          padding: 0 $gutter*0.05 0 $gutter*0.05;
+          margin-left: $baseline*0.5;
+          @include media(mobile) {
+            margin-left: 0;
+            margin-right: $baseline*0.5;
+          }
           a {
             font-size: $body;
             color: $white;
             &:hover {
               color: $white-on-black-hover;
             }
+            &:focus {
+              color: $black;
+            }
           }
         }
-        @include media(tablet) {
-          text-align: right;
+      }
+    }
+    ul.credits {
+      @extend %grid-row;
+      list-style: none;
+      padding-left: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+      li {
+        padding-left: 0;
+        display: inline;
+      }
+      .design-link {
+        a {
+          float: right;
+        }
+        @include media(mobile) {
+          display: block;
+          a {
+            float: left;
+          }
         }
       }
       .copyright, .design-link {
-        text-align: left;
+        @include grid-column(6 / 12);
+        display: block;
         color: $white;
         line-height: $baseline*1.25;
+        text-align: left;
+        @include media(mobile) {
+          margin-bottom: $baseline;
+        }
         a {
           color: $white;
           &:hover {
             color: $white-on-black-hover;
           }
+          &:focus {
+            color: $black;
+          }
         }
-      }
-      .design-link {
-        @include grid-column(1 / 1);
       }
     }
   }

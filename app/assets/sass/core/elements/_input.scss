@@ -1,15 +1,17 @@
 input {
   @include box-sizing(border-box);
+  font-size: ms(0);
   font-weight: $normal;
   text-transform: none;
-  font-size: $body;
-  padding: $baseline*0.125 $gutter*0.25;
+  height: $form-height*0.75;
+  padding: $baseline*0.25;
   border-width: $border-normal;
   border-style: solid;
   border-color: $grey-dark;
   margin-bottom: $baseline;
 }
 .day, .month, .year {
+  @include box-sizing(border-box);
   float: left;
   width: 50px;
   margin-right: 20px;
