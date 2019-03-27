@@ -10,6 +10,7 @@
 <h3>Page examples</h3>
 <ul>
   <li><a href="/">Main home page</a></li>
+  <li><a href="/examples/news-landing">News Landing</a></li>
   <li><a href="/examples/content-break">Content break</a></li>
   <li><a href="/examples/form">Form</a></li>
   <li><a href="/examples/information">Information</a></li>
