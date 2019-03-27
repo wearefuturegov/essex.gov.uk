@@ -242,7 +242,6 @@ select:focus::-ms-value {
   legend {
     @include h4;
     margin-top: 0;
-    margin-bottom: $baseline*0.25;
   }
   .group {
     display: block;
