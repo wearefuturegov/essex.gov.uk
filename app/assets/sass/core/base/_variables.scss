@@ -72,13 +72,10 @@ $body-text-colour: #1a191a; // Only main body text
 $white: #fff;
 
 // link colour
-$link: #192A66; // AAA complient
-$link: #0043af;
-$hover: #92006D; // AAA complient (even with background grey on pagination)
-$hover: #4c89cc;
-$focus: $black;
-$visited: #682558; // AAA complient
-$visited: #86276e;
+$link: #0043af; // AAA complient
+$hover: $black; // AAA complient
+$focus: $black; // AAA complient
+$visited: #86276e; // AAA complient
 $active: $hover;
 
 // hover colors

@@ -59,16 +59,16 @@
   </thead>
   <tbody>
     <tr>
-      <td><div class="colour-swatch" style="background-color:#190119"></div></td>
+      <td><div class="colour-swatch" style="background-color:#040103"></div></td>
       <td>AAA</td>
       <td>$text-colour</td>
-      <td>#190119</td>
+      <td>#040103</td>
     </tr>
     <tr>
-      <td><div class="colour-swatch" style="background-color:#444444"></div></td>
+      <td><div class="colour-swatch" style="background-color:#1a191a"></div></td>
       <td>AAA</td>
       <td>$body-text-colour</td>
-      <td>#444444</td>
+      <td>#1a191a</td>
     </tr>
     <tr>
       <td><div class="colour-swatch colour-swatch-border" style="background-color:#fff"></div></td>
@@ -94,22 +94,22 @@
   </thead>
   <tbody>
     <tr>
-      <td><div class="colour-swatch" style="background-color:#192A66"></div></td>
+      <td><div class="colour-swatch" style="background-color:#0043af"></div></td>
       <td>AAA</td>
       <td>$link</td>
-      <td>#192A66</td>
+      <td>#0043af</td>
     </tr>
     <tr>
-      <td><div class="colour-swatch" style="background-color:#92006D"></div></td>
+      <td><div class="colour-swatch" style="background-color:#040103"></div></td>
       <td>AAA</td>
       <td>$hover</td>
-      <td>#92006D</td>
+      <td>#040103</td>
     </tr>
     <tr>
-      <td><div class="colour-swatch" style="background-color:#682558"></div></td>
+      <td><div class="colour-swatch" style="background-color:#86276e"></div></td>
       <td>AAA</td>
       <td>$visited</td>
-      <td>#682558</td>
+      <td>#86276e</td>
     </tr>
   </tbody>
 </table>
@@ -154,9 +154,9 @@
       <td>#000</td>
     </tr>
     <tr>
-      <td><div class="colour-swatch" style="background-color:#111111"></div></td>
-      <td>$grey-darker</td>
-      <td>#111111</td>
+      <td><div class="colour-swatch" style="background-color:#040103"></div></td>
+      <td>$black</td>
+      <td>#040103<td>
     </tr>
     <tr>
       <td><div class="colour-swatch" style="background-color:#444444"></div></td>
@@ -194,9 +194,9 @@
   <p>Headings should create a clear hierarchy for content and use appropriate semantic markup.</p>
 
 <h1><span>h1/46px</span>Page heading</h1>
-<h2><span>h2/36px</span>Content heading</h2>
-<h3><span>h3/28px</span>Section heading</h3>
-<h4><span>h4/22px</span>Sub-section heading</h4>
+<h2><span>h2/32px</span>Content heading</h2>
+<h3><span>h3/22px</span>Section heading</h3>
+<h4><span>h4/18px</span>Sub-section heading</h4>
 
 <p>The default size for body text is 16px.</p>
 
@@ -205,8 +205,7 @@
 <div class="content-break-sm"></div>
 
 <h2 id="layout">Grid system</h2>
-<p>Our main grid uses the divisions below with a gutter of 60px.</p>
-<p>We also use a wider gutter of 120px for displaying Essex County Council Services on the home page.</p>
+<p>Our main grid uses the divisions below with a gutter of 120px. This gutter is very wide.</p>
 <div class="grid-row">
   <div class="column-full">
     <div class="demo-box">
@@ -246,7 +245,7 @@
   </div>
 </div>
 
-<div class="grid-row">
+<!-- <div class="grid-row">
   <div class="column-third">
     <div class="demo-box">
       <h3>Third</h3>
@@ -265,4 +264,4 @@
       <p>300px</p>
     </div>
   </div>
-</div>
+</div> -->
