@@ -1,6 +1,6 @@
 .previews {
-  margin-top: $baseline;
-  margin-bottom: $baseline;
+  margin-top: $baseline*2;
+  margin-bottom: $baseline*2;
   @extend %grid-row;
   &.news {
     margin-top: $baseline*2;
@@ -14,11 +14,11 @@
   }
   .preview {
     @include grid-column(1 / 3);
-    padding-top: $baseline*0.5;
-    padding-bottom: $baseline*0.5;
+    min-height: $baseline*6;
     @include media(mobile) {
       padding-top: 0;
       padding-bottom: 0;
+      min-height: initial;
     }
     &:nth-child(2) {
       border-left: $border-thin solid $grey-light;
@@ -27,8 +27,12 @@
         border: none;
       }
     }
+    p {
+      margin-bottom: 0;
+    }
     h2 {
       @include h3;
+      margin-top: 0;
       @include media(mobile) {
         @include h4;
       }
