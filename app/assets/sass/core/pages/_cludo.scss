@@ -22,8 +22,7 @@
   }
   .search-results-item, .cludo-banner {
     @include box-sizing(border-box);
-    padding: $baseline $gutter*0.25 $baseline*0.5;
-    padding: $baseline 0;
+    padding: $baseline*0.5 0;
     border-bottom: $border-thin $grey-light solid;
     h2 {
       @include h3;
