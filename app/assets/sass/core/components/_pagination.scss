@@ -9,8 +9,6 @@
   }
   margin-left: -$gutter*0.25;
   margin-right: -$gutter*0.25;
-  margin-top: $baseline;
-  margin-bottom: $baseline;
   ul {
     margin-left: 0;
     padding: 0;
@@ -64,6 +62,11 @@
         margin-top: 0;
         margin-bottom: 0;
         display: block;
+        @include media(mobile) {
+          @include h4;
+          margin-top: 0;
+          margin-bottom: 0;
+        }
         .fas {
           margin-right: $gutter*0.25;
           &:before {

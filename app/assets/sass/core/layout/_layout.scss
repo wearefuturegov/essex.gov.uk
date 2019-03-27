@@ -69,7 +69,7 @@
 }
 
 main#content {
-  margin-bottom: $baseline*2;
+  margin-bottom: $baseline;
   .container {
     @extend %site-width-container;
     outline: none;

@@ -4,8 +4,8 @@ html {
 }
 
 html, body {
-	// font-size: 62.5%;
-	font-size: $ms-base;
+	font-size: ms(0);
+	line-height: $baseline;
 }
 
 body {

@@ -4,7 +4,6 @@ $modularscale: (
 );
 
 p {
-  font-size: $body;
   font-size: ms(0);
   line-height: $baseline;
   margin-top: 0;
@@ -17,6 +16,13 @@ p {
   }
   & + ul, ol {
     margin-top: 0;
+  }
+  @include media(mobile) {
+    font-size: ms(-1);
+    margin-bottom: $baseline*0.5;
+    &.lede {
+      font-size: ms(0);
+    }
   }
 }
 
@@ -165,6 +171,9 @@ button:focus {
 
 ol,
 ul {
+  @include media(mobile) {
+    font-size: ms(-1);
+  }
   list-style-position: outside;
   padding-left:10px;
   margin-left: 20px;
