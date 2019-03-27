@@ -74,6 +74,7 @@ h1, h2, h3, h4 {
   margin-bottom: $baseline*0.5;
   font-weight: $bold;
   text-transform: none;
+  letter-spacing: -0.5px;
 }
 
 @mixin h4 {
@@ -84,6 +85,7 @@ h1, h2, h3, h4 {
   margin-bottom: $baseline*0.5;
   font-weight: $bold;
   text-transform: none;
+  letter-spacing: -0.5px;
 }
 
 // page-heading is used at the top of each page
@@ -94,6 +96,11 @@ h1, .h1, .page-heading {
 // content-heading is used for each new and unlreated piece of content within a page.
 h2, .h2, .content-heading {
   @include h2;
+}
+
+.content-heading ~ .content-heading {
+  @include content-break-lg;
+  padding-top: $baseline;
 }
 
 // section-heading is used for each section within content on a page.

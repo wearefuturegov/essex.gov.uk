@@ -89,6 +89,19 @@
   padding: $baseline;
 }
 
+// Conent break
+
+@mixin content-break-lg {
+  border-top: $border-thicker solid $black;
+  margin-top: $baseline*3;
+  margin-bottom: $baseline*2;
+}
+
+@mixin content-break-sm {
+  border-bottom: $border-thin solid $black;
+  margin-top: $baseline*1.5;
+  margin-bottom: $baseline;
+}
 
 // CSS 3 mixins
 
