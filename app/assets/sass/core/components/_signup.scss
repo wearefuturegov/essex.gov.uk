@@ -57,20 +57,7 @@
       .signup-button {
         @include grid-column(4 / 12);
         input.button.subscribe {
-          @include box-sizing(border-box);
-          font-size: ms(1);
-          line-height: $baseline;
-          padding: 0;
-          color: $white;
-          background-color: $brand;
-          font-weight: 600;
-          border: $border-thick $brand solid;
-          height: $form-height;
-          width: 100%;
-          &:hover {
-            background-color: $brand-hover-darken;
-            border-color: $brand-hover-darken;
-          }
+          @include btn;
         }
       }
     }

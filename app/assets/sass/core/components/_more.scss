@@ -1,17 +1,35 @@
 .more-background {
   text-align: center;
-  margin-top: $baseline*3;
-  margin-bottom: $baseline*3;
-  width: 100%;
+  margin-top: 0;
+  margin-bottom: $baseline*2;
 }
 
 .button.more, a.button.more {
-  color: $white;
-  background-color: $brand;
-  border-color: $brand;
-  padding: $baseline*0.5 $gutter*0.5;
+  @include btn;
+  @include grid-column(4 / 12);
+  float: none !important;
   &:hover {
+    color: $white;
     border-color: $brand-hover-darken;
     background-color: $brand-hover-darken;
+  }
+}
+
+
+@mixin btn-b {
+  @include box-sizing(border-box);
+  font-size: ms(1);
+  line-height: $baseline;
+  padding: 0;
+  color: $white;
+  background-color: $brand;
+  font-weight: 600;
+  border: $border-thick $brand solid;
+  height: $form-height;
+  width: 100%;
+  &:hover {
+    color: $brand;
+    background-color: $white;
+    border-color: $white;
   }
 }
