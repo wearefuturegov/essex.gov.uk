@@ -12,9 +12,9 @@
     <li class="prev">
       <a href="#">
         <span class="pagination-item">
-          <i class="fas fa-arrow-left"></i>Previous
+          <i class="fas fa-arrow-left"></i>Prev
         </span>
-        <span>Paying for care and support</span>
+        <span>Personal budget</span>
       </a>
     </li>
     <li class="next">
@@ -33,9 +33,9 @@
         <li class="prev">
           <a href="#">
             <span class="pagination-item">
-              <i class="fas fa-arrow-left"></i>Previous
+              <i class="fas fa-arrow-left"></i>Prev
             </span>
-            <span>Paying for care and support</span>
+            <span>Personal budget</span>
           </a>
         </li>
         <li class="next">
