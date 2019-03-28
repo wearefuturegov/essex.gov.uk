@@ -17,7 +17,7 @@
   <li><a href="/examples/cludo">Cludo Search</a></li>
 </ul>
 
-<h3>Apps</h3>
+<h3>Appss</h3>
 <ul>
   <li><a href="/app/freedom-of-information">Freedom of Information Search</a></li>
   <li><a href="/app/emergency-school-closures">Emergency School Closures</a></li>
